@@ -1,0 +1,241 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.netflix.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.netflix.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 83.0870000645518,
+               "time" : 197.286000009626,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 280.373000074178
+            },
+            {
+               "s_time" : 518.924999982119,
+               "time" : 853.583000134681,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1372.5080001168
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 160817,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 44,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "268.515000119805",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 224.515000119805,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www1-ext-s.nflximg.net/pkg/4.3.0/web/f0e92002/css-secure/3/0150170160230000200180bc0bb01902101b03604903f/css/z.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 222.597000189126,
+               "time" : 9.14300000295,
+               "type" : 4,
+               "id" : "comp_6",
+               "e_time" : 231.740000192076
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 46126,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 57,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "222.465000115335",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 165.465000115335,
+            "s_time" : 85.2000000886619,
+            "sendEnd" : 10,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www1-ext-s.nflximg.net/pkg/4.3.0/web/f0e92002/css-secure/3/02205719f14119e15b15a15915e15c01a03d033158/css/z.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 233.984000049531,
+               "time" : 13.73999984935,
+               "type" : 4,
+               "id" : "comp_7",
+               "e_time" : 247.723999898881
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 46011,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 60,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "233.893999829888",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 173.893999829888,
+            "s_time" : 85.7420000247657,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/beacons?javaScript=true",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 297,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 52,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "194.529000204057",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 142.529000204057,
+            "s_time" : 141.272000037134,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www1-ext-s.nflximg.net/pkg/4.3.0/web/f0e92002/js/3/02101d/js/bk",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 414.582000114024,
+               "time" : 104.342999868095,
+               "type" : 1,
+               "id" : "comp_21",
+               "e_time" : 518.924999982119
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 86721,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "414.330000057817",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 368.330000057817,
+            "s_time" : 279.800000134856,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www1-ext-s.nflximg.net/pkg/4.3.0/web/f0e92002/js/3/02301243432d14c42614732832914332632718d17101e31941d41e02c44e43d15e14d48016e30b00417b42733d3ad3ab32c31b34216317036736436a36b00d31c44036600536536836d0261d03b21791dd1891e61e101f4491733153ac16d01730e3cf44b16b16746845f46046945e47146446247347246a4",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 78,
+            "len" : 629545,
+            "dns" : 58,
+            "dnsEnd" : 59,
+            "receiveHeadersEnd" : 288,
+            "sslEnd" : 209,
+            "connectEnd" : 209,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "766.565000172704",
+            "sslStart" : 128,
+            "dnsStart" : 1,
+            "receiveLast" : 478.565000172704,
+            "s_time" : 280.373000074178,
+            "sendEnd" : 210,
+            "sendStart" : 209,
+            "type" : "application/javascript"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_21"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 196.713000070304,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 58.1849999725822,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.6549999602139,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 2.11300002411009,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 2.11300002411009,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      }
+   ]
+}

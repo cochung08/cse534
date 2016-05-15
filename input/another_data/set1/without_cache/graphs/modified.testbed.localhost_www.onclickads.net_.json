@@ -1,0 +1,82 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.onclickads.net_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.onclickads.net/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 83.9140000753105,
+               "time" : -3434609645.302,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -3434609561.388
+            },
+            {
+               "s_time" : 1472.53100015223,
+               "time" : -3434611033.919,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3434609561.388
+            },
+            {
+               "s_time" : 1478.20200026035,
+               "time" : -3434611039.59,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3434609561.388
+            },
+            {
+               "s_time" : 1479.14500022307,
+               "time" : 0.103999860589965,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1479.24900008366
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 3324,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 44,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "83.4710001945496",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 39.4710001945496,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      }
+   ]
+}

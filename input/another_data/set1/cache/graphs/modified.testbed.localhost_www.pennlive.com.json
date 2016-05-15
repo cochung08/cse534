@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.pennlive.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 95.9789999760687,
+               "time" : 0.459999777376694,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 96.4389997534454
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 57,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "59.3840000219643",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.38400002196431,
+            "s_time" : 0,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

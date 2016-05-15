@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.intecnologia.net_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.intecnologia.net/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 44.0540001727641,
+               "time" : 0.380999874323599,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 44.4350000470877
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 177,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "7.4880002066493",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.4880002066493,
+            "s_time" : 0,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

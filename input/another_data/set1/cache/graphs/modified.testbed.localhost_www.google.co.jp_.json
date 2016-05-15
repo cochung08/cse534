@@ -1,0 +1,136 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.google.co.jp_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.google.co.jp/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 83.5299999453127,
+               "time" : 317.17099994421,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 400.700999889523
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 150109,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "395.382000133395",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 350.382000133395,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.co.jp/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 5482,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 63,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "170.065000187606",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 107.065000187606,
+            "s_time" : 104.476000182331,
+            "sendEnd" : 19,
+            "sendStart" : 18,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.co.jp/images/nav_logo229.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 48,
+            "len" : 17284,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 54,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "212.061999831349",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 158.061999831349,
+            "s_time" : 117.606999818236,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/client_204?&atyp=i&biw=1004&bih=614&ei=UI8iV8fqA4T4-AH8z7LABQ",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 300,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "481.8259999156",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 435.8259999156,
+            "s_time" : 399.968000128865,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_3",
+         "time" : 316.438000183552,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 34.0769998729233,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 20.9460002370183,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      }
+   ]
+}

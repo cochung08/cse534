@@ -1,0 +1,74 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.bing.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.bing.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 35.4329999536276,
+               "time" : 67.0139999128874,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 102.446999866515
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 87374,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "34.9369999021292",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 30.9369999021292,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bing.com/s/a/hpc18.png",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 6660,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "103.356999810785",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 99.3569998107851,
+            "s_time" : 61.3759998232126,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_1",
+         "time" : 25.942999869585,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      }
+   ]
+}

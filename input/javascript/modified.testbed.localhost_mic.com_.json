@@ -1,0 +1,496 @@
+{
+   "n_download_no_trigger" : 2,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_mic.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/mic.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 45.4390000086278,
+               "time" : 13.5310000041499,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 58.9700000127777
+            },
+            {
+               "s_time" : 172.529999981634,
+               "time" : 412.358000059612,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 584.888000041246
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 31566,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "44.6910000173375",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 41.6910000173375,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/site-assets.mic.com/homepage_assets/css/index.css%3Fb=1462821156584414.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 91.2350000580773,
+               "time" : 242.78999993112,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 334.024999989197
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 293869,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "91.0390000790358",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 74.0390000790358,
+            "s_time" : 46.675999998115,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/mic.com/component_assets/images/mic-logo-white.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 2504,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "71.0330000147223",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 53.0330000147223,
+            "s_time" : 47.7240000618622,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/mic.com/component_assets/images/mic-logo-black.png",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 3332,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "75.6909999763593",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 57.6909999763593,
+            "s_time" : 48.2240000274032,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ads.mic.com/host.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 336.659000022337,
+               "time" : 5.273999995552,
+               "type" : null,
+               "id" : "comp_20",
+               "e_time" : 341.933000017889
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 20138,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "84.0630000457168",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.0630000457168,
+            "s_time" : 57.3570000706241,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 341.954000061378,
+               "time" : 3.13199998345198,
+               "type" : null,
+               "id" : "comp_21",
+               "e_time" : 345.08600004483
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 3261,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "85.0000000791624",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.0000000791624,
+            "s_time" : 57.7100000809878,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/apis.google.com/js/platform.js",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 39562,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "85.9580000396818",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.9580000396818,
+            "s_time" : 58.0290000652894,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/platform.twitter.com/oct.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 171.424000058323,
+               "time" : 1.105999923311,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 172.529999981634
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 2516,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "87.4230000190437",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 60.4230000190437,
+            "s_time" : 58.3020000485703,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.youtube.com/iframe_api",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 744,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "88.1090000038967",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 61.1090000038967,
+            "s_time" : 58.5880000144243,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/site-assets.mic.com/homepage_assets/js/bundle.js%3Fb=1462821156584414",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 431249,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 26,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "357.920999987982",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 328.920999987982,
+            "s_time" : 58.9700000127777,
+            "sendEnd" : 26,
+            "sendStart" : 26,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/site-assets.mic.com/homepage_assets/fonts/stag/Stag-Light-Web.woff",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 57046,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "644.551999983378",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 637.551999983378,
+            "s_time" : 345.965999993496,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/site-assets.mic.com/homepage_assets/fonts/stag/Stag-Bold-Web.woff",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 51589,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "668.600999983028",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 658.600999983028,
+            "s_time" : 346.505000023171,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/mic.com/data.json?b=d9c2a2f3465aaf79a2af1d6dd6caa796",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 307,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "673.560000024736",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 666.560000024736,
+            "s_time" : 584.888000041246,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 173.975000041537,
+         "id" : "dep3",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 173.436000011862,
+         "id" : "dep4",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 13.5310000041499,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 13.1490000057965,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 13.1490000057965,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 12.8630000399425,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 12.8630000399425,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 12.5900000566616,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 12.5900000566616,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 12.27100007236,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 12.27100007236,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 11.9180000619963,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 11.9180000619963,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.7850000187754,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.2850000532344,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.2369999894872,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      }
+   ]
+}

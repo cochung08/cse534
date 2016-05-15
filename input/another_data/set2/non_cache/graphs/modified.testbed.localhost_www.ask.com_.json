@@ -1,0 +1,661 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.ask.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 20.025999750942,
+               "time" : 22.7190000005066,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 42.7449997514486
+            },
+            {
+               "s_time" : 79.7099997289479,
+               "time" : -3474153291.905,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3474153212.195
+            },
+            {
+               "s_time" : 80.0399999134243,
+               "time" : -3474153292.235,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3474153212.195
+            },
+            {
+               "s_time" : 85.9909998252988,
+               "time" : 125.064000021666,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 211.054999846965
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 39905,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "19.8879996314645",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 16.8879996314645,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/st/c/css/ask_home.min.343c9b0a.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 25.1449998468161,
+               "time" : 8.5780001245439,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 33.72299997136
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 10120,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "25.0329999253154",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 22.0329999253154,
+            "s_time" : 20.9209998138249,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/sp.ask.com/sh/i/images/homepage-sprite-1.0.2.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 7056,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "34.060999751091",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 30.060999751091,
+            "s_time" : 21.6419999487698,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/st/c/js/ask_home.min.2c30daba.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 43.9029997214675,
+               "time" : 35.8070000074804,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 79.7099997289479
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 122444,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "43.8409997150302",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 39.8409997150302,
+            "s_time" : 22.2539999522269,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/sp.ask.com/sh/ads/ads.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 79.9769996665418,
+               "time" : 0.0630002468824955,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 80.0399999134243
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 21,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "42.5009997561574",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 35.5009997561574,
+            "s_time" : 22.3860000260174,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cx.aos.ask.com/question/aq/300px-300px/much-baby-elephant-weigh-birth_47e31843d8823bee.jpg",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 8613,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "42.8749998100102",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 34.8749998100102,
+            "s_time" : 21.8409998342395,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cx.aos.ask.com/question/aq/300px-300px/what-is-a-baby-elephant-called_e0038c88-3881-4e63-ad86-4e685838363e.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 11362,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "43.1450000032783",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 34.1450000032783,
+            "s_time" : 21.9399998895824,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cx.aos.ask.com/question/aq/300px-300px/good-ideas-mother-s-day-gifts_7a62eec44bd917d3.jpg",
+         "id" : "r6",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 9749,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "43.4369998984039",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 33.4369998984039,
+            "s_time" : 22.0749997533858,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cx.aos.ask.com/question/aq/long-elephant-pregnant_6b627cfd33ee93ba.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 157787,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "91.6490000672638",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 88.6490000672638,
+            "s_time" : 40.5989997088909,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/st/c/js/ask_unified.min.c7f61e55.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 80.9080000035465,
+               "time" : 5.0829998217523,
+               "type" : 1,
+               "id" : "comp_17",
+               "e_time" : 85.9909998252988
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 14839,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "80.8599996380508",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 77.8599996380508,
+            "s_time" : 42.7449997514486,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagmanager.com/gtm.js?id=GTM-T3KVMC",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 185.569999739528,
+               "time" : 25.999000295996,
+               "type" : 2,
+               "id" : "comp_71",
+               "e_time" : 211.569000035524
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 21,
+            "len" : 55852,
+            "dns" : 8,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "92.0069999992847",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 56.0069999992847,
+            "s_time" : 30.5309998802841,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ulog?anxuu=4D8B1ED2-23D3-4C2E-A31B-1CF8CA63FB3D&anxa=T2_AskUS&anxv=7723cf7&anxd=2016-04-27T18%3A25%3A00Z&anxsn=askus030iad.io.askjeeves.info&anxu=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.ask.com%2F&anxl=en-US&anxlv=0&anxrd=none&anxrk=-&anxsq=2&pl_cm=true&anxi=E",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 294,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "211.745999753475",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 208.745999753475,
+            "s_time" : 89.2300000414252,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.crwdcntrl.net/c/4737/cc.js?ns=_cc4737",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 240.23799970746,
+               "time" : 10.503000114113,
+               "type" : null,
+               "id" : "comp_82",
+               "e_time" : 250.740999821573
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 66157,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "238.113000057638",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 218.113000057638,
+            "s_time" : 91.3199996575713,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 238.719000015408,
+               "time" : 1.29399960860599,
+               "type" : null,
+               "id" : "comp_77",
+               "e_time" : 240.012999624014
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1495,
+            "dns" : 7,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "237.882999703288",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 215.882999703288,
+            "s_time" : 90.5729997903109,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.crwdcntrl.net/5/c=4736/pe=y/var=ccauds",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 240.029999986291,
+               "time" : 0.0609997659920225,
+               "type" : null,
+               "id" : "comp_79",
+               "e_time" : 240.090999752283
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 70,
+            "dns" : 8,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "237.994999624789",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 199.994999624789,
+            "s_time" : 90.2950000017881,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/analytics.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 251.339999958873,
+               "time" : 43.27500006184,
+               "type" : null,
+               "id" : "comp_85",
+               "e_time" : 294.615000020713
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 26299,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "251.123999711126",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 232.123999711126,
+            "s_time" : 208.858999889344,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/javascript"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 122.868000064045,
+         "id" : "dep4",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 4.3040001764893,
+         "id" : "dep5",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 4.5819999650121,
+         "id" : "dep6",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 5.3289998322725,
+         "id" : "dep7",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 3.2390002161264,
+         "id" : "dep8",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 22.7190000005066,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 20.5729999579489,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 2.0490000024438,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 2.0490000024438,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1.9140001386404,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1.9140001386404,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.8150000832975,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.8150000832975,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.3600002750754,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.3600002750754,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.2280002012849,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.2280002012849,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.6160001978278,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.6160001978278,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.8950000628829,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      }
+   ]
+}

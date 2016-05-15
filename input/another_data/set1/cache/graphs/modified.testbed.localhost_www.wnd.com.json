@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.wnd.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.wnd.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 57.5149999931455,
+               "time" : 0.470000319182802,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 57.9850003123283
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "17.7860003896058",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.78600038960576,
+            "s_time" : 0,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

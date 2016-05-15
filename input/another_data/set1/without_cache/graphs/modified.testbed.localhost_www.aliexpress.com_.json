@@ -1,0 +1,157 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.aliexpress.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.aliexpress.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 84.9509998224676,
+               "time" : -3434559235.525,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -3434559150.574
+            },
+            {
+               "s_time" : 1498.23200004175,
+               "time" : 173.29999990762,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1671.53199994937
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 41377,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "101.053999736905",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 55.0539997369051,
+            "s_time" : 0,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://style.aliunicorn.com/js/5v/run/pool/monitor/beacon_async.js?e=1440",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 1733.69399970397,
+               "time" : 133.92599998042,
+               "type" : null,
+               "id" : "comp_23",
+               "e_time" : 1867.61999968439
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 66301,
+            "dns" : 74,
+            "dnsEnd" : 75,
+            "receiveHeadersEnd" : 168,
+            "sslEnd" : -1,
+            "connectEnd" : 121,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "1732.71200014278",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1564.71200014278,
+            "s_time" : 1554.99899992719,
+            "sendEnd" : 121,
+            "sendStart" : 121,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/wimg/monitor/start-render.png",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 52,
+            "len" : 949,
+            "dns" : 127,
+            "dnsEnd" : 128,
+            "receiveHeadersEnd" : 228,
+            "sslEnd" : -1,
+            "connectEnd" : 176,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "1868.25799988583",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1640.25799988583,
+            "s_time" : 1556.91799987108,
+            "sendEnd" : 176,
+            "sendStart" : 176,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://gj.mmstat.com/g.gif?logtype=1&title=&pre=&cache=c02255c&scr=1024x768&isbeta=5&spm-cnt=2114.11010108.0.0.OWhDAR&aplus&pageid=82f591cd0ab9eb6357228fc7154631ea53e23716f9&dmtrack_c=%7Bali_resin_trace%3Dae_subsite%3Dglo%2CUS%2Cen_US%2CUSD%7Cws_ab_test%3D201363_1%7Caep_usuc_f%3D-%7Caeu_cid%3D-%7D&p",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 116,
+            "len" : 43,
+            "dns" : 135,
+            "dnsEnd" : 136,
+            "receiveHeadersEnd" : 368,
+            "sslEnd" : -1,
+            "connectEnd" : 252,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "2231.97400011122",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1863.97400011122,
+            "s_time" : 1861.52199981734,
+            "sendEnd" : 252,
+            "sendStart" : 252,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 127.82800011337,
+         "id" : "dep2",
+         "a1" : "comp_23"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 58.6859998293298,
+         "id" : "dep3",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 56.7669998854399,
+         "id" : "dep4",
+         "a1" : "r1_c2"
+      }
+   ]
+}

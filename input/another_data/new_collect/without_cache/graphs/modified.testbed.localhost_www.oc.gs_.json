@@ -1,0 +1,136 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.oc.gs_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.oc.gs/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 50.4620000720024,
+               "time" : 11.6230002604425,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 62.0850003324449
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 4491,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "45.7950001582503",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 42.7950001582503,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.united-domains.de/images/evolution/udag_logo.svg",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 31046,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "90.7740001566708",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 85.7740001566708,
+            "s_time" : 53.7070003338158,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.united-domains.de/images/evolution/udag_logo.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 2482,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "104.855000041425",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 84.8550000414252,
+            "s_time" : 54.0150003507733,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.united-domains.de/assets/img/icons/link-arrow.png",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 981,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "105.260000098497",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.2600000984967,
+            "s_time" : 62.0850003324449,
+            "sendEnd" : 12,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 3.5530002787709,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 3.2450002618134,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      }
+   ]
+}

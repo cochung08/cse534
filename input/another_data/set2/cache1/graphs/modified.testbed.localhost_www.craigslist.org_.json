@@ -1,0 +1,231 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.craigslist.org_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.craigslist.org/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 45.0179995968938,
+               "time" : 6.632000207901,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 51.6499998047948
+            },
+            {
+               "s_time" : 488.950999919325,
+               "time" : -3361437006.678,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3361436517.727
+            },
+            {
+               "s_time" : 1529.68899998814,
+               "time" : 0.126999802889941,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1529.81599979103
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 62536,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "44.3719998002052",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 39.3719998002052,
+            "s_time" : 0,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.craigslist.org/styles/cl.css%3Fv=4daaf1e1edd011ebe4f3f3d56fefa4d1.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 79.6809997409582,
+               "time" : 55.0219998694958,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 134.702999610454
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 62744,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "79.5660000294447",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 64.5660000294447,
+            "s_time" : 46.4139999821782,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.craigslist.org/styles/homepage.css%3Fv=a765c1ae7167de32c155887c6eb11e90.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 65.3839996084571,
+               "time" : 5.6970003060996,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 71.0809999145567
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 13816,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "65.1749996468425",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 49.1749996468425,
+            "s_time" : 46.8500000424683,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.craigslist.org/styles/jquery-ui-clcustom.css%3Fv=31607a98a2cb3fba2c70e3e66ecb4440.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 73.0519997887313,
+               "time" : 6.2560001388193,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 79.3079999275506
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 31168,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "72.8909997269511",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 54.8909997269511,
+            "s_time" : 47.3499996587634,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.craigslist.org/js/general-concat.min.js%3Fv=3874ef64434ceab3a191e976a1c7f6fe",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 250.004999805242,
+               "time" : 238.946000114083,
+               "type" : 1,
+               "id" : "comp_9",
+               "e_time" : 488.950999919325
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 412817,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "249.722999986261",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 233.722999986261,
+            "s_time" : 51.6499998047948,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "text/plain"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 6.632000207901,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.3320000618696,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.8320004455745,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.3960003852844,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      }
+   ]
+}

@@ -1,0 +1,622 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.liveeyewear.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 84.7599999979138,
+               "time" : 114.881999790668,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 199.641999788582
+            },
+            {
+               "s_time" : 212.997000198811,
+               "time" : -3435324634.111,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3435324421.114
+            },
+            {
+               "s_time" : 221.603999845684,
+               "time" : -3435324642.718,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3435324421.114
+            },
+            {
+               "s_time" : 222.198999952525,
+               "time" : -3435324643.313,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3435324421.114
+            },
+            {
+               "s_time" : 223.592000082135,
+               "time" : -3435324644.706,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3435324421.114
+            },
+            {
+               "s_time" : 224.907000083476,
+               "time" : -3435324646.021,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3435324421.114
+            },
+            {
+               "s_time" : 227.04100003466,
+               "time" : 5.68199995905201,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 232.722999993712
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 6850,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 44,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "84.4060000963509",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 40.4060000963509,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fast.fonts.com/jsapi/a1ae08c2-5050-41d0-b924-08e4f8aafb4d.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 183.395000174642,
+               "time" : 29.602000024169,
+               "type" : 1,
+               "id" : "comp_3",
+               "e_time" : 212.997000198811
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 19075,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 54,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "183.110999874771",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 129.110999874771,
+            "s_time" : 86.4490000531077,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/css/style.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 150.311999954283,
+               "time" : 0.0379998236900008,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 150.349999777973
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 3208,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 59,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "150.206999853253",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 91.2069998532534,
+            "s_time" : 87.0610000565648,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/js/functions.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 215.247000101954,
+               "time" : 6.35699974373,
+               "type" : 1,
+               "id" : "comp_4",
+               "e_time" : 221.603999845684
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 53,
+            "len" : 2492,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 62,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "152.083000168204",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.0830001682043,
+            "s_time" : 87.5329999253154,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/js/dw_event.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 221.741999965161,
+               "time" : 0.456999987364014,
+               "type" : 1,
+               "id" : "comp_6",
+               "e_time" : 222.198999952525
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 54,
+            "len" : 1372,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 63,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "153.713999781758",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.7139997817576,
+            "s_time" : 88.0430000834167,
+            "sendEnd" : 9,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/js/dw_scroll.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 222.324999980628,
+               "time" : 1.26700010150699,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 223.592000082135
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 56,
+            "len" : 9328,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 64,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "156.078000087291",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 92.078000087291,
+            "s_time" : 88.5450001806021,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/js/dw_scrollbar.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 223.728000186384,
+               "time" : 1.17899989709198,
+               "type" : 1,
+               "id" : "comp_10",
+               "e_time" : 224.907000083476
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 58,
+            "len" : 13385,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 66,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "162.024000193924",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 96.0240001939237,
+            "s_time" : 89.0469998121262,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/js/scroll_controls.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 225.984000135213,
+               "time" : 1.05699989944699,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 227.04100003466
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 11233,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 102,
+            "sslEnd" : -1,
+            "connectEnd" : 58,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "225.87399976328",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 123.87399976328,
+            "s_time" : 89.5420000888407,
+            "sendEnd" : 58,
+            "sendStart" : 58,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/images/live_eyewear_logo.png",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 60,
+            "len" : 9176,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 121,
+            "sslEnd" : -1,
+            "connectEnd" : 60,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "243.083999957889",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 122.083999957889,
+            "s_time" : 90.0090001523495,
+            "sendEnd" : 61,
+            "sendStart" : 60,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/images/menu_home_on.gif",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 206,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 57,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "274.739999789745",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 217.739999789745,
+            "s_time" : 194.945000112057,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/images/menu_contact_us_off.gif",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 290,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 59,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "275.283999741077",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 216.283999741077,
+            "s_time" : 196.080999914557,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/images/menu_dealer_locator_off.gif",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 344,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "275.686000008136",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 214.686000008136,
+            "s_time" : 197.354999836534,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/images/menu_register_warranty_off.gif",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 636,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 63,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "276.078999973834",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 213.078999973834,
+            "s_time" : 198.367000091821,
+            "sendEnd" : 12,
+            "sendStart" : 11,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.liveeyewear.com/images/menu_opportunities_off.gif",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 54,
+            "len" : 307,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 65,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "276.473000179976",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 211.473000179976,
+            "s_time" : 199.641999788582,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "comp_4",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_4",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 113.607000093907,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 112.59499983862,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 111.320999916643,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 110.185000114143,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 5.24900015443571,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.7820000909269,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 4.28699981421241,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 3.78500018268831,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 3.28300008550291,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.7729999274016,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.301000058651,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.301000058651,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.6890000551939,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      }
+   ]
+}

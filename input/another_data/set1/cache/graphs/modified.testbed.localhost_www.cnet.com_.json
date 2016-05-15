@@ -1,0 +1,1802 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.cnet.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.cnet.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 28.6300000734627,
+               "time" : 2.0759999752045,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 30.7060000486672
+            },
+            {
+               "s_time" : 127.559000160545,
+               "time" : 786.943999584764,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 914.502999745309
+            },
+            {
+               "s_time" : 937.012000009418,
+               "time" : 322.600000072272,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1259.61200008169
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 245031,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "28.417999856174",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 25.417999856174,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/fly/css/core/main.desktop-4210a888fc-rev.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 49.1470000706613,
+               "time" : 19.6409998461604,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 68.7879999168217
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 100862,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "48.8660000264645",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 41.8660000264645,
+            "s_time" : 30.0639998167753,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/fly/css/feature/default/default.desktop-1b1a623376-rev.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 73.4810000285506,
+               "time" : 83.8290001265704,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 157.310000155121
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 329901,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "73.2530001550913",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 64.2530001550913,
+            "s_time" : 30.2949999459088,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/fly/bundles/cnetcore/js/frontdoor_edition_redirect.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 125.951000023633,
+               "time" : 1.608000136912,
+               "type" : 1,
+               "id" : "comp_2",
+               "e_time" : 127.559000160545
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1485,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "42.4810000695288",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 32.4810000695288,
+            "s_time" : 30.5050001479685,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 165.037000086159,
+               "time" : 3.75099992379501,
+               "type" : 3,
+               "id" : "comp_17",
+               "e_time" : 168.788000009954
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 3152,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "43.8069999217987",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 32.8069999217987,
+            "s_time" : 30.7060000486672,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://c.go-mpulse.net/boomerang/38QDY-8CT77-8XNH2-VJQTD-EK4YX",
+         "id" : "r39",
+         "comps" : [
+            {
+               "s_time" : 499.878000002354,
+               "time" : 41.213000193239,
+               "type" : 2,
+               "id" : "comp_29",
+               "e_time" : 541.091000195593
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 65318,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "498.922000173479",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 492.922000173479,
+            "s_time" : 146.41400007531,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gpt/pubads_impl_85.js",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 771.94399992004,
+               "time" : 141.286999918521,
+               "type" : 2,
+               "id" : "comp_38",
+               "e_time" : 913.230999838561
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 151342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "554.858999792486",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 553.858999792486,
+            "s_time" : 168.963000178337,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/fly/images/sprites/socialMenu/social-menu/default/social-menu-s0101dff392.png",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 922,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "543.816999997944",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 536.816999997944,
+            "s_time" : 164.228999987245,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/fly/bundles/cnetcore/images/logos/cnet-redball-large.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 21,
+            "len" : 19009,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "565.241999924183",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 542.241999924183,
+            "s_time" : 169.654000084847,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2016/04/27/80aeb603-cc73-4342-9692-2a6cff958ae4/thumbnail/747x420/f46a7eb8e0d065b44a9076fde519f7f1/augustsmartlock2ndgenproductphotos-3.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 31902,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 30,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "570.125000085682",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 540.125000085682,
+            "s_time" : 177.885999903083,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/hub/i/r/2016/04/27/8c223f24-641a-4792-872d-1c819f8089d1/thumbnail/640x420/386dd35447144b067b77ba675a1ee9a2/samsung-otto-personal-assistant-6049.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 31147,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 30,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "570.425000041723",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 540.425000041723,
+            "s_time" : 178.913000039756,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/hub/i/r/2016/04/26/8dd62c7c-78f3-4e69-acab-1cc3ef9ca741/thumbnail/373x210/9b69ad31f174bc871d546f18e3109c9d/triby-15.jpg",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 15379,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 30,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "570.700000040233",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 540.700000040233,
+            "s_time" : 179.699999745935,
+            "sendEnd" : 19,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/hub/i/r/2016/04/15/83b8f0fe-8dda-41d8-bfb7-4d9c0cf34fcf/thumbnail/373x210/356b152201335e4e89daed5bbf00fc0e/42-82264983.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 13844,
+            "dns" : 1,
+            "dnsEnd" : 12,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "571.717000100762",
+            "sslStart" : -1,
+            "dnsStart" : 11,
+            "receiveLast" : 531.717000100762,
+            "s_time" : 180.674000177532,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.cnet.com/index.html",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 245031,
+            "dns" : 0,
+            "dnsEnd" : 12,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "580.709000118077",
+            "sslStart" : -1,
+            "dnsStart" : 12,
+            "receiveLast" : 540.709000118077,
+            "s_time" : 181.264000013471,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/hub/i/r/2016/04/28/fddb51e1-cc81-4e2b-b68f-8c146c96f5f3/thumbnail/570x321/3476ebd714a67be0597dccd5cf6da63c/comcast-logo.png",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 262631,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "580.062999855727",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 542.062999855727,
+            "s_time" : 187.626999802887,
+            "sendEnd" : 21,
+            "sendStart" : 20,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/hub/i/r/2016/04/26/17f35022-e415-4e18-8742-efbcdf016b3f/thumbnail/270x203/8814d910e99cbac0952355685f8f929a/rokuguide.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 20264,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 47,
+            "sslEnd" : -1,
+            "connectEnd" : 37,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "574.376000091434",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 527.376000091434,
+            "s_time" : 188.391999807209,
+            "sendEnd" : 37,
+            "sendStart" : 37,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/hub/i/r/2015/10/16/c82e86b5-d5c5-444f-b15a-df7a09fc7278/thumbnail/570x321/ed702117740a604005d5eb38c93b04ff/google-cardboard.png",
+         "id" : "r50",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 251115,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 49,
+            "sslEnd" : -1,
+            "connectEnd" : 38,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "583.199999760836",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 534.199999760836,
+            "s_time" : 189.176000189036,
+            "sendEnd" : 38,
+            "sendStart" : 38,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2015/10/16/c82e86b5-d5c5-444f-b15a-df7a09fc7278/thumbnail/270x203/651dc9af81d0160cf8fea35f89dca7fd/google-cardboard.png",
+         "id" : "r51",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 91184,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 52,
+            "sslEnd" : -1,
+            "connectEnd" : 37,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "581.292999908328",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 529.292999908328,
+            "s_time" : 189.764000009745,
+            "sendEnd" : 38,
+            "sendStart" : 37,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2016/04/28/994251e6-ffa3-4772-8677-9ffee1d155f9/thumbnail/570x321/746aa90eaf0be7128b15841456bb7351/hp-chromebook-13-23.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 28059,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 44,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "579.553000163287",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 535.553000163287,
+            "s_time" : 203.993999864906,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2016/04/28/2c8afb2e-cb63-44bf-80a0-ccdefbef4a15/thumbnail/270x203/4573ae6e0d65a21212c8ec8cd702f06a/42-52952521.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 8748,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 42,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "578.37100001052",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 536.37100001052,
+            "s_time" : 215.386999770999,
+            "sendEnd" : 22,
+            "sendStart" : 22,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2014/08/12/3a2988b0-c12a-4e12-ac88-a619826b5232/thumbnail/570x321/d608207840018c5a10b5a21338e7ba51/riker.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 35216,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 65,
+            "sslEnd" : -1,
+            "connectEnd" : 41,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "582.096000202",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 517.096000202,
+            "s_time" : 218.85500010103,
+            "sendEnd" : 41,
+            "sendStart" : 41,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2014/08/12/3a2988b0-c12a-4e12-ac88-a619826b5232/thumbnail/270x203/7966d9b3ae7d4e35d2ca4c95193659e1/riker.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 13063,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 64,
+            "sslEnd" : -1,
+            "connectEnd" : 49,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "582.442000042647",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 518.442000042647,
+            "s_time" : 221.063000150025,
+            "sendEnd" : 49,
+            "sendStart" : 49,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2014/12/01/8157a482-ae3b-4ea8-9310-2eab0c27add3/thumbnail/270x203/aad3681ad5cf28fb18370337f302a3b5/fitbit-charge-product-photos09.jpg",
+         "id" : "r56",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 14742,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 62,
+            "sslEnd" : -1,
+            "connectEnd" : 43,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "583.668999839574",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 521.668999839574,
+            "s_time" : 230.915000196546,
+            "sendEnd" : 43,
+            "sendStart" : 43,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/hub/i/r/2016/04/28/b7fbce99-8290-477d-872a-1db7a6a8ebb2/thumbnail/270x203/eb282b3a2e061994d82f1fb336b35a16/too-hot-for-tech-hot.jpg",
+         "id" : "r57",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 20132,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 57,
+            "sslEnd" : -1,
+            "connectEnd" : 43,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "584.017999935895",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 527.017999935895,
+            "s_time" : 237.10299981758,
+            "sendEnd" : 43,
+            "sendStart" : 43,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/hub/i/r/2016/03/21/d04051d9-7cd1-4a14-b648-eb3493c6785b/thumbnail/570x321/980e207b2ce1fde12ff39b5c30315642/braeburnpro-70.jpg",
+         "id" : "r58",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 42998,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 44,
+            "sslEnd" : -1,
+            "connectEnd" : 24,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "585.380000062287",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 541.380000062287,
+            "s_time" : 259.298000019044,
+            "sendEnd" : 24,
+            "sendStart" : 24,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2016/04/26/f39a7a9f-3111-408d-b9da-91d1f68f3c4a/thumbnail/270x203/59ebd0ed944fc23a2888060b6c244998/04-2017-jaguar-f-pace-first-edition.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 12113,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 37,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "585.613000206649",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 548.613000206649,
+            "s_time" : 269.559000153095,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/hub/i/r/2016/03/04/7f85403d-2b39-41d0-aa34-ae708cbde74b/thumbnail/270x203/d0b18c850770555e4acc5ac18eb93c8f/captura-de-pantalla-2016-03-04-08-53-08.png",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 114038,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "587.770000100136",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 553.770000100136,
+            "s_time" : 273.351999931037,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2016/04/10/e0c10d99-c449-4eeb-9589-ceb05e8cbf56/thumbnail/270x203/beab7e48a5fb464301cec26a2824a318/16focusrs21hr.jpg",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 12596,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 33,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "586.990999989212",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 553.990999989212,
+            "s_time" : 278.894999995828,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2016/04/27/48406677-fbbe-4843-bc98-e4bd98b0b166/thumbnail/270x203/98d34c6010361995de1c8752cec41fbe/panama-papers-database.jpg",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 18452,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "588.213999755681",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 552.213999755681,
+            "s_time" : 282.23600005731,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/hub/i/r/2016/04/26/75644a3b-a58a-4680-9c09-c74f4f26cdf6/thumbnail/570x321/f97b52593ce828716a5ec3250e216c05/toss-or-keep-cables-coax.jpg",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 13543,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "588.44400011003",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 552.44400011003,
+            "s_time" : 286.642000079155,
+            "sendEnd" : 19,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/hub/i/r/2016/04/28/86e63cc1-cbfd-44d5-ac7b-96aff2cae518/thumbnail/270x203/54c4e5464b79969d22836da8544da483/roof-racks-2.jpg",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 8302,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "589.575000107288",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 549.575000107288,
+            "s_time" : 288.780000060797,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2016/04/25/af5728ad-428e-41db-94aa-beaf66ed0ed1/thumbnail/270x203/9d7f4d42744a75182274daa0e4f62a4f/dsc3984.jpg",
+         "id" : "r65",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 15774,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "589.798000175506",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 555.798000175506,
+            "s_time" : 295.847000088543,
+            "sendEnd" : 22,
+            "sendStart" : 22,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2015/05/26/8aeff1c0-c3bd-4b64-8fc3-f1b0ec9983bf/thumbnail/270x203/221ba443a72c945026b99343066851b7/fd-robert-scoble-google-glass-1569.jpg",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 7570,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "590.441999956965",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 550.441999956965,
+            "s_time" : 297.689999919385,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/hub/i/r/2016/03/16/09d5916e-1129-48ae-8f70-ab16f11fa580/thumbnail/270x203/e9e5ba250b592f8913a17b6ddf7189f5/fd-samsung-galaxy-s7-edge-product-hero-2.jpg",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 16935,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "591.463000047952",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 552.463000047952,
+            "s_time" : 300.416000187397,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/fly/1454456768-fly/bundles/cnetcss/images/core/logo-masthead.png",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 10894,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "591.696999967098",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 563.696999967098,
+            "s_time" : 313.941000029445,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/fly/images/sprites/main-s4d0c66239a.png",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 36554,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "591.89199982211",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 564.89199982211,
+            "s_time" : 315.40900003165,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/fly/images/sprites/socialAuthentication/sa-sa6bebe22d5.png",
+         "id" : "r70",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 638,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "592.50900009647",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 567.50900009647,
+            "s_time" : 320.799000095576,
+            "sendEnd" : 18,
+            "sendStart" : 17,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/fly/images/sprites/arrows-sfb3cc8e09f.png",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 430,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "592.854000162333",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 569.854000162333,
+            "s_time" : 324.341999832541,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/fly/images/sprites/buyingGuide/icon/default/icon-se0b90f1160.png",
+         "id" : "r72",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 44398,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "593.934999778867",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 568.934999778867,
+            "s_time" : 326.018000021577,
+            "sendEnd" : 18,
+            "sendStart" : 17,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/fly/1454456770-fly/bundles/cnetcss/images/main/clock.png",
+         "id" : "r73",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 1181,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "594.267999753356",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 569.267999753356,
+            "s_time" : 328.073999844491,
+            "sendEnd" : 17,
+            "sendStart" : 16,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/fly/images/sprites/socialLarge/icon-sc65c8afe1f.png",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 3853,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "595.005000010133",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 577.005000010133,
+            "s_time" : 335.210000164807,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet4.cbsistatic.com/fly/images/sprites/playOverlay/play-sf607478518.png",
+         "id" : "r75",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 13762,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "595.43599979952",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 577.43599979952,
+            "s_time" : 336.912000086159,
+            "sendEnd" : 13,
+            "sendStart" : 12,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/fly/1454456767-fly/bundles/cnetcss/fonts/Proxima%20Nova/Regular.woff",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 25972,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 26,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "766.687999945134",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 732.687999945134,
+            "s_time" : 500.241000205278,
+            "sendEnd" : 26,
+            "sendStart" : 26,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/fly/1454456767-fly/bundles/cnetcss/fonts/Proxima%20Nova/Semibold.woff",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 26180,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 33,
+            "sslEnd" : -1,
+            "connectEnd" : 25,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "769.117999821901",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 736.117999821901,
+            "s_time" : 500.990000087768,
+            "sendEnd" : 25,
+            "sendStart" : 25,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/fly/1454456767-fly/bundles/cnetcss/fonts/Proxima%20Nova/Bold.woff",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 26140,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "913.635000120848",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 878.635000120848,
+            "s_time" : 501.73299992457,
+            "sendEnd" : 24,
+            "sendStart" : 23,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/fly/1454456767-fly/bundles/cnetcss/fonts/Jubilat/Medium.woff",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 24936,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "916.364000178874",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 876.364000178874,
+            "s_time" : 502.31199990958,
+            "sendEnd" : 23,
+            "sendStart" : 22,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/fly/1454456767-fly/bundles/cnetcss/fonts/Jubilat/Regular.woff",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 23552,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "918.273000046611",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 878.273000046611,
+            "s_time" : 502.760999836028,
+            "sendEnd" : 22,
+            "sendStart" : 22,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/fly/1454456767-fly/bundles/cnetcss/fonts/Proxima%20Nova/Light.woff",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 25780,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "919.793999753892",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 879.793999753892,
+            "s_time" : 503.165000118315,
+            "sendEnd" : 22,
+            "sendStart" : 21,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/hub/i/r/2016/03/14/ecd52c08-f652-4b84-8fb9-d64c9438f728/thumbnail/370x208/dbbacdb25f708a603bd348b9b38fbe43/olivia-munn-cnet-magazine-promo-5453.jpg",
+         "id" : "r77",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 11272,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "922.269000206143",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 917.269000206143,
+            "s_time" : 551.930999848992,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js",
+         "id" : "r79",
+         "comps" : [
+            {
+               "s_time" : 924.405000172555,
+               "time" : 12.606999836863,
+               "type" : 1,
+               "id" : "comp_42",
+               "e_time" : 937.012000009418
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 16248,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "924.259999766946",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 918.259999766946,
+            "s_time" : 565.378000028431,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet1.cbsistatic.com/fly/1454456768-fly/bundles/cnetcss/images/core/logo.png",
+         "id" : "r80",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 8228,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "1083.51399982348",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1077.51399982348,
+            "s_time" : 626.774000003934,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cnet3.cbsistatic.com/fly/images/sprites/socialCore/social-core-s60eab2793b.png",
+         "id" : "r81",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 2697,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "1083.7650001049",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1078.7650001049,
+            "s_time" : 629.798999987543,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html",
+         "id" : "r82",
+         "comps" : [
+            {
+               "s_time" : 1226.34600009769,
+               "time" : 7.6830000616601,
+               "type" : "evalhtml",
+               "id" : "r82_c1",
+               "e_time" : 1234.02900015935
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "1220.51599994302",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1219.51599994302,
+            "s_time" : 914.502999745309,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://cnet3.cbsistatic.com/fly/2412-fly/js/main.default.js",
+         "id" : "r83",
+         "comps" : [
+            {
+               "s_time" : 1234.77600002661,
+               "time" : 31.9440001621899,
+               "type" : null,
+               "id" : "comp_86",
+               "e_time" : 1266.7200001888
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 188535,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "1234.33700017631",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1232.33700017631,
+            "s_time" : 1219.86200008541,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_42"
+      },
+      {
+         "a2" : "comp_2",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "comp_2",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 282.850000075992,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_52",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 502.239999826998,
+         "id" : "dep7",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 499.214999843389,
+         "id" : "dep8",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 437.818999867886,
+         "id" : "dep9",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 424.371999688447,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 375.60599995777,
+         "id" : "dep11",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 375.201999675483,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 374.752999749035,
+         "id" : "dep13",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 374.173999764025,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 373.430999927223,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 372.682000044733,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 209.352999925614,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 207.651000004262,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 200.514999683946,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 198.458999861032,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 196.782999671996,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 193.239999935031,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 187.849999871105,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 186.3819998689,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 172.857000026852,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 170.13099975884,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 168.287999927998,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 161.220999900252,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 159.08299991861,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 154.676999896765,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 151.335999835283,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 145.792999770492,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 141.99999999255,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 131.738999858499,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 109.543999657035,
+         "id" : "dep35",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 103.356000036001,
+         "id" : "dep36",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 93.50399998948,
+         "id" : "dep37",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 91.295999940485,
+         "id" : "dep38",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 87.827999610454,
+         "id" : "dep39",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 76.434999704361,
+         "id" : "dep40",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 62.2049998492,
+         "id" : "dep41",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 61.617000028491,
+         "id" : "dep42",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 60.832999646664,
+         "id" : "dep43",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 60.067999642342,
+         "id" : "dep44",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 53.704999852926,
+         "id" : "dep45",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 53.115000016987,
+         "id" : "dep46",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 52.14099958539,
+         "id" : "dep47",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 51.353999879211,
+         "id" : "dep48",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 50.326999742538,
+         "id" : "dep49",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 42.094999924302,
+         "id" : "dep50",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 36.6699998267,
+         "id" : "dep51",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 41.404000017792,
+         "id" : "dep52",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 18.854999914765,
+         "id" : "dep53",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.0759999752045,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.8750000745058,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.6649998724461,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.4339997433126,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      }
+   ]
+}

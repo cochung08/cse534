@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_townhall.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/townhall.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 92.9270000196993,
+               "time" : 0.521000009030089,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 93.4480000287294
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "29.0509997867048",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3.05099978670478,
+            "s_time" : 0,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

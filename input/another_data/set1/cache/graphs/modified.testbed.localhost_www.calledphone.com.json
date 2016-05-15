@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.calledphone.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.calledphone.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 84.6410002559423,
+               "time" : 0.5299998447299,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 85.1710001006722
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "28.3670001663268",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3.36700016632676,
+            "s_time" : 0,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

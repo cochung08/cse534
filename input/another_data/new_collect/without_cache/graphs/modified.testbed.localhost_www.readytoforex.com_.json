@@ -1,0 +1,1044 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.readytoforex.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 22.6179999299347,
+               "time" : 24.5219999924303,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 47.139999922365
+            },
+            {
+               "s_time" : 99.3940001353621,
+               "time" : 7.40400003269289,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 106.798000168055
+            },
+            {
+               "s_time" : 107.333000283688,
+               "time" : 0.0040000304580019,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 107.337000314146
+            },
+            {
+               "s_time" : 107.650999911129,
+               "time" : -3291592832.809,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3291592725.158
+            },
+            {
+               "s_time" : 108.049999922514,
+               "time" : 349.363000132143,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 457.413000054657
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 12415,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "22.2670002840459",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 19.2670002840459,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 40.1429999619722,
+               "time" : 59.2510001733899,
+               "type" : 1,
+               "id" : "comp_2",
+               "e_time" : 99.3940001353621
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 95786,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "40.0600000284612",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 34.0600000284612,
+            "s_time" : 23.1830002740026,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.googleapis.com/css%3Ffamily=Open+Sans+Condensed:300.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 31.3740000128746,
+               "time" : 0.0040000304580019,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 31.3780000433326
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 285,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "31.2620000913739",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 24.2620000913739,
+            "s_time" : 23.3579999767244,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_css/page_default_210316.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 35.9630002640188,
+               "time" : 0.0999998301266984,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 36.0630000941455
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 25699,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "35.850000102073",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 28.850000102073,
+            "s_time" : 23.5089999623597,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_function/javascript/hidden_box.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 107.13900020346,
+               "time" : 0.194000080227994,
+               "type" : 1,
+               "id" : "comp_7",
+               "e_time" : 107.333000283688
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 493,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "33.0550000071526",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 25.0550000071526,
+            "s_time" : 23.7159999087453,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_function/login/functions.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 107.455000281334,
+               "time" : 0.195999629795011,
+               "type" : 1,
+               "id" : "comp_9",
+               "e_time" : 107.650999911129
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 740,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "33.2260001450777",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 25.2260001450777,
+            "s_time" : 23.847000207752,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_function/info/functions.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 107.788000255823,
+               "time" : 0.261999666691011,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 108.049999922514
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1734,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "33.5940001532435",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 25.5940001532435,
+            "s_time" : 23.9800000563264,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/logo.png",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1951,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "37.1320000849664",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 25.1320000849664,
+            "s_time" : 24.2150002159178,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/cover_e_book_home_2.png",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 144388,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "145.952000282705",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 139.952000282705,
+            "s_time" : 36.8790002539754,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/WN.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 4043,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "137.417000252753",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.417000252753,
+            "s_time" : 39.8210003040731,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/italia_oggi.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 7432,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "137.990000192076",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 130.990000192076,
+            "s_time" : 40.0270000100136,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/msn.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4311,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "138.811999931931",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.811999931931,
+            "s_time" : 40.5530002899468,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/corriere.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 5650,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "139.115999918431",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.115999918431,
+            "s_time" : 40.3410000726581,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/startupper.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 6077,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "139.721999876201",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 130.721999876201,
+            "s_time" : 40.1969999074936,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/milano_finanza.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 6361,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "140.525999944657",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 129.525999944657,
+            "s_time" : 40.6519998796284,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/cnbc_class.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2441,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "140.9289999865",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 128.9289999865,
+            "s_time" : 40.7899999991059,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/trandonline.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 13451,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "144.350999966264",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 132.350999966264,
+            "s_time" : 40.9110002219677,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/wallstreet_italia.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 3396,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "145.001000259072",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.001000259072,
+            "s_time" : 41.0839999094605,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/logo_millionaire.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 7292,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "145.622999873012",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 137.622999873012,
+            "s_time" : 47.139999922365,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://connect.facebook.net/it_IT/all.js#xfbml=1&appId=151924481667729",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 188276,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "217.075000051409",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 216.075000051409,
+            "s_time" : 106.798000168055,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/js/plusone.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 218.176000285894,
+               "time" : 37.312999833375,
+               "type" : null,
+               "id" : "comp_34",
+               "e_time" : 255.489000119269
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 39348,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "216.02200018242",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 215.02200018242,
+            "s_time" : 107.337000314146,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/bg.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1338,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "217.612999957055",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 213.612999957055,
+            "s_time" : 127.309999894351,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/box_home.png",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1225,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "392.665000166744",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 387.665000166744,
+            "s_time" : 134.347999934107,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com/cms_images/bg_bottone.png",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1219,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "393.114000093192",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 388.114000093192,
+            "s_time" : 134.862000122666,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/analytics.js",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 26299,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "430.172000080347",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 426.172000080347,
+            "s_time" : 217.805000022054,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xD1GzwQ5qF9DNzkQQVRhJ4g.ttf",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 35172,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "430.914000142366",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 422.914000142366,
+            "s_time" : 218.458999879658,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.yA6Byr9rq40.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOkwxNzuFxfSBo8tzMaISISyCz-lA/cb=gapi.loaded_0",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 591.029000002891,
+               "time" : 69.1639999859029,
+               "type" : null,
+               "id" : "comp_59",
+               "e_time" : 660.192999988794
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 118051,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "432.436000090092",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 431.436000090092,
+            "s_time" : 254.778000060469,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/impression.php/f2bc6f3b4c/?api_key=151924481667729&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 80,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : 2,
+            "receiveHeadersEnd" : 182,
+            "sslEnd" : 101,
+            "connectEnd" : 101,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "673.164000269026",
+            "sslStart" : 47,
+            "dnsStart" : 2,
+            "receiveLast" : 491.164000269026,
+            "s_time" : 457.413000054657,
+            "sendEnd" : 102,
+            "sendStart" : 101,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "download_27",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 36.601999774575,
+         "id" : "dep8",
+         "a1" : "comp_34"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 0.282999593764004,
+         "id" : "dep9",
+         "a1" : "comp_34"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 109.75500009954,
+         "id" : "dep10",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 26.812000200152,
+         "id" : "dep11",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 26.298000011593,
+         "id" : "dep12",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 19.259999971837,
+         "id" : "dep13",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_20",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 18.4659999795258,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 18.293000292033,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 18.1720000691712,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 18.0339999496937,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 17.5789999775589,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 17.7230001427234,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 17.9350003600121,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 17.4090000800789,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 17.2030003741384,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 14.2610003240407,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 1.5970002859831,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 1.5970002859831,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1.3620001263917,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1.3620001263917,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.2290002778173,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.2290002778173,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.0979999788106,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.0979999788106,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 0.891000032424998,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 0.891000032424998,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 0.740000046789699,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 0.740000046789699,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.565000344067901,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      }
+   ]
+}

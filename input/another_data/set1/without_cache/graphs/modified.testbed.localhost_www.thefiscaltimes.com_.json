@@ -1,0 +1,588 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.thefiscaltimes.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.thefiscaltimes.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 85.0370000116527,
+               "time" : 4.13599982857701,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 89.1729998402297
+            },
+            {
+               "s_time" : 1570.10899996385,
+               "time" : -3433774701.22,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3433773131.111
+            },
+            {
+               "s_time" : 1598.92799984664,
+               "time" : -3433774730.039,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3433773131.111
+            },
+            {
+               "s_time" : 1599.19899981469,
+               "time" : -3433774730.31,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3433773131.111
+            },
+            {
+               "s_time" : 1599.38000002876,
+               "time" : -3433774730.491,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3433773131.111
+            },
+            {
+               "s_time" : 1611.08799977228,
+               "time" : -3433774742.199,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3433773131.111
+            },
+            {
+               "s_time" : 1639.58199974149,
+               "time" : -3433774770.693,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -3433773131.111
+            },
+            {
+               "s_time" : 1641.47899998352,
+               "time" : 138.46599962562,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : 1779.94499960914
+            },
+            {
+               "s_time" : 1781.32399963215,
+               "time" : 21.7120000161201,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : 1803.03599964827
+            },
+            {
+               "s_time" : 1882.05499993637,
+               "time" : 172.45600000024,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 2054.51099993661
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 63963,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "169.794999994338",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 123.794999994338,
+            "s_time" : 0,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.thefiscaltimes.com/sites/default/files/cdn/css/http/css_mc_6ijY51CoRSuohP_-WIXSoEjCQHsNx2evqsX77Jsk.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 154.98899994418,
+               "time" : 1.97999970987502,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 156.968999654055
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 7893,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 64,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "154.454999603331",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.4549996033311,
+            "s_time" : 88.0729998461902,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.thefiscaltimes.com/sites/default/files/cdn/css/http/css_o4KxDgpvu0GROubOZi8qT6ioiEdv44z4q1I1VhI6Cio.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 195.763999596238,
+               "time" : 3.08499997481701,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 198.848999571055
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 16528,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 66,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "195.543999783695",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 129.543999783695,
+            "s_time" : 88.6549996212125,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.thefiscaltimes.com/sites/default/files/cdn/css/http/css_vZ_wrMQ9Og-YPPxa1q4us3N7DsZMJa-14jShHgRoRNo.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 162.910999730229,
+               "time" : 0.148000195622984,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 163.058999925852
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 141,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 71,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "162.722999695688",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 91.7229996956885,
+            "s_time" : 89.1729998402297,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/analytics.js",
+         "id" : "r31",
+         "comps" : [
+            {
+               "s_time" : 1651.81700000539,
+               "time" : 129.05399966985,
+               "type" : 2,
+               "id" : "comp_34",
+               "e_time" : 1780.87099967524
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 26299,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "1649.51899973676",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1648.51899973676,
+            "s_time" : 1645.41999995708,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "id" : "r51",
+         "comps" : [
+            {
+               "s_time" : 1890.8579996787,
+               "time" : 4.72600013017995,
+               "type" : null,
+               "id" : "comp_53",
+               "e_time" : 1895.58399980888
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 1495,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "1890.23799961433",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1889.23799961433,
+            "s_time" : 1884.35599999502,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://edge.quantserve.com/quant.js",
+         "id" : "r52",
+         "comps" : [
+            {
+               "s_time" : 1896.04099979624,
+               "time" : 11.66300009936,
+               "type" : null,
+               "id" : "comp_55",
+               "e_time" : 1907.7039998956
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 7874,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "1895.68499987945",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1893.68499987945,
+            "s_time" : 1885.77099982649,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/collect?v=1&_v=j41&a=1628132524&t=pageview&_s=1&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.thefiscaltimes.com%2F&ul=en-us&de=UTF-8&dt=The%20Fiscal%20Times&sd=24-bit&sr=1024x768&vp=1004x614&je=1&_utma=10762024.920028789.1461941584.1461948276.1461950534.4&_utmz=10",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 55,
+            "len" : 35,
+            "dns" : 49,
+            "dnsEnd" : 50,
+            "receiveHeadersEnd" : 149,
+            "sslEnd" : -1,
+            "connectEnd" : 94,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "1928.42999985442",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1779.42999985442,
+            "s_time" : 1778.30699970946,
+            "sendEnd" : 94,
+            "sendStart" : 94,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.boomtrain.com/analyticstrain-1.min.js",
+         "id" : "r49",
+         "comps" : [
+            {
+               "s_time" : 1945.22499991581,
+               "time" : 8.22900002822007,
+               "type" : null,
+               "id" : "comp_58",
+               "e_time" : 1953.45399994403
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 6644,
+            "dns" : 46,
+            "dnsEnd" : 48,
+            "receiveHeadersEnd" : 140,
+            "sslEnd" : -1,
+            "connectEnd" : 93,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "1944.51299961656",
+            "sslStart" : -1,
+            "dnsStart" : 2,
+            "receiveLast" : 1804.51299961656,
+            "s_time" : 1803.03599964827,
+            "sendEnd" : 93,
+            "sendStart" : 93,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j41&tid=UA-12472167-3&cid=1420386934.1461941378&jid=5790458&_u=ACECgEQ~&z=1411068506",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 59,
+            "len" : 35,
+            "dns" : 49,
+            "dnsEnd" : 49,
+            "receiveHeadersEnd" : 239,
+            "sslEnd" : 179,
+            "connectEnd" : 179,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "2020.82500001416",
+            "sslStart" : 107,
+            "dnsStart" : 0,
+            "receiveLast" : 1781.82500001416,
+            "s_time" : 1779.94499960914,
+            "sendEnd" : 180,
+            "sendStart" : 179,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://connect.facebook.net/en_US/fbds.js",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 68,
+            "len" : 3066,
+            "dns" : 46,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 266,
+            "sslEnd" : 196,
+            "connectEnd" : 197,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "2048.53999987245",
+            "sslStart" : 112,
+            "dnsStart" : 0,
+            "receiveLast" : 1782.53999987245,
+            "s_time" : 1781.35899966583,
+            "sendEnd" : 198,
+            "sendStart" : 197,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ib.adnxs.com/setuid?entity=44&code=Wuz6bljvrWVCuPk7X-jlPFjvrGRC7qlvDeIAHWQg",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 43,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 137,
+            "sslEnd" : -1,
+            "connectEnd" : 91,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "2193.13799962401",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 2056.13799962401,
+            "s_time" : 2054.51099993661,
+            "sendEnd" : 92,
+            "sendStart" : 91,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/tr/?id=401214826749108&ev=PixelInitialized&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.thefiscaltimes.com%2F&rl=&if=false&ts=1461951047609",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 52,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 169,
+            "sslEnd" : 116,
+            "connectEnd" : 116,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "2224.12999998778",
+            "sslStart" : 52,
+            "dnsStart" : 1,
+            "receiveLast" : 2055.12999998778,
+            "s_time" : 2053.51400002837,
+            "sendEnd" : 117,
+            "sendStart" : 116,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_25"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_29"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_31"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_35"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_47"
+      },
+      {
+         "a2" : "download_12",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_11",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 136.82799972594,
+         "id" : "dep15",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 3.71599989011997,
+         "id" : "dep16",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 2.30100005865006,
+         "id" : "dep17",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 3.94099997356011,
+         "id" : "dep18",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 3.6179996095598,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 3.03599983453751,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      }
+   ]
+}

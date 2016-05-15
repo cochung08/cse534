@@ -1,0 +1,4535 @@
+{
+   "n_download_no_trigger" : 5,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.newyorker.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 86.4190002903342,
+               "time" : 3.9999997243285,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 90.4190000146627
+            },
+            {
+               "s_time" : 798.566000070423,
+               "time" : 618.666000198577,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 1417.232000269
+            },
+            {
+               "s_time" : 1486.77500011399,
+               "time" : 2.56899977102989,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 1489.34399988502
+            },
+            {
+               "s_time" : 1659.63800018653,
+               "time" : 39.5909999497301,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 1699.22900013626
+            },
+            {
+               "s_time" : 1701.51800010353,
+               "time" : 619.61899977178,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 2321.13699987531
+            },
+            {
+               "s_time" : 2321.14000013098,
+               "time" : -3433312514.684,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3433310193.544
+            },
+            {
+               "s_time" : 2329.4490003027,
+               "time" : 187.59399978444,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : 2517.04300008714
+            },
+            {
+               "s_time" : 2535.73899995536,
+               "time" : 157.36899990588,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : 2693.10799986124
+            },
+            {
+               "s_time" : 2693.30100016668,
+               "time" : 5.71299996227026,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : 2699.01400012895
+            },
+            {
+               "s_time" : 2700.78699989244,
+               "time" : 3017.59900012985,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 5718.38600002229
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 139369,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "180.628000292927",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 135.628000292927,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/css/core.min.css%3Fcb=20160428190729.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 634.562999941409,
+               "time" : 185.377000365406,
+               "type" : 4,
+               "id" : "comp_6",
+               "e_time" : 819.940000306815
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 53,
+            "len" : 831551,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 58,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "634.21200029552",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 576.21200029552,
+            "s_time" : 88.8499999418855,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/use.typekit.net/wth6gwt.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 770.758000202477,
+               "time" : 27.807999867946,
+               "type" : 1,
+               "id" : "comp_7",
+               "e_time" : 798.566000070423
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 59,
+            "len" : 25342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 63,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "203.358999919146",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 140.358999919146,
+            "s_time" : 89.5719998516142,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/px.gif",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 67,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 71,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "163.223000243306",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 92.2230002433062,
+            "s_time" : 90.4190000146627,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/uploads/2016/04/Verini-On-the-Run-Burundi-320x240-1461851593.jpg",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 19093,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 56,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "929.800000041723",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 873.800000041723,
+            "s_time" : 866.694000083953,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/js/jquery.min.js%3Fcb=20160428190729",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 1417.43100015447,
+               "time" : 69.34399995952,
+               "type" : 1,
+               "id" : "comp_58",
+               "e_time" : 1486.77500011399
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 53,
+            "len" : 93346,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 60,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "1417.1750000678",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1357.1750000678,
+            "s_time" : 871.395000256598,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/js/head.min.js%3Fcb=20160428190729",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 1530.57599999011,
+               "time" : 129.06200019642,
+               "type" : 1,
+               "id" : "comp_66",
+               "e_time" : 1659.63800018653
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 58,
+            "len" : 268794,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 65,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "1530.14199994504",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1465.14199994504,
+            "s_time" : 871.95000005886,
+            "sendEnd" : 7,
+            "sendStart" : 6,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/ads/js/cn.dart.bun.min.js%3Fcb=20160428190729",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 1659.81499990448,
+               "time" : 41.7030001990502,
+               "type" : 1,
+               "id" : "comp_69",
+               "e_time" : 1701.51800010353
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 64,
+            "len" : 53320,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 71,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "1489.89199986681",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1418.89199986681,
+            "s_time" : 872.531000059098,
+            "sendEnd" : 7,
+            "sendStart" : 6,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/uploads/2016/05/160502_r27983-320x240-1461251947.jpg",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 13542,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "980.372000019997",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 934.372000019997,
+            "s_time" : 929.184000007808,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/cgallery.png",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 48,
+            "len" : 21141,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "1415.64900008962",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1365.64900008962,
+            "s_time" : 980.30100017786,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/contributors/cassidy.png",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 7480,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 54,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "1491.6010000743",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1437.6010000743,
+            "s_time" : 1034.45800021291,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/contributors/davidson.png",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 8183,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "1493.50199988112",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1432.50199988112,
+            "s_time" : 1035.53200000897,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.wnyc.org/widgets/ondemand_player/thenewyorker/index.html#file=http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/tnypoliticalscene/tnypoliticalscene042516.mp3",
+         "id" : "r29",
+         "comps" : [
+            {
+               "s_time" : 1803.45300026238,
+               "time" : 325.95299975947,
+               "id" : "r29_c1",
+               "type" : "evalhtml",
+               "e_time" : 2129.40600002185
+            },
+            {
+               "s_time" : 2272.63700030744,
+               "time" : 10.2099999785401,
+               "type" : "evalhtml",
+               "id" : "r29_c2",
+               "e_time" : 2282.84700028598
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 12733,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 70,
+            "sslEnd" : -1,
+            "connectEnd" : 24,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "1509.78800002486",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1439.78800002486,
+            "s_time" : 1056.76699988544,
+            "sendEnd" : 25,
+            "sendStart" : 24,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/nyr-logo.svg",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 4371,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 62,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "1511.66700012982",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1449.66700012982,
+            "s_time" : 1073.78400024027,
+            "sendEnd" : 19,
+            "sendStart" : 18,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/NYR_Nav-sprite.png%3F2015-06-05",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 25973,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveHeadersEnd" : 65,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "1757.31300003827",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 1692.31300003827,
+            "s_time" : 1075.06000017747,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/contributors/borowitz.png",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 52,
+            "len" : 7091,
+            "dns" : 0,
+            "dnsEnd" : 9,
+            "receiveHeadersEnd" : 109,
+            "sslEnd" : -1,
+            "connectEnd" : 57,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "1527.04400010407",
+            "sslStart" : -1,
+            "dnsStart" : 9,
+            "receiveLast" : 1418.04400010407,
+            "s_time" : 1035.82300012931,
+            "sendEnd" : 57,
+            "sendStart" : 57,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/drawn-rule-horiz-Nav.png",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 52,
+            "len" : 524,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "1528.48300011829",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1467.48300011829,
+            "s_time" : 1091.04799991474,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/sprites/TNY_lineart_sprite.png%3F2015-06-05",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 98031,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 78,
+            "sslEnd" : -1,
+            "connectEnd" : 33,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "1778.23399985209",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1700.23399985209,
+            "s_time" : 1099.29300006479,
+            "sendEnd" : 34,
+            "sendStart" : 33,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/contributors/larson.png",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 58,
+            "len" : 16080,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 159,
+            "sslEnd" : -1,
+            "connectEnd" : 101,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "1756.76999986172",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1597.76999986172,
+            "s_time" : 1037.00899984688,
+            "sendEnd" : 101,
+            "sendStart" : 101,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/Multimedia-Sprites.png%3F2015-06-05",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 58,
+            "len" : 19991,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 70,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "1774.71400005743",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1704.71400005743,
+            "s_time" : 1137.5620001927,
+            "sendEnd" : 12,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/img/media/play.svg",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 58,
+            "len" : 541,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 64,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "1759.8069999367",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1695.8069999367,
+            "s_time" : 1148.06200005114,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/NYR_Nav-sprite@2x.png%3F2015-06-01",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 38484,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 66,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "1770.91800002381",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1704.91800002381,
+            "s_time" : 1152.9950001277,
+            "sendEnd" : 22,
+            "sendStart" : 21,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/contributors/ben-wallace-wells.png",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 5209,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 215,
+            "sslEnd" : -1,
+            "connectEnd" : 165,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "1774.10000003874",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1559.10000003874,
+            "s_time" : 1037.79600001872,
+            "sendEnd" : 166,
+            "sendStart" : 165,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/header_graphics/contributors/brody.png",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 10050,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 219,
+            "sslEnd" : -1,
+            "connectEnd" : 167,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "1776.25600015745",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1557.25600015745,
+            "s_time" : 1038.75999990851,
+            "sendEnd" : 168,
+            "sendStart" : 167,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/uploads/2016/04/042516-PoliticsandMore-WP-320x240-1461600095.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 14569,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 223,
+            "sslEnd" : -1,
+            "connectEnd" : 173,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "1777.74900011718",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1554.74900011718,
+            "s_time" : 1039.55700015649,
+            "sendEnd" : 174,
+            "sendStart" : 173,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/img/icon/ad_choices_arrow.png",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 372,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 239,
+            "sslEnd" : -1,
+            "connectEnd" : 193,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "1779.40599992871",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1540.40599992871,
+            "s_time" : 1040.12600006536,
+            "sendEnd" : 194,
+            "sendStart" : 193,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/assets.adobedtm.com/6372cf21ef88ee60bc2977a4898dcb5c7945a212/satelliteLib-9cb2a39d627a819b6ca42ab76f651dbfa7b1a535.js",
+         "id" : "r37",
+         "comps" : [
+            {
+               "s_time" : 2298.7219998613,
+               "time" : 22.4180002696799,
+               "type" : 1,
+               "id" : "comp_183",
+               "e_time" : 2321.14000013098
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 99508,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 47,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "1806.58699991181",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1759.58699991181,
+            "s_time" : 1417.232000269,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/js/stats.min.js%3Fcb=20160428190729",
+         "id" : "r39",
+         "comps" : [
+            {
+               "s_time" : 2329.5380002819,
+               "time" : 206.20099967346,
+               "type" : 1,
+               "id" : "comp_189",
+               "e_time" : 2535.73899995536
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 9670,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "1807.94900003821",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1761.94900003821,
+            "s_time" : 1489.34399988502,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/js/adsinit.min.js%3Fcb=20160428190729",
+         "id" : "r38",
+         "comps" : [
+            {
+               "s_time" : 2321.24399999157,
+               "time" : 8.20500031112988,
+               "type" : 1,
+               "id" : "comp_186",
+               "e_time" : 2329.4490003027
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 1610,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 51,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "1809.07700024545",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1758.07700024545,
+            "s_time" : 1488.30700013787,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r40",
+         "comps" : [
+            {
+               "s_time" : 1814.76400000975,
+               "time" : 4.22100024297015,
+               "type" : 2,
+               "id" : "comp_115",
+               "e_time" : 1818.98500025272
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 3152,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "1810.54800003767",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1807.54800003767,
+            "s_time" : 1667.28099994361,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ads.rubiconproject.com/header/11850.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 1819.02300007641,
+               "time" : 39.17799983174,
+               "type" : 2,
+               "id" : "comp_117",
+               "e_time" : 1858.20099990815
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 62984,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "1810.97800005227",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1808.97800005227,
+            "s_time" : 1668.84500021115,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.yldbt.com/js/yieldbot.intent.js",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 1858.2160002552,
+               "time" : 17.9909998551,
+               "type" : 2,
+               "id" : "comp_119",
+               "e_time" : 1876.2070001103
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 21303,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "1811.64100021124",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1810.64100021124,
+            "s_time" : 1699.22900013626,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://c.amazon-adsystem.com/aax2/amzn_ads.js",
+         "id" : "r44",
+         "comps" : [
+            {
+               "s_time" : 1876.23100029305,
+               "time" : 2.89599969982987,
+               "type" : 2,
+               "id" : "comp_121",
+               "e_time" : 1879.12699999288
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 10172,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "1812.22299998626",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1811.22299998626,
+            "s_time" : 1701.67500013486,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dff7tx5c2qbxc.cloudfront.net/hot/newyorker.dart/http%3A%2F%2Fwww.newyorker.com%2F",
+         "id" : "r45",
+         "comps" : [
+            {
+               "s_time" : 1879.14100009948,
+               "time" : 0.316999852660047,
+               "type" : 2,
+               "id" : "comp_123",
+               "e_time" : 1879.45799995214
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 30,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "1812.8269999288",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1811.8269999288,
+            "s_time" : 1744.39200013876,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dy48bnzanqw0v.cloudfront.net/?url=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com%2F&mapping=4po&jsonp=CN.ad.cnds.tags%3D",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 1881.19800016284,
+               "time" : 0.334999989720018,
+               "type" : 2,
+               "id" : "comp_126",
+               "e_time" : 1881.53300015256
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 33,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "1813.51800030097",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1813.51800030097,
+            "s_time" : 1747.16000026092,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/json"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gpt/pubads_impl_85.js",
+         "id" : "r54",
+         "comps" : [
+            {
+               "s_time" : 1976.44900018349,
+               "time" : 65.48199988902,
+               "type" : 2,
+               "id" : "comp_130",
+               "e_time" : 2041.93100007251
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 151342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "1883.00999999046",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1882.00999999046,
+            "s_time" : 1819.14300005883,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com/wp-content/assets/dist/js/core.min.js%3Fcb=20160428190729",
+         "id" : "r48",
+         "comps" : [
+            {
+               "s_time" : 2536.00799990818,
+               "time" : 157.2930002585,
+               "type" : 1,
+               "id" : "comp_192",
+               "e_time" : 2693.30100016668
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 167660,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "2048.26600011438",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1998.26600011438,
+            "s_time" : 1803.29800024629,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.wnyc.org/static/webfonts/fontawesome/css/font-awesome.min.css%3Fv=4.1.0.css",
+         "id" : "r49",
+         "comps" : [
+            {
+               "s_time" : 1972.18200005591,
+               "time" : 2.23900005221003,
+               "type" : 4,
+               "id" : "comp_129",
+               "e_time" : 1974.42100010812
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 53,
+            "len" : 27715,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "1972.07699995488",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1911.07699995488,
+            "s_time" : 1804.39099995419,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.wnyc.org/static/CACHE/css/a61e537c5b4a.css",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 2042.33299987391,
+               "time" : 2.28900043292992,
+               "type" : 4,
+               "id" : "comp_134",
+               "e_time" : 2044.62200030684
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 65,
+            "len" : 24246,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 72,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "2042.26800007746",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1970.26800007746,
+            "s_time" : 1804.98899985105,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.wnyc.org/static/CACHE/js/68c078084246.js",
+         "id" : "r51",
+         "comps" : [
+            {
+               "s_time" : 2155.07500013337,
+               "time" : 115.33399997279,
+               "type" : null,
+               "id" : "comp_158",
+               "e_time" : 2270.40900010616
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 74,
+            "len" : 300268,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 81,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "2154.93800025433",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2073.93800025433,
+            "s_time" : 1806.6870002076,
+            "sendEnd" : 7,
+            "sendStart" : 6,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/speed.pointroll.com/PointRoll/Media/Asset/RespLib/201296/resp.lib.js",
+         "id" : "r52",
+         "comps" : [
+            {
+               "s_time" : 2693.55500023812,
+               "time" : 7.23199965431968,
+               "type" : 1,
+               "id" : "comp_197",
+               "e_time" : 2700.78699989244
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 79,
+            "len" : 19982,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 84,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "2047.58700029925",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1963.58700029925,
+            "s_time" : 1809.7729999572,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ads/js/cn.dart.bun.min.js.map",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 84,
+            "len" : 319,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 89,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "2046.10300017521",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1957.10300017521,
+            "s_time" : 1810.3720000945,
+            "sendEnd" : 5,
+            "sendStart" : 4,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.wnyc.org/static/js/ga_social_tracking.js",
+         "id" : "r57",
+         "comps" : [
+            {
+               "s_time" : 2271.66299987584,
+               "time" : 0.974000431599961,
+               "type" : 1,
+               "id" : "comp_164",
+               "e_time" : 2272.63700030744
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 2159,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 47,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "2047.18500003219",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2000.18500003219,
+            "s_time" : 1882.78299989179,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html",
+         "id" : "r58",
+         "comps" : [
+            {
+               "s_time" : 2106.37400019914,
+               "time" : 7.91799975558979,
+               "type" : "evalhtml",
+               "id" : "r58_c1",
+               "e_time" : 2114.29199995473
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "2064.13799989969",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2064.13799989969,
+            "s_time" : 2042.46099991724,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.googleapis.com/css?family=Open+Sans:400",
+         "id" : "r59",
+         "comps" : [
+            {
+               "s_time" : 2080.73000004515,
+               "time" : 8.25600000097984,
+               "type" : 2,
+               "id" : "comp_135",
+               "e_time" : 2088.98600004613
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 241,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "2080.66900027916",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2080.66900027916,
+            "s_time" : 2042.71200019866,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://aax.amazon-adsystem.com/e/dtb/bid?src=3035&u=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com%2F&cb=3132620",
+         "id" : "r56",
+         "comps" : [
+            {
+               "s_time" : 2101.75100015476,
+               "time" : 0.473999883980014,
+               "type" : 2,
+               "id" : "comp_139",
+               "e_time" : 2102.22500003874
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 57,
+            "len" : 8,
+            "dns" : 50,
+            "dnsEnd" : 50,
+            "receiveHeadersEnd" : 173,
+            "sslEnd" : -1,
+            "connectEnd" : 116,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "2089.24899995327",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 1916.24899995327,
+            "s_time" : 1879.24200017005,
+            "sendEnd" : 116,
+            "sendStart" : 116,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ads-adseast.yldbt.com/m/822c/v1/init?cb=yieldbot.updateState&v=v2015-06-23%7Ce14513e&vi=inlzlmr3646xrla7wj&si=inlzlmr6alyt9a7eni&pvi=inlzmqi2c5k7q00nnd&pvd=2&lpvi=inlzlmr1a36kbw361m&nv&sn=leaderboard%7Cmedrec&ssz=%7C300x250.300x600&lo=http%3A//modified.testbed.localhost/www.newyorker.com/&r=&",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 57,
+            "len" : 115,
+            "dns" : 53,
+            "dnsEnd" : 53,
+            "receiveHeadersEnd" : 177,
+            "sslEnd" : -1,
+            "connectEnd" : 120,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "2089.54800013453",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 1912.54800013453,
+            "s_time" : 1875.56499987841,
+            "sendEnd" : 120,
+            "sendStart" : 120,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 20248,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "2131.23199995607",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2130.23199995607,
+            "s_time" : 2129.12400020286,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/woff"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://media.wnyc.org/static/webfonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.5.0",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 83588,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "2134.9240001291",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2134.9240001291,
+            "s_time" : 2129.40600002185,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/font-woff"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://subscribe.newyorker.com/ams/page-ads.js?ad_category_prefix=&browser_path=%2F&cat_prefixes=%2C&site_prefix=newyorker&subdomain=mprod&url_name=&keywords=&position_list=AMS_NYR_CONTENTRIVER%2CAMS_NYR_HOMEPAGE_RIGHTRAIL_A%2CAMS_NYR_GLOBAL_HEADER%2CAMS_NYR_GLOBAL_HEADERCALLOUT%2CAMS_NYR_GLOBAL_NA",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 280,
+            "len" : 3893,
+            "dns" : 0,
+            "dnsEnd" : 2,
+            "receiveHeadersEnd" : 443,
+            "sslEnd" : 163,
+            "connectEnd" : 163,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "2296.91400006413",
+            "sslStart" : 66,
+            "dnsStart" : 2,
+            "receiveLast" : 1853.91400006413,
+            "s_time" : 1752.11500003934,
+            "sendEnd" : 163,
+            "sendStart" : 163,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 43082,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "2712.50599995255",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2712.50599995255,
+            "s_time" : 2269.48500005528,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://assets.adobedtm.com/6372cf21ef88ee60bc2977a4898dcb5c7945a212/scripts/satellite-551d624a6633330014780400.js",
+         "id" : "r66",
+         "comps" : [
+            {
+               "s_time" : 3065.88299991563,
+               "time" : 1.35800009593004,
+               "type" : 2,
+               "id" : "comp_286",
+               "e_time" : 3067.24100001156
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 10460,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "2931.49900017306",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2931.49900017306,
+            "s_time" : 2321.13699987531,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Lizza-DonaldTrumpsVeryRepublicanForeignPolicySpeech-728x375-1461866419.jpg",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 46223,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "2975.12800013646",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2963.12800013646,
+            "s_time" : 2647.37100014463,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/05/160502_r28070-320x240-1461258959.jpg",
+         "id" : "r70",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 17518,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "2971.90200025216",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2959.90200025216,
+            "s_time" : 2648.04199989885,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Gimein-Why-Digital-Money-Hasnt-Killed-Cash-320x240-1461789431.jpg",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 21774,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "2972.27700008079",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2960.27700008079,
+            "s_time" : 2648.63600023091,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/DenHoed-ImbecilesBook-320x240-1461184768.jpg",
+         "id" : "r72",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 22343,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "2972.60300023481",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2960.60300023481,
+            "s_time" : 2649.16500030085,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Richard-TheDocumentariesTheyDeserveHannahArendtandRainerWernerFassbinder-144x110-1461869627.jpg",
+         "id" : "r73",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 4407,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "2972.93400019407",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2960.93400019407,
+            "s_time" : 2649.74700007588,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/04282016-PoliticalScene-WP-144x110-1461874850.jpg",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 7144,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "2973.22000004351",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2961.22000004351,
+            "s_time" : 2650.29999986291,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Bethea-Chess-Renaissance-in-Midwest-144x110-1461866658.jpg",
+         "id" : "r75",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 7245,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "2973.52300025523",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2961.52300025523,
+            "s_time" : 2650.88099986315,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Schulman-Meryl-Streeps-Twenties1-144x110-1461874294.jpg",
+         "id" : "r76",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 6824,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "2973.82300021127",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2961.82300021127,
+            "s_time" : 2651.41799999401,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/04_28-Comma-Queen-144x110-1461861283.jpg",
+         "id" : "r77",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 8080,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "2974.10800028592",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2962.10800028592,
+            "s_time" : 2651.97400003672,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://condenast.demdex.net/event?d_nsid=0&d_ld=_ts%3D1461950585130&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_0_1461950585130&c_pageName=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com&c_events=event2&c_eVar2=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com&c_pr",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 57,
+            "len" : 1837,
+            "dns" : 46,
+            "dnsEnd" : 47,
+            "receiveHeadersEnd" : 156,
+            "sslEnd" : -1,
+            "connectEnd" : 99,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "2974.89700000733",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 2818.89700000733,
+            "s_time" : 2517.04300008714,
+            "sendEnd" : 99,
+            "sendStart" : 99,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/05/160502_r28077-320x240-1461259700.jpg",
+         "id" : "r78",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 10729,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "2977.61399997398",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2966.61399997398,
+            "s_time" : 2665.65799992532,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Margalit-HillsboroughSoccerTragedy-320x240-1461788640.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 28769,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "2977.92199999094",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2966.92199999094,
+            "s_time" : 2666.54499992728,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/05/160502_r28074-320-240.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 12459,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "2978.27100008726",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2967.27100008726,
+            "s_time" : 2667.4930001609,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Martin-A-Murder-Rocks-New-Orleans-320x240-1460750941.jpg",
+         "id" : "r81",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 29490,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "2978.61299989745",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2967.61299989745,
+            "s_time" : 2668.35700022057,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2014/12/Twilley.jpg",
+         "id" : "r82",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 33519,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "2982.54000023007",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2971.54000023007,
+            "s_time" : 2669.19300006703,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2014/07/osnos.png",
+         "id" : "r83",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 46114,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "2982.77400014922",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2972.77400014922,
+            "s_time" : 2669.99799991027,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2014/07/mayer.png",
+         "id" : "r84",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 45015,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "2983.01499988884",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2973.01499988884,
+            "s_time" : 2670.87899986655,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/DC042816-690x749-1461851378.jpg",
+         "id" : "r85",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 43438,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "2984.38300006092",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2974.38300006092,
+            "s_time" : 2671.98299989104,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/05_02_16-400.jpg",
+         "id" : "r86",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 16079,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "2982.18799987808",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2974.18799987808,
+            "s_time" : 2675.13300012797,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/04_25_16-400.jpg",
+         "id" : "r87",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 102241,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "3011.6270002909",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3001.6270002909,
+            "s_time" : 2684.44100022316,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/04_18_16-400.jpg",
+         "id" : "r88",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 72590,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_76",
+            "receivedTime" : "3009.69700003043",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2999.69700003043,
+            "s_time" : 2685.1889998652,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/04_11_16-400.jpg",
+         "id" : "r89",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 43977,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_77",
+            "receivedTime" : "3006.19400013238",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2996.19400013238,
+            "s_time" : 2685.91900030151,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/05/160502_r28090-320x240-1461250951.jpg",
+         "id" : "r90",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 19839,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_78",
+            "receivedTime" : "2986.89799988642",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2976.89799988642,
+            "s_time" : 2686.67600024492,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://plugin.mediavoice.com/plugin.js",
+         "id" : "r100",
+         "comps" : [
+            {
+               "s_time" : 3075.51700016484,
+               "time" : 173.45699993893,
+               "type" : 3,
+               "id" : "comp_294",
+               "e_time" : 3248.97400010377
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 274625,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_79",
+            "receivedTime" : "3014.11500014365",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3005.11500014365,
+            "s_time" : 2687.82099988312,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/05/160502_r28075-320-240.jpg",
+         "id" : "r91",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 13338,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_80",
+            "receivedTime" : "3005.64800016582",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2997.64800016582,
+            "s_time" : 2689.47400012985,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/05/160502_r28098web-320x240-1461356507.jpg",
+         "id" : "r92",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 18765,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_81",
+            "receivedTime" : "3008.33499990404",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2999.33499990404,
+            "s_time" : 2691.7179999873,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.newyorker.com/wp-content/uploads/2016/04/Martin-Klimas-UntitledVCS-31-1040x450-1461258494.jpg",
+         "id" : "r93",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 97675,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_82",
+            "receivedTime" : "3011.99100026861",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3002.99100026861,
+            "s_time" : 2692.44199991226,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_80,q_80,w_146/v1461257368/thenewyorker_notes-from-all-over-dead-ringer.jpg",
+         "id" : "r94",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 3745,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_83",
+            "receivedTime" : "3009.06299985945",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3000.06299985945,
+            "s_time" : 2693.10799986124,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_80,q_80,w_146/v1461681956/thenewyorker_a-reporter-at-large-from-syria-to-sweden.jpg",
+         "id" : "r95",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 6663,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_84",
+            "receivedTime" : "3009.36699984595",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3001.36699984595,
+            "s_time" : 2694.08999988809,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_80,q_80,w_146/v1461342506/thenewyorker_the-cartoon-lounge-trump.jpg",
+         "id" : "r96",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 5264,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_85",
+            "receivedTime" : "3011.13500026986",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3004.13500026986,
+            "s_time" : 2699.01400012895,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://subscribe.condenet.com/images_covers/cover_newyorker_80.jpg",
+         "id" : "r101",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 4335,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_86",
+            "receivedTime" : "3012.87700003013",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3001.87700003013,
+            "s_time" : 2708.32700002939,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://subscribe.newyorker.com/circulation/shared/ads/150x110_TNY_ToteMan_Header_CallOut.jpg",
+         "id" : "r102",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 18491,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_87",
+            "receivedTime" : "3013.32100015134",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3002.32100015134,
+            "s_time" : 2709.80300009251,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/wp-content/assets/dist/img/cn-ecom/failsafe/2/desktop_rollover_300x200.png",
+         "id" : "r97",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 364,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 53,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_88",
+            "receivedTime" : "3015.73099987581",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2962.73099987581,
+            "s_time" : 2703.78099987283,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/wp-content/assets/dist/img/cn-ecom/failsafe/2/desktop_contentriver_1020x130.png",
+         "id" : "r98",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 369,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 60,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_89",
+            "receivedTime" : "3016.59600017592",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2956.59600017592,
+            "s_time" : 2704.73199989647,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/wp-content/assets/dist/img/cn-ecom/failsafe/2/desktop_footer_1020x180.png",
+         "id" : "r99",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 363,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_90",
+            "receivedTime" : "3017.44699990377",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2956.44699990377,
+            "s_time" : 2707.1799999103,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://subscribe.newyorker.com/circulation/shared/ads/300x200_TNY_ToteMan_Rollover_Mar16.jpg",
+         "id" : "r105",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 24466,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_91",
+            "receivedTime" : "3687.85500014201",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3687.85500014201,
+            "s_time" : 2898.23799999431,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=3&utmn=60066958&utmhn=modified.testbed.localhost&utme=8(3!User*JoinedOn)9(3!A*0)11(3!1*1)&utmcs=UTF-8&utmsr=1024x768&utmvp=568x148&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=-&utmdt=NYPR%20On-Demand%20Radio&utmhid=656256498&utmr=0&utmp=%2Fwww.wn",
+         "id" : "r103",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_92",
+            "receivedTime" : "3688.49600013345",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3643.49600013345,
+            "s_time" : 2863.30399988219,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=4&utmn=2062093851&utmhn=modified.testbed.localhost&utme=8(3!User*JoinedOn)9(3!A*0)11(3!1*1)&utmcs=UTF-8&utmsr=1024x768&utmvp=568x148&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=-&utmdt=NYPR%20On-Demand%20Radio&utmhid=656256498&utmr=0&utmp=%2Fwww.",
+         "id" : "r104",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_93",
+            "receivedTime" : "3688.98699991405",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3643.98699991405,
+            "s_time" : 2877.24100006744,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://subscribe.newyorker.com/circulation/shared/ads/1020x130.png",
+         "id" : "r106",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 43896,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_94",
+            "receivedTime" : "3722.18100028113",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3722.18100028113,
+            "s_time" : 2930.87999988347,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://subscribe.newyorker.com/circulation/shared/ads/1020x180_TNY_Airplane_Desktop_Footer_Mar16.jpg",
+         "id" : "r107",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 66968,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_95",
+            "receivedTime" : "3722.87800023332",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3722.87800023332,
+            "s_time" : 2933.45500016585,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://platform.twitter.com/widgets.js",
+         "id" : "r108",
+         "comps" : [
+            {
+               "s_time" : 3746.16800015792,
+               "time" : 64.27499977872,
+               "type" : 2,
+               "id" : "comp_482",
+               "e_time" : 3810.44299993664
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 95204,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_96",
+            "receivedTime" : "3723.54099992663",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3723.54099992663,
+            "s_time" : 2969.29799998179,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/js/plusone.js",
+         "id" : "r109",
+         "comps" : [
+            {
+               "s_time" : 3810.50499994308,
+               "time" : 23.1870003044601,
+               "type" : 2,
+               "id" : "comp_486",
+               "e_time" : 3833.69200024754
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 39465,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_97",
+            "receivedTime" : "3724.21499993652",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3722.21499993652,
+            "s_time" : 2984.54899992794,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.parsely.com/p.js",
+         "id" : "r110",
+         "comps" : [
+            {
+               "s_time" : 3833.72400002554,
+               "time" : 5.36500010638974,
+               "type" : 2,
+               "id" : "comp_489",
+               "e_time" : 3839.08900013193
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 6593,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_98",
+            "receivedTime" : "3724.67900021002",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3724.67900021002,
+            "s_time" : 3008.12399992719,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/r?c2=6035094&d.c=gif&d.o=conde-newyorker&d.x=243565831&d.t=page&d.u=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com%2F",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 43,
+            "dns" : 46,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 136,
+            "sslEnd" : -1,
+            "connectEnd" : 91,
+            "connectStart" : 0,
+            "id" : "download_99",
+            "receivedTime" : "3737.07799986005",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3601.07799986005,
+            "s_time" : 3015.23400004953,
+            "sendEnd" : 91,
+            "sendStart" : 91,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_380,q_80,w_670/v1461859325/thenewyorker_on-impact.jpg",
+         "id" : "r112",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 46480,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_100",
+            "receivedTime" : "3839.64999997988",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3839.64999997988,
+            "s_time" : 3489.21799985692,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/wp-content/assets/js/account/loading.js",
+         "id" : "r111",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 329,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_101",
+            "receivedTime" : "3840.46400012448",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3795.46400012448,
+            "s_time" : 3475.56299995631,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://assets.adobedtm.com/6372cf21ef88ee60bc2977a4898dcb5c7945a212/scripts/satellite-55119a333032300017100400.js",
+         "id" : "r113",
+         "comps" : [
+            {
+               "s_time" : 3960.32200008631,
+               "time" : 0.399999786170156,
+               "type" : 2,
+               "id" : "comp_512",
+               "e_time" : 3960.72199987248
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 784,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_102",
+            "receivedTime" : "3840.86300013587",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3840.86300013587,
+            "s_time" : 3523.53399991989,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://assets.adobedtm.com/6372cf21ef88ee60bc2977a4898dcb5c7945a212/scripts/satellite-563139b064746d6a96002cde.js",
+         "id" : "r114",
+         "comps" : [
+            {
+               "s_time" : 3961.18699992076,
+               "time" : 0.609999988219897,
+               "type" : 2,
+               "id" : "comp_516",
+               "e_time" : 3961.79699990898
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 8260,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_103",
+            "receivedTime" : "3841.25200007111",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3841.25200007111,
+            "s_time" : 3524.58800002933,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "id" : "r118",
+         "comps" : [
+            {
+               "s_time" : 3930.45599991456,
+               "time" : 29.1960001923103,
+               "type" : 2,
+               "id" : "comp_508",
+               "e_time" : 3959.65200010687
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 29795,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_104",
+            "receivedTime" : "3841.65900014341",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3841.65900014341,
+            "s_time" : 3694.01400024071,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/svc/module/most-popular",
+         "id" : "r115",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 313,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_105",
+            "receivedTime" : "3858.02299994975",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3813.02299994975,
+            "s_time" : 3682.33300000429,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/svc/module/promotions?1",
+         "id" : "r116",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 311,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_106",
+            "receivedTime" : "3859.9169999361",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3813.9169999361,
+            "s_time" : 3684.14500029758,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/svc/module/strongbox",
+         "id" : "r117",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 47,
+            "len" : 310,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 48,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_107",
+            "receivedTime" : "3861.05700023472",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3813.05700023472,
+            "s_time" : 3685.12800009921,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.B6-uWxMpkpU.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCPjYBGaDlZ3GsBQJ7mIKTlPnB__Sg/cb=gapi.loaded_0",
+         "id" : "r119",
+         "comps" : [
+            {
+               "s_time" : 3963.10599986464,
+               "time" : 33.3950002677698,
+               "type" : 2,
+               "id" : "comp_520",
+               "e_time" : 3996.50100013241
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 118051,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_108",
+            "receivedTime" : "3861.87200015411",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3860.87200015411,
+            "s_time" : 3832.95800024644,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://srv-2016-04-29-17.config.parsely.com/config/newyorker.com",
+         "id" : "r120",
+         "comps" : [
+            {
+               "s_time" : 4083.18499987945,
+               "time" : 1.11500034108985,
+               "type" : 2,
+               "id" : "comp_537",
+               "e_time" : 4084.30000022054
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 54,
+            "len" : 424,
+            "dns" : 45,
+            "dnsEnd" : 45,
+            "receiveHeadersEnd" : 151,
+            "sslEnd" : -1,
+            "connectEnd" : 97,
+            "connectStart" : 0,
+            "id" : "download_109",
+            "receivedTime" : "4083.01299996674",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3932.01299996674,
+            "s_time" : 3930.62400026247,
+            "sendEnd" : 97,
+            "sendStart" : 97,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.parsely.com/code/ptrack-v0.4.5-engaged-time.js",
+         "id" : "r124",
+         "comps" : [
+            {
+               "s_time" : 4106.96000000462,
+               "time" : 22.9629999957997,
+               "type" : 2,
+               "id" : "comp_542",
+               "e_time" : 4129.92300000042
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 28842,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_110",
+            "receivedTime" : "4106.72699986026",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4106.72699986026,
+            "s_time" : 4086.15599991754,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ping.chartbeat.net/ping?h=beta.wnyc.org&p=%2Fwww.wnyc.org%2Fwidgets%2Fondemand_player%2Fthenewyorker%2Findex.html&u=Sjii2BiAyhdCPc_i2&d=modified.testbed.localhost&g=4030&n=0&f=00001&c=0&x=0&m=0&y=148&o=568&w=148&j=45&R=1&W=0&I=0&E=0&e=0&v=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorke",
+         "id" : "r121",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 54,
+            "len" : 43,
+            "dns" : 45,
+            "dnsEnd" : 45,
+            "receiveHeadersEnd" : 151,
+            "sslEnd" : -1,
+            "connectEnd" : 97,
+            "connectStart" : 0,
+            "id" : "download_111",
+            "receivedTime" : "4137.27799989283",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3986.27799989283,
+            "s_time" : 3959.75799998268,
+            "sendEnd" : 97,
+            "sendStart" : 97,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn-akamai.mookie1.com/LB/LightningBolt.js",
+         "id" : "r122",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 26450,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_112",
+            "receivedTime" : "4149.33700021356",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4149.33700021356,
+            "s_time" : 4138.0529999733,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://cdn-akamai.mookie1.com/html/x71.html",
+         "id" : "r129",
+         "comps" : [
+            {
+               "s_time" : 4383.45499988645,
+               "time" : 0.326000154019312,
+               "id" : "r129_c1",
+               "type" : "evalhtml",
+               "e_time" : 4383.78100004047
+            },
+            {
+               "s_time" : 4435.11900026351,
+               "time" : 14.4229996949498,
+               "type" : "evalhtml",
+               "id" : "r129_c2",
+               "e_time" : 4449.54199995846
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 3565,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_113",
+            "receivedTime" : "4167.09299990907",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4167.09299990907,
+            "s_time" : 4159.51499994844,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://srv-2016-04-29-17.pixel.parsely.com/plogger/?rand=1461950586746&idsite=newyorker.com&url=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com%2F&urlref=&screen=1024x768%7C1024x768%7C24&data=%7B%22parsely_uuid%22%3A%2217967708-f79d-4e3c-b90e-98293d8d89fb%22%2C%22parsely_site_uuid%22%3A%",
+         "id" : "r125",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 52,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 52,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_114",
+            "receivedTime" : "4393.69200030342",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4341.69200030342,
+            "s_time" : 4129.88999998197,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.parsely.com/customizations/newyorker.com/moat_no_js_v1.js",
+         "id" : "r127",
+         "comps" : [
+            {
+               "s_time" : 4400.80500021577,
+               "time" : 8.79199989140034,
+               "type" : 2,
+               "id" : "comp_642",
+               "e_time" : 4409.59700010717
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 622,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_115",
+            "receivedTime" : "4394.09400010481",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4349.09400010481,
+            "s_time" : 4144.64699989185,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://event.condenastdigital.com/images/event.gif?e0_id=modified.testbed.localhost%2Fnot_blocked_pageview&e0_ec=adblock&e0_env=dart&e0_sc=tes&e0_tit=Chrome%2C31.0.1626.0&e0_url=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.newyorker.com%2F&_=1461950584100",
+         "id" : "r126",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 83,
+            "len" : 43,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 190,
+            "sslEnd" : -1,
+            "connectEnd" : 107,
+            "connectStart" : 0,
+            "id" : "download_116",
+            "receivedTime" : "4394.80399992317",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 4204.80399992317,
+            "s_time" : 4141.72499999404,
+            "sendEnd" : 107,
+            "sendStart" : 107,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",
+         "id" : "r131",
+         "comps" : [
+            {
+               "s_time" : 4410.26500007138,
+               "time" : 24.8540001921301,
+               "type" : 1,
+               "id" : "comp_646",
+               "e_time" : 4435.11900026351
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 92629,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_117",
+            "receivedTime" : "4410.14000028372",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4410.14000028372,
+            "s_time" : 4383.78100004047,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.map",
+         "id" : "r133",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 58,
+            "len" : 138746,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 58,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_118",
+            "receivedTime" : "4532.62400021777",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4474.62400021777,
+            "s_time" : 4461.43400017172,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/json"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://t.mookie1.com/t/v1/imp?guid=11458846302043185488",
+         "id" : "r132",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 51,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_119",
+            "receivedTime" : "4550.06200028583",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 4499.06200028583,
+            "s_time" : 4494.41300006583,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2623364009033728&output=json_html&callback=callbackProxy&impl=fifs&json_a=1&eid=108809080&sc=0&sfv=1-0-2&iu_parts=3379%2Cnewyorker.dart%2Chome&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F2%2C%2F0%2F1%2F2%2C%2F0%2F1%2F2&prev_iu_szs=72",
+         "id" : "r130",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 412,
+            "len" : 111784,
+            "dns" : 45,
+            "dnsEnd" : 45,
+            "receiveHeadersEnd" : 552,
+            "sslEnd" : 140,
+            "connectEnd" : 140,
+            "connectStart" : 0,
+            "id" : "download_120",
+            "receivedTime" : "4945.92199986801",
+            "sslStart" : 89,
+            "dnsStart" : 0,
+            "receiveLast" : 4393.92199986801,
+            "s_time" : 4383.5539999418,
+            "sendEnd" : 140,
+            "sendStart" : 140,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://z.moatads.com/condenastdfp9588492144/moatad.js#moatClientLevel1=1013097415&moatClientLevel2=433777855&moatClientLevel3=1464229855&moatClientLevel4=100645222495&moatClientSlicer1=14225335&moatClientSlicer2=22198735&zMoatPS=&zMoatKW=home,nonsubscriber,nyrHPbottom,nyrHPtop,top&zMoatPT=Homepage&",
+         "id" : "r136",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 155111,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_121",
+            "receivedTime" : "5257.42499995977",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5252.42499995977,
+            "s_time" : 4960.81000007689,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/osd.js",
+         "id" : "r137",
+         "comps" : [
+            {
+               "s_time" : 5723.5300000757,
+               "time" : 41.8119998648699,
+               "type" : null,
+               "id" : "comp_782",
+               "e_time" : 5765.34199994057
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 62045,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_122",
+            "receivedTime" : "5256.98699988425",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5255.98699988425,
+            "s_time" : 4965.77800018713,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=17560287&PluID=0&w=970&h=250&ncu=$$https://adclick.g.doubleclick.net/aclk?sa=L&ai=BioC14ZgjV_74DZGN3QH1q4XYCYff8PkIAAAAEAEgt-O4IDgAWN_wsPf2AmDJhreLwKTYD7IBGm1vZGlmaWVkLnRlc3RiZWQubG9jYWxob3N0ugEJZ2ZwX2ltYWdlyAEJ2gE0aHR0cDovL21vZGlmaW",
+         "id" : "r135",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 57,
+            "len" : 2284,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 156,
+            "sslEnd" : -1,
+            "connectEnd" : 99,
+            "connectStart" : 0,
+            "id" : "download_123",
+            "receivedTime" : "5468.34200015292",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 5312.34200015292,
+            "s_time" : 4959.47400014848,
+            "sendEnd" : 99,
+            "sendStart" : 99,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=17560357&PluID=0&w=300&h=250&ncu=$$https://adclick.g.doubleclick.net/aclk?sa=L&ai=BkKVz4ZgjV4D5DZGN3QH1q4XYCYff8PkIAAAAEAEgt-O4IDgAWN_hsPf2AmDJhreLwKTYD7IBGm1vZGlmaWVkLnRlc3RiZWQubG9jYWxob3N0ugEJZ2ZwX2ltYWdlyAEJ2gE0aHR0cDovL21vZGlmaW",
+         "id" : "r138",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 55,
+            "len" : 2286,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 56,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_124",
+            "receivedTime" : "5589.8870001547",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5533.8870001547,
+            "s_time" : 5173.21600019932,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/simgad/10678405658940621290",
+         "id" : "r139",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 13615,
+            "dns" : 1,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 151,
+            "sslEnd" : 103,
+            "connectEnd" : 104,
+            "connectStart" : 0,
+            "id" : "download_125",
+            "receivedTime" : "5775.77000018209",
+            "sslStart" : 45,
+            "dnsStart" : 0,
+            "receiveLast" : 5624.77000018209,
+            "s_time" : 5189.05600020662,
+            "sendEnd" : 105,
+            "sendStart" : 104,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ds.serving-sys.com/BurstingRes///Site-30841/Type-0/aed4a8b1-5d1d-48bc-ba35-ab4324f473d9.jpg",
+         "id" : "r146",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 57162,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_126",
+            "receivedTime" : "5820.3569999896",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5819.3569999896,
+            "s_time" : 5592.58399996907,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ds.serving-sys.com/BurstingRes///Site-30841/Type-0/b04649c0-4e59-4d85-9a2b-a077ca40e443.jpg",
+         "id" : "r144",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 107428,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 136,
+            "sslEnd" : -1,
+            "connectEnd" : 91,
+            "connectStart" : 0,
+            "id" : "download_127",
+            "receivedTime" : "5830.78199997544",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 5694.78199997544,
+            "s_time" : 5471.12399991602,
+            "sendEnd" : 91,
+            "sendStart" : 91,
+            "type" : "image/jpeg"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_58"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_66"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_69"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_183"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_186"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_189"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_192"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_197"
+      },
+      {
+         "a2" : "comp_7",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_66",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_58"
+      },
+      {
+         "a2" : "comp_69",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_66"
+      },
+      {
+         "a2" : "comp_183",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_164"
+      },
+      {
+         "a2" : "comp_186",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_183"
+      },
+      {
+         "a2" : "comp_189",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_186"
+      },
+      {
+         "a2" : "comp_192",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_189"
+      },
+      {
+         "a2" : "comp_197",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_192"
+      },
+      {
+         "a2" : "r29_c2",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_164"
+      },
+      {
+         "a2" : "r129_c2",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_646"
+      },
+      {
+         "a2" : "download_127",
+         "time" : 2770.33700002358,
+         "id" : "dep20",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_126",
+         "time" : 2891.79700007663,
+         "id" : "dep21",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_125",
+         "time" : 2488.26900031418,
+         "id" : "dep22",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_124",
+         "time" : 2472.42900030688,
+         "id" : "dep23",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_124",
+         "time" : 2472.42900030688,
+         "id" : "dep24",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_123",
+         "time" : 2258.68700025604,
+         "id" : "dep25",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_122",
+         "time" : 2264.99100029469,
+         "id" : "dep26",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_121",
+         "time" : 2260.02300018445,
+         "id" : "dep27",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_121",
+         "time" : 2260.02300018445,
+         "id" : "dep28",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_120",
+         "time" : 1682.76700004936,
+         "id" : "dep29",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_120",
+         "time" : -1,
+         "id" : "dep30",
+         "a1" : "r129_c1"
+      },
+      {
+         "a2" : "download_120",
+         "time" : 1682.76700004936,
+         "id" : "dep31",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_119",
+         "time" : 1793.62600017339,
+         "id" : "dep32",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_118",
+         "time" : 1760.64700027928,
+         "id" : "dep33",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_117",
+         "time" : -1,
+         "id" : "dep34",
+         "a1" : "r129_c1"
+      },
+      {
+         "a2" : "download_117",
+         "time" : 1682.99400014803,
+         "id" : "dep35",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_116",
+         "time" : 1440.9380001016,
+         "id" : "dep36",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_115",
+         "time" : 1443.85999999941,
+         "id" : "dep37",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_114",
+         "time" : 1429.10300008953,
+         "id" : "dep38",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_113",
+         "time" : 1458.728000056,
+         "id" : "dep39",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_112",
+         "time" : 1437.26600008086,
+         "id" : "dep40",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_111",
+         "time" : 1258.97100009024,
+         "id" : "dep41",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_110",
+         "time" : 1385.3690000251,
+         "id" : "dep42",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_109",
+         "time" : 1229.83700037003,
+         "id" : "dep43",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_108",
+         "time" : 1132.171000354,
+         "id" : "dep44",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 984.34100020677,
+         "id" : "dep45",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 983.35800040514,
+         "id" : "dep46",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 981.54600011185,
+         "id" : "dep47",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 993.22700034827,
+         "id" : "dep48",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 823.80100013689,
+         "id" : "dep49",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 822.74700002745,
+         "id" : "dep50",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 774.77600006387,
+         "id" : "dep51",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 788.43099996448,
+         "id" : "dep52",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 314.44700015709,
+         "id" : "dep53",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 307.33700003475,
+         "id" : "dep54",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 283.7620000355,
+         "id" : "dep55",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 268.51100008935,
+         "id" : "dep56",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 232.66800027341,
+         "id" : "dep57",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 230.09299999103,
+         "id" : "dep58",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 176.454000175,
+         "id" : "dep59",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 162.51699998975,
+         "id" : "dep60",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 197.45100010187,
+         "id" : "dep61",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 6.39300001786023,
+         "id" : "dep62",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 3.94500000403013,
+         "id" : "dep63",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 2.99399998039007,
+         "id" : "dep64",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 9.01600020007027,
+         "id" : "dep65",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 7.54000013695031,
+         "id" : "dep66",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_85",
+         "time" : -1,
+         "id" : "dep67",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 0.788999721410164,
+         "id" : "dep68",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_83",
+         "time" : -1,
+         "id" : "dep69",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 156.7029999569,
+         "id" : "dep70",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 155.97900003194,
+         "id" : "dep71",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 153.73500017449,
+         "id" : "dep72",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 152.08199992776,
+         "id" : "dep73",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 150.93700028956,
+         "id" : "dep74",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 150.18000034615,
+         "id" : "dep75",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 149.44999990984,
+         "id" : "dep76",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 148.7020002678,
+         "id" : "dep77",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 139.39400017261,
+         "id" : "dep78",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 136.24399993568,
+         "id" : "dep79",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 135.13999991119,
+         "id" : "dep80",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 134.25899995491,
+         "id" : "dep81",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 133.45400011167,
+         "id" : "dep82",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 132.61800026521,
+         "id" : "dep83",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 131.75400020554,
+         "id" : "dep84",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 130.80599997192,
+         "id" : "dep85",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 129.91899996996,
+         "id" : "dep86",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_65",
+         "time" : -1,
+         "id" : "dep87",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 116.23500008136,
+         "id" : "dep88",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 115.67900003865,
+         "id" : "dep89",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 115.14199990779,
+         "id" : "dep90",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 114.56099990755,
+         "id" : "dep91",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 114.00800012052,
+         "id" : "dep92",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 113.42600034549,
+         "id" : "dep93",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 112.89700027555,
+         "id" : "dep94",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 112.30299994349,
+         "id" : "dep95",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 111.63200018927,
+         "id" : "dep96",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_55",
+         "time" : -1,
+         "id" : "dep97",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 114.40999992191,
+         "id" : "dep98",
+         "a1" : "comp_158"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 50.5969999358099,
+         "id" : "dep99",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 50.5969999358099,
+         "id" : "dep100",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_52",
+         "time" : -1,
+         "id" : "dep101",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 427.88799991832,
+         "id" : "dep102",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 325.67099994048,
+         "id" : "dep103",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 427.60600009933,
+         "id" : "dep104",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 72.1119996160298,
+         "id" : "dep105",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 174.04699977488,
+         "id" : "dep106",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 75.7889999076699,
+         "id" : "dep107",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 177.72400006652,
+         "id" : "dep108",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 239.25899993628,
+         "id" : "dep109",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 341.19400009513,
+         "id" : "dep110",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 239.00799965486,
+         "id" : "dep111",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 340.94299981371,
+         "id" : "dep112",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 181.26499978826,
+         "id" : "dep113",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 79.3299996294099,
+         "id" : "dep114",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 181.26499978826,
+         "id" : "dep115",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 6.91899983211988,
+         "id" : "dep116",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 108.85399999097,
+         "id" : "dep117",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 108.25499985367,
+         "id" : "dep118",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 6.3199996948199,
+         "id" : "dep119",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 108.25499985367,
+         "id" : "dep120",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 105.16900010407,
+         "id" : "dep121",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 3.23399994521992,
+         "id" : "dep122",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 105.16900010407,
+         "id" : "dep123",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 1.53599958866994,
+         "id" : "dep124",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 103.47099974752,
+         "id" : "dep125",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 0.937999691809864,
+         "id" : "dep126",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 102.87299985066,
+         "id" : "dep127",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 101.78000014276,
+         "id" : "dep128",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 101.78000014276,
+         "id" : "dep129",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 15.6899997964499,
+         "id" : "dep130",
+         "a1" : "r29_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 117.6249999553,
+         "id" : "dep131",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 45.6420001573899,
+         "id" : "dep132",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 42.87400003523,
+         "id" : "dep133",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 0.157000031329972,
+         "id" : "dep134",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_35",
+         "time" : -1,
+         "id" : "dep135",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 9.2070000246199,
+         "id" : "dep136",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 7.64299975707991,
+         "id" : "dep137",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_32",
+         "time" : -1,
+         "id" : "dep138",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 1.53200002388007,
+         "id" : "dep139",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_31",
+         "time" : -1,
+         "id" : "dep140",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 2.56899977102989,
+         "id" : "dep141",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_30",
+         "time" : -1,
+         "id" : "dep142",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 618.666000198577,
+         "id" : "dep143",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 241.559999994937,
+         "id" : "dep144",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 240.991000086067,
+         "id" : "dep145",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 240.193999838087,
+         "id" : "dep146",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 239.229999948297,
+         "id" : "dep147",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 354.429000057277,
+         "id" : "dep148",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 349.495999980717,
+         "id" : "dep149",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 338.996000122277,
+         "id" : "dep150",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 238.442999776457,
+         "id" : "dep151",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 300.726999994367,
+         "id" : "dep152",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 292.481999844317,
+         "id" : "dep153",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 237.257000058887,
+         "id" : "dep154",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 276.494000107047,
+         "id" : "dep155",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 275.218000169847,
+         "id" : "dep156",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 258.200999815017,
+         "id" : "dep157",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 236.965999938547,
+         "id" : "dep158",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 235.892000142487,
+         "id" : "dep159",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 181.735000107437,
+         "id" : "dep160",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 130.617999937385,
+         "id" : "dep161",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 73.964999988675,
+         "id" : "dep162",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 73.383999988437,
+         "id" : "dep163",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 72.829000186175,
+         "id" : "dep164",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 68.12800001353,
+         "id" : "dep165",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 68.12800001353,
+         "id" : "dep166",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep167",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 3.9999997243285,
+         "id" : "dep168",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 3.15299956128,
+         "id" : "dep169",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 2.4309996515513,
+         "id" : "dep170",
+         "a1" : "r1_c1"
+      }
+   ]
+}

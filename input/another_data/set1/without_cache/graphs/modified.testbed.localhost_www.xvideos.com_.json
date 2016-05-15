@@ -1,0 +1,281 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.xvideos.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.xvideos.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 83.8850000873208,
+               "time" : 9.8790000192821,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 93.7640001066029
+            },
+            {
+               "s_time" : 340.57499980554,
+               "time" : -3434896508.246,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3434896167.671
+            },
+            {
+               "s_time" : 346.97899967432,
+               "time" : -3434896514.65,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3434896167.671
+            },
+            {
+               "s_time" : 520.564999897033,
+               "time" : -3434896688.236,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3434896167.671
+            },
+            {
+               "s_time" : 521.768999751657,
+               "time" : -3434896689.44,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3434896167.671
+            },
+            {
+               "s_time" : 561.151999980211,
+               "time" : -3434896728.823,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3434896167.671
+            },
+            {
+               "s_time" : 561.359999701381,
+               "time" : 3.72700020670902,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 565.08699990809
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 50955,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "127.700999844819",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 82.7009998448193,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static-hw.xvideos.com/v3/css/default/front.css%3Fv=c4b1ebfeb86.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 306.036999914795,
+               "time" : 49.548999872059,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 355.585999786854
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 167098,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 47,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "305.753000080585",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 258.753000080585,
+            "s_time" : 85.7770000584424,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static-hw.xvideos.com/v3/js/static/test/include.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 340.217999648303,
+               "time" : 0.357000157236996,
+               "type" : 1,
+               "id" : "comp_3",
+               "e_time" : 340.57499980554
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 20,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 52,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "140.602000057697",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 88.6020000576973,
+            "s_time" : 86.7590000852942,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static-hw.xvideos.com/v3/js/skins/min/default.header.static.js%3Fv=244a2666fb0",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 341.049999929965,
+               "time" : 5.928999744355,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 346.97899967432
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 50,
+            "len" : 18743,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 52,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "186.828000005335",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 134.828000005335,
+            "s_time" : 87.5809998251498,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/img100.xvideos.com/videos/thumbs/xvideos.gif",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 1386,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 51,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "146.385000087321",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 95.3850000873208,
+            "s_time" : 93.7640001066029,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_53"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_54"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_59"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_60"
+      },
+      {
+         "a2" : "comp_3",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 9.8790000192821,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 3.695999737829,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.8739999979734,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.89199997112159,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      }
+   ]
+}

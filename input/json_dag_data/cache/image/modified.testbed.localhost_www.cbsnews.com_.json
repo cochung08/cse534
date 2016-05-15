@@ -1,0 +1,3451 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.cbsnews.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.cbsnews.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 40.3990000486374,
+               "time" : 2.00799992308021,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 42.4069999717176
+            },
+            {
+               "s_time" : 65.586999990046,
+               "time" : 95.690999994986,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 161.277999985032
+            },
+            {
+               "s_time" : 161.655000061728,
+               "time" : 479.033999959938,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 640.689000021666
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 274499,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "39.9730000644922",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 36.9730000644922,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.cbsnews.com/hzk1prl.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 48.8129999721423,
+               "time" : 16.7740000179037,
+               "type" : 1,
+               "id" : "comp_0",
+               "e_time" : 65.586999990046
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 20430,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "48.5630000475794",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 43.5630000475794,
+            "s_time" : 41.7349999770522,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.desktop.css%3Fv=3632a32c34fe4cc0d47cb91d54f9954e0b7a439d.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 85.103000048548,
+               "time" : 46.944999950938,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 132.047999999486
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 354564,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "84.8890000488609",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 77.8890000488609,
+            "s_time" : 42.1120000537485,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.cbsnews.com/bundles/cbsnewscore/js-build/main.js%3Fv=3632a32c34fe4cc0d47cb91d54f9954e0b7a439d",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 142.114000045694,
+               "time" : 19.541000016034,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 161.655000061728
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 24916,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "80.3790000500157",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 72.3790000500157,
+            "s_time" : 42.4069999717176,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/10/76e2ef4a-7748-44d5-89d4-63d23e174d11/thumbnail/620x350/b598f1238e6914769c81519663974db3/ap793580317154.jpg",
+         "id" : "r7",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 20352,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "353.66999998223",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 339.66999998223,
+            "s_time" : 132.709000026807,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/6236e494-25c2-4146-9d6a-7d67aa266184/thumbnail/220x140/4b4b999815917cb0aa4914a9c480f4c0/dagatafallujahen.png",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 67191,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "360.189000028186",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 343.189000028186,
+            "s_time" : 132.87400000263,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/8732576b-3bb1-42b7-b1bb-f04e0fad2fe8/thumbnail/220x140/b7771f9600cfc07c0aa26d6a7289641e/prince-harry-1.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 3182,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "358.225999982096",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 339.225999982096,
+            "s_time" : 133.132999995723,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/6c05a50d-d2da-4f7a-8a22-6ee2239b8e40/thumbnail/220x140/7ca06909110a8212373350bfe47e1e1c/dagataen0509.png",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 54466,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "365.125000011176",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 346.125000011176,
+            "s_time" : 132.986000040546,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/05e3e201-0acc-4b4c-8f5b-cc5900d2fa38/thumbnail/220x140/77d719e3c18102e0a7f9713ee8a0af04/en0509morganinvictus2.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 9620,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "359.656000044197",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 336.656000044197,
+            "s_time" : 133.285999996588,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/07/3b29c646-d205-4632-bcdd-427a0177137c/thumbnail/220x140/4e42949d37d402f4e5ae0c0c93e4e582/oklahomamain.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 11138,
+            "dns" : 0,
+            "dnsEnd" : 9,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "359.887000056915",
+            "sslStart" : -1,
+            "dnsStart" : 9,
+            "receiveLast" : 336.887000056915,
+            "s_time" : 133.382000029087,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/07/4d9c0f46-d3ad-4ccc-ae79-d33bcc0b041d/thumbnail/220x140/63f3ccfaf19fcbccdd6055d3afd867c4/russiamain.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 10082,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "395.294000045396",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 364.294000045396,
+            "s_time" : 133.570000063628,
+            "sendEnd" : 17,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/07/e1d88d12-0d76-49db-a183-db2b3b8eb450/thumbnail/220x140/d2b0ec02d376c92435f838ce1e1a86a4/yezididsmain.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 9035,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 32,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "395.602000062354",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 363.602000062354,
+            "s_time" : 133.750000037253,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/08/4e7d7a72-2f8f-4f65-8423-c903cc87d23d/thumbnail/220x140/e1da50eff2ddbc9255393dbb22cfb3cc/2016-05-08t012422z1464940805s1aetcttzyacrtrmadp3usa-election-trump.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 8256,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "409.099000040442",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 374.099000040442,
+            "s_time" : 133.884000009857,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/03/01/5b7cf696-455e-4ccc-bea3-cd0d85a24549/thumbnail/220x140g2/92f709950b7ad11a0fd7dc2c82a4a40e/clinton-sanders.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 27997,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "409.630000009201",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 373.630000009201,
+            "s_time" : 134.00099996943,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/e1759721-4ef6-47fa-9e81-3c45ec1b6af1/thumbnail/220x140/f69cc9383743f8478261688284a8dc04/2016-04-28t174954z1100050067wasec4s10p101rtrmadp3usa-congress.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4410,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "600.763000082225",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 577.763000082225,
+            "s_time" : 148.061000043526,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/06/29ff0f8e-7a96-448a-b07f-4792c70b47dd/thumbnail/220x140/b5beefd30e704b3d901dad049786fcee/promoslide1.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 9961,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "601.115999976173",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 583.115999976173,
+            "s_time" : 153.976000030525,
+            "sendEnd" : 10,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2014/05/21/0a4a7c94-448b-4c01-bee3-a8f09a81920b/thumbnail/220x140/62e20633eca8a649220657d30690de3c/economy-money-puzzle-flag.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 8199,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "602.385999984108",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 581.385999984108,
+            "s_time" : 158.603999996558,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/32b523bf-cd7c-4d48-8b5e-5a6cfa6a9012/thumbnail/220x140/58cd9b7c0f87534d2ec99f7f056a80b5/0509ctmvancleavekickedoffflight1060501640x360.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 4667,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "602.567000081763",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 582.567000081763,
+            "s_time" : 159.585000015795,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/64d34370-795c-4893-9e7e-edf1c03e707d/thumbnail/220x140/b2875291f32374c2d36ad0d126abdc37/axlerodfdapainkillers.png",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 49996,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "603.494000039063",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 583.494000039063,
+            "s_time" : 161.277999985032,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/ffbb5887-bd7a-4e11-bc9c-0e722a8ff45f/thumbnail/220x140/0944637f8ced4f0658fd936e4ba316d3/gettyimages-477063682.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 9677,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "603.307000012137",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 584.307000012137,
+            "s_time" : 162.394999992102,
+            "sendEnd" : 13,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/07/fb60fd5b-004e-45f9-b634-dd145e22957a/thumbnail/220x140/090941f52e9f85cd13122d8d81b9e2c4/keith-urban-at-microphone-promo.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 7741,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "604.199000052176",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 587.199000052176,
+            "s_time" : 167.752000037581,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/06/25bb9331-c360-4fbd-96f9-8329f1f122ee/thumbnail/220x140/149303e0750fa5fd2dee2006c67d685f/nemetz770.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 6827,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "604.352000053041",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 591.352000053041,
+            "s_time" : 172.502000001259,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/06/eddfb53b-8cee-45e5-a9e6-e9790992c533/thumbnail/220x140/167fa6583739ee44426bf4d4fa011889/petrified-forest-national-park-scene-promo.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 12755,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "605.267000035383",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 591.267000035383,
+            "s_time" : 173.830999992788,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/08/8d77c16d-0b3b-4f43-b0f7-a79fdeb04fcc/thumbnail/220x140/597d5817a28578d20cb76aa1edac7b78/sunmoanimateddogfilm05071060298640x360.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 9485,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "605.825999984518",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 593.825999984518,
+            "s_time" : 177.815000060946,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/08/8297b7dc-560b-4477-9009-d9c0417acc82/thumbnail/220x140/27c6a52b54c85aff45bf3aa419399df0/sunmotallorder05081060252640x360.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 8673,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "606.272000004537",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 595.272000004537,
+            "s_time" : 178.834000020288,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/08/cbbca3a8-34ca-495c-8172-03b8c9beba0a/thumbnail/220x140g2/93ab1da3b76781aca4d97a68a9934bc6/west-point.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 39125,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "607.106000068597",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 597.106000068597,
+            "s_time" : 182.270999997854,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/07/84f0d3f9-10b6-4f20-9728-a7ecadb605ac/thumbnail/220x140/80ef761ec513c55c1c4a50c833d14e65/bei-bei-national-zoo-promo.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 7703,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "607.820000033826",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 582.820000033826,
+            "s_time" : 169.010000070557,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/mobile-images/apps-logos/cbsnews_app_216x216.png",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 8735,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "608.005000045523",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 599.005000045523,
+            "s_time" : 186.052000033669,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/sprites/core-s93a1d8a411.png",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 77241,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "609.7820000723",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 606.7820000723,
+            "s_time" : 203.915999969468,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/core/logo.png",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7361,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "609.590000007302",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 602.590000007302,
+            "s_time" : 205.140999983996,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/sprites/icon/asset-overlay-s8e782cef8e.png",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 141542,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "615.196999977343",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 609.196999977343,
+            "s_time" : 209.75699997507,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/sprites/icon/utilities-s5d68268caf.png",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 21243,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "611.441000015475",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 604.441000015475,
+            "s_time" : 210.536999977194,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/05/6dc0b77f-25d4-4547-8bbc-d258d3e2adeb/thumbnail/220x140/8a48143f6ece404576a2de66346ded00/dolly.png",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 62065,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "713.738000020385",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 702.738000020385,
+            "s_time" : 348.40300003998,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/05/c02aa8a5-1f02-4451-ba47-1a5b2d1a5f1c/thumbnail/220x140/0884bed8397e25ac15343665b2d79dc8/en0505yuccasprince1059450640x360.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 6903,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "716.025999980047",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 692.025999980047,
+            "s_time" : 348.866000073031,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/ebe89abc-92e7-4053-820c-e683dac07a18/thumbnail/380x240/7d4f27f36e3c215282f5c6b1b2c1b85e/grafingstabbinggermanyforensic.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 22248,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "716.446000034921",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 692.446000034921,
+            "s_time" : 349.586999975145,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/10/05b28445-b9d8-4570-9887-b726f71bf748/thumbnail/380x240/adce2b52ad021710b4c6167e18eda466/pakistangilanirescueap16131426049121.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 23455,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "716.801000060514",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 692.801000060514,
+            "s_time" : 350.029999972321,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2015/03/17/c159b218-8ff5-4101-9383-3c4e97cdce37/thumbnail/380x240/b0c56dac6ce6689ca5cf516551b3ad53/gavel-1620x350.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 9771,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "717.122000060044",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 693.122000060044,
+            "s_time" : 350.587000022642,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/06/661d8920-ef19-4ec3-b793-80f4228fb674/thumbnail/380x240/15bcde65d55fb06943dae7c5199a305d/gettyimages-527860542.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 26839,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "717.388999997638",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 693.388999997638,
+            "s_time" : 351.017000037245,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/9b41e53e-f43a-47be-a337-e2bc1b06a210/thumbnail/380x240/4d7cad7e6fc2948a642de0a38bcbdd1e/omahacarnivalride050916.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 24570,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 24,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "718.254000064917",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 684.254000064917,
+            "s_time" : 351.955999969505,
+            "sendEnd" : 24,
+            "sendStart" : 24,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2012/11/21/4e9bfc27-a645-11e2-a3f0-029118418759/thumbnail/380x240/53590c390763f9779d3d844c335dbdad/marijuana_legal_gavel.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 21497,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 37,
+            "sslEnd" : -1,
+            "connectEnd" : 32,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "718.960999976844",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 681.960999976844,
+            "s_time" : 352.424000040628,
+            "sendEnd" : 32,
+            "sendStart" : 32,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/4d040cb6-e40b-4a2b-9fd8-2e95a3a41a90/thumbnail/380x240/f5f104ef36391f4b69e72529500abde0/image1-1.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 23689,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "720.287000061944",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 682.287000061944,
+            "s_time" : 353.408000082709,
+            "sendEnd" : 31,
+            "sendStart" : 31,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/7e085d78-395c-4225-9151-84d542424205/thumbnail/380x240/8c8e640986ec15f61ace3aa7cf196b42/laguardiaap860520404746.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 23415,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 32,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "720.656000077724",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 681.656000077724,
+            "s_time" : 352.904999977909,
+            "sendEnd" : 32,
+            "sendStart" : 32,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2014/11/04/d4b8bbd8-c512-4446-b7f3-333fc8e527c1/thumbnail/380x240/a1fa2a393a36f90f9253b539f3be8d2c/screen-shot-2014-11-04-at-9-41-20-am.png",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 25,
+            "len" : 126346,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "724.465999985114",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 686.465999985114,
+            "s_time" : 372.371000004932,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/02/11/b3b873ed-ce5e-43f1-ad1f-4082e57b538c/thumbnail/380x240/e7aee5c4d87c70e55a14b713b377354f/northkoreariyonggil.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 26,
+            "len" : 22602,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 33,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "723.228999995627",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 690.228999995627,
+            "s_time" : 378.535000025295,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/0be6e565-1baa-4669-912d-f1ed9401ce43/thumbnail/380x240/c234625571e7bba8b7e2d3e2579e470b/istock000048558912medium.jpg",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 23,
+            "len" : 34199,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 32,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "723.513000062667",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 691.513000062667,
+            "s_time" : 379.710000008345,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/70ae79be-9299-4d01-a461-b0781c3241ed/thumbnail/380x240/c9b505a0f4069f784b6e120f54de6eee/istock000076296677medium.jpg",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 10359,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "723.920000018552",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 692.920000018552,
+            "s_time" : 381.106000044383,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/03/28/c648f264-a0d3-4edc-a314-74531d877ab5/thumbnail/380x240/51442eb82a2ef04cfcd541b6d55d24fb/fitness7.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 19605,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "725.295000011101",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 691.295000011101,
+            "s_time" : 382.64700002037,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/95193f8b-9fe0-4270-b3dc-c121422bca19/thumbnail/140x90/e16af3cecdb0ff23bab428df28948f6d/istock000011618280small.jpg",
+         "id" : "r50",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 6067,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "725.56400008034",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 690.56400008034,
+            "s_time" : 383.529999991879,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/03/29/bf837aa1-876f-4669-bc2c-0e4924ee51c5/thumbnail/380x240/10fb95318ada214b351f7fcd5557104d/gettyimages-52163281.jpg",
+         "id" : "r51",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 13988,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 29,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "726.479000062682",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 690.479000062682,
+            "s_time" : 387.990000075661,
+            "sendEnd" : 29,
+            "sendStart" : 29,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/7f2859ff-13fa-4a7e-9dbb-ba7074f9f910/thumbnail/380x240/f655e8e07b1e729cb35fccbf4d65b1e4/civil-war.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 25877,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 26,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "726.954000070691",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 692.954000070691,
+            "s_time" : 391.623000032268,
+            "sendEnd" : 26,
+            "sendStart" : 26,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/c7888cd7-fb05-439b-9002-29d998c842ae/thumbnail/380x240/323903e3529bd4f563c42a2f2111e2ee/rodrigoduterteap16131331201108.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 22970,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "727.366000064649",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 702.366000064649,
+            "s_time" : 401.323999976739,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/8ca70442-ff3c-40a6-91a1-77201e1d4621/thumbnail/380x240/99f1d6dd4dc787018c61fb01ee8147ed/cubanmigrantsmiami050916.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 19006,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "727.980999974534",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 703.980999974534,
+            "s_time" : 405.428000027314,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/aa4e782b-6167-4430-90ae-3819e50d8592/thumbnail/380x240/b4f9e887de46604f5a0e49f79d469e6a/10515160g.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 21360,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "728.654999984428",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 711.654999984428,
+            "s_time" : 414.896000060253,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/03/42ed3799-fd91-4115-9273-da5361680b19/thumbnail/380x240/d59538dbe98ce9208c6c4d4884fbd77b/isisnorthmosulpesh.jpg",
+         "id" : "r56",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 20563,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "728.923000046052",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 710.923000046052,
+            "s_time" : 415.659000049345,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2015/05/22/a5691642-e951-4b0c-8af8-bc3defe42513/thumbnail/140x90/dfec869ca0b8d597d637d67807bf7e69/istock000033537272xxxlarge.jpg",
+         "id" : "r57",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 3637,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "729.466999997385",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 709.466999997385,
+            "s_time" : 416.71200003475,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/07/407cd174-ce8f-4a7f-9e0f-32b2d358a781/thumbnail/380x240/f47fd0eac33b79c5712f97f7a56d1dad/902695854canada-wildfire-fortmcmurray.jpg",
+         "id" : "r58",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 21647,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "730.658999993466",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 712.658999993466,
+            "s_time" : 418.874000082724,
+            "sendEnd" : 13,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/2d945321-196b-4101-9367-264f8109896e/thumbnail/380x240/9d43a42631a651175e47244229edd627/rtx2ddx5.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 29757,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "731.25800001435",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 712.25800001435,
+            "s_time" : 421.396000077948,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/01/13/7b6722fd-508d-4c86-84ff-6618457a3365/thumbnail/380x240/3fc98d31075786c90ca2b1cee0a7d5b7/katedelcastilloap438642832063.jpg",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 15814,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "732.426000060514",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 712.426000060514,
+            "s_time" : 423.009000020102,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2015/07/17/78367daf-539f-4ae6-90a3-06cb14fa480d/thumbnail/380x240/ca4fe8c7a9e11dea36ce614a3b664ba8/ap468438980493.jpg",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 20437,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "732.931000064127",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 715.931000064127,
+            "s_time" : 428.027000045404,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/458b7b3a-5871-4f4a-a903-94064d04a125/thumbnail/380x240/36c8df5bccf85bc365fe52dea4f1d6d1/gettyimages-77503435.jpg",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 11823,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "733.482000068761",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 716.482000068761,
+            "s_time" : 429.225999978371,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/2f81cad3-a36f-4892-8df0-8656c851815a/thumbnail/380x240g8/d0c0cf226c95e198b3e896ff94bdf50e/gettyimages-529651874.jpg",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 63580,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "734.560000011697",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 714.560000011697,
+            "s_time" : 430.417999974452,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/08/4e7d7a72-2f8f-4f65-8423-c903cc87d23d/thumbnail/60x60/87a0cd799871e0e44a0df62ddb22867b/2016-05-08t012422z1464940805s1aetcttzyacrtrmadp3usa-election-trump.jpg",
+         "id" : "r65",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4516,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "735.222000046633",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 717.222000046633,
+            "s_time" : 435.083999997005,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/standalone/watch-cbsn-300x80.gif%3Fv=3632a32c34fe4cc0d47cb91d54f9954e0b7a439d",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 6181,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "735.037000034936",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 715.037000034936,
+            "s_time" : 432.939000078477,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/08/219e5d70-7ca5-45b5-87ef-c2c3fa1118eb/thumbnail/60x60/a57d78279aba3fb7c1843d3b0c160871/yezidiso-leutheuser1.jpg",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 1992,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "735.843000002205",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 712.843000002205,
+            "s_time" : 436.462000012398,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/82d84c9e-f9b8-43c3-af72-6fb33d068aa3/thumbnail/60x60/86d1b5db0b7f68d4889844935efb444c/0510ctmeyeopener7am1061019640x360.jpg",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 855,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "736.263000057079",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 715.263000057079,
+            "s_time" : 438.971000025049,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.cbsn.cbsnews.com/previews/NYCNETTVA1_P_NYCINTCR-W-R_62FEBE38-B767-44E3-AA31EF48AE98FEBD_2433E098-095D-4F1C-85D8FBB3BFC4CA6E.jpg",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 8559,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "736.663000076078",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 717.663000076078,
+            "s_time" : 442.121000029147,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.cbsn.cbsnews.com/previews/NYCNETTVA1_P_NYCINTCR-W-R_4EA3C85B-E7A7-43EA-BF42B417C6E6AF3F_42ADE293-5D43-4A06-BDAA187E1B620D99.jpg",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 14183,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "737.751999986358",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 715.751999986358,
+            "s_time" : 444.306000019424,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.cbsn.cbsnews.com/previews/NYCNETTVA1_P_NYCINTCR-W-R_2E583C38-023F-4EC5-AF0665BD980F30E8_662288F1-3D99-4177-98E8259682860DDA.jpg",
+         "id" : "r70",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 14529,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "738.124000024982",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 719.124000024982,
+            "s_time" : 447.707000072114,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.cbsn.cbsnews.com/previews/NYCNETTVA1_P_NYCINTCR-W-R_4EA3C85B-E7A7-43EA-BF42B417C6E6AF3F_BB7F5B3D-0CD1-4BA1-923E365367FE455B.jpg",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 16224,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "738.379999995232",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 720.379999995232,
+            "s_time" : 449.549000011757,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.cbsn.cbsnews.com/previews/NYCNETTVA1_P_NYCINTCR-W-R_2E583C38-023F-4EC5-AF0665BD980F30E8_1AEF90C7-D504-46FC-990086CC6B9DE3E8.jpg",
+         "id" : "r72",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 7450,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "739.44500007201",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 718.44500007201,
+            "s_time" : 451.408999972045,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/06/aee10b37-1d0c-4da9-ae72-7d79eb633afa/thumbnail/60x60/26d41d68c7ec0d453e8d4efcb226027b/0506enhartmanaslbarista.jpg",
+         "id" : "r73",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1857,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "739.24500006251",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 722.24500006251,
+            "s_time" : 455.558000016026,
+            "sendEnd" : 11,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/04/15/3422aa3d-b55d-41bc-9a8f-07b0001e41cc/thumbnail/60x60/ff8573bc26c5feb6ed2bac8ddd5ae271/hartmanforgiveness0415.png",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 10525,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "739.811000064947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 723.811000064947,
+            "s_time" : 457.235999987461,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/04/29/611471d1-fe19-438e-8f70-6ff0bc97a376/thumbnail/60x60/1f1f61c3d288a972730e37d11f2adcae/hartmanjudge.png",
+         "id" : "r75",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 9425,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "741.075000027195",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 722.075000027195,
+            "s_time" : 458.257999969646,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/04/06/3f3c7402-5363-49f3-b094-20e023f3ee20/thumbnail/60x60/1fc720fb9ddc5fd2ee86df32e72db1b9/ivy-league.jpg",
+         "id" : "r77",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1780,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "740.462000016123",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 726.462000016123,
+            "s_time" : 463.731999974698,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/06/b4f56206-5e99-4145-802d-011839213616/thumbnail/60x60/7160676db56034eb59f509d770dc055e/screen-shot-2016-05-06-at-12-25-04-pm.png",
+         "id" : "r76",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 11182,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "741.230000043288",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 725.230000043288,
+            "s_time" : 461.867999983951,
+            "sendEnd" : 10,
+            "sendStart" : 9,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/02/19/8ba13fa2-cdde-4952-a3da-d111d85cd019/thumbnail/60x60/168907f4f3757804c154269599ce77f8/justicescaliaot492760640x360.jpg",
+         "id" : "r78",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1477,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "741.874000057578",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 724.874000057578,
+            "s_time" : 465.937000000849,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2015/02/08/834117f0-6d3a-45e0-ba49-db190eeb2055/thumbnail/60x60/93f90c9792b13c3cc41119aad5ef7330/ccselma1920.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4651,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_76",
+            "receivedTime" : "742.612999980338",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 728.612999980338,
+            "s_time" : 469.737000064924,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2015/09/27/45fa06fe-7034-426b-b268-3e7ea5d00c5d/thumbnail/60x60/b78ccc8867b1961202996e7e7982da35/ottrump2office.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1408,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_77",
+            "receivedTime" : "742.360000032932",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 728.360000032932,
+            "s_time" : 470.459999982268,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2015/12/20/b2773a64-b4ef-4f7e-9f20-634f95741124/thumbnail/60x60/235c6b6be334bc01f9d5214bd26785e3/applesecrecyot.jpg",
+         "id" : "r81",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1394,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_78",
+            "receivedTime" : "743.079000036232",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 726.079000036232,
+            "s_time" : 471.542000072077,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2015/10/10/8d67efeb-a1dc-40a4-8b7f-3e409180e8cc/thumbnail/60x60/572f9b35ddbb862d5c4f213152271cc0/otobamafrontdoor.jpg",
+         "id" : "r82",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1447,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_79",
+            "receivedTime" : "743.295000051148",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 729.295000051148,
+            "s_time" : 474.707000073977,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/08/b85d99fc-bb5f-458b-9cb2-b1476623399f/thumbnail/60x60g2/ff71bb8da7020965c9dbb944be024bde/ftnclinton10508.jpg",
+         "id" : "r83",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 2629,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_80",
+            "receivedTime" : "743.787000072189",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 728.787000072189,
+            "s_time" : 475.337999989279,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/f3572ac0-2228-48a9-93fb-dfd21b86ee25/thumbnail/60x60/8d51ee02cbe9caf2b040216d4a438025/lorettalynchgrab.jpg",
+         "id" : "r84",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1964,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_81",
+            "receivedTime" : "744.26800000947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 727.26800000947,
+            "s_time" : 477.081999997608,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/0423936c-ca69-458a-ba6f-021e6060c5d8/thumbnail/60x60/19572630573f1aa01f490c7708316b10/2016-05-03t235543z536296894s1betbzuxbaartrmadp3north-carolina-lgbt.jpg",
+         "id" : "r85",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1704,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_82",
+            "receivedTime" : "744.499000022188",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.499000022188,
+            "s_time" : 480.37700005807,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/04/12/d0252459-d5f8-4f67-ab74-7ee05b407347/thumbnail/60x60/ff8582502c4a3791e6560e938c31b3af/2016-04-12t162841z1882328740gf10000380163rtrmadp3usa-election-clinton.jpg",
+         "id" : "r86",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1020,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_83",
+            "receivedTime" : "744.713000021875",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.713000021875,
+            "s_time" : 481.538000050932,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/07/9df2f889-a1e1-489a-afcb-b17eddcb7c93/thumbnail/60x60/0f7a136bc4b9a178f69831dc143d52d1/2016-05-07t214419z970357805s1aetctamdaartrmadp3usa-election-trump.jpg",
+         "id" : "r87",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 5333,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_84",
+            "receivedTime" : "745.590000064112",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 726.590000064112,
+            "s_time" : 482.373000006191,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/2015/04/03/63a01718-2c93-474a-9c82-1f32cff03558/a7384b9647c3862bb65c33524247d7ba/promocbsn-android.jpg",
+         "id" : "r88",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 80463,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_85",
+            "receivedTime" : "746.449999976903",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 729.449999976903,
+            "s_time" : 485.098000033759,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/09/9b41e53e-f43a-47be-a337-e2bc1b06a210/thumbnail/220x140/51c89c5b816cf9a5a4af232f7785cbe0/omahacarnivalride050916.jpg",
+         "id" : "r89",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 12427,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_86",
+            "receivedTime" : "746.069999993779",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.069999993779,
+            "s_time" : 486.451999982819,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/02/11/b3b873ed-ce5e-43f1-ad1f-4082e57b538c/thumbnail/220x140/d989978d38a370b0909385ad7da371c6/northkoreariyonggil.jpg",
+         "id" : "r90",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 10598,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_87",
+            "receivedTime" : "747.240000055172",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 727.240000055172,
+            "s_time" : 487.566000083461,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/04c17208-fc3a-41b2-bf0a-1df779e8a1c7/thumbnail/220x140/178f2cc514edea487adc0809129e41fd/0510ctmcircusqanda1061070640x360.jpg",
+         "id" : "r91",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 11389,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_88",
+            "receivedTime" : "747.407000046223",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 729.407000046223,
+            "s_time" : 491.269999998622,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/10/45837325-fcb1-4550-9cce-b3e40fc2ed89/thumbnail/220x140/c8db0e76ac255fc9c7e19822b5916fe6/0510ctmcuocoqanda1061078640x360.jpg",
+         "id" : "r92",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 8180,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_89",
+            "receivedTime" : "747.558000031859",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.558000031859,
+            "s_time" : 492.192000034265,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/01/13/7b6722fd-508d-4c86-84ff-6618457a3365/thumbnail/60x60/2bd9d2e021e283d1188402c030eb7ae3/katedelcastilloap438642832063.jpg",
+         "id" : "r93",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 2130,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_90",
+            "receivedTime" : "747.955000028014",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 726.955000028014,
+            "s_time" : 493.115999968722,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/f2c1c8e7-20f7-48c8-94e2-683e840eeeac/thumbnail/60x60/b60a1e75bdae5be62313c8c577c181d4/ctm0510smart-home1061081640x360.jpg",
+         "id" : "r94",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1941,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_91",
+            "receivedTime" : "748.426000005566",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.426000005566,
+            "s_time" : 496.586000081152,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/7ecb78b5-5eea-4358-80f2-076aec2ee34a/thumbnail/60x60/eec67c57031ffd08c2607438fce2bce1/ctm0510second-skin11061080640x360.jpg",
+         "id" : "r95",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1457,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_92",
+            "receivedTime" : "748.642000020482",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.642000020482,
+            "s_time" : 497.904999996535,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/10/286281dd-d6ca-4d52-ae0a-bd5d4fb0d20a/thumbnail/60x60/4f138a269c989bb577f26cf847ee3fe1/lending-club.jpg",
+         "id" : "r96",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4880,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_93",
+            "receivedTime" : "749.82100003399",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 730.82100003399,
+            "s_time" : 499.255000031553,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2007/11/06/119139c4-a738-11e2-a3f0-029118418759/thumbnail/60x60/e4531feaaddc98dad81c16aa61e9db28/image3457635x.jpg",
+         "id" : "r97",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1984,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_94",
+            "receivedTime" : "749.467000016011",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 735.467000016011,
+            "s_time" : 504.820000031032,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/sprites/icon/livestream-s39272b31ee.png",
+         "id" : "r98",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 4687,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_95",
+            "receivedTime" : "750.025000073947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 737.025000073947,
+            "s_time" : 506.875000079162,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/icon/share/follow-slash-gray.png",
+         "id" : "r99",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 128,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_96",
+            "receivedTime" : "750.432000029832",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 736.432000029832,
+            "s_time" : 508.956999983639,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/sprites/icon/share-s73dbf75e6d.png",
+         "id" : "r100",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 23210,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_97",
+            "receivedTime" : "750.89000002481",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 739.89000002481,
+            "s_time" : 511.851000017487,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews4.cbsistatic.com/bundles/cbsnewscore/images/sprites/icon/modal-s58506664e5.png",
+         "id" : "r101",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 30983,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_98",
+            "receivedTime" : "751.362000009976",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 739.362000009976,
+            "s_time" : 512.533999979496,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/05/766bb3ec-5435-4342-8c1d-bd827f8ee3ae/thumbnail/60x60/26187b62b1861a52d9510b532be4aac3/deer-stuck.jpg",
+         "id" : "r103",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4982,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_99",
+            "receivedTime" : "786.231999984011",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 777.231999984011,
+            "s_time" : 633.589999983087,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/04/668ddacb-7430-4426-beb0-54de7fb7769a/thumbnail/60x60/2d9c1f707fdf064e8b0e291b1339fb60/kirsi-pyrhonen-by-tim-walker.jpg",
+         "id" : "r104",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4562,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_100",
+            "receivedTime" : "786.442000069655",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 779.442000069655,
+            "s_time" : 635.208999970928,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/07/e1d88d12-0d76-49db-a183-db2b3b8eb450/thumbnail/140x90/1084eb9fc0eb7c09fbfd1352e5351cc7/yezididsmain.jpg",
+         "id" : "r105",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 6105,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_101",
+            "receivedTime" : "787.64700004831",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 776.64700004831,
+            "s_time" : 636.4370000083,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/06/aee10b37-1d0c-4da9-ae72-7d79eb633afa/thumbnail/140x90/5606ab4c27fa0e13bad08e9b4b8eec1c/0506enhartmanaslbarista.jpg",
+         "id" : "r106",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 5036,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_102",
+            "receivedTime" : "787.799000041559",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 776.799000041559,
+            "s_time" : 636.908999993466,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/09/8732576b-3bb1-42b7-b1bb-f04e0fad2fe8/thumbnail/140x90/fdcf8d19d0ab7eee88f3adb414219396/prince-harry-1.jpg",
+         "id" : "r107",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1849,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_103",
+            "receivedTime" : "787.367000011727",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 777.367000011727,
+            "s_time" : 637.466000043787,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/07/0b439180-4b01-46c5-a96f-f6a90fbceb9b/thumbnail/140x90g8/d7bfe485cd6be9d1bc502c3d1c72acbf/baby-bump-zumaamericasfourteen453478-promo.jpg",
+         "id" : "r108",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 21890,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_104",
+            "receivedTime" : "787.950000027195",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 777.950000027195,
+            "s_time" : 637.971000047401,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews1.cbsistatic.com/hub/i/r/2016/05/08/b85d99fc-bb5f-458b-9cb2-b1476623399f/thumbnail/140x90g2/174e2098c9e41437afc791e0d2a1c420/ftnclinton10508.jpg",
+         "id" : "r109",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4272,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_105",
+            "receivedTime" : "788.928000023589",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 775.928000023589,
+            "s_time" : 638.395000016317,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cbsnews2.cbsistatic.com/hub/i/r/2016/05/06/25bb9331-c360-4fbd-96f9-8329f1f122ee/thumbnail/140x90/6081de93eb53ef74d24862d8492fcd71/nemetz770.jpg",
+         "id" : "r110",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 3583,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_106",
+            "receivedTime" : "788.723999983631",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 775.723999983631,
+            "s_time" : 638.875000062399,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 477.220000000671,
+         "id" : "dep3",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 476.739999954589,
+         "id" : "dep4",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 476.315999985673,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 475.810999982059,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 475.253999931738,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 474.781999946572,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 473.5539999092,
+         "id" : "dep9",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 471.934999921359,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 350.878999917768,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 350.195999955759,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 347.301999921911,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 345.220000017434,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 343.164999969304,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 337.599999969825,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 336.249999934807,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 334.931000019424,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 331.460999906994,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 330.536999972537,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 329.614999936894,
+         "id" : "dep21",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 325.911000021733,
+         "id" : "dep22",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 324.796999921091,
+         "id" : "dep23",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 323.442999972031,
+         "id" : "dep24",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 320.717999944463,
+         "id" : "dep25",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 319.882999989204,
+         "id" : "dep26",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 318.721999996342,
+         "id" : "dep27",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 315.42699993588,
+         "id" : "dep28",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 313.682999927551,
+         "id" : "dep29",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 313.052000012249,
+         "id" : "dep30",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 309.887000010349,
+         "id" : "dep31",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 308.80499992054,
+         "id" : "dep32",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 308.082000003196,
+         "id" : "dep33",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 304.281999939121,
+         "id" : "dep34",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 300.212999922223,
+         "id" : "dep35",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 302.07699991297,
+         "id" : "dep36",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 296.602999907918,
+         "id" : "dep37",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 295.580999925733,
+         "id" : "dep38",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 293.902999954298,
+         "id" : "dep39",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 289.753999910317,
+         "id" : "dep40",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 287.893999950029,
+         "id" : "dep41",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 286.052000010386,
+         "id" : "dep42",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 282.650999957696,
+         "id" : "dep43",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 280.465999967419,
+         "id" : "dep44",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 277.315999963321,
+         "id" : "dep45",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 274.80699995067,
+         "id" : "dep46",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 271.284000016749,
+         "id" : "dep47",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 273.428999935277,
+         "id" : "dep48",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 268.762999912724,
+         "id" : "dep49",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 267.570999916643,
+         "id" : "dep50",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 266.371999983676,
+         "id" : "dep51",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 261.353999958374,
+         "id" : "dep52",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 259.74100001622,
+         "id" : "dep53",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 257.219000020996,
+         "id" : "dep54",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 255.056999973022,
+         "id" : "dep55",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 254.003999987617,
+         "id" : "dep56",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 253.240999998525,
+         "id" : "dep57",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 243.772999965586,
+         "id" : "dep58",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 239.668999915011,
+         "id" : "dep59",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 229.96799997054,
+         "id" : "dep60",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 226.335000013933,
+         "id" : "dep61",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 221.874999930151,
+         "id" : "dep62",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 220.991999958642,
+         "id" : "dep63",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 219.450999982655,
+         "id" : "dep64",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 218.054999946617,
+         "id" : "dep65",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 216.879999963567,
+         "id" : "dep66",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 210.715999943204,
+         "id" : "dep67",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 191.249999916181,
+         "id" : "dep68",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 191.753000020981,
+         "id" : "dep69",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 190.7689999789,
+         "id" : "dep70",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 190.300999907777,
+         "id" : "dep71",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 189.361999975517,
+         "id" : "dep72",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 188.931999960914,
+         "id" : "dep73",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 188.374999910593,
+         "id" : "dep74",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 187.931999913417,
+         "id" : "dep75",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 187.211000011303,
+         "id" : "dep76",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 186.747999978252,
+         "id" : "dep77",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 48.881999915466,
+         "id" : "dep78",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 48.101999913342,
+         "id" : "dep79",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 43.485999922268,
+         "id" : "dep80",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 42.26099990774,
+         "id" : "dep81",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 24.396999971941,
+         "id" : "dep82",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 7.35500000882899,
+         "id" : "dep83",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 20.615999936126,
+         "id" : "dep84",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 17.17899995856,
+         "id" : "dep85",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 16.159999999218,
+         "id" : "dep86",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 12.17599993106,
+         "id" : "dep87",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 10.846999939531,
+         "id" : "dep88",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 6.09699997585301,
+         "id" : "dep89",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 0.739999930373983,
+         "id" : "dep90",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : -1,
+         "id" : "dep91",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 93.998000025749,
+         "id" : "dep92",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 93.017000006512,
+         "id" : "dep93",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 88.389000040479,
+         "id" : "dep94",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 82.47400005348,
+         "id" : "dep95",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 68.413999979384,
+         "id" : "dep96",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 68.413999979384,
+         "id" : "dep97",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 68.297000019811,
+         "id" : "dep98",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 68.297000019811,
+         "id" : "dep99",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 68.163000047207,
+         "id" : "dep100",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 68.163000047207,
+         "id" : "dep101",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 67.983000073582,
+         "id" : "dep102",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 67.983000073582,
+         "id" : "dep103",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 67.795000039041,
+         "id" : "dep104",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 67.795000039041,
+         "id" : "dep105",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 67.699000006542,
+         "id" : "dep106",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 67.699000006542,
+         "id" : "dep107",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 67.3990000505,
+         "id" : "dep108",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 67.3990000505,
+         "id" : "dep109",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 67.546000005677,
+         "id" : "dep110",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 67.546000005677,
+         "id" : "dep111",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 67.287000012584,
+         "id" : "dep112",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 67.287000012584,
+         "id" : "dep113",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 67.122000036761,
+         "id" : "dep114",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 67.122000036761,
+         "id" : "dep115",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep116",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.00799992308021,
+         "id" : "dep117",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.71300000511111,
+         "id" : "dep118",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.71300000511111,
+         "id" : "dep119",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.3359999284148,
+         "id" : "dep120",
+         "a1" : "r1_c1"
+      }
+   ]
+}

@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.pixnet.work_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.pixnet.work/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 45.7239998504519,
+               "time" : 0.429000239819295,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 46.1530000902712
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 290,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "7.6919998973608",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.6919998973608,
+            "s_time" : 0,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

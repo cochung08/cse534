@@ -1,0 +1,1421 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.edufocus.co.uk_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 40.694999974221,
+               "time" : 79.729999881238,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 120.424999855459
+            },
+            {
+               "s_time" : 211.124000139534,
+               "time" : -3291351079.836,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 229.359999764711,
+               "time" : -3291351098.072,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 248.695999849588,
+               "time" : -3291351117.408,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 258.671999908984,
+               "time" : -3291351127.384,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 260.780000127852,
+               "time" : -3291351129.492,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 302.771999966353,
+               "time" : -3291351171.484,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 309.363000094891,
+               "time" : 37.5019996427,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : 346.864999737591
+            },
+            {
+               "s_time" : 472.418999765068,
+               "time" : 3.89400031417597,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : 476.313000079244
+            },
+            {
+               "s_time" : 1809.04999980703,
+               "time" : -3291352677.762,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : -3291350868.712
+            },
+            {
+               "s_time" : 1809.36900014058,
+               "time" : 0.129999592900049,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 1809.49899973348
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 22239,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "39.9639997631311",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 36.9639997631311,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 62.0869998820126,
+               "time" : 5.06100011989471,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 67.1480000019073
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 26687,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "61.9489997625351",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 50.9489997625351,
+            "s_time" : 42.0559998601675,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/bootstrap/dist/css/bootstrap.min.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 89.1299997456372,
+               "time" : 27.2630001418288,
+               "type" : 4,
+               "id" : "comp_3",
+               "e_time" : 116.392999887466
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 117370,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "88.8539999723434",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 76.8539999723434,
+            "s_time" : 42.448999825865,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/slippry/dist/slippry.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 59.14600007236,
+               "time" : 2.5349999777973,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 61.6810000501573
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 10991,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "58.8449998758733",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 45.8449998758733,
+            "s_time" : 42.800999712199,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/css/edufocus.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 77.1849998272955,
+               "time" : 9.5210000872612,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 86.7059999145567
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 61481,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "76.9489998929203",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.9489998929203,
+            "s_time" : 43.1809998117387,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/code.jquery.com/jquery-1.11.3.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 127.16899998486,
+               "time" : 83.955000154674,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 211.124000139534
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 284394,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "126.993999816477",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 109.993999816477,
+            "s_time" : 43.5779998078942,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/logos/edufocus-evolve.png",
+         "id" : "r7",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 17703,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "68.7110000289977",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 50.7110000289977,
+            "s_time" : 43.9039999619126,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/underscore/underscore.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 215.549000073224,
+               "time" : 13.810999691487,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 229.359999764711
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 52919,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "116.892999969423",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 91.8929999694228,
+            "s_time" : 45.2159997075796,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/bootstrap/dist/js/bootstrap.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 229.49399985373,
+               "time" : 19.201999995858,
+               "type" : 1,
+               "id" : "comp_10",
+               "e_time" : 248.695999849588
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 67546,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "117.528999689966",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 89.5289996899664,
+            "s_time" : 45.6209997646511,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/jquery-cycle2/build/jquery.cycle2.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 248.823000118136,
+               "time" : 9.84899979084798,
+               "type" : 1,
+               "id" : "comp_12",
+               "e_time" : 258.671999908984
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 48973,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "117.384999990463",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 78.3849999904633,
+            "s_time" : 45.8800001069903,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/tinysort/dist/tinysort.min.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 258.798999711871,
+               "time" : 1.98100041598104,
+               "type" : 1,
+               "id" : "comp_14",
+               "e_time" : 260.780000127852
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 3975,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 47,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "117.209000047296",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 70.2090000472963,
+            "s_time" : 46.2199999019504,
+            "sendEnd" : 32,
+            "sendStart" : 31,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.googleapis.com/css%3Ffamily=Roboto:400,300,500,700,700italic,500italic,400italic,300italic.css",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 118.42199973762,
+               "time" : 6.188000086695,
+               "type" : 2,
+               "id" : "comp_4",
+               "e_time" : 124.609999824315
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 1984,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "118.325999937952",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.3259999379516,
+            "s_time" : 78.2169997692108,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/handlebars/handlebars.min.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 260.902999900281,
+               "time" : 41.869000066072,
+               "type" : 1,
+               "id" : "comp_16",
+               "e_time" : 302.771999966353
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 65466,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 62,
+            "sslEnd" : -1,
+            "connectEnd" : 49,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "126.67699996382",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 64.67699996382,
+            "s_time" : 47.3719998262823,
+            "sendEnd" : 49,
+            "sendStart" : 49,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/jquery-validation/dist/jquery.validate.min.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 302.986999973655,
+               "time" : 6.37600012123602,
+               "type" : 1,
+               "id" : "comp_18",
+               "e_time" : 309.363000094891
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 21584,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 62,
+            "sslEnd" : -1,
+            "connectEnd" : 51,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "125.364999752492",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 63.3649997524917,
+            "s_time" : 47.1870000474155,
+            "sendEnd" : 51,
+            "sendStart" : 51,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/libs/sticky/jquery.sticky.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 309.489999897778,
+               "time" : 162.92899986729,
+               "type" : 1,
+               "id" : "comp_20",
+               "e_time" : 472.418999765068
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 5654,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 63,
+            "sslEnd" : -1,
+            "connectEnd" : 51,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "125.678999815136",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.6789998151362,
+            "s_time" : 47.1600000746548,
+            "sendEnd" : 51,
+            "sendStart" : 51,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/dev.edufocus.co.uk/assets/img/logos/edufocus-evolve.png",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 17703,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "126.232999842614",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 81.2329998426139,
+            "s_time" : 67.7709998562932,
+            "sendEnd" : 31,
+            "sendStart" : 31,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/logos/customers/greenwood-dale-white.png",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 11204,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "473.286999855191",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 466.286999855191,
+            "s_time" : 114.544000010937,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/customers/franklin-college-white.png",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 8792,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "475.459999870509",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 470.459999870509,
+            "s_time" : 119.808999821544,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/customers/essex-county-council-white.png",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 44624,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "476.784999947995",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 468.784999947995,
+            "s_time" : 120.116999838501,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/logos/sims-footer.png",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 30167,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "477.363999933004",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 466.363999933004,
+            "s_time" : 120.424999855459,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/bg/notebook.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 17343,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "478.722000028938",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 465.722000028938,
+            "s_time" : 312.11100006476,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/bg/nav-shadow.png",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 936,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "479.17199973017",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 468.17199973017,
+            "s_time" : 317.420999985188,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/prodbox/visits.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 138269,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "480.239999946207",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 468.239999946207,
+            "s_time" : 335.049000103027,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/prodbox/accidentbook.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 97592,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "529.864999931306",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 515.864999931306,
+            "s_time" : 336.774999741465,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/prodbox/bookings.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 116869,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "535.48499988392",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 519.48499988392,
+            "s_time" : 338.163000065833,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/prodbox/comms.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 53653,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "482.462999876589",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 464.462999876589,
+            "s_time" : 337.795000057667,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/prodbox/kaddi.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 131272,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "531.473000068218",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 510.473000068218,
+            "s_time" : 339.52399995178,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/prodbox/plus.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 122901,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "532.112000044435",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 508.112000044435,
+            "s_time" : 338.762999977916,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.edufocus.co.uk/assets/img/bg/students-blue.png",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 481208,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "544.274999760091",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 521.274999760091,
+            "s_time" : 346.864999737591,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 32664,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "538.600999861956",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 531.600999861956,
+            "s_time" : 474.163000006229,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/ttf"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 32500,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "539.82499986887",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 531.82499986887,
+            "s_time" : 474.5859997347,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/ttf"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 32652,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "540.616000071168",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 532.616000071168,
+            "s_time" : 474.996000062674,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/ttf"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at50EAVxt0G0biEntp43Qt6E.ttf",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 34384,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "542.375999968499",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 534.375999968499,
+            "s_time" : 475.325999781489,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/ttf"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 33404,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "543.093000072986",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 536.093000072986,
+            "s_time" : 475.991999730468,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/ttf"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 32580,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "541.643999982625",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 533.643999982625,
+            "s_time" : 476.313000079244,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/ttf"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_35"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_16",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "download_34",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 3.57299996540002,
+         "id" : "dep22",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 2.90700001642097,
+         "id" : "dep23",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 2.57700029760599,
+         "id" : "dep24",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 2.166999969632,
+         "id" : "dep25",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 1.74400024116102,
+         "id" : "dep26",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep27",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 29.399999883025,
+         "id" : "dep28",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 30.160999856889,
+         "id" : "dep29",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 28.431999962776,
+         "id" : "dep30",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 28.799999970942,
+         "id" : "dep31",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 27.411999646574,
+         "id" : "dep32",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 25.686000008136,
+         "id" : "dep33",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 8.05799989029703,
+         "id" : "dep34",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 2.747999969869,
+         "id" : "dep35",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_19",
+         "time" : -1,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 79.42199986428,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 79.113999847323,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 73.849000036716,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 27.0759998820722,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 6.46500010043381,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 6.4920000731945,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 6.6769998520613,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 37.5219997949898,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 5.5249999277294,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 5.5249999277294,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 5.1850001327693,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 5.1850001327693,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 4.9259997904301,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 4.9259997904301,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.5209997333586,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.5209997333586,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 3.20899998769161,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 3.20899998769161,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 2.8829998336732,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.4859998375177,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.105999737978,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.753999851644,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.36099988594651,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      }
+   ]
+}

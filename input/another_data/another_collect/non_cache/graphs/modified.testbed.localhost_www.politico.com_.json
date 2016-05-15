@@ -1,0 +1,3265 @@
+{
+   "n_download_no_trigger" : 15,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.politico.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.politico.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 57.1349998936057,
+               "time" : 129.486999940127,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 186.621999833733
+            },
+            {
+               "s_time" : 221.011999994516,
+               "time" : -3281098027.172,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3281097806.16
+            },
+            {
+               "s_time" : 298.405999783427,
+               "time" : -3281098104.566,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3281097806.16
+            },
+            {
+               "s_time" : 303.113000001758,
+               "time" : -3281098109.273,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3281097806.16
+            },
+            {
+               "s_time" : 313.267999794334,
+               "time" : -3281098119.428,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3281097806.16
+            },
+            {
+               "s_time" : 315.955999772996,
+               "time" : -3281098122.116,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3281097806.16
+            },
+            {
+               "s_time" : 317.919999826699,
+               "time" : -3281098124.08,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -3281097806.16
+            },
+            {
+               "s_time" : 333.695999812335,
+               "time" : 732.904999982565,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : 1066.6009997949
+            },
+            {
+               "s_time" : 1637.01199973002,
+               "time" : 6050.77300034463,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 7687.78500007465
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 260593,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "56.400999892503",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 50.400999892503,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/assets/css/style-core.min.3df408549bd3993a869d98c6eb3c8c56.gz.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 115.877999924123,
+               "time" : 226.94499976933,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 342.822999693453
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 288181,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "115.448999684304",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 103.448999684304,
+            "s_time" : 58.1859997473657,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/js/website/shared/libraries/modernizr-2.8.3.min.eb9167fd3c12f05553135ffda5fcd108.gz.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 175.400000065565,
+               "time" : 45.611999928951,
+               "type" : 1,
+               "id" : "comp_1",
+               "e_time" : 221.011999994516
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 9469,
+            "dns" : 0,
+            "dnsEnd" : 5,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "76.8679999746382",
+            "sslStart" : -1,
+            "dnsStart" : 5,
+            "receiveLast" : 61.8679999746382,
+            "s_time" : 59.7419999539852,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 221.175999846309,
+               "time" : 77.229999937118,
+               "type" : 1,
+               "id" : "comp_3",
+               "e_time" : 298.405999783427
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 96381,
+            "dns" : 0,
+            "dnsEnd" : 5,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "107.655999716371",
+            "sslStart" : -1,
+            "dnsStart" : 5,
+            "receiveLast" : 90.6559997163713,
+            "s_time" : 60.4059998877347,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/assets/js.min/preload.36b22fd627f803fa1207e5c1431521a8.gz.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 299.015999771655,
+               "time" : 4.09700023010299,
+               "type" : 1,
+               "id" : "comp_7",
+               "e_time" : 303.113000001758
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 8254,
+            "dns" : 0,
+            "dnsEnd" : 4,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "81.0449998825788",
+            "sslStart" : -1,
+            "dnsStart" : 4,
+            "receiveLast" : 63.0449998825788,
+            "s_time" : 60.7689996249974,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/js/website/shared/libraries/jquery.extra.fbf31263f39294c52d3a5cc6a2f6b309.gz.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 303.241999819875,
+               "time" : 10.025999974459,
+               "type" : 1,
+               "id" : "comp_9",
+               "e_time" : 313.267999794334
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 12493,
+            "dns" : 0,
+            "dnsEnd" : 4,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "83.9709998108447",
+            "sslStart" : -1,
+            "dnsStart" : 4,
+            "receiveLast" : 63.9709998108447,
+            "s_time" : 61.1259997822344,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/js/website/shared/libraries/popup.26b0ff7e738340d74b9af4387fb60a39.gz.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 313.403999898583,
+               "time" : 2.55199987441301,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 315.955999772996
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 7927,
+            "dns" : 0,
+            "dnsEnd" : 4,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "85.7469998300076",
+            "sslStart" : -1,
+            "dnsStart" : 4,
+            "receiveLast" : 64.7469998300076,
+            "s_time" : 61.4829999394715,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/js/website/shared/libraries/jquery-frame.5615a3ab20f3da69329acb3fcb5d8d15.gz.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 316.075999755412,
+               "time" : 1.84400007128698,
+               "type" : 1,
+               "id" : "comp_13",
+               "e_time" : 317.919999826699
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 10332,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "88.2689999416471",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 65.2689999416471,
+            "s_time" : 61.8109996430576,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/tk.politico.com/zmr6qqx.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 318.016999866813,
+               "time" : 15.678999945522,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 333.695999812335
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 21415,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "101.398999802768",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 73.3989998027682,
+            "s_time" : 62.1609999798238,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/s7.addthis.com/js/300/addthis_widget.js#pubid=politico.com",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 387104,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 32,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "345.201999880373",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 313.201999880373,
+            "s_time" : 62.6369998790324,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 2033,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "346.114999614656",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 342.114999614656,
+            "s_time" : 186.621999833733,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tk.politico.com/k/c/zmr6qqx-d.css",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 356.478000059724,
+               "time" : 317.028000019491,
+               "type" : 2,
+               "id" : "comp_22",
+               "e_time" : 673.506000079215
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 388581,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "356.296999845654",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 355.296999845654,
+            "s_time" : 341.743999626487,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.js",
+         "id" : "r34",
+         "comps" : [
+            {
+               "s_time" : 3227.14199963957,
+               "time" : 56.8930003792102,
+               "type" : 2,
+               "id" : "comp_210",
+               "e_time" : 3284.03500001878
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 42783,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "1030.23799974471",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1022.23799974471,
+            "s_time" : 629.958000034094,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r33",
+         "comps" : [
+            {
+               "s_time" : 6791.44399985671,
+               "time" : 1.60899991169936,
+               "type" : 2,
+               "id" : "comp_411",
+               "e_time" : 6793.05299976841
+            },
+            {
+               "s_time" : 3284.05999997631,
+               "time" : 2.41399975493005,
+               "type" : 2,
+               "id" : "comp_212",
+               "e_time" : 3286.47399973124
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 3152,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "1030.71599965915",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1015.71599965915,
+            "s_time" : 627.468999940902,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/platform.twitter.com/widgets/follow_button.html%3Fscreen_name=politico.html",
+         "id" : "r85",
+         "comps" : [
+            {
+               "s_time" : 2979.32599997148,
+               "time" : 355.53799988702,
+               "type" : "evalhtml",
+               "id" : "r85_c1",
+               "e_time" : 3334.8639998585
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 62293,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "1062.64199968427",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1058.64199968427,
+            "s_time" : 659.29999994114,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/images/website/shared/template/bg-carbon-fiber.fc17c2139c48b783efdc986741924866.png",
+         "id" : "r102",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1030,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "1063.18999966606",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1058.18999966606,
+            "s_time" : 794.216999784112,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/assets/js.min/main.ecf20ab93c5305854555a2f371dfde18.gz.js",
+         "id" : "r146",
+         "comps" : [
+            {
+               "s_time" : 1360.64099986106,
+               "time" : 276.37099986896,
+               "type" : 1,
+               "id" : "comp_159",
+               "e_time" : 1637.01199973002
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 241075,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "1360.41599977762",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1356.41599977762,
+            "s_time" : 1029.99599976465,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.politico.com/resource/fonts/website/shared/base-icons/base-icons.3252429d6f68fbf9c997f78d1b5399a6.woff",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 19508,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "2994.27299993113",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2990.27299993113,
+            "s_time" : 1066.6009997949,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.politico.com/&",
+         "id" : "r103",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 320,
+            "len" : 139677,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 329,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "2995.52699970081",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 2666.52699970081,
+            "s_time" : 794.888999778777,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=178201668917374&version=v2.0",
+         "id" : "r149",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 186137,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "3319.77299973369",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3318.77299973369,
+            "s_time" : 2813.52499965578,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://platform.twitter.com/widgets.js",
+         "id" : "r150",
+         "comps" : [
+            {
+               "s_time" : 3400.62299976125,
+               "time" : 41.9740001671103,
+               "type" : null,
+               "id" : "comp_246",
+               "e_time" : 3442.59699992836
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 95204,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "3319.05499985442",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3319.05499985442,
+            "s_time" : 2813.76899965107,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/js/platform.js",
+         "id" : "r151",
+         "comps" : [
+            {
+               "s_time" : 3385.14199992642,
+               "time" : 15.4539998620703,
+               "type" : null,
+               "id" : "comp_244",
+               "e_time" : 3400.59599978849
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 39342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "3318.81499988958",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3316.81499988958,
+            "s_time" : 2813.96699976176,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s7.addthis.com/static/layers.9cc4079f1f6d31bc8d98.js",
+         "id" : "r152",
+         "comps" : [
+            {
+               "s_time" : 3503.04599991068,
+               "time" : 1946.00699981675,
+               "type" : null,
+               "id" : "comp_251",
+               "e_time" : 5449.05299972743
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 268693,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "3320.57800004259",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3320.57800004259,
+            "s_time" : 2862.76799999177,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://m.addthis.com/live/boost?pub=politico.com&callback=_ate.track.config_resp",
+         "id" : "r153",
+         "comps" : [
+            {
+               "s_time" : 5449.08199971542,
+               "time" : 1.17100030183974,
+               "type" : 2,
+               "id" : "comp_253",
+               "e_time" : 5450.25300001726
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 327,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "3320.86899969727",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3305.86899969727,
+            "s_time" : 2863.11599984765,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://m.addthis.com/live/red_lojson/300lo.json?si=572145e2e64047c1&bl=1&sid=572145e2e64047c1&pub=politico.com&rev=v5.11.0a-wp&ln=en&pc=men&cb=0&adu6=0&ab=-&dp=modified.testbed.localhost&fp=www.politico.com%2Findex.html&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&lnlc=US&pi=1&rb=0&gen=100&",
+         "id" : "r154",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 97,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "3336.02100005373",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3312.02100005373,
+            "s_time" : 2972.66299976036,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://async-lb-2129785755.us-east-1.elb.amazonaws.com/admantx/service?request=%7B%22decorator%22%3A%22template.politico%22%2C%22key%22%3A%22821cd7dccbf73aa71c486ecbb4b909f9c3782ab51161515edeb9cc21efd18478%22%2C%22method%22%3A%22descriptor%22%2C%22filter%22%3A%5B%22default%22%5D%2C%22mode%22%3A%22as",
+         "id" : "r155",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 98,
+            "dns" : 8,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "3336.88099961728",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3297.88099961728,
+            "s_time" : 3231.09499970451,
+            "sendEnd" : 22,
+            "sendStart" : 22,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.125.js?utv=ut4.39.201511111706",
+         "id" : "r156",
+         "comps" : [
+            {
+               "s_time" : 5452.61599961668,
+               "time" : 1.89800001681033,
+               "type" : 2,
+               "id" : "comp_260",
+               "e_time" : 5454.51399963349
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 1582,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "3337.12599985301",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3337.12599985301,
+            "s_time" : 3282.57699962705,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.127.js?utv=ut4.39.201511111706",
+         "id" : "r157",
+         "comps" : [
+            {
+               "s_time" : 5454.52899998054,
+               "time" : 1.68799981474967,
+               "type" : 2,
+               "id" : "comp_262",
+               "e_time" : 5456.21699979529
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 1993,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "3337.46299985796",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3336.46299985796,
+            "s_time" : 3283.25499966741,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.134.js?utv=ut4.39.201604221510",
+         "id" : "r158",
+         "comps" : [
+            {
+               "s_time" : 5456.23099990189,
+               "time" : 1.5710000880099,
+               "type" : 2,
+               "id" : "comp_264",
+               "e_time" : 5457.8019999899
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 1911,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "3337.58799964562",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3336.58799964562,
+            "s_time" : 3283.55599986389,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gpt/pubads_impl_85.js",
+         "id" : "r159",
+         "comps" : [
+            {
+               "s_time" : 5787.74000005797,
+               "time" : 36.6509999148502,
+               "type" : null,
+               "id" : "comp_361",
+               "e_time" : 5824.39099997282
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 151342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "5458.2549999468",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5458.2549999468,
+            "s_time" : 3286.28199966624,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.politico.com/8b/68/03fc930f4145b09917d9119f2ee8/2016-70px.png",
+         "id" : "r160",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 31552,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "5458.58499966562",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5458.58499966562,
+            "s_time" : 3305.80399977043,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.politico.com/b1/43/038dbd154bb59af0e2e5cae79568/sm-logo-april26primaries.png",
+         "id" : "r161",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 5541,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "5460.16599982977",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5460.16599982977,
+            "s_time" : 3306.91199982539,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.politico.com/bd/a2/3216529c450bb57046f0d67deacb/sponsor-logo-comcast-4.26%20Stadium%20Moment_Utility%20Bar.png",
+         "id" : "r162",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 2469,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "5460.50799963996",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5460.50799963996,
+            "s_time" : 3307.55200004205,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static2.politico.com/dims4/default/ca8604d/2147483647/thumbnail/366x198%3E/thumbnail/366x198%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2F99%2Fa2%2Ff3dc98734d298ad55c8d2bde8c88%2F160427-cruz-fiorina-rally-ap-1160.jpg",
+         "id" : "r163",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 33268,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "5461.55999973416",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5460.55999973416,
+            "s_time" : 3308.01699962467,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static2.politico.com/dims4/default/9b900ee/2147483647/thumbnail/366x198%3E/thumbnail/366x198%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2Fe4%2Feb%2Faa43c3ab46eeb261c1be8611fd8f%2F20160426msmtrump-nyc582-1160.jpg",
+         "id" : "r164",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 34834,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "5461.96699980646",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5460.96699980646,
+            "s_time" : 3308.46600001678,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static2.politico.com/dims4/default/df29f40/2147483647/thumbnail/366x198%3E/thumbnail/366x198%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2F1d%2Fee%2F78ad90ff499c92f436afb2594c09%2Flede-worthy-160426-hillary-clinton-gty-1160.jpg",
+         "id" : "r165",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 11216,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "5461.40899974853",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5460.40899974853,
+            "s_time" : 3308.82899975404,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static2.politico.com/dims4/default/ea4ecba/2147483647/resize/70x/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2Fae%2F2b%2F8b5cc6864d4a84cca8dce97481a1%2Fplaybook-logo.png",
+         "id" : "r166",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 7843,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "5461.81500004604",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5460.81500004604,
+            "s_time" : 3309.24099963158,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static2.politico.com/dims4/default/8d2d0fd/2147483647/thumbnail/91x91%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2F65%2Fc5%2F3c23e11c4fadbe96c4ebd8aaf26f%2Fpolitico.png",
+         "id" : "r167",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 1177,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "5462.09799963981",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5461.09799963981,
+            "s_time" : 3309.84199978411,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://s7.addthis.com/static/sh.f7bb2665ec36f40231cf9d0b.html#rand=0.961736140307039&iit=1461798373095&tmr=load%3D1461798370674%26core%3D1461798370853%26main%3D1461798373087%26ifr%3D1461798373101&cb=0&cdn=0&md=0&kw=&ab=-&dh=modified.testbed.localhost&dr=&du=http%3A%2F%2Fmodified.testbed.localhost%2F",
+         "id" : "r168",
+         "comps" : [
+            {
+               "s_time" : 5652.48599974439,
+               "time" : 34.1350003145599,
+               "type" : "evalhtml",
+               "id" : "r168_c1",
+               "e_time" : 5686.62100005895
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 75706,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "5511.7429997772",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5511.7429997772,
+            "s_time" : 3339.43999977782,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.adsnative.com/static/js/render.v1.js",
+         "id" : "r169",
+         "comps" : [
+            {
+               "s_time" : 5824.41199989989,
+               "time" : 580.31299989671,
+               "type" : null,
+               "id" : "comp_365",
+               "e_time" : 6404.7249997966
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 48551,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "5512.39599986002",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5512.39599986002,
+            "s_time" : 3352.69999969751,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.11.js?utv=ut4.39.201604131821",
+         "id" : "r170",
+         "comps" : [
+            {
+               "s_time" : 6419.44899968803,
+               "time" : 25.9569999761898,
+               "type" : 2,
+               "id" : "comp_390",
+               "e_time" : 6445.40599966422
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 53269,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "5549.22199994326",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.22199994326,
+            "s_time" : 3383.07099975646,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.96.js?utv=ut4.39.201510272014",
+         "id" : "r171",
+         "comps" : [
+            {
+               "s_time" : 6405.91700002551,
+               "time" : 1.89399998635054,
+               "type" : 2,
+               "id" : "comp_374",
+               "e_time" : 6407.81100001186
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 1975,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "5548.3289998956",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.3289998956,
+            "s_time" : 3383.38999962434,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.129.js?utv=ut4.39.201511111706",
+         "id" : "r172",
+         "comps" : [
+            {
+               "s_time" : 6407.82799990848,
+               "time" : 1.30699994042061,
+               "type" : 2,
+               "id" : "comp_376",
+               "e_time" : 6409.1349998489
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 1139,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "5548.50400006399",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.50400006399,
+            "s_time" : 3383.64199968055,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.130.js?utv=ut4.39.201511111706",
+         "id" : "r173",
+         "comps" : [
+            {
+               "s_time" : 6409.14899995551,
+               "time" : 1.6600000672006,
+               "type" : 2,
+               "id" : "comp_378",
+               "e_time" : 6410.80900002271
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 2524,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "5548.6240000464",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.6240000464,
+            "s_time" : 3383.91099963337,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.131.js?utv=ut4.39.201511111706",
+         "id" : "r174",
+         "comps" : [
+            {
+               "s_time" : 6410.82299966365,
+               "time" : 1.66300032288018,
+               "type" : 2,
+               "id" : "comp_380",
+               "e_time" : 6412.48599998653
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 2689,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "5548.74299978837",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.74299978837,
+            "s_time" : 3384.1619999148,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.132.js?utv=ut4.39.201511111706",
+         "id" : "r175",
+         "comps" : [
+            {
+               "s_time" : 6412.50099986792,
+               "time" : 1.16299977526069,
+               "type" : 2,
+               "id" : "comp_382",
+               "e_time" : 6413.66399964318
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 894,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "5548.86199999601",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.86199999601,
+            "s_time" : 3384.41599998623,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.138.js?utv=ut4.39.201603242100",
+         "id" : "r176",
+         "comps" : [
+            {
+               "s_time" : 6413.67899999022,
+               "time" : 4.14999993517995,
+               "type" : 2,
+               "id" : "comp_384",
+               "e_time" : 6417.8289999254
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 9230,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "5548.98099973798",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5546.98099973798,
+            "s_time" : 3384.68699995428,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.tiqcdn.com/utag/politico/main/prod/utag.206.js?utv=ut4.39.201602161953",
+         "id" : "r177",
+         "comps" : [
+            {
+               "s_time" : 6417.87899984047,
+               "time" : 1.55600020662041,
+               "type" : 2,
+               "id" : "comp_388",
+               "e_time" : 6419.43500004709
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 2083,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "5549.11099979654",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5547.11099979654,
+            "s_time" : 3384.94399981573,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tags.crwdcntrl.net/c/2641/cc.js?ns=_cc2641",
+         "id" : "r178",
+         "comps" : [
+            {
+               "s_time" : 6445.42500004172,
+               "time" : 11.0449995845602,
+               "type" : 2,
+               "id" : "comp_392",
+               "e_time" : 6456.46999962628
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 67496,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "5549.6020000428",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 5549.6020000428,
+            "s_time" : 5454.40499996766,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.optimizely.com/js/553701075.js",
+         "id" : "r180",
+         "comps" : [
+            {
+               "s_time" : 6457.19800004736,
+               "time" : 193.85199993848,
+               "type" : 2,
+               "id" : "comp_398",
+               "e_time" : 6651.04999998584
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 290363,
+            "dns" : 8,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "5652.22200006247",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 5623.22200006247,
+            "s_time" : 5457.74699980393,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.crwdcntrl.net/5/c=1851/pe=y/var=ccauds",
+         "id" : "r179",
+         "comps" : [
+            {
+               "s_time" : 6456.71499986202,
+               "time" : 0.357999932019993,
+               "type" : 2,
+               "id" : "comp_395",
+               "e_time" : 6457.07299979404
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 70,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "5651.29099972546",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 5617.29099972546,
+            "s_time" : 5456.00599981844,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://p.typekit.net/p.gif?s=1&k=zmr6qqx&app=typekit&ht=sh&h=modified.testbed.localhost&f=139.140.175.176.4455.4616.5018.5045.9884.17037.17041.21647.21651&a=660350&sl=726&fl=4490&js=1.14.0&_=1461798375788",
+         "id" : "r181",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 35,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : 28,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "5694.1410000436",
+            "sslStart" : 13,
+            "dnsStart" : 0,
+            "receiveLast" : 5659.1410000436,
+            "s_time" : 5557.14599974453,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html",
+         "id" : "r183",
+         "comps" : [
+            {
+               "s_time" : 6873.05999966338,
+               "time" : 10.1980003528297,
+               "type" : "evalhtml",
+               "id" : "r183_c1",
+               "e_time" : 6883.25800001621
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "6752.45400005952",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6752.45400005952,
+            "s_time" : 5824.62799968198,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/impression.php/f228aafa0c/?api_key=178201668917374&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+         "id" : "r182",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 79,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 172,
+            "sslEnd" : 92,
+            "connectEnd" : 92,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "6765.87799983099",
+            "sslStart" : 44,
+            "dnsStart" : 1,
+            "receiveLast" : 6593.87799983099,
+            "s_time" : 5716.71899966896,
+            "sendEnd" : 93,
+            "sendStart" : 92,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://d2b3uqm49lqeua.cloudfront.net/v1/host/modified.testbed.localhost/?&callback=an_callback_lookup",
+         "id" : "r184",
+         "comps" : [
+            {
+               "s_time" : 6803.60999982804,
+               "time" : 0.599000137300209,
+               "type" : 2,
+               "id" : "comp_415",
+               "e_time" : 6804.20899996534
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 23,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "6766.2279997021",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6766.2279997021,
+            "s_time" : 6403.73799996451,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/json"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://d2b3uqm49lqeua.cloudfront.net/v1/host/modified.testbed.localhost/?&callback=an_callback_lookup_1390506578",
+         "id" : "r186",
+         "comps" : [
+            {
+               "s_time" : 6804.22999989241,
+               "time" : 16.4899998344499,
+               "type" : 2,
+               "id" : "comp_418",
+               "e_time" : 6820.71999972686
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 34,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "6766.48799981922",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6766.48799981922,
+            "s_time" : 6405.80699965358,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/json"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "id" : "r188",
+         "comps" : [
+            {
+               "s_time" : 6820.74299966916,
+               "time" : 1.80000020191983,
+               "type" : 2,
+               "id" : "comp_421",
+               "e_time" : 6822.54299987108
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 1495,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "6766.72299997881",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6766.72299997881,
+            "s_time" : 6407.87100000307,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "id" : "r189",
+         "comps" : [
+            {
+               "s_time" : 6822.55899999291,
+               "time" : 23.9559998735804,
+               "type" : 2,
+               "id" : "comp_424",
+               "e_time" : 6846.51499986649
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 29795,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "6766.96799974889",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6766.96799974889,
+            "s_time" : 6409.18199997395,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ads.pubmatic.com/AdServer/js/universalpixel.js?pubId=27180&pixId=41",
+         "id" : "r190",
+         "comps" : [
+            {
+               "s_time" : 6846.53900004923,
+               "time" : 1.13199977205022,
+               "type" : 2,
+               "id" : "comp_427",
+               "e_time" : 6847.67099982128
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 3390,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "6767.2850000672",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6767.2850000672,
+            "s_time" : 6410.72400007397,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://edge.quantserve.com/quant.js",
+         "id" : "r191",
+         "comps" : [
+            {
+               "s_time" : 6847.68699994311,
+               "time" : 0.901999883350072,
+               "type" : 2,
+               "id" : "comp_430",
+               "e_time" : 6848.58899982646
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 7874,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "6767.53499964252",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6767.53499964252,
+            "s_time" : 6412.37499983981,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://tcr.tynt.com/ti.js",
+         "id" : "r192",
+         "comps" : [
+            {
+               "s_time" : 6851.85199975967,
+               "time" : 15.2469999156892,
+               "type" : 2,
+               "id" : "comp_434",
+               "e_time" : 6867.09899967536
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 42296,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "6767.85399997607",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6767.85399997607,
+            "s_time" : 6413.58199995011,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-dcr.imrworldwide.com/novms/js/2/ggcmb500.js",
+         "id" : "r193",
+         "comps" : [
+            {
+               "s_time" : 6867.11800005287,
+               "time" : 1.71299977227955,
+               "type" : 2,
+               "id" : "comp_437",
+               "e_time" : 6868.83099982515
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 9078,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "6768.09899974614",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6768.09899974614,
+            "s_time" : 6419.25199981779,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://553701075.log.optimizely.com/event?a=553701075&d=553701075&y=false&src=js&s536712581=direct&s538992278=gc&s539001624=none&s553840423=false&tsent=1461798376.871&n=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.politico.com%2F&u=oeu1461798376845r0.868938876548782&wxhr=true&time=1461798376.87&f=",
+         "id" : "r196",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 2,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 69,
+            "sslEnd" : 54,
+            "connectEnd" : 54,
+            "connectStart" : 0,
+            "id" : "download_76",
+            "receivedTime" : "6870.55399967358",
+            "sslStart" : 20,
+            "dnsStart" : 0,
+            "receiveLast" : 6801.55399967358,
+            "s_time" : 6644.06499965116,
+            "sendEnd" : 54,
+            "sendStart" : 54,
+            "type" : "application/json"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f13553b89c&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r197",
+         "comps" : [
+            {
+               "s_time" : 6924.96699979529,
+               "time" : 12.3870000243205,
+               "type" : "evalhtml",
+               "id" : "r197_c1",
+               "e_time" : 6937.35399981961
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 34898,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_77",
+            "receivedTime" : "6895.79400001094",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6895.79400001094,
+            "s_time" : 6773.90199992806,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f13553b89c&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r198",
+         "comps" : [
+            {
+               "s_time" : 6925.10899994522,
+               "time" : 23.8139997236503,
+               "type" : "evalhtml",
+               "id" : "r198_c1",
+               "e_time" : 6948.92299966887
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 34898,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_78",
+            "receivedTime" : "6896.04600006714",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6896.04600006714,
+            "s_time" : 6774.0009999834,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/p2?c1=2&c2=8298892&cv=2.0&cj=1",
+         "id" : "r187",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_79",
+            "receivedTime" : "6903.27399969101",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6893.27399969101,
+            "s_time" : 6768.54599965736,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://metrics.politico.com/b/ss/allbrittonpolitico2/1/JS-1.4.1/s19338928097859?AQB=1&pccr=true&vidn=2B90A3250507B909-40000110E002233D&&ndh=1&pf=1&t=27%2F3%2F2016%2019%3A6%3A16%203%20240&fid=727CA717AAD2ED1A-2953C5A1965ABEEB&ce=UTF-8&pageName=POLITICO%20Home&g=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r194",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_80",
+            "receivedTime" : "6903.63899990916",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6885.63899990916,
+            "s_time" : 6769.24799988046,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sc.tynt.com/script/sc/bKDyiUp9mr3OhNab7jrHcU.js",
+         "id" : "r204",
+         "comps" : [
+            {
+               "s_time" : 6921.59099970013,
+               "time" : 2.19399994239029,
+               "type" : null,
+               "id" : "comp_458",
+               "e_time" : 6923.78499964252
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 73,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_81",
+            "receivedTime" : "6904.50399974361",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6904.50399974361,
+            "s_time" : 6866.79699970409,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-dcr.imrworldwide.com/novms/js/2/configs/glcfg500.js?rnd=16918",
+         "id" : "r205",
+         "comps" : [
+            {
+               "s_time" : 6954.16599977762,
+               "time" : 8.5490001365506,
+               "type" : null,
+               "id" : "comp_480",
+               "e_time" : 6962.71499991417
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 20127,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_82",
+            "receivedTime" : "6924.01399975643",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6924.01399975643,
+            "s_time" : 6870.11099979281,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://api.adsnative.com/v1/ad-template.json?zid=uh29fyhyBTog1tnp3Yv336uIxOipz6yzDvFjX-kL&force_mobile=0&kw=&num_ads=1&url=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.politico.com%2F&ref=&callback=an_callback_122429201",
+         "id" : "r199",
+         "comps" : [
+            {
+               "s_time" : 6962.73199981079,
+               "time" : 140.399000141761,
+               "type" : null,
+               "id" : "comp_485",
+               "e_time" : 7103.13099995255
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 3159,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 66,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_83",
+            "receivedTime" : "6924.38599979505",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 6858.38599979505,
+            "s_time" : 6805.53699983284,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "application/json"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pixel.quantserve.com/pixel;r=1498825587;a=p-7bhLrd63bC8jI;fpan=1;fpa=P0-990982761-1461798377082;ns=0;ce=1;cm=;je=1;sr=1024x768x24;enc=n;dst=1;et=1461798377081;tzo=240;ref=;url=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.politico.com%2F;ogl=title.Politics%252C%20Policy%252C%20Political%20New",
+         "id" : "r202",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 35,
+            "dns" : 6,
+            "dnsEnd" : 6,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_84",
+            "receivedTime" : "6924.70299964771",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 6904.70299964771,
+            "s_time" : 6851.92199982703,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ic.tynt.com/b/p?id=bKDyiUp9mr3OhNab7jrHcU&lm=0&ts=1461798377097&ct=Politics%2C%20Policy%2C%20Political%20News&t=Politics%2C%20Policy%2C%20Political%20News%20-%20POLITICO&cu=modified.testbed.localhost%2Fwww.politico.com%2Findex.html",
+         "id" : "r203",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 28,
+            "len" : 35,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 33,
+            "connectStart" : 0,
+            "id" : "download_85",
+            "receivedTime" : "7103.46899973229",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 7042.46899973229,
+            "s_time" : 6865.65499985591,
+            "sendEnd" : 33,
+            "sendStart" : 33,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-dcr.imrworldwide.com/novms/js/2/pldpr500.js?r=16918",
+         "id" : "r206",
+         "comps" : [
+            {
+               "s_time" : 7150.79299965873,
+               "time" : 23.81499996409,
+               "type" : null,
+               "id" : "comp_499",
+               "e_time" : 7174.60799962282
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 50888,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_86",
+            "receivedTime" : "7103.98299992085",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7103.98299992085,
+            "s_time" : 6959.38399992883,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-dcr.imrworldwide.com/novms/js/2/pldcr500.js?r=16918",
+         "id" : "r207",
+         "comps" : [
+            {
+               "s_time" : 7174.62799977511,
+               "time" : 1.45599991083054,
+               "type" : null,
+               "id" : "comp_502",
+               "e_time" : 7176.08399968594
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 2988,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_87",
+            "receivedTime" : "7104.13699969649",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7103.13699969649,
+            "s_time" : 6959.79700004682,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://secure-dcr.imrworldwide.com/novms/html/ls.html",
+         "id" : "r208",
+         "comps" : [
+            {
+               "s_time" : 7176.46099999547,
+               "time" : 1.42899993806986,
+               "type" : "evalhtml",
+               "id" : "r208_c1",
+               "e_time" : 7177.88999993354
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4626,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_88",
+            "receivedTime" : "7104.38599996269",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7104.38599996269,
+            "s_time" : 6961.66600007564,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.adsnative.com/media/10422/7e60e476-a8c4-49ea-96ae-4d00bc160515.jpg",
+         "id" : "r209",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 53546,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_89",
+            "receivedTime" : "7122.50000005588",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7122.50000005588,
+            "s_time" : 7062.92799999937,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://bevo.adsnative.com/im.gif?sid=ca2db2db88194184bfb1ca65516f4827_f7faf150",
+         "id" : "r210",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 25,
+            "len" : 42,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_90",
+            "receivedTime" : "7176.36099969968",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 7130.36099969968,
+            "s_time" : 7063.73200006783,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-dcr.imrworldwide.com/cgi-bin/cfg?pli=1461798377101900&nmspc=NOLCMB&sdkv=bj.5.0.0&fmt=jsonp&apn=POLITICO&fbtag=true&cfgv=200&bldv=5.0.0.20&prefprotocol=http&sfcode=dcr&apid=PE72C6984-84A4-4249-898F-414DD7A977DB&rnd=660942",
+         "id" : "r211",
+         "comps" : [
+            {
+               "s_time" : 7284.4299999997,
+               "time" : 10.1029998622898,
+               "type" : null,
+               "id" : "comp_521",
+               "e_time" : 7294.53299986199
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 40,
+            "len" : 39804,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_91",
+            "receivedTime" : "7284.29299965501",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7244.29299965501,
+            "s_time" : 7157.76299964637,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://de.tynt.com/deb/v2?id=bKDyiUp9mr3OhNab7jrHcU&r=",
+         "id" : "r212",
+         "comps" : [
+            {
+               "s_time" : 7251.82699970901,
+               "time" : 1.58599996939029,
+               "type" : null,
+               "id" : "comp_518",
+               "e_time" : 7253.4129996784
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 26,
+            "len" : 526,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 59,
+            "sslEnd" : -1,
+            "connectEnd" : 33,
+            "connectStart" : 0,
+            "id" : "download_92",
+            "receivedTime" : "7251.67899997905",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 7192.67899997905,
+            "s_time" : 7191.27499964088,
+            "sendEnd" : 33,
+            "sendStart" : 33,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://e.nexac.com/e/xrefid.xgi?na_exid=a121e8448dfcfadbb61bb73ee3b57de5330b9f7408c2c6681b81080031c31e2b3b87cd2c0007efc4&na_pid=2028&ru=",
+         "id" : "r213",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_93",
+            "receivedTime" : "7377.01499974355",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7358.01499974355,
+            "s_time" : 7356.6020000726,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.cpx.to/ca.png?ref=&pid=11657&adnxs_uid=1279088329606219724",
+         "id" : "r214",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 90,
+            "len" : 95,
+            "dns" : 6,
+            "dnsEnd" : 6,
+            "receiveHeadersEnd" : 185,
+            "sslEnd" : -1,
+            "connectEnd" : 95,
+            "connectStart" : 0,
+            "id" : "download_94",
+            "receivedTime" : "7469.92000006139",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 7284.92000006139,
+            "s_time" : 7283.39499980211,
+            "sendEnd" : 95,
+            "sendStart" : 95,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://rudy.adsnative.com/cm.gif?smode=2&dspid=519790455",
+         "id" : "r185",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 42,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_95",
+            "receivedTime" : "7647.1489998512",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7629.1489998512,
+            "s_time" : 7627.49499967322,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pippio.com/api/sync?pid=1331&it=1&iv=53682702-56d8-4684-61a0-fb3e1f05ad70",
+         "id" : "r215",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 116,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 116,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_96",
+            "receivedTime" : "7806.26499978825",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 7690.26499978825,
+            "s_time" : 7687.78500007465,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ping.chartbeat.net/ping?h=politico.com&p=%2Fwww.politico.com%2Findex.html&u=Urdp1B5_rGckjCcT&d=modified.testbed.localhost&g=33430&g0=homepage&n=1&f=00001&c=0&x=0&m=0&y=4700&o=989&w=614&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=1&t=C6-XMV_osOiBGUX_PCz-_qfDBOHB6&V=78&i=Politics%2C%20Policy%2C%20Political%2",
+         "id" : "r201",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 43,
+            "dns" : 1015,
+            "dnsEnd" : 1015,
+            "receiveHeadersEnd" : 1044,
+            "sslEnd" : -1,
+            "connectEnd" : 1029,
+            "connectStart" : 0,
+            "id" : "download_97",
+            "receivedTime" : "7891.8959996663",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 6847.8959996663,
+            "s_time" : 6846.67599992827,
+            "sendEnd" : 1029,
+            "sendStart" : 1029,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_159"
+      },
+      {
+         "a2" : "comp_1",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "comp_3",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 5209.66400019825,
+         "id" : "dep15",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_96",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 5990.4829999432,
+         "id" : "dep17",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 5646.38300007209,
+         "id" : "dep18",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 5719.59000034258,
+         "id" : "dep19",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 5554.26299991086,
+         "id" : "dep20",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 6.96999998764022,
+         "id" : "dep21",
+         "a1" : "comp_499"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 101.00000025704,
+         "id" : "dep22",
+         "a1" : "comp_485"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 100.19600018858,
+         "id" : "dep23",
+         "a1" : "comp_485"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 7.5000002980205,
+         "id" : "dep24",
+         "a1" : "comp_480"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 5.63100026920074,
+         "id" : "dep25",
+         "a1" : "comp_480"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 5.21800015121062,
+         "id" : "dep26",
+         "a1" : "comp_480"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 5228.64300012589,
+         "id" : "dep27",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 5214.91000009701,
+         "id" : "dep28",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 5168.52500010282,
+         "id" : "dep29",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 5233.09900006279,
+         "id" : "dep30",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 5229.78499997407,
+         "id" : "dep31",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 5132.23600015044,
+         "id" : "dep32",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 5131.53399992734,
+         "id" : "dep33",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 5136.98900025338,
+         "id" : "dep34",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 5136.89000019804,
+         "id" : "dep35",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 5007.05299992114,
+         "id" : "dep36",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 4782.24000008777,
+         "id" : "dep37",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 4776.57000022009,
+         "id" : "dep38",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 4775.36300010979,
+         "id" : "dep39",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 4773.71200034395,
+         "id" : "dep40",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 4772.17000024393,
+         "id" : "dep41",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 4770.85900027305,
+         "id" : "dep42",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 4768.79499992356,
+         "id" : "dep43",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 579.32600006462,
+         "id" : "dep44",
+         "a1" : "comp_365"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 4079.70699993894,
+         "id" : "dep45",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 0.215999782089966,
+         "id" : "dep46",
+         "a1" : "comp_365"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 3920.13400001451,
+         "id" : "dep47",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 3818.99400008842,
+         "id" : "dep48",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 3820.73500007391,
+         "id" : "dep49",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 3817.39300023764,
+         "id" : "dep50",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 1747.93200008571,
+         "id" : "dep51",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 1747.67500022426,
+         "id" : "dep52",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 1747.40400025621,
+         "id" : "dep53",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 1747.15000018478,
+         "id" : "dep54",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 1746.89899990335,
+         "id" : "dep55",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 1746.62999995053,
+         "id" : "dep56",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 1746.37799989432,
+         "id" : "dep57",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 1746.05900002644,
+         "id" : "dep58",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 1715.68799996749,
+         "id" : "dep59",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 1702.4280000478,
+         "id" : "dep60",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 330.51599981263,
+         "id" : "dep61",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 1672.83000005409,
+         "id" : "dep62",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 329.9149996601,
+         "id" : "dep63",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 1672.22899990156,
+         "id" : "dep64",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 329.50299978256,
+         "id" : "dep65",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 1671.81700002402,
+         "id" : "dep66",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 329.1400000453,
+         "id" : "dep67",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 1671.45400028676,
+         "id" : "dep68",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 328.69099965319,
+         "id" : "dep69",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 1671.00499989465,
+         "id" : "dep70",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 328.22600007057,
+         "id" : "dep71",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 1670.54000031203,
+         "id" : "dep72",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 327.58599985391,
+         "id" : "dep73",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 1669.90000009537,
+         "id" : "dep74",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 326.47799979895,
+         "id" : "dep75",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 1668.79200004041,
+         "id" : "dep76",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 306.95599969476,
+         "id" : "dep77",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 1649.26999993622,
+         "id" : "dep78",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 304.22999989241,
+         "id" : "dep79",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 1646.54400013387,
+         "id" : "dep80",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 303.92899969593,
+         "id" : "dep81",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 1646.24299993739,
+         "id" : "dep82",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 303.25099965557,
+         "id" : "dep83",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 1645.56499989703,
+         "id" : "dep84",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 251.76899973303,
+         "id" : "dep85",
+         "a1" : "r85_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 1594.08299997449,
+         "id" : "dep86",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 1335.65100003034,
+         "id" : "dep87",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 1226.10400011763,
+         "id" : "dep88",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 1225.75600026175,
+         "id" : "dep89",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 1176.95500003174,
+         "id" : "dep90",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 1176.75699992105,
+         "id" : "dep91",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 1176.51299992576,
+         "id" : "dep92",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_32",
+         "time" : -1,
+         "id" : "dep93",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_31",
+         "time" : -1,
+         "id" : "dep94",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 696.299999952315,
+         "id" : "dep95",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 460.520999971777,
+         "id" : "dep96",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 325.604000128805,
+         "id" : "dep97",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 293.773000128567,
+         "id" : "dep98",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 296.262000221759,
+         "id" : "dep99",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 8.04799981415198,
+         "id" : "dep100",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep101",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 5.5019999854267,
+         "id" : "dep102",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 5.0260000862181,
+         "id" : "dep103",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.6759997494519,
+         "id" : "dep104",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 4.3480000458658,
+         "id" : "dep105",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 3.9909998886287,
+         "id" : "dep106",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 3.6339997313917,
+         "id" : "dep107",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 3.270999994129,
+         "id" : "dep108",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.6070000603795,
+         "id" : "dep109",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.05099985376,
+         "id" : "dep110",
+         "a1" : "r1_c1"
+      }
+   ]
+}

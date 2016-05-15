@@ -1,0 +1,442 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.instagram.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.instagram.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 47.8099999018013,
+               "time" : 11.7629999294878,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 59.5729998312891
+            },
+            {
+               "s_time" : 87.2289999388158,
+               "time" : -3375834075.395,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3375833988.166
+            },
+            {
+               "s_time" : 108.249999582767,
+               "time" : -3375834096.416,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3375833988.166
+            },
+            {
+               "s_time" : 200.134999584407,
+               "time" : 289.584000129252,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 489.718999713659
+            },
+            {
+               "s_time" : 651.783999986947,
+               "time" : 391.156999859963,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 1042.94099984691
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 14899,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "43.242999818176",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 39.242999818176,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/instagramstatic-a.akamaihd.net/h1/scripts/webfont.js/c0456c81549b.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 87.8939996473491,
+               "time" : 15.9760001115499,
+               "type" : 3,
+               "id" : "comp_7",
+               "e_time" : 103.869999758899
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 11628,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "75.2429999411106",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 69.2429999411106,
+            "s_time" : 49.8159998096526,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/6514c5e08593.js",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 76.2319997884333,
+               "time" : 10.9970001503825,
+               "type" : 1,
+               "id" : "comp_6",
+               "e_time" : 87.2289999388158
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 16324,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "76.1199998669326",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 65.1199998669326,
+            "s_time" : 57.7509999275208,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 104.370999615639,
+               "time" : 3.87899996712801,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 108.249999582767
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 6758,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "104.294999968261",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 91.2949999682605,
+            "s_time" : 58.3069999702275,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/9fc5290df00a.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 182.326999958605,
+               "time" : 17.807999625802,
+               "type" : 1,
+               "id" : "comp_26",
+               "e_time" : 200.134999584407
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 244387,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "182.1069996804",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 169.1069996804,
+            "s_time" : 59.0929999016225,
+            "sendEnd" : 5,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/instagramstatic-a.akamaihd.net/h1/bundles/en_US_LandingPage.js/a6dc9373bef3.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 201.017999555916,
+               "time" : 450.766000431031,
+               "type" : 1,
+               "id" : "comp_27",
+               "e_time" : 651.783999986947
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 435441,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "200.727999676019",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 187.727999676019,
+            "s_time" : 59.5729998312891,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://instagramstatic-a.akamaihd.net/h1/bundles/en_US_Chunks/6f94a469b7f5.js",
+         "id" : "r25",
+         "comps" : [
+            {
+               "s_time" : 679.194999858737,
+               "time" : 47.578999772668,
+               "type" : null,
+               "id" : "comp_91",
+               "e_time" : 726.773999631405
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 101,
+            "len" : 363127,
+            "dns" : 8,
+            "dnsEnd" : 9,
+            "receiveHeadersEnd" : 117,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "676.604999694973",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 559.604999694973,
+            "s_time" : 489.718999713659,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://connect.facebook.net/en_US/fbevents.js",
+         "id" : "r26",
+         "comps" : [
+            {
+               "s_time" : 733.409999869764,
+               "time" : 9.21700010076199,
+               "type" : null,
+               "id" : "comp_94",
+               "e_time" : 742.626999970526
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 8401,
+            "dns" : 8,
+            "dnsEnd" : 9,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "729.22799969092",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 693.22799969092,
+            "s_time" : 653.044999577105,
+            "sendEnd" : 22,
+            "sendStart" : 22,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/tr/?id=1425767024389221&ev=PageView&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.instagram.com%2F&rl=&if=false&ts=1461893107154&v=2.5.0",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 43,
+            "dns" : 7,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 68,
+            "sslEnd" : 52,
+            "connectEnd" : 52,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "812.131999991834",
+            "sslStart" : 22,
+            "dnsStart" : 1,
+            "receiveLast" : 744.131999991834,
+            "s_time" : 742.652999702841,
+            "sendEnd" : 53,
+            "sendStart" : 52,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/es5-shim.map",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 370,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "1052.53799958155",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1044.53799958155,
+            "s_time" : 1042.94099984691,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_27"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_27",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 90.868999715894,
+         "id" : "dep8",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 1.26099959015801,
+         "id" : "dep9",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_6",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 11.2829999998212,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 10.4970000684262,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 9.9410000257195,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 2.0059999078513,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      }
+   ]
+}

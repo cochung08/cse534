@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.newyorker.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.newyorker.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 104.371999856085,
+               "time" : 0.707000028342009,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 105.078999884427
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 48,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 65,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "67.9299999028444",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.92999990284443,
+            "s_time" : 0,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

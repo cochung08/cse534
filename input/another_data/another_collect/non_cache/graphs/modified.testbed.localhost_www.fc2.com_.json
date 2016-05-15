@@ -1,0 +1,1246 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.fc2.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.fc2.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 44.408000074327,
+               "time" : 50.0480001792312,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 94.4560002535582
+            },
+            {
+               "s_time" : 105.319000314921,
+               "time" : -3289675138.832,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3289675033.513
+            },
+            {
+               "s_time" : 107.050999999046,
+               "time" : -3289675140.564,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3289675033.513
+            },
+            {
+               "s_time" : 112.829000223428,
+               "time" : -3289675146.342,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3289675033.513
+            },
+            {
+               "s_time" : 114.851000253111,
+               "time" : -3289675148.364,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3289675033.513
+            },
+            {
+               "s_time" : 119.022000115365,
+               "time" : -3289675152.535,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3289675033.513
+            },
+            {
+               "s_time" : 121.508000418544,
+               "time" : 63.832999672741,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : 185.341000091285
+            },
+            {
+               "s_time" : 213.335000444204,
+               "time" : 23.657999932766,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 236.99300037697
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 35264,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "43.7830002047122",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 39.7830002047122,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/css/common.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 59.2630002647638,
+               "time" : 0.959000084549203,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 60.222000349313
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1852,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "59.0560003183782",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 48.0560003183782,
+            "s_time" : 45.652000233531,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/css/fc2com_default_140313.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 66.0910001024604,
+               "time" : 4.25500003620981,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 70.3460001386702
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 22324,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "65.8620004542172",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 52.8620004542172,
+            "s_time" : 46.5650004334748,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2parts/css/share.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 70.6480001099408,
+               "time" : 4.7090002335608,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 75.3570003435016
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 18123,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "70.5410004593432",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 55.5410004593432,
+            "s_time" : 46.1300001479685,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/js/jquery-1.2.6.min.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 76.7870000563562,
+               "time" : 28.5320002585648,
+               "type" : 1,
+               "id" : "comp_3",
+               "e_time" : 105.319000314921
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 55774,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "76.5960002318025",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 59.5960002318025,
+            "s_time" : 46.9160000793636,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2parts/js/common_design.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 107.191000133753,
+               "time" : 5.638000089675,
+               "type" : 1,
+               "id" : "comp_6",
+               "e_time" : 112.829000223428
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 3330,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "76.0330003686249",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 58.0330003686249,
+            "s_time" : 47.6340004242957,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/js/tab_panel.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 105.504000093788,
+               "time" : 1.54699990525801,
+               "type" : 1,
+               "id" : "comp_4",
+               "e_time" : 107.050999999046
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 439,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "76.2690003030002",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 57.2690003030002,
+            "s_time" : 47.2820000723004,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/css/sp.css",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 113.439000211656,
+               "time" : 0.00600004568700285,
+               "type" : 4,
+               "id" : "comp_10",
+               "e_time" : 113.445000257343
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 424,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "113.319000229239",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 93.3190002292395,
+            "s_time" : 48.2690003700554,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/js/sp.js%3F130128",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 113.859000150114,
+               "time" : 0.992000102996997,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 114.851000253111
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1316,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "113.732000347227",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.7320003472269,
+            "s_time" : 47.9840002954006,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fc2.com/ja/notice.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 117.50700045377,
+               "time" : 1.514999661595,
+               "type" : 1,
+               "id" : "comp_13",
+               "e_time" : 119.022000115365
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 2968,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "117.400000337511",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 94.4000003375113,
+            "s_time" : 48.6570000648499,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fc2.com/ja/newentry.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 119.620000012219,
+               "time" : 1.88800040632501,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 121.508000418544
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 3558,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "119.473000057042",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 95.4730000570416,
+            "s_time" : 48.9530004560947,
+            "sendEnd" : 21,
+            "sendStart" : 20,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2footermenu/blank.gif",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "134.247000329196",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 110.247000329196,
+            "s_time" : 49.4380001910031,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/img/bnr_careers/bnr_careers_b1_ja.png",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 9146,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "135.277000255883",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.277000255883,
+            "s_time" : 74.5670003816485,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/image/banner_talk/fc2talk-120x600.png",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 9402,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "136.083000339568",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 132.083000339568,
+            "s_time" : 80.0530002452433,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.fc2.com/counter_img.php%3Fid=3761",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "136.634000111371",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 132.634000111371,
+            "s_time" : 85.4380000382662,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2parts/image/fc2logo.png",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 660,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "137.161000166088",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 134.161000166088,
+            "s_time" : 89.969000313431,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2parts/image/sh_help_icon.gif",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 726,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "137.652000412345",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 133.652000412345,
+            "s_time" : 94.4560002535582,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/assys01.fc2.com/1271.html",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 519.392000045627,
+               "time" : 197.730000130833,
+               "type" : "evalhtml",
+               "id" : "r19_c1",
+               "e_time" : 717.12200017646
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1430,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "189.706000033766",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 183.706000033766,
+            "s_time" : 129.254000261426,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/assys01.fc2.com/1302.html",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 522.403000388294,
+               "time" : 131.250999867917,
+               "id" : "r20_c1",
+               "type" : "evalhtml",
+               "e_time" : 653.654000256211
+            },
+            {
+               "s_time" : 716.66800044477,
+               "time" : 1.19699956849206,
+               "type" : "evalhtml",
+               "id" : "r20_c2",
+               "e_time" : 717.865000013262
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1430,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "199.256000109017",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 193.256000109017,
+            "s_time" : 133.06500017643,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.fc2.com/counter_img.php%3Fid=1512",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "212.497000116855",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 207.497000116855,
+            "s_time" : 138.233000412583,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2parts/image/header_bar.png",
+         "id" : "r22",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 150,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "212.898000143468",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 207.898000143468,
+            "s_time" : 138.862000312656,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/img/fc2_logo.gif.png",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4377,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "238.338000141084",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 231.338000141084,
+            "s_time" : 171.934000216424,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/img/header_menu-back.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 20436,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "241.964000277221",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 234.964000277221,
+            "s_time" : 173.123000189662,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/img/fc2_service_icon.png",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 41252,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "243.287000339478",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 235.287000339478,
+            "s_time" : 175.57100020349,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/share/fc2parts/image/share_parts.png",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 131649,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "519.27400007844",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 513.27400007844,
+            "s_time" : 185.341000091285,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 525.431000161916,
+               "time" : 132.007000036538,
+               "type" : 2,
+               "id" : "comp_46",
+               "e_time" : 657.438000198454
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 43082,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "524.166000075638",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 524.166000075638,
+            "s_time" : 216.172000393271,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.fc2.com/fc2com/img/info_title_back.gif.png",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 996,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "524.596000090241",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 517.596000090241,
+            "s_time" : 236.99300037697,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/j.microad.net/js/compass.js",
+         "id" : "r29",
+         "comps" : [
+            {
+               "s_time" : 719.090000260621,
+               "time" : 19.79500008747,
+               "type" : null,
+               "id" : "comp_58",
+               "e_time" : 738.885000348091
+            },
+            {
+               "s_time" : 751.630000304431,
+               "time" : 6.51399977505207,
+               "type" : null,
+               "id" : "comp_67",
+               "e_time" : 758.144000079483
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 69844,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "718.464000150561",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 712.464000150561,
+            "s_time" : 521.295000333339,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/assys01.fc2.com/js/ajax.module.js",
+         "id" : "r30",
+         "comps" : [
+            {
+               "s_time" : 715.746000409126,
+               "time" : 0.922000035643919,
+               "type" : 1,
+               "id" : "comp_50",
+               "e_time" : 716.66800044477
+            },
+            {
+               "s_time" : 717.407000251114,
+               "time" : 0.097999814898003,
+               "type" : null,
+               "id" : "comp_54",
+               "e_time" : 717.505000066012
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1594,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "715.625000186265",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 709.625000186265,
+            "s_time" : 522.367000114173,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1478945248&utmhn=modified.testbed.localhost&utmcs=UTF-8&utmsr=1024x768&utmvp=989x732&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=-&utmdt=FC2%20-%E7%84%A1%E6%96%99%E3%83%96%E3%83%AD%E3%82%B0%20%E7%84%A1%E6%96%99%E5%8B%95%E7%94%BB%20%E7%84",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "769.755000248551",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 746.755000248551,
+            "s_time" : 653.654000256211,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "comp_3",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "comp_3",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "comp_3",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "comp_4",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r20_c2",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_50"
+      },
+      {
+         "a2" : "download_29",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "r20_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 134.262000210584,
+         "id" : "dep19",
+         "a1" : "r19_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 2.97500006854602,
+         "id" : "dep20",
+         "a1" : "r19_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 1.90300028771196,
+         "id" : "dep21",
+         "a1" : "r19_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 2.83699994906698,
+         "id" : "dep23",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_24",
+         "time" : -1,
+         "id" : "dep24",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 54.062999784946,
+         "id" : "dep25",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 51.614999771118,
+         "id" : "dep26",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 50.42599979788,
+         "id" : "dep27",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 17.353999894112,
+         "id" : "dep28",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 16.724999994039,
+         "id" : "dep29",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 16.724999994039,
+         "id" : "dep30",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 11.556999757886,
+         "id" : "dep31",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 7.745999842882,
+         "id" : "dep32",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 45.561000239104,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 41.0299999639392,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 35.6450001709163,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 30.1590003073215,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 5.0300001166761,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 4.5450003817677,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 4.2489999905229,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 3.5760002210736,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 3.8610002957284,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 2.8739999979734,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 3.2260003499687,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.5080000050366,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.7220000736415,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.1570003591478,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.244000159204,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      }
+   ]
+}

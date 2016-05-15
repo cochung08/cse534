@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.readytoforex.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.readytoforex.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 97.9740000329912,
+               "time" : 0.4849997349083,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 98.4589997678995
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 59,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "61.6639996878803",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.66399968788028,
+            "s_time" : 0,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

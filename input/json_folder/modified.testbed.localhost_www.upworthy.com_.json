@@ -1,0 +1,539 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.upworthy.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 46.0660000098869,
+               "time" : 13.0509999580682,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 59.1169999679551
+            },
+            {
+               "s_time" : 145.29700006824,
+               "time" : -696609429.97,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -696609284.673
+            },
+            {
+               "s_time" : 145.57200006675,
+               "time" : 107.426999951713,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 252.999000018463
+            },
+            {
+               "s_time" : 452.879999997094,
+               "time" : 587.724999990316,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 1040.60499998741
+            },
+            {
+               "s_time" : 1129.79300005827,
+               "time" : -696610414.466,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -696609284.673
+            },
+            {
+               "s_time" : 1130.25699998252,
+               "time" : 0.989000080149935,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 1131.24600006267
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 48894,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "45.5320000182837",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 41.5320000182837,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/assets/application-eb97678dd5af398d0b4dcd6b903d01e2.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 105.714000063017,
+               "time" : 47.644999925978,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 153.358999988995
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 175192,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "105.432000011206",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 96.4320000112057,
+            "s_time" : 57.1029999991879,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/api/geo.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 145.065000047907,
+               "time" : 0.232000020333004,
+               "type" : 1,
+               "id" : "comp_9",
+               "e_time" : 145.29700006824
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 397,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "70.9039999637753",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 60.9039999637753,
+            "s_time" : 57.4890000279993,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/assets/ads/ads-b7fee093e8fe52d61aec2c2231894273.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 145.426000002772,
+               "time" : 0.146000063977993,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 145.57200006675
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 24,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "71.9309999840334",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 60.9309999840334,
+            "s_time" : 57.8070000046864,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/i.upworthy.com/sponsor/5717a5c433002d001b000088/flagpole-mothers-sponsor-logo-d8c1923fc9ef68a96dbd47d161b79e6c.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 26653,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "76.5949999913573",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 65.5949999913573,
+            "s_time" : 58.1559999845922,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.optimizely.com/js/38179760.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 154.576000059023,
+               "time" : 298.303999938071,
+               "type" : 1,
+               "id" : "comp_14",
+               "e_time" : 452.879999997094
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 213079,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "154.352999990806",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 141.352999990806,
+            "s_time" : 58.4700000472367,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/assets/up.bundle-43b612662d96be68e83bb92e86eff3da.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 483.031000010669,
+               "time" : 646.762000047601,
+               "type" : 1,
+               "id" : "comp_36",
+               "e_time" : 1129.79300005827
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 646473,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "482.726000016555",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 468.726000016555,
+            "s_time" : 58.837000047788,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.youtube.com/iframe_api",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1129.86700003967,
+               "time" : 0.389999942849954,
+               "type" : 1,
+               "id" : "comp_41",
+               "e_time" : 1130.25699998252
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 744,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "82.2499999776483",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.2499999776483,
+            "s_time" : 59.1169999679551,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/assets/upworthy-logo-2015.svg",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1652,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "472.512000007555",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 468.512000007555,
+            "s_time" : 252.999000018463,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/assets/Regular-Regular-cb4620e17479fe4a2af0e6f5bbdcb2a5.woff",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 54457,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "1163.15000003669",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1158.15000003669,
+            "s_time" : 456.134999985807,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.upworthy.com/assets/Regular-Bold-1d97c90352df7e25bcb1930041c26a78.woff",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 54405,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "1164.88200007007",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1158.88200007007,
+            "s_time" : 456.387000042014,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/assets/upworthy-logo-2015-9478cf5b9a196530e8d62089b65de4bc.svg",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 352,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "1292.89699997753",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1289.89699997753,
+            "s_time" : 1040.60499998741,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_41"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_36",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_41",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "download_11",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 3.50700004492001,
+         "id" : "dep10",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 3.254999988713,
+         "id" : "dep11",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 12.7710000379011,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 12.4040000373498,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 12.4040000373498,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 12.0899999747053,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 12.0899999747053,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 11.7409999947995,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 11.7409999947995,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 11.4230000181124,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 11.4230000181124,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 11.036999989301,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      }
+   ]
+}

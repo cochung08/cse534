@@ -1,0 +1,546 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.apple.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 52.0449997857213,
+               "time" : 6.2330001965165,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 58.2779999822378
+            },
+            {
+               "s_time" : 603.855999652296,
+               "time" : -3361122203.93,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3361121600.074
+            },
+            {
+               "s_time" : 787.167999893427,
+               "time" : -3361122387.242,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3361121600.074
+            },
+            {
+               "s_time" : 787.434999831021,
+               "time" : -3361122387.509,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3361121600.074
+            },
+            {
+               "s_time" : 812.341999728233,
+               "time" : -3361122412.416,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3361121600.074
+            },
+            {
+               "s_time" : 881.145999766886,
+               "time" : 0.072000082582008,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 881.217999849468
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 31472,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "47.0519997179508",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 43.0519997179508,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/ac/globalnav/2.0/en_US/styles/ac-globalnav.built.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 80.1099999807775,
+               "time" : 13.6400000192225,
+               "type" : 4,
+               "id" : "comp_6",
+               "e_time" : 93.75
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 83021,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "79.7579996287823",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 59.7579996287823,
+            "s_time" : 53.3219999633729,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/ac/globalfooter/2.0/en_US/styles/ac-globalfooter.built.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 95.8269997499883,
+               "time" : 7.3560001328587,
+               "type" : 4,
+               "id" : "comp_8",
+               "e_time" : 103.182999882847
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 53754,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "95.5529999919236",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 76.5529999919236,
+            "s_time" : 54.0519999340177,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/ac/localnav/3.0/styles/ac-localnav.built.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 104.330999776721,
+               "time" : 11.299000121653,
+               "type" : 4,
+               "id" : "comp_9",
+               "e_time" : 115.629999898374
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 80471,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "104.208999779075",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 83.2089997790754,
+            "s_time" : 55.0059997476637,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/wss/fonts/index.html%3Ffamily=Myriad+Set+Pro&v=2.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 94.6019999682903,
+               "time" : 0.818999949842706,
+               "type" : 4,
+               "id" : "comp_7",
+               "e_time" : 95.420999918133
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 8939,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "94.4840000011027",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 70.4840000011027,
+            "s_time" : 55.5989998392761,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.apple.com/v/home/cm/built/styles/main.built.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 555.955999996513,
+               "time" : 343.826999887824,
+               "type" : 4,
+               "id" : "comp_11",
+               "e_time" : 899.782999884337
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 83686,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "554.647000040859",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 529.647000040859,
+            "s_time" : 56.0289998538792,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.apple.com/v/home/cm/built/scripts/head.built.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 557.118999771774,
+               "time" : 46.7369998805219,
+               "type" : 1,
+               "id" : "comp_12",
+               "e_time" : 603.855999652296
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 61384,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "115.878999698907",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 89.8789996989071,
+            "s_time" : 56.4689999446273,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/ac/globalnav/2.0/en_US/scripts/ac-globalnav.built.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 606.574999634176,
+               "time" : 180.593000259251,
+               "type" : 1,
+               "id" : "comp_14",
+               "e_time" : 787.167999893427
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 132283,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 33,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "126.243999693543",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 93.2439996935427,
+            "s_time" : 56.9789996370673,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.apple.com/metrics/ac-analytics/1.1/scripts/ac-analytics.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 787.403999827802,
+               "time" : 0.0310000032189919,
+               "type" : 1,
+               "id" : "comp_19",
+               "e_time" : 787.434999831021
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 283497,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "160.235999617726",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 120.235999617726,
+            "s_time" : 57.3519999161363,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.apple.com/ac/globalfooter/2.0/en_US/scripts/ac-globalfooter.built.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 792.662999592721,
+               "time" : 19.679000135512,
+               "type" : 1,
+               "id" : "comp_20",
+               "e_time" : 812.341999728233
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 26323,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 41,
+            "sslEnd" : -1,
+            "connectEnd" : 26,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "117.064999882132",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 76.0649998821318,
+            "s_time" : 57.907999958843,
+            "sendEnd" : 26,
+            "sendStart" : 26,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.apple.com/v/home/cm/built/scripts/main.built.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 812.585999723524,
+               "time" : 68.560000043362,
+               "type" : 1,
+               "id" : "comp_23",
+               "e_time" : 881.145999766886
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 298032,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 52,
+            "sslEnd" : -1,
+            "connectEnd" : 36,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "154.995999764651",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 102.995999764651,
+            "s_time" : 58.2779999822378,
+            "sendEnd" : 36,
+            "sendStart" : 36,
+            "type" : "application/javascript"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_19"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_23"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_19",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_19"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 5.8630001731217,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 5.307000130415,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.93399985134599,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 4.424000158906,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 3.9840000681579,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 3.55400005355479,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.9609999619424,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.0070001482964,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.2770001776516,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      }
+   ]
+}

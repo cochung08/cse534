@@ -1,0 +1,160 @@
+{
+   "n_download_no_trigger" : 5,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.latimes.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.latimes.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 21.584999980405,
+               "time" : 674.073000089265,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 695.65800006967
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 334389,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "31.6640000091866",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 28.6640000091866,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.latimes.com/as/prod/lanews/stylesheets/main.1q2w3_5006f47e4482f459d72f07c314c73246.min.css",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 69.8860000120476,
+               "time" : 10.2239999687299,
+               "type" : 4,
+               "id" : "comp_14",
+               "e_time" : 80.1099999807775
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 157988,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "69.761999999173",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 63.761999999173,
+            "s_time" : 26.5519999666139,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.latimes.com/as/prod/lanews/stylesheets/modules.1q2w3_05ee4ec4a4951450857d21d0c4b559db.min.css",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 82.7699999790639,
+               "time" : 37.0460000121961,
+               "type" : 4,
+               "id" : "comp_16",
+               "e_time" : 119.81599999126
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 337027,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "82.5549999717623",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 76.5549999717623,
+            "s_time" : 26.8510000314564,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.latimes.com/as/prod/lanews/stylesheets/fonts.1q2w3_c67664be09c722ada0200cb67cd2b992.min.css",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 63.4090000530705,
+               "time" : 3.6029999610036,
+               "type" : 4,
+               "id" : "comp_12",
+               "e_time" : 67.0120000140741
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 108996,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "63.2769999792799",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 56.2769999792799,
+            "s_time" : 26.7069999827072,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_3",
+         "time" : 5.1220000023022,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.2660000510514,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 4.9669999862089,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      }
+   ]
+}

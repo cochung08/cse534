@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.progressive.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.progressive.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 97.9179996065795,
+               "time" : 0.581000000238504,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 98.498999606818
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 59,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "61.0650000162423",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.06500001624227,
+            "s_time" : 0,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

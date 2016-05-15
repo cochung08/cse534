@@ -1,0 +1,387 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.pasjapisania.pl_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.pasjapisania.pl/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 82.604999653995,
+               "time" : 160.767000168562,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 243.371999822557
+            },
+            {
+               "s_time" : 243.544999975711,
+               "time" : 600.43799970299,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 843.982999678701
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 23980,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "90.7089998945594",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 45.7089998945594,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pasjapisania.pl/stylesheets/style.ece56a61.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 183.067999780178,
+               "time" : 25.493999943137,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 208.561999723315
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 39508,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 49,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "182.825000025332",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 133.825000025332,
+            "s_time" : 84.0129996649921,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pasjapisania.pl/assets/images/logo-pasja-pisania.90f46294.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 7593,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "142.046999651939",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 92.0469996519387,
+            "s_time" : 88.2839998230338,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pasjapisania.pl/javascripts/page.3b49391b.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 243.50699968636,
+               "time" : 0.0380002893510039,
+               "type" : 1,
+               "id" : "comp_7",
+               "e_time" : 243.544999975711
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 50,
+            "len" : 60504,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 51,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "243.376999627799",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 192.376999627799,
+            "s_time" : 91.7320000007749,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/analytics.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 403.555999975652,
+               "time" : 132.456999737769,
+               "type" : null,
+               "id" : "comp_15",
+               "e_time" : 536.012999713421
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 48,
+            "len" : 26299,
+            "dns" : 46,
+            "dnsEnd" : 51,
+            "receiveHeadersEnd" : 201,
+            "sslEnd" : 151,
+            "connectEnd" : 151,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "403.200999833643",
+            "sslStart" : 94,
+            "dnsStart" : 5,
+            "receiveLast" : 202.200999833643,
+            "s_time" : 198.670999612659,
+            "sendEnd" : 153,
+            "sendStart" : 151,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.5",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 48,
+            "len" : 186144,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 203,
+            "sslEnd" : 153,
+            "connectEnd" : 154,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "541.146999690682",
+            "sslStart" : 91,
+            "dnsStart" : 1,
+            "receiveLast" : 338.146999690682,
+            "s_time" : 243.371999822557,
+            "sendEnd" : 155,
+            "sendStart" : 154,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/r/collect?v=1&_v=j41&a=275861536&t=pageview&_s=1&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.pasjapisania.pl%2F&ul=en-us&de=UTF-8&dt=Pasja%20Pisania%20-%20Home&sd=24-bit&sr=1024x768&vp=989x614&je=1&_utma=10762024.920028789.1461941584.1461948276.1461950534.4&_utm",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 59,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 61,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "786.993999965489",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 725.993999965489,
+            "s_time" : 533.589999657124,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f3875380a4&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r34",
+         "comps" : [
+            {
+               "s_time" : 941.004999913275,
+               "time" : 26.560999918729,
+               "type" : "evalhtml",
+               "id" : "r34_c1",
+               "e_time" : 967.565999832004
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 34812,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "899.305999744684",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 884.305999744684,
+            "s_time" : 843.982999678701,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f3875380a4&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r35",
+         "comps" : [
+            {
+               "s_time" : 899.945999961346,
+               "time" : 35.004999954254,
+               "type" : "evalhtml",
+               "id" : "r35_c1",
+               "e_time" : 934.9509999156
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 34812,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "887.356999795884",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 868.356999795884,
+            "s_time" : 843.903999775648,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/impression.php/f1e971eb58/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 87,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 190,
+            "sslEnd" : 101,
+            "connectEnd" : 102,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "990.741999819875",
+            "sslStart" : 46,
+            "dnsStart" : 1,
+            "receiveLast" : 800.741999819875,
+            "s_time" : 799.130999948829,
+            "sendEnd" : 103,
+            "sendStart" : 102,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 130.033999681472,
+         "id" : "dep5",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 116.065999958664,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 9.12700034677991,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 9.12700034677991,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.6790001690388,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.6790001690388,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.4080000109971,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      }
+   ]
+}

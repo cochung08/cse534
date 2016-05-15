@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.businessweek.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.businessweek.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 98.4810004010797,
+               "time" : 0.608999747782903,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 99.0900001488626
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 58,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "60.7090000994503",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.70900009945035,
+            "s_time" : 0,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

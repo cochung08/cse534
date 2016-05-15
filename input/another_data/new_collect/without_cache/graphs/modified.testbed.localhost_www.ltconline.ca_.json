@@ -1,0 +1,698 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.ltconline.ca_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 50.4299998283386,
+               "time" : 88.3769998326894,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 138.806999661028
+            },
+            {
+               "s_time" : 143.903999589384,
+               "time" : 0.115000177174011,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 144.018999766558
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 40437,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "49.6399998664856",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 45.6399998664856,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/ltc.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 67.3849997110665,
+               "time" : 18.2039998471737,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 85.5889995582402
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1578,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "67.1569998376071",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 54.1569998376071,
+            "s_time" : 51.6719999723136,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/ltcbanner.jpg",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 54765,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "193.225999828428",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 181.225999828428,
+            "s_time" : 52.5689995847642,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.statcounter.com/counter/counter.js",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 123.054999858141,
+               "time" : 20.848999731243,
+               "type" : 1,
+               "id" : "comp_4",
+               "e_time" : 143.903999589384
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 22252,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "122.894999571145",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 112.894999571145,
+            "s_time" : 56.5169998444617,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/MyBusInfo_Icon.jpg",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 8828,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "193.979999981821",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 177.979999981821,
+            "s_time" : 69.8069999925792,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/WWicon.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8689,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "195.098999887705",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 178.098999887705,
+            "s_time" : 70.0529995374382,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/2016SP_Icon.png",
+         "id" : "r6",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 12472,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "195.333999581635",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 177.333999581635,
+            "s_time" : 70.2599999494851,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/drivingchangelogo.jpg",
+         "id" : "r7",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 6126,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "196.304999757558",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 177.304999757558,
+            "s_time" : 70.4809995368123,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/SmartCard_Icon.png",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 10940,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "196.665999945253",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 174.665999945253,
+            "s_time" : 70.698999799788,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/BikeAndRide.jpg",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 8833,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "197.009999770671",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 175.009999770671,
+            "s_time" : 71.0079995915294,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/PrioritySeating_Icon.png",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 6489,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "197.469999548048",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 171.469999548048,
+            "s_time" : 71.2599996477365,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/IndexHeader1_new.png",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 6072,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "198.432999663055",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 169.432999663055,
+            "s_time" : 71.409999858588,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/PlanYourTripWith.png",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2055,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "198.133999947459",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 169.133999947459,
+            "s_time" : 71.5899998322129,
+            "sendEnd" : 24,
+            "sendStart" : 23,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.com/images/logos/maps_logo_sm.gif",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2499,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "198.906999547035",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 177.906999547035,
+            "s_time" : 81.8669996224344,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/maps.google.com/intl/en_us/mapfiles/dd-icon-start.gif",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 209,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "199.327999725938",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 183.327999725938,
+            "s_time" : 87.5399997457862,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/maps.google.com/intl/en_us/mapfiles/dd-icon-dest.gif",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 208,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "199.605999980122",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 186.605999980122,
+            "s_time" : 91.4089996367693,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/IndexHeader2_new.png",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 6615,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "200.43299999088",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 186.43299999088,
+            "s_time" : 92.3869996331632,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/IndexHeader3_new.png",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 5352,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "201.218999922276",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 188.218999922276,
+            "s_time" : 94.6999997831881,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/IndexHeader4_new.png",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 17523,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "201.422999612987",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 190.422999612987,
+            "s_time" : 96.3439997285604,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ltconline.ca/images/CurrentDetours.png",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 5733,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "202.059999573976",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 190.059999573976,
+            "s_time" : 97.7969998493791,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://c.statcounter.com/t.php?sc_project=4946012&java=1&security=c8c00b0f&u1=za&sc_random=0.5340736226644367&resolution=1024&h=768&camefrom=&u=http%3A//modified.testbed.localhost/www.ltconline.ca/&t=London%20Transit%20Commission&sc_snum=1&p=0&invisible=1",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 41,
+            "len" : 49,
+            "dns" : 0,
+            "dnsEnd" : 2,
+            "receiveHeadersEnd" : 79,
+            "sslEnd" : -1,
+            "connectEnd" : 38,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "231.72999965027",
+            "sslStart" : -1,
+            "dnsStart" : 2,
+            "receiveLast" : 152.72999965027,
+            "s_time" : 138.806999661028,
+            "sendEnd" : 38,
+            "sendStart" : 38,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "download_20",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 47.3670000210405,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 45.9139999002218,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 44.2699999548495,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 41.9569998048246,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 40.9789998084307,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 37.1099999174476,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 31.4369997940958,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 21.1600000038743,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 20.9800000302494,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 20.8299998193979,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 20.5779997631908,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 20.2689999714494,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 20.0509997084737,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 19.8300001211465,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 19.6229997090996,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 19.3770001642406,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 6.0870000161231,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.1389997564256,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.1389997564256,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.242000143975,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      }
+   ]
+}

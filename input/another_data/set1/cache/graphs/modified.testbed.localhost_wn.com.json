@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_wn.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/wn.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 30.9859998524189,
+               "time" : 0.220000278204701,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 31.2060001306236
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "12.4760000035167",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.47600000351667,
+            "s_time" : 0,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

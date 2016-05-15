@@ -1,0 +1,220 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.wikipedia.org_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.wikipedia.org/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 60.0999998860061,
+               "time" : 17.5700001418591,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 77.6700000278652
+            },
+            {
+               "s_time" : 101.40399960801,
+               "time" : 42.650000192225,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 144.053999800235
+            },
+            {
+               "s_time" : 1553.36799984798,
+               "time" : -3360109872.312,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3360108318.944
+            },
+            {
+               "s_time" : 1554.19999966398,
+               "time" : 1.46300019696014,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1555.66299986094
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 74740,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "361.27799982205",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 356.27799982205,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1275,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "78.1349996104836",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 73.1349996104836,
+            "s_time" : 70.8510000258684,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.wikipedia.org/portal/wikipedia.org/assets/js/abtesting-83e3db0299.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 80.8619996532798,
+               "time" : 20.5419999547302,
+               "type" : 1,
+               "id" : "comp_3",
+               "e_time" : 101.40399960801
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8068,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "80.4369999095798",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 72.4369999095798,
+            "s_time" : 70.4009998589754,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 13492,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "348.247999791056",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 342.247999791056,
+            "s_time" : 77.6700000278652,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png%3F18d8b7f58860758a154b3f1b0d329784d0f4235a",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 883,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "349.008999764919",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 344.008999764919,
+            "s_time" : 144.053999800235,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 10.3009999729693,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 10.7510001398623,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 10.7510001398623,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      }
+   ]
+}

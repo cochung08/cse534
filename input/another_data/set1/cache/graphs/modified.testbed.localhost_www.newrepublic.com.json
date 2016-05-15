@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.newrepublic.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.newrepublic.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 65.7999999821186,
+               "time" : 0.5260002799332,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 66.3260002620518
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "23.7130001187325",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.71300011873245,
+            "s_time" : 0,
+            "sendEnd" : 18,
+            "sendStart" : 17,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

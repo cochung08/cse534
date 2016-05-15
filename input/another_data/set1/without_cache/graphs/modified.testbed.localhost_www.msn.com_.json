@@ -1,0 +1,100 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.msn.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.msn.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 95.9419999271631,
+               "time" : -3433590827.923,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -3433590731.981
+            },
+            {
+               "s_time" : 1460.72300011292,
+               "time" : -3433592192.704,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3433590731.981
+            },
+            {
+               "s_time" : 1461.05100028217,
+               "time" : 70.60699956491,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1531.65799984708
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 41429,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "97.1520002931356",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 51.1520002931356,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://otf.msn.com/c.gif?js=0&evt=impr&di=340&pi=&ps=&su=http%253A%252F%252Fwww.msn.com%252F&pageid=startpage&mkt=en-us&pn=startpage&mv=15&pp=False&cv.product=prime&cv.partner=&cv.publcat=&st.dpt=&st.sdpt=&dv.Title1=&cts=635974793289808095&rf=&rid=2c514c60f8dc42db9efa56d66dfcdba5&cvs=Browser&subcvs=",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 76,
+            "len" : 42,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 191,
+            "sslEnd" : -1,
+            "connectEnd" : 115,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "1724.64200016111",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1533.64200016111,
+            "s_time" : 1531.65799984708,
+            "sendEnd" : 115,
+            "sendStart" : 115,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "r1_c3"
+      }
+   ]
+}

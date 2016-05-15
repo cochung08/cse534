@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.baidu.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.baidu.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 60.400000307709,
+               "time" : 0.8060000836849,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 61.2060003913939
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "19.2090002819896",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.20900028198957,
+            "s_time" : 0,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.taobao.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.taobao.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 104.652999900281,
+               "time" : 0.543000176549,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 105.19600007683
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 50,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 66,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "68.2199997827411",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.21999978274107,
+            "s_time" : 0,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

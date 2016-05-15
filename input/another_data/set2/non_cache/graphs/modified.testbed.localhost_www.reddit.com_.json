@@ -1,0 +1,1147 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.reddit.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.reddit.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 50.8999996818602,
+               "time" : 27.2090001963079,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 78.1089998781681
+            },
+            {
+               "s_time" : 312.709999736398,
+               "time" : 505.869000218809,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 818.578999955207
+            },
+            {
+               "s_time" : 1866.59700004384,
+               "time" : 154.78600002825,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 2021.38300007209
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 133981,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "50.5240000784397",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 47.5240000784397,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/reddit.K0MT6jqPfu0.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 100.875999778509,
+               "time" : 53.733999840915,
+               "type" : 4,
+               "id" : "comp_12",
+               "e_time" : 154.609999619424
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 292006,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "100.391999818385",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 94.3919998183846,
+            "s_time" : 52.3210000246763,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/reddit-init.en.jdHA4owumPE.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 155.194999650121,
+               "time" : 157.515000086277,
+               "type" : 1,
+               "id" : "comp_13",
+               "e_time" : 312.709999736398
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 224182,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "155.013999901712",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 147.013999901712,
+            "s_time" : 52.7439997531474,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/subscribe-header.svg",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 7716,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "65.4369997791946",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 55.4369997791946,
+            "s_time" : 53.3619998022914,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/subscribe-header-thanks.svg",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 6679,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "82.012000028044",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 72.012000028044,
+            "s_time" : 65.5330000445247,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/oF99IYMqLoKcc0ele67TYpb4Mk8JwcfUdFMKk9R-56I.jpg",
+         "id" : "r6",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 4450,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "93.2589997537434",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 82.2589997537434,
+            "s_time" : 78.1089998781681,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/droparrowgray.gif",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 67,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "597.506999969482",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 593.506999969482,
+            "s_time" : 338.095999788493,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 714.110000059009,
+               "time" : 28.455999679863,
+               "type" : 2,
+               "id" : "comp_39",
+               "e_time" : 742.565999738872
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 43082,
+            "dns" : 7,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "599.138000048697",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 578.138000048697,
+            "s_time" : 324.046999681741,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/analytics.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 615.387999918312,
+               "time" : 98.6620001494881,
+               "type" : 2,
+               "id" : "comp_37",
+               "e_time" : 714.0500000678
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 26299,
+            "dns" : 7,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "598.656999878585",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 575.656999878585,
+            "s_time" : 324.937999714166,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.redditmedia.com/gtm/jail",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 748.33199987188,
+               "time" : 35.6609998270869,
+               "id" : "r9_c1",
+               "type" : "evalhtml",
+               "e_time" : 783.992999698967
+            },
+            {
+               "s_time" : 796.641000080854,
+               "time" : 0.0899997539819424,
+               "type" : "evalhtml",
+               "id" : "r9_c2",
+               "e_time" : 796.730999834836
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 312,
+            "dns" : 6,
+            "dnsEnd" : 6,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "599.440999794751",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 577.440999794751,
+            "s_time" : 327.959999907762,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/sprite-reddit.ZDiVRxCXXWg.png",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 40375,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "614.384999964386",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 610.384999964386,
+            "s_time" : 355.026999954134,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.redditstatic.com/throbber.gif",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1100,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "615.17299991101",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 612.17299991101,
+            "s_time" : 371.210999786854,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/cKUL9fQJL_epLK6RzjbUIhnaLs8Ebl6MbFRI2MdpQEM.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1975,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "742.924999911338",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 735.924999911338,
+            "s_time" : 418.131999671459,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/DRGi5Yp6uQNIIdUikM3eZKiAvT9Zt9APX4YfxuTzf-I.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 4035,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "743.66099992767",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 734.66099992767,
+            "s_time" : 418.872999958694,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/p1oHdJoMFVqK15N4lDks-iyqsOKv-6Eq-hYmInFbyfk.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3469,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "743.943999987096",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 735.943999987096,
+            "s_time" : 420.200000051409,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/fYD7nx5B5M5W3V37GHIKbQ_QNAzYAzB7u1KZBPwUv_w.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4339,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "744.36099966988",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 734.36099966988,
+            "s_time" : 421.345999930054,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/a.thumbs.redditmedia.com/UliIM78xKUpIBUfNf9LfsZjCf4j1BgBe8ZlP4thjDa4.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 6245,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "745.105999987572",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 729.105999987572,
+            "s_time" : 461.327000055462,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/u-wqCT8u2GalEs3PPAGboGoFXj4BxcLZ9jVx5ba4DeU.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 7439,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "745.748999994248",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 728.748999994248,
+            "s_time" : 462.125999853015,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/a.thumbs.redditmedia.com/jXhAC_73Wx7wW8C2CINipySzMx0FyruGN1Jg9-jsA74.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 2563,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "745.505999773741",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 724.505999773741,
+            "s_time" : 462.917000055313,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/jrcRYT4xpcCfrKtDW_kWzW1XoDKNwI2FNQ1icaqO0Vs.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 1737,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "746.347999665886",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 719.347999665886,
+            "s_time" : 463.673999998719,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/qtNPlZy0WJuci-ZwNxho4w4BMsyEXuwP-ZScy0kMMcw.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 4199,
+            "dns" : 0,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "746.941999997944",
+            "sslStart" : -1,
+            "dnsStart" : 8,
+            "receiveLast" : 718.941999997944,
+            "s_time" : 464.536000043154,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/gwQCijCRkX4Uu5aKHPo8-OE5Zm1dxGlacI4OI1ZRNjg.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 5089,
+            "dns" : 0,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "747.126000002027",
+            "sslStart" : -1,
+            "dnsStart" : 7,
+            "receiveLast" : 720.126000002027,
+            "s_time" : 465.618999674916,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/R0t6tDf96ml97Jf-gJERLoKOamYENyjpXIDoHoVAFyA.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 3865,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 37,
+            "sslEnd" : -1,
+            "connectEnd" : 24,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "747.881999704987",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 710.881999704987,
+            "s_time" : 466.258999891579,
+            "sendEnd" : 24,
+            "sendStart" : 24,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/b.thumbs.redditmedia.com/TMqJNlxz_I_KZVj5nzPWOhkMxQOjQ5t81WjUwtkEwpc.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 5759,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 37,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "748.072999995202",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 711.072999995202,
+            "s_time" : 467.024999670684,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/plugins/ga/inpage_linkid.js",
+         "id" : "r38",
+         "comps" : [
+            {
+               "s_time" : 752.739999908954,
+               "time" : 23.949999827891,
+               "type" : 2,
+               "id" : "comp_70",
+               "e_time" : 776.689999736845
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1169,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "752.488999627531",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 744.488999627531,
+            "s_time" : 742.908999789506,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.redditstatic.com/gtm-jail.YjZ8ThwjX8M.js",
+         "id" : "r39",
+         "comps" : [
+            {
+               "s_time" : 777.162999846041,
+               "time" : 19.4780002348131,
+               "type" : 1,
+               "id" : "comp_72",
+               "e_time" : 796.641000080854
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 5853,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "777.02399995178",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 754.02399995178,
+            "s_time" : 749.187999870628,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.redditmedia.com/gtm?id=GTM-NDJTNB",
+         "id" : "r40",
+         "comps" : [
+            {
+               "s_time" : 798.723999876529,
+               "time" : 0.820000190288056,
+               "id" : "r40_c1",
+               "type" : "evalhtml",
+               "e_time" : 799.544000066817
+            },
+            {
+               "s_time" : 815.66399987787,
+               "time" : 81.712999846786,
+               "type" : "evalhtml",
+               "id" : "r40_c2",
+               "e_time" : 897.376999724656
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 953,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "797.650000080466",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 789.650000080466,
+            "s_time" : 783.992999698967,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.redditstatic.com/gtm.prSBJeoJaP4.js",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 809.768999926746,
+               "time" : 5.89499995112396,
+               "type" : 1,
+               "id" : "comp_77",
+               "e_time" : 815.66399987787
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 5630,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "809.585999697447",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 800.585999697447,
+            "s_time" : 799.544000066817,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagmanager.com/gtm.js?id=GTM-NDJTNB&l=googleTagManager",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 858.891999814659,
+               "time" : 40.523000061512,
+               "type" : 2,
+               "id" : "comp_82",
+               "e_time" : 899.414999876171
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 42345,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "858.349999878556",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 824.349999878556,
+            "s_time" : 818.578999955207,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pixel.redditmedia.com/pixel/of_destiny.png?v=sWLBGvPPSJiHMKpDVDCpKpr%2BLkuIBuNBp0LxP2lWrn0roaYEVvMbseIXHoHA7KtUS1O9XRU4zQzlCz63pbb37yq90pOpvINf&r=0.710048982873559&dnt=false&loid=UT1Y4C6c6aOpL1gYq5&loidcreated=2016-04-30T04%3A43%3A48.016Z",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 67,
+            "dns" : 8,
+            "dnsEnd" : 9,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "2022.0029996708",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1984.0029996708,
+            "s_time" : 1913.38599985465,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sb.scorecardresearch.com/p2?c1=2&c2=20632726&cv=2.0&cj=1&c7=http://modified.testbed.localhost/www.reddit.com/&c4=http://modified.testbed.localhost/www.reddit.com/",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "2031.62600006908",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2022.62600006908,
+            "s_time" : 2021.38300007209,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_94"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r9_c2",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_72"
+      },
+      {
+         "a2" : "r40_c2",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_77"
+      },
+      {
+         "a2" : "comp_77",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_72"
+      },
+      {
+         "a2" : "download_30",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 46.7889998108101,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 2.91500007733703,
+         "id" : "dep9",
+         "a1" : "r40_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r40_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 486.834000330419,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 471.282999962569,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 0.855999998747961,
+         "id" : "dep15",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 436.47800013423,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 430.199000053108,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 154.314999934286,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 153.549000155181,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 152.908999938518,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 151.826000306756,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 150.964000262321,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 150.207000318915,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 149.416000116617,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 148.617000319064,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 108.636000193656,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 107.490000315011,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 106.163000222296,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 105.421999935061,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 58.501000050456,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 42.317000217736,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 15.250000171364,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 12.227999977768,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 11.336999945343,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 25.386000052095,
+         "id" : "dep35",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 14.6330003626645,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.4620001204312,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.4620001204312,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.8440000712872,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.4210003428161,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      }
+   ]
+}

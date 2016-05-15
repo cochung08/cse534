@@ -1,0 +1,167 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.google.ru_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.google.ru/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 91.4329998195171,
+               "time" : 33.4100001491609,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 124.842999968678
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 11243,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "90.9079997800291",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 45.9079997800291,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.ru/textinputassistant/tia.png",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 387,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "156.486999709159",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 111.486999709159,
+            "s_time" : 105.951000005007,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/client_204?&atyp=i&biw=1004&bih=711&ei=FpAiV9mDFsj4-AGMhY_ABw",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 300,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "157.182999886572",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 112.182999886572,
+            "s_time" : 109.296999871731,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.ru/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 5482,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "159.068000037223",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 114.068000037223,
+            "s_time" : 112.085999920964,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.ru/images/nav_logo229.png",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 17284,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 46,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "314.164999872446",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 268.164999872446,
+            "s_time" : 124.842999968678,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 20.6530001014469,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 17.8640000522139,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 14.5180001854899,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      }
+   ]
+}

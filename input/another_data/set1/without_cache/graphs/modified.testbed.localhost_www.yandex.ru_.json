@@ -1,0 +1,82 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.yandex.ru_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.yandex.ru/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 84.820999763906,
+               "time" : -3434295692.81,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -3434295607.989
+            },
+            {
+               "s_time" : 1478.76099962741,
+               "time" : -3434297086.75,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3434295607.989
+            },
+            {
+               "s_time" : 1485.89899996296,
+               "time" : -3434297093.888,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3434295607.989
+            },
+            {
+               "s_time" : 1518.47499981523,
+               "time" : 2.28299992159009,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1520.75799973682
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 52171,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 44,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "132.981000002474",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 88.9810000024736,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_24"
+      }
+   ]
+}

@@ -1,0 +1,2624 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.imdb.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.imdb.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 54.7899999655783,
+               "time" : 531.436999794096,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 586.226999759674
+            },
+            {
+               "s_time" : 986.385999713093,
+               "time" : -3489208739.545,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3489207753.159
+            },
+            {
+               "s_time" : 991.636999882758,
+               "time" : -3489208744.796,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3489207753.159
+            },
+            {
+               "s_time" : 1028.33499992266,
+               "time" : -3489208781.494,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3489207753.159
+            },
+            {
+               "s_time" : 1039.79100007564,
+               "time" : 811.1809999682,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 1850.97200004384
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 151150,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "54.3740000575781",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 49.3740000575781,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://z-ecx.images-amazon.com/images/G/01/csminstrumentation/ue-full-051542d0cfa6f645f8266601739de597._V1_.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 69.8899999260902,
+               "time" : 10.1720001548529,
+               "type" : 2,
+               "id" : "comp_8",
+               "e_time" : 80.0620000809431
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 14566,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "69.6020000614226",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 67.6020000614226,
+            "s_time" : 60.5039997026324,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/css/collections/pagelayout-flat-903233829._CB298432192_.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 92.1209999360144,
+               "time" : 25.9830001741646,
+               "type" : 4,
+               "id" : "comp_12",
+               "e_time" : 118.104000110179
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 144004,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "91.9459997676313",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 78.9459997676313,
+            "s_time" : 63.467999920249,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/css/site/consumer-navbar-mega-3796876714._CB298540748_.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 83.4840000607073,
+               "time" : 2.4359999224544,
+               "type" : 4,
+               "id" : "comp_9",
+               "e_time" : 85.9199999831617
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 10006,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "83.149999845773",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 68.149999845773,
+            "s_time" : 64.0519997105002,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/css/collections/starbarwidget-2454701167._CB293329573_.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 86.5639997646213,
+               "time" : 0.7170001044869,
+               "type" : 4,
+               "id" : "comp_10",
+               "e_time" : 87.2809998691082
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 3602,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "86.4289999008179",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 68.4289999008179,
+            "s_time" : 64.5789997652173,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/css/collections/recommendations-3988610918._CB289934424_.css",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 90.5180000700057,
+               "time" : 1.30999973043791,
+               "type" : 4,
+               "id" : "comp_11",
+               "e_time" : 91.8279998004436
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 7361,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "90.2700000442564",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 72.2700000442564,
+            "s_time" : 65.6530000269413,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-720143162._CB306318304_.png",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 1340,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "88.6599998921156",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 70.6599998921156,
+            "s_time" : 66.4079999551177,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/css/collections/watchlistButton-2508181169._CB288096406_.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 118.731999769807,
+               "time" : 14.740000013262,
+               "type" : 4,
+               "id" : "comp_13",
+               "e_time" : 133.471999783069
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 7470,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "118.638999760151",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 93.6389997601509,
+            "s_time" : 65.3929999098182,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/images/navbar/imdbpro_logo_menu-2185879182._CB306318245_.png",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1024,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "133.835999760777",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 126.835999760777,
+            "s_time" : 86.7860000580549,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/images/navbar/navbar_sprite-580289297._V_.png",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 41408,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 33,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "375.949999783188",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 342.949999783188,
+            "s_time" : 140.480999834836,
+            "sendEnd" : 24,
+            "sendStart" : 23,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTQ4NjUxMjg1MV5BMl5BanBnXkFtZTgwMTY3ODQ3ODE@._V1_SX201_CR0,0,201,298_AL_.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 17040,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "383.25099973008",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 371.25099973008,
+            "s_time" : 165.31699988991,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/IMDb/icon/play-button._CB318667375_.png",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 1872,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "389.783000107855",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 362.783000107855,
+            "s_time" : 166.044000070542,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/IMDb/icon/play-button-hover._CB318667374_.png",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 1902,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "390.24499990046",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 363.24499990046,
+            "s_time" : 166.708000004292,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjQyMzgzNTYzNF5BMl5BanBnXkFtZTgwNjA5OTQ3ODE@._V1_SX201_CR0,0,201,298_AL_.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 22057,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "390.807999763638",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 364.807999763638,
+            "s_time" : 167.553000152111,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTY1Mjg2NDIxNl5BMl5BanBnXkFtZTgwMjY0MDM4NzE@._V1_SY298_CR0,0,201,298_AL_.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 17323,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "391.11700002104",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 366.11700002104,
+            "s_time" : 168.52999990806,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTc2MTg1NTEzN15BMl5BanBnXkFtZTgwNTg2NzM3ODE@._V1._SY351_SX624_AL_.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 43413,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "392.401999793947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 366.401999793947,
+            "s_time" : 181.223999708891,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTM3MzA1NDIzMl5BMl5BanBnXkFtZTcwNTMxMTMzNA@@._UY640_CR35,40,402,596_SY298_SX201_AL_.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 12193,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "392.647999804467",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 367.647999804467,
+            "s_time" : 184.086999855936,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTQyMzAzOTIyN15BMl5BanBnXkFtZTcwNzMzNDY4Mw@@._UY800_CR515,120,402,596_SY298_SX201_AL_.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 8974,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "392.878000158817",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 367.878000158817,
+            "s_time" : 184.9509999156,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjMwMTY3NTM3NF5BMl5BanBnXkFtZTcwNjM1MzE2OQ@@._UY640_CR300,40,402,596_SY298_SX201_AL_.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 17063,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "393.82699970156",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 365.82699970156,
+            "s_time" : 185.893000103533,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjI4ODAzMjg3MF5BMl5BanBnXkFtZTgwNDUyOTYyNzE@._V1_SY150_CR1,0,101,150_AL_.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4971,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "394.183999858797",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 367.183999858797,
+            "s_time" : 187.541000079364,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTUwODA0NzQxMl5BMl5BanBnXkFtZTgwNzUyMjY3ODE@._V1_SY150_CR0,0,101,150_AL_.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 6642,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "394.375999923795",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 367.375999923795,
+            "s_time" : 188.910000026226,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTQyNjYyMTAwNF5BMl5BanBnXkFtZTgwNTYwNTI0MTE@._V1_SY150_CR88,0,101,150_AL_.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4374,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "395.285999868065",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 371.285999868065,
+            "s_time" : 195.574999786913,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTM4ODE5ODU4MV5BMl5BanBnXkFtZTYwMDEwNzU1._V1_SY150_CR0,0,101,150_AL_.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4772,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "395.57999977842",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 373.57999977842,
+            "s_time" : 198.390999808908,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTc5Nzc4Nzk3OF5BMl5BanBnXkFtZTgwMzQxODU3ODE@._V1_SX201_CR0,0,201,201_AL_.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8188,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "395.75200015679",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 377.75200015679,
+            "s_time" : 203.16099980846,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjAwMjQzMDY5M15BMl5BanBnXkFtZTgwNTQ2ODU3ODE@._UX402_CR0,80,402,402_SY201_SX201_AL_.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 8932,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "396.551999729127",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 376.551999729127,
+            "s_time" : 204.975999891758,
+            "sendEnd" : 15,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BODE2MDQxMzk5Ml5BMl5BanBnXkFtZTgwMjE5ODU3ODE@._V1_SY201_CR50,0,201,201_AL_.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 7672,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "396.764999721199",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 384.764999721199,
+            "s_time" : 212.863999884576,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BODYxNzE4OTk5Nl5BMl5BanBnXkFtZTcwODYyMDYzMw@@._V1_SY172_CR6,0,116,172_AL_.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 5405,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "422.468000091612",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 404.468000091612,
+            "s_time" : 371.936999727041,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTM0Mzc1MTc2OF5BMl5BanBnXkFtZTcwMzE4MzQxMw@@._V1_SY172_CR0,0,116,172_AL_.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 5980,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "422.700999770314",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 405.700999770314,
+            "s_time" : 372.626000083983,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTc0Nzc3ODE3OF5BMl5BanBnXkFtZTcwNDQxOTU3MQ@@._V1_SX116_CR0,0,116,172_AL_.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 4360,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "422.921999823302",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 405.921999823302,
+            "s_time" : 373.211999889463,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjgyNjY5ODYyNV5BMl5BanBnXkFtZTgwMjk4ODYxMTE@._V1_SY172_CR10,0,116,172_AL_.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 8162,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "423.316999804229",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 406.316999804229,
+            "s_time" : 373.788999859244,
+            "sendEnd" : 7,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjM5ODc4MTcwM15BMl5BanBnXkFtZTgwNjI2Njk3NTE@._V1_SX116_CR0,0,116,172_AL_.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 6667,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "423.510000109673",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 407.510000109673,
+            "s_time" : 374.545000027865,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTU4ODAxODUyOV5BMl5BanBnXkFtZTgwMjc4NDg2ODE@._V1_SY230_CR18,0,307,230_AL_.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 13434,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "424.149999860674",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 404.149999860674,
+            "s_time" : 378.229999914765,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTc5MDg3MzUzOF5BMl5BanBnXkFtZTgwNDc4NDg2ODE@._V1_SY230_CR18,0,307,230_AL_.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 15816,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "424.912999849766",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 399.912999849766,
+            "s_time" : 378.877999726683,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjA5MDg0ODI4N15BMl5BanBnXkFtZTgwMTg1OTIzNDE@._V1_SX170_CR0,0,170,250_AL_.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 10715,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "425.129000097513",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 402.129000097513,
+            "s_time" : 382.331999950111,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BNzA1OTM1Mjk0NF5BMl5BanBnXkFtZTgwMzgwMTI3ODE@._V1_SX444_CR0,0,444,250_AL_.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 31713,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "425.795999821275",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 401.795999821275,
+            "s_time" : 383.163999766111,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjk0MjMzMTI3NV5BMl5BanBnXkFtZTgwODEyODkxNzE@._V1_SX116_CR0,0,116,172_AL_.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 6904,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "449.113999959081",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 424.113999959081,
+            "s_time" : 384.643999859691,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/IMDb/icon/external-button._CB304896345_.png",
+         "id" : "r38",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 637,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "446.577999740839",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 429.577999740839,
+            "s_time" : 393.226999789476,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/IMDb/icon/external-button-hover._CB304896345_.png",
+         "id" : "r39",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 631,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "448.512000031769",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 432.512000031769,
+            "s_time" : 394.404000137001,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTU4Njk2MzU4Ml5BMl5BanBnXkFtZTYwNjE1MTg4._V1_SX116_CR0,0,116,172_AL_.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 5628,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "460.235000122339",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 437.235000122339,
+            "s_time" : 395.812999922782,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMjI4NTI3NDg3OV5BMl5BanBnXkFtZTgwNDQ0NzY3NjE@._V1_SY172_CR11,0,116,172_AL_.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 6507,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "460.508999880403",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 438.508999880403,
+            "s_time" : 396.838000044227,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTY3OTY0OTI3NV5BMl5BanBnXkFtZTcwMjkwMjk3NQ@@._V1_SX116_CR0,0,116,172_AL_.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 7170,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "460.965999867767",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 437.965999867767,
+            "s_time" : 397.84500002861,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTQ5OTQ4ODY0NV5BMl5BanBnXkFtZTgwMzQ4MjA2NjE@._V1_SX116_CR0,0,116,172_AL_.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 7449,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "461.162999738008",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 442.162999738008,
+            "s_time" : 402.658000122756,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_SX89_CR0,0,89,132_AL_.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4884,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "461.931999772787",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 446.931999772787,
+            "s_time" : 412.967000156641,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTY3MjU0ODcyM15BMl5BanBnXkFtZTcwMzcxMTQyMw@@._V1_SY207_CR85,0,140,207_AL_.jpg",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 5815,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "462.13599992916",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 448.13599992916,
+            "s_time" : 414.563999976963,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTczNDMzNDA1NV5BMl5BanBnXkFtZTYwOTI3Nzc2._V1_SX140_CR0,0,140,207_AL_.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7565,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "463.446999900043",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 447.446999900043,
+            "s_time" : 415.322999935597,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTUyOTU3NjE3M15BMl5BanBnXkFtZTcwNzMyNDAxMw@@._V1_SY207_CR12,0,140,207_AL_.jpg",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 6004,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "463.636999949813",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 447.636999949813,
+            "s_time" : 415.877999737859,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTkwMDI4MDU2N15BMl5BanBnXkFtZTYwMjk2MjU3._V1_SY207_CR83,0,140,207_AL_.jpg",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 7119,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "463.816000148654",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 448.816000148654,
+            "s_time" : 416.435000021011,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BMTM2NzA5Njk1OF5BMl5BanBnXkFtZTYwMzkyOTY3._V1_SX140_CR0,0,140,207_AL_.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8688,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "464.017999824136",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 449.017999824136,
+            "s_time" : 417.018999811262,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/html/twitter-3626940295._CB298540565_.html%3Fconfig=%7B%22width%22:%22300px%22,%22height%22:%22500px%22,%22href%22:%22https:%252F%252Ftwitter.com%252FIMDb%22,%22heading%22:%22Follow%20Us%20On%20Twitter%22,%22screen-name%22:%22IMDb%",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 580.519999843091,
+               "time" : 712.856000289319,
+               "type" : "evalhtml",
+               "id" : "r50_c1",
+               "e_time" : 1293.37600013241
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1996,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "534.35799991712",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 528.35799991712,
+            "s_time" : 451.460999902338,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/html/facebook-869486875._CB313935095_.html",
+         "id" : "r51",
+         "comps" : [
+            {
+               "s_time" : 586.021000053734,
+               "time" : 2.48599983751694,
+               "type" : "evalhtml",
+               "id" : "r51_c1",
+               "e_time" : 588.506999891251
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 840,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "548.95900003612",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 537.95900003612,
+            "s_time" : 453.590999823064,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/M/MV5BNTE4NzY3MjY2NV5BMl5BanBnXkFtZTgwODY5Njk5NzE@._V1_SY525_CR44,0,700,525_AL_.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 64060,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "559.200999792665",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 549.200999792665,
+            "s_time" : 455.314999911934,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/js/collections/common-1944661907._CB274936654_.js",
+         "id" : "r53",
+         "comps" : [
+            {
+               "s_time" : 589.428000152111,
+               "time" : 248.694999609143,
+               "type" : null,
+               "id" : "comp_82",
+               "e_time" : 838.122999761254
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 366484,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "589.099999982864",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 578.099999982864,
+            "s_time" : 459.766999818385,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-3564216850._CB275624752_.js",
+         "id" : "r54",
+         "comps" : [
+            {
+               "s_time" : 838.328999932855,
+               "time" : 148.056999780238,
+               "type" : 1,
+               "id" : "comp_84",
+               "e_time" : 986.385999713093
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 88121,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "563.775999937207",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 552.775999937207,
+            "s_time" : 460.527000017464,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DHeroWidget%26bb0%3D108%26pc0%3D114%26ld0%3D115%26t0%3D1462006583524%26csmtags%3D%7C%7C:1",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : 264,
+            "receiveHeadersEnd" : 307,
+            "sslEnd" : -1,
+            "connectEnd" : 282,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "562.340999953449",
+            "sslStart" : -1,
+            "dnsStart" : 264,
+            "receiveLast" : 255.340999953449,
+            "s_time" : 179.310999810696,
+            "sendEnd" : 283,
+            "sendStart" : 282,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/js/collections/starbarwidget-335260898._CB289148898_.js",
+         "id" : "r55",
+         "comps" : [
+            {
+               "s_time" : 986.614999826998,
+               "time" : 5.02200005576003,
+               "type" : 1,
+               "id" : "comp_93",
+               "e_time" : 991.636999882758
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 5726,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "579.483999870718",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 570.483999870718,
+            "s_time" : 533.86399988085,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/js/collections/watchlistButton-194820129._CB286493173_.js",
+         "id" : "r56",
+         "comps" : [
+            {
+               "s_time" : 991.783999837935,
+               "time" : 36.551000084725,
+               "type" : 1,
+               "id" : "comp_96",
+               "e_time" : 1028.33499992266
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 23976,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "579.779999796301",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 570.779999796301,
+            "s_time" : 534.444999881089,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/js/collections/recommendations-2126106747._CB289323193_.js",
+         "id" : "r57",
+         "comps" : [
+            {
+               "s_time" : 1028.60500011593,
+               "time" : 11.1859999597102,
+               "type" : 1,
+               "id" : "comp_99",
+               "e_time" : 1039.79100007564
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 18979,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "580.254999920726",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 569.254999920726,
+            "s_time" : 534.9260000512,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DNinjaWidget%26bb0%3D124%26pc0%3D126%26ld0%3D126%26t0%3D1462006583535%26csmtags%3D%7C%7C:",
+         "id" : "r58",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "1206.39299973845",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1188.39299973845,
+            "s_time" : 563.467999920249,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/platform.twitter.com/widgets.js",
+         "id" : "r59",
+         "comps" : [
+            {
+               "s_time" : 1208.5219998844,
+               "time" : 84.76300025358,
+               "type" : null,
+               "id" : "comp_166",
+               "e_time" : 1293.28500013798
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 95204,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "1208.38999981061",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1203.38999981061,
+            "s_time" : 586.226999759674,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/images/lb/overlay-1511558127._V_.png",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 47963,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "1308.26599989086",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1301.26599989086,
+            "s_time" : 1084.09899985418,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/widget/recommendations/recs",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 317,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "1309.08299982548",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1304.08299982548,
+            "s_time" : 1105.83999985829,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ia.media-imdb.com/images/G/01/imdb/images/jquery/plugins/watchlist-ribbon-sprite-sm-771043870._V_.png",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 932,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "1319.19700000435",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1314.19700000435,
+            "s_time" : 1129.82399994507,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://connect.facebook.net/en_US/all.js#xfbml=1",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 188270,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "1337.38299971446",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1330.38299971446,
+            "s_time" : 1208.28699972481,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DNinjaWidget%26bb0%3D128%26pc0%3D129%26ld0%3D129%26t0%3D1462006583538%26csmtags%3D%7C%7C:",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "1338.08200014755",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1318.08200014755,
+            "s_time" : 1207.89299998432,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://platform.twitter.com/js/timeline.0eae788bc4fdbe9cd3e72dca3bc26358.js",
+         "id" : "r65",
+         "comps" : [
+            {
+               "s_time" : 1681.02299980819,
+               "time" : 46.0450001992301,
+               "type" : null,
+               "id" : "comp_178",
+               "e_time" : 1727.06800000742
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 27740,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "1339.16400000453",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1329.16400000453,
+            "s_time" : 1305.42099988088,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DNewsDeskWidget%26bb0%3D130%26pc0%3D135%26ld0%3D135%26t0%3D1462006583544%26csmtags%3D%7C%",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 21,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "1667.8149998188",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1645.8149998188,
+            "s_time" : 1339.36099987477,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DNinjaWidget%26bb0%3D136%26pc0%3D138%26ld0%3D138%26t0%3D1462006583547%26csmtags%3D%7C%7C:",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 23,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "1757.30999978259",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1733.30999978259,
+            "s_time" : 1669.55900005996,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f3e8217d1&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r72",
+         "comps" : [
+            {
+               "s_time" : 1774.78099986911,
+               "time" : 13.97800026461,
+               "type" : "evalhtml",
+               "id" : "r72_c1",
+               "e_time" : 1788.75900013372
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 34812,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "1774.06500000507",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1774.06500000507,
+            "s_time" : 1759.88399982452,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f3e8217d1&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r73",
+         "comps" : [
+            {
+               "s_time" : 1775.15400014818,
+               "time" : 25.96199978143,
+               "type" : "evalhtml",
+               "id" : "r73_c1",
+               "e_time" : 1801.11599992961
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 34812,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "1774.39999999478",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1773.39999999478,
+            "s_time" : 1759.7839999944,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DBornTodayWidget%26bb0%3D316%26pc0%3D319%26ld0%3D319%26t0%3D1462006583728%26csmtags%3D%7C",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "1805.1249999553",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1785.1249999553,
+            "s_time" : 1758.09000013396,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/impression.php/f235d81c6/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+         "id" : "r70",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 43,
+            "dns" : 8,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 75,
+            "sslEnd" : 29,
+            "connectEnd" : 29,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "1826.38299977407",
+            "sslStart" : 14,
+            "dnsStart" : 0,
+            "receiveLast" : 1751.38299977407,
+            "s_time" : 1732.71999973804,
+            "sendEnd" : 30,
+            "sendStart" : 29,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://syndication.twitter.com/i/jot/syndication?l=%7B%22_category_%22%3A%22syndicated_impression%22%2C%22triggered_on%22%3A1462006585071%2C%22dnt%22%3Afalse%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22action%22%3A%22impression%22%7D%7D",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 28,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 96,
+            "sslEnd" : -1,
+            "connectEnd" : 63,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "1848.5300000757",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1752.5300000757,
+            "s_time" : 1720.29999969527,
+            "sendEnd" : 68,
+            "sendStart" : 63,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://syndication.twitter.com/widgets/timelines/354387022028357633?callback=__twttr.callbacks.tl_i0_354387022028357633&dnt=false&domain=modified.testbed.localhost&lang=en&override_name=IMDb&override_type=user&suppress_response_codes=true&t=1624451&with_replies=false",
+         "id" : "r69",
+         "comps" : [
+            {
+               "s_time" : 1854.5860000886,
+               "time" : 28.6649996414799,
+               "type" : null,
+               "id" : "comp_238",
+               "e_time" : 1883.25099973008
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 38,
+            "len" : 133425,
+            "dns" : 4,
+            "dnsEnd" : 4,
+            "receiveHeadersEnd" : 101,
+            "sslEnd" : 58,
+            "connectEnd" : 59,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "1854.33800006285",
+            "sslStart" : 27,
+            "dnsStart" : 0,
+            "receiveLast" : 1753.33800006285,
+            "s_time" : 1724.33400014415,
+            "sendEnd" : 63,
+            "sendStart" : 59,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DNinjaWidget%26bb0%3D322%26pc0%3D323%26ld0%3D323%26t0%3D1462006583732%26csmtags%3D%7C%7C:",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 21,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "1850.11800006032",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1828.11800006032,
+            "s_time" : 1805.71200000122,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:000-0000000-0000000:0J110K26R120WR3A126C:www.imdb.com$uedata=s:%2Fuedata%2F000-0000000-0000000%2F%3Fld%26v%3Da02%26id%3D0J110K26R120WR3A126C%26ctb%3D1%26sc0%3DNinjaWidget%26bb0%3D326%26pc0%3D328%26ld0%3D328%26t0%3D1462006583737%26csmtags%3D%7C%7C:",
+         "id" : "r76",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "1883.57299985364",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1863.57299985364,
+            "s_time" : 1850.97200004384,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/emoji/v2/72x72/1f50e.png",
+         "id" : "r78",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 863,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "1886.24199992046",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1885.24199992046,
+            "s_time" : 1878.91699979082,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_84"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_93"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_96"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_99"
+      },
+      {
+         "a2" : "comp_93",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_84"
+      },
+      {
+         "a2" : "comp_96",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_93"
+      },
+      {
+         "a2" : "comp_99",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_96"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 24.33099970222,
+         "id" : "dep8",
+         "a1" : "comp_238"
+      },
+      {
+         "a2" : "download_74",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 765.92099992558,
+         "id" : "dep10",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 43.31100033596,
+         "id" : "dep11",
+         "a1" : "comp_178"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 39.2769998870799,
+         "id" : "dep12",
+         "a1" : "comp_178"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 692.9289996624,
+         "id" : "dep13",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 718.29900005832,
+         "id" : "dep14",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 719.99299991876,
+         "id" : "dep15",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 720.09299974888,
+         "id" : "dep16",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 629.76799998432,
+         "id" : "dep17",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 299.56999979913,
+         "id" : "dep18",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 265.62999980524,
+         "id" : "dep19",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 627.373000141229,
+         "id" : "dep20",
+         "a1" : "r50_c1"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 627.766999881719,
+         "id" : "dep21",
+         "a1" : "r50_c1"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 549.304000101979,
+         "id" : "dep22",
+         "a1" : "r50_c1"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 90.0329998694299,
+         "id" : "dep23",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 525.320000015199,
+         "id" : "dep24",
+         "a1" : "r50_c1"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 66.0489997826498,
+         "id" : "dep25",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 503.579000011089,
+         "id" : "dep26",
+         "a1" : "r50_c1"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 44.3079997785399,
+         "id" : "dep27",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 0.205999705939917,
+         "id" : "dep28",
+         "a1" : "r51_c1"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 5.70699991658296,
+         "id" : "dep29",
+         "a1" : "r50_c1"
+      },
+      {
+         "a2" : "download_58",
+         "time" : -1,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 508.677999954671,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 480.136000085622,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 479.654999915511,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 479.654999915511,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 479.073999915272,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 479.073999915272,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 124.520999845118,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 405.737000051886,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 404.976999852807,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 400.524999946356,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 398.800999857486,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 396.67099993676,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 362.228999845684,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 361.645000055433,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 361.087999772281,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 360.532999970019,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 359.774000011385,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 358.177000191063,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 347.868000157178,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 343.055000063032,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 342.048000078649,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 341.022999957204,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 339.614000171423,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 338.436999823898,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 329.853999894113,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 328.373999800533,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 327.541999984533,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 324.087999761105,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 323.439999949187,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 319.755000062287,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 318.998999893666,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 318.421999923885,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 317.836000118405,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 317.146999761463,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 158.073999918998,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 150.18599992618,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 148.370999842882,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 143.60099984333,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 140.784999821335,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 134.120000060648,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 132.751000113786,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 131.103000137955,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 130.160999950022,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 129.296999890358,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 126.433999743313,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 113.739999942482,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 112.763000186533,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 111.918000038714,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 111.254000104964,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 110.526999924332,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 85.6909998692577,
+         "id" : "dep81",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 31.9960000924766,
+         "id" : "dep82",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 10.6029999442399,
+         "id" : "dep83",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 11.6179999895394,
+         "id" : "dep84",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 10.863000061363,
+         "id" : "dep85",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 9.788999799639,
+         "id" : "dep86",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 9.26199974492189,
+         "id" : "dep87",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 8.6779999546707,
+         "id" : "dep88",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 5.7139997370541,
+         "id" : "dep89",
+         "a1" : "r1_c1"
+      }
+   ]
+}

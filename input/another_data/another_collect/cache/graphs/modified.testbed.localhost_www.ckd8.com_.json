@@ -1,0 +1,394 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.ckd8.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.ckd8.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 48.5200001858175,
+               "time" : 4.1530001908541,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 52.6730003766716
+            },
+            {
+               "s_time" : 73.8850003108382,
+               "time" : -3383345253.14,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3383345179.255
+            },
+            {
+               "s_time" : 75.2560002729297,
+               "time" : -3383345254.511,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3383345179.255
+            },
+            {
+               "s_time" : 771.527000237256,
+               "time" : 188.279999885708,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 959.807000122964
+            },
+            {
+               "s_time" : 962.366000283509,
+               "time" : -3383346141.621,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3383345179.255
+            },
+            {
+               "s_time" : 968.420000281185,
+               "time" : -3383346147.675,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -3383345179.255
+            },
+            {
+               "s_time" : 968.596999999136,
+               "time" : -3383346147.852,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -3383345179.255
+            },
+            {
+               "s_time" : 968.844000250101,
+               "time" : -3383346148.099,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : -3383345179.255
+            },
+            {
+               "s_time" : 969.034000299871,
+               "time" : 748.040999751539,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 1717.07500005141
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 12552,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "43.7489999458194",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 38.7489999458194,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/images/logo.gif",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 305,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "84.1100001707673",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 58.1100001707673,
+            "s_time" : 52.6730003766716,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cpro.baidustatic.com/cpro/ui/c.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 777.858000248671,
+               "time" : 184.508000034838,
+               "type" : 1,
+               "id" : "comp_16",
+               "e_time" : 962.366000283509
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 231,
+            "len" : 114687,
+            "dns" : 8,
+            "dnsEnd" : 15,
+            "receiveHeadersEnd" : 475,
+            "sslEnd" : -1,
+            "connectEnd" : 244,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "541.552999988198",
+            "sslStart" : -1,
+            "dnsStart" : 7,
+            "receiveLast" : 66.5529999881983,
+            "s_time" : 52.2850002162158,
+            "sendEnd" : 244,
+            "sendStart" : 244,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://siteapp.baidu.com/static/webappservice/uaredirect.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 767.816000152379,
+               "time" : 3.7110000848769,
+               "type" : 1,
+               "id" : "comp_13",
+               "e_time" : 771.527000237256
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 347,
+            "len" : 819,
+            "dns" : 8,
+            "dnsEnd" : 14,
+            "receiveHeadersEnd" : 713,
+            "sslEnd" : -1,
+            "connectEnd" : 366,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "767.392999958247",
+            "sslStart" : -1,
+            "dnsStart" : 6,
+            "receiveLast" : 54.3929999582469,
+            "s_time" : 51.834000274539,
+            "sendEnd" : 366,
+            "sendStart" : 366,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pos.baidu.com/jczm?di=u703654&dri=0&dis=0&dai=1&ps=46x8&dcb=BAIDU_SSP_define&dtm=BAIDU_DUP_SETJSONADSLOT&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1461900618482&ti=%E5%BF%AB%E9%80%92%E5%8D%95%E5%8F%B7%E6%9F%A5%E8%AF%A2%2C%E7%89%A9%E6%B5%81%E6%9F%A5%E8%AF%A2_%E6%9F%A5%E5%BF%AB%E9%80%92%E5%90%A7&ari=1&",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 470,
+            "len" : 1047,
+            "dns" : 8,
+            "dnsEnd" : 9,
+            "receiveHeadersEnd" : 742,
+            "sslEnd" : -1,
+            "connectEnd" : 271,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "1704.02500033379",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 962.025000333786,
+            "s_time" : 959.807000122964,
+            "sendEnd" : 272,
+            "sendStart" : 271,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://pos.baidu.com/jczm?rdid=703654&dc=2&di=u703654&dri=0&dis=0&dai=1&ps=46x8&dcb=BAIDU_SSP_define&dtm=BAIDU_DUP_SETJSONADSLOT&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1461900618482&ti=%E5%BF%AB%E9%80%92%E5%8D%95%E5%8F%B7%E6%9F%A5%E8%AF%A2%2C%E7%89%A9%E6%B5%81%E6%9F%A5%E8%AF%A2_%E6%9F%A5%E5%BF%AB%E9%80%9",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 2074.38899995759,
+               "time" : 926.1819999665,
+               "type" : "evalhtml",
+               "id" : "r15_c1",
+               "e_time" : 3000.57099992409
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 343,
+            "len" : 20070,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 344,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "2987.13400028646",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2643.13400028646,
+            "s_time" : 1717.07500005141,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cpro.baidustatic.com/cpro/ui/noexpire/img/2.0.1/reduce_bd-logo1_oper.png",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 1344,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "2084.25900014117",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2083.25900014117,
+            "s_time" : 2080.67000005394,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://wn.pos.baidu.com/adx.php?c=d25pZD0wNmUxM2RhNWM1ZmJmZjc2AHM9MDZlMTNkYTVjNWZiZmY3NgB0PTE0NjE5MDA3MjAAc2U9MQBidT00AHByaWNlPVZ5TFZzQUFCVUtaN2pFcGdXNUlBOHBBYklkbDJvXzBYRFdBaUVnAGNoYXJnZV9wcmljZT0xAHNoYXJpbmdfcHJpY2U9MTAwMAB3aW5fZHNwPTQAY2htZD0xAGJkaWQ9RjEwNDg0M0I3RUQzN0Q0RDI5RUFGNkI1NUQzMjZENDgAY3",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 270,
+            "len" : 49,
+            "dns" : 0,
+            "dnsEnd" : 253,
+            "receiveHeadersEnd" : 790,
+            "sslEnd" : -1,
+            "connectEnd" : 520,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "2870.79200008884",
+            "sslStart" : -1,
+            "dnsStart" : 253,
+            "receiveLast" : 2080.79200008884,
+            "s_time" : 2079.63300030679,
+            "sendEnd" : 520,
+            "sendStart" : 520,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_19"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_21"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 5.24400034920018,
+         "id" : "dep10",
+         "a1" : "r15_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 6.28100009635,
+         "id" : "dep11",
+         "a1" : "r15_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      }
+   ]
+}

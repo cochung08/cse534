@@ -1,0 +1,160 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.sohu.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.sohu.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 52.6839999947697,
+               "time" : -956761377.955,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 65.4879999347031,
+               "time" : -956761390.759,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 67.5029999110848,
+               "time" : -956761392.774,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 69.2269999999553,
+               "time" : -956761394.498,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 71.2150000035763,
+               "time" : -956761396.486,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 76.1339999735355,
+               "time" : -956761401.405,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 76.2409999733791,
+               "time" : -956761401.512,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 84.6749999327585,
+               "time" : -956761409.946,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 530.05599998869,
+               "time" : -956761855.327,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : -956761325.271
+            },
+            {
+               "s_time" : 971.372999949381,
+               "time" : 478.943999973129,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 1450.31699992251
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 422533,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "56.2979999231175",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 53.2979999231175,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_70"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_92"
+      }
+   ]
+}

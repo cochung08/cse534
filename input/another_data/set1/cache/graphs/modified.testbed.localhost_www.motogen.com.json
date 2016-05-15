@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.motogen.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.motogen.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 67.2340001910925,
+               "time" : 0.231999903917298,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 67.4660000950098
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 43,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "51.8160001374781",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.81600013747811,
+            "s_time" : 0,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

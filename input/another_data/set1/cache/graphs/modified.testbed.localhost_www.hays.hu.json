@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.hays.hu",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.hays.hu",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 94.966999720782,
+               "time" : 0.738000031560702,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 95.7049997523427
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 57,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "59.1949997469783",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.19499974697828,
+            "s_time" : 0,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

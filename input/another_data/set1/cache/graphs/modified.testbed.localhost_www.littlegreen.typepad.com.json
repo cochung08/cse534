@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.littlegreen.typepad.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.littlegreen.typepad.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 69.0989997237921,
+               "time" : 0.5560000427067,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 69.6549997664988
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "32.1959997527301",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 6.19599975273013,
+            "s_time" : 0,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

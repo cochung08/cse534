@@ -1,0 +1,1456 @@
+{
+   "n_download_no_trigger" : 3,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.pennlive.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 44.2129999864846,
+               "time" : 3.4059999743477,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 47.6189999608323
+            },
+            {
+               "s_time" : 63.3339999476448,
+               "time" : 3.0330000445246,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 66.3669999921694
+            },
+            {
+               "s_time" : 202.247999957763,
+               "time" : -954825579.454,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 203.309000004083,
+               "time" : -954825580.515,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 273.946999921463,
+               "time" : -954825651.153,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 283.422000007704,
+               "time" : -954825660.628,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 287.016000016592,
+               "time" : -954825664.222,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 311.548999976367,
+               "time" : -954825688.755,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 333.890000008978,
+               "time" : 199.876999948174,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : 533.766999957152
+            },
+            {
+               "s_time" : 692.967999959365,
+               "time" : -954826070.174,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : -954825377.206
+            },
+            {
+               "s_time" : 719.165000016801,
+               "time" : 458.623999962579,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 1177.78899997938
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 165491,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "43.6629999894649",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 40.6629999894649,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/tags.tiqcdn.com/utag/advancedigital/lib-common/prod/utag.sync.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 60.5159999104217,
+               "time" : 2.8180000372231,
+               "type" : 1,
+               "id" : "comp_0",
+               "e_time" : 63.3339999476448
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2776,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "60.1739999838173",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 51.1739999838173,
+            "s_time" : 45.1200000243261,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/aff/static/css/main.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 104.247999959625,
+               "time" : 238.153000012972,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 342.400999972597
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 310291,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "103.97399996873",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 92.9739999687299,
+            "s_time" : 45.484000002034,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/css/fonts.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 65.6660000095144,
+               "time" : 0.373999937437489,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 66.0399999469519
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 1795,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "65.5269999988377",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 53.5269999988377,
+            "s_time" : 45.8149999612942,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/libs/modernizr-2.6.2.min.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 162.916000001132,
+               "time" : 39.331999956631,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 202.247999957763
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 13334,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "68.6649999115616",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 54.6649999115616,
+            "s_time" : 46.1169999325648,
+            "sendEnd" : 5,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/adv-js-loader.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 202.425999916159,
+               "time" : 0.883000087924017,
+               "type" : 1,
+               "id" : "comp_7",
+               "e_time" : 203.309000004083
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 3919,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "70.6329999957234",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 54.6329999957234,
+            "s_time" : 46.4449999853969,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/js/jquery/jquery-1.8.2.min.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 203.409999958239,
+               "time" : 70.536999963224,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 273.946999921463
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 93436,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "77.9609999153763",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 61.9609999153763,
+            "s_time" : 46.762999962084,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/resimg.160108.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 274.141000001691,
+               "time" : 9.28100000601302,
+               "type" : 1,
+               "id" : "comp_10",
+               "e_time" : 283.422000007704
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 28402,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "77.521999948658",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 49.521999948658,
+            "s_time" : 47.0349999377504,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/design/baseline/js/movabletype.min.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 284.029999980703,
+               "time" : 2.98600003588899,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 287.016000016592
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 20706,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "85.9700000146404",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 54.9700000146404,
+            "s_time" : 47.355999937281,
+            "sendEnd" : 20,
+            "sendStart" : 19,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/adv_gigya.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 287.146999966353,
+               "time" : 24.402000010014,
+               "type" : 1,
+               "id" : "comp_17",
+               "e_time" : 311.548999976367
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 30646,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 33,
+            "sslEnd" : -1,
+            "connectEnd" : 22,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "91.4639999391511",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 58.4639999391511,
+            "s_time" : 47.6189999608323,
+            "sendEnd" : 22,
+            "sendStart" : 22,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/js/ads/ads.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 312.183999922127,
+               "time" : 21.706000086851,
+               "type" : 1,
+               "id" : "comp_22",
+               "e_time" : 333.890000008978
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 60577,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "101.232999935746",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 84.2329999357462,
+            "s_time" : 65.4439999489114,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/galleria/adv_galleria.css",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 89.3190000206232,
+               "time" : 0.102999969385593,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 89.4219999900088
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 21134,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "89.0740000177175",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 69.0740000177175,
+            "s_time" : 65.9420000156388,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/galleria/jquery.mCustomScrollbar.css",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 90.9319999627769,
+               "time" : 0.0749999890103936,
+               "type" : 4,
+               "id" : "comp_3",
+               "e_time" : 91.0069999517873
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 14402,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "90.6109999632463",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 68.6109999632463,
+            "s_time" : 66.3669999921694,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/img/buttons/btn-signin-Facebook.png",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 2977,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "521.884999936447",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 511.884999936447,
+            "s_time" : 360.256999963894,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/img/buttons/btn-signin-Twitter.png",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2425,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "522.510999930091",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 514.510999930091,
+            "s_time" : 361.964999930933,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/img/buttons/btn-signin-Google.png",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 2844,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "523.027999908663",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 512.027999908663,
+            "s_time" : 360.84400000982,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/img/buttons/btn-signin-AOL.png",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 1709,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "523.316000006162",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 512.316000006162,
+            "s_time" : 361.369999940507,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/penn/static/img/footer-logo-penn-inc.png",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 9228,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "523.857999942265",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 517.857999942265,
+            "s_time" : 383.089000009932,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/img/ad_choices_arrow_transparent.png",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 268,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "527.2699999623",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 520.2699999623,
+            "s_time" : 387.749999994412,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/aff/static/img/logos/logo_main.png",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 7242,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "527.99099998083",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 519.99099998083,
+            "s_time" : 390.079999924637,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/sprites/toprail-v002.png",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8355,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "528.899999917485",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 519.899999917485,
+            "s_time" : 390.927999978885,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/weather/tiny/04.png",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 5274,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "529.424999956973",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 519.424999956973,
+            "s_time" : 391.853999928571,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/galleria/share_embed.png",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 2488,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "529.75200000219",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 521.75200000219,
+            "s_time" : 399.75899993442,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/sprites/featured_orange.png",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1644,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "530.170999933034",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 522.170999933034,
+            "s_time" : 402.220999938436,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/penn/static/img/sprites/meta-sprite-ext.png",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4331,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "530.858999933116",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 523.858999933116,
+            "s_time" : 404.704999993555,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/sprites/meta-sprite_large.png",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 17433,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "531.343000009656",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 527.343000009656,
+            "s_time" : 423.145000007935,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/shd-large-top.png",
+         "id" : "r38",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 220,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "532.018999918364",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 528.018999918364,
+            "s_time" : 424.997000023723,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/img/sprites/social-16x224-sprite.png",
+         "id" : "r39",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 7075,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "534.389999927953",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 529.389999927953,
+            "s_time" : 430.444999947213,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.pennlive.com/static/common/img/footer-logo-advance.png",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1721,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "535.07699992042",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 530.07699992042,
+            "s_time" : 431.299999938346,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/aff/static/js/homepage_res.js",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 537.473000003956,
+               "time" : 155.494999955409,
+               "type" : 1,
+               "id" : "comp_57",
+               "e_time" : 692.967999959365
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 281106,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "537.25699998904",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 531.25699998904,
+            "s_time" : 432.10899992846,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/social/lf/build/index.404.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 1211.78199991118,
+               "time" : 127.60600005277,
+               "type" : null,
+               "id" : "comp_89",
+               "e_time" : 1339.38799996395
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 542905,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "1171.76900000777",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1165.76900000777,
+            "s_time" : 522.364999982528,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/gw/gw.min.js",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 704.449999961071,
+               "time" : 14.71500005573,
+               "type" : 1,
+               "id" : "comp_63",
+               "e_time" : 719.165000016801
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 27944,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "704.295999952592",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 690.295999952592,
+            "s_time" : 522.705000010319,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/fonts/v1/benton-sans-bold/a408f907-3ee4-4578-a3d1-4134558cb82a-3.woff",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 54531,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "950.287999934517",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 939.287999934517,
+            "s_time" : 532.98299992457,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/fonts/v1/benton-sans-medium/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 54040,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "955.163999926299",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 941.163999926299,
+            "s_time" : 533.356999978423,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 55125,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "959.992000018246",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 942.992000018246,
+            "s_time" : 533.766999957152,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.pennlive.com/static/common/js/adv_gigya.js.map",
+         "id" : "r84",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 340,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "1367.24299995694",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1362.24299995694,
+            "s_time" : 1177.78899997938,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_57"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_63"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "comp_7",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_36",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_34",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 199.466999969445,
+         "id" : "dep19",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 199.092999915592,
+         "id" : "dep20",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 188.815000001341,
+         "id" : "dep21",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 188.47499997355,
+         "id" : "dep22",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 98.218999919482,
+         "id" : "dep23",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 97.409999929368,
+         "id" : "dep24",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 96.554999938235,
+         "id" : "dep25",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 91.107000014745,
+         "id" : "dep26",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 89.254999998957,
+         "id" : "dep27",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 70.814999984577,
+         "id" : "dep28",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 68.330999929458,
+         "id" : "dep29",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 65.868999925442,
+         "id" : "dep30",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 57.963999919593,
+         "id" : "dep31",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 57.037999969907,
+         "id" : "dep32",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 56.189999915659,
+         "id" : "dep33",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 53.859999985434,
+         "id" : "dep34",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 49.199000000954,
+         "id" : "dep35",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 27.479999931529,
+         "id" : "dep36",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 26.954000000842,
+         "id" : "dep37",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 28.074999921955,
+         "id" : "dep38",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 26.366999954916,
+         "id" : "dep39",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_12",
+         "time" : -1,
+         "id" : "dep40",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 2.608000067994,
+         "id" : "dep41",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 2.608000067994,
+         "id" : "dep42",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 2.1100000012666,
+         "id" : "dep43",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 2.1100000012666,
+         "id" : "dep44",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 3.1429999507964,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 2.8219999512658,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 2.54999997559941,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 2.54999997559941,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 2.2319999989123,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 2.2319999989123,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.90399994608021,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.90399994608021,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.6019999748096,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.6019999748096,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.2710000155494,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.2710000155494,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.907000037841506,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      }
+   ]
+}

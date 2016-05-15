@@ -1,0 +1,324 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.ask.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 43.0219999980181,
+               "time" : 9.1679999604822,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 52.1899999585003
+            },
+            {
+               "s_time" : 181.868999963626,
+               "time" : -957063232.403,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -957063050.534
+            },
+            {
+               "s_time" : 182.493999949656,
+               "time" : -957063233.028,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -957063050.534
+            },
+            {
+               "s_time" : 195.728999911807,
+               "time" : 36.278999992647,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 232.007999904454
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 23269,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "42.1530000166968",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 38.1530000166968,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/st/c/css/ask_home.min.343c9b0a.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 56.8329999223351,
+               "time" : 17.4600000027568,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 74.2929999250919
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 10120,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "56.6129999933764",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 49.6129999933764,
+            "s_time" : 47.6860000053421,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/sp.ask.com/sh/i/images/homepage-sprite-1.0.2.png",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 7056,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "75.0549999065697",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 69.0549999065697,
+            "s_time" : 50.9479999309406,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/st/c/js/ask_home.min.2c30daba.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 91.7559999506921,
+               "time" : 90.1130000129339,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 181.868999963626
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 122444,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "91.6069999802858",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 85.6069999802858,
+            "s_time" : 51.3449999270961,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/sp.ask.com/sh/ads/ads.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 182.359999977052,
+               "time" : 0.133999972603988,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 182.493999949656
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 21,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "75.914999935776",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 68.914999935776,
+            "s_time" : 51.7380000092089,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.ask.com/st/c/js/ask_unified.min.c7f61e55.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 182.897999999113,
+               "time" : 12.830999912694,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 195.728999911807
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 14839,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "76.3799999840558",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 69.3799999840558,
+            "s_time" : 52.1899999585003,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ulog?anxuu=C03EE826-A8F5-40E2-A621-C8224F43B261&anxa=T2_AskUS&anxv=0111b81&anxd=2016-05-10T18%3A12%3A00Z&anxsn=askus005iad.io.askjeeves.info&anxu=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.ask.com%2F&anxl=en-US&anxlv=0&anxrd=none&anxrk=-&anxsq=2&pl_cm=true&anxi=6",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 294,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "287.050999933854",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 277.050999933854,
+            "s_time" : 203.861000016332,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 8.13200010452502,
+         "id" : "dep4",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 9.1679999604822,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 8.7160000111908,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 8.7160000111908,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 8.32299992907799,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 8.32299992907799,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 7.92599993292249,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 7.92599993292249,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 4.664000007324,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      }
+   ]
+}

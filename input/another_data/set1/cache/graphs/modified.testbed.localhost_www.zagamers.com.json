@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.zagamers.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.zagamers.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 98.8219999708235,
+               "time" : 0.554999802261605,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 99.3769997730851
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 58,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "59.9750000983477",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.97500009834766,
+            "s_time" : 0,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.miamiherald.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.miamiherald.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 66.5299999527633,
+               "time" : 0.229999888688297,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 66.7599998414516
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 42,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "51.2419999577105",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.2419999577105,
+            "s_time" : 0,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

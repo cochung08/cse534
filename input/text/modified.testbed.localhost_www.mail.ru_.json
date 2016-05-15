@@ -1,0 +1,95 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.mail.ru_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.mail.ru/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 46.6330000199378,
+               "time" : -957169463.471,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -957169416.838
+            },
+            {
+               "s_time" : 273.680000100285,
+               "time" : -957169690.518,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -957169416.838
+            },
+            {
+               "s_time" : 278.568000067025,
+               "time" : -957169695.406,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -957169416.838
+            },
+            {
+               "s_time" : 324.457000009716,
+               "time" : -957169741.295,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -957169416.838
+            },
+            {
+               "s_time" : 327.08400010597,
+               "time" : 69.703999906778,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 396.788000012748
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 240046,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "46.1820000782609",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 42.1820000782609,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_69"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_77"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_87"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_89"
+      }
+   ]
+}

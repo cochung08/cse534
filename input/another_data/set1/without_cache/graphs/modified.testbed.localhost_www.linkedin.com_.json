@@ -1,0 +1,178 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.linkedin.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.linkedin.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 88.4899999946356,
+               "time" : -3434192797.238,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -3434192708.748
+            },
+            {
+               "s_time" : 1461.63399983197,
+               "time" : 68.9499997533901,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 1530.58399958536
+            },
+            {
+               "s_time" : 1583.04699975997,
+               "time" : -3434194291.795,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3434192708.748
+            },
+            {
+               "s_time" : 1583.76099960878,
+               "time" : -3434194292.509,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3434192708.748
+            },
+            {
+               "s_time" : 1586.59699978307,
+               "time" : -3434194295.345,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3434192708.748
+            },
+            {
+               "s_time" : 1586.96499979123,
+               "time" : 0.932000111790103,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 1587.89699990302
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 41327,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "97.4739999510348",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 52.4739999510348,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://platform.linkedin.com/js/analytics.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 1671.81899957359,
+               "time" : 123.70800040662,
+               "type" : null,
+               "id" : "comp_25",
+               "e_time" : 1795.52699998021
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 46,
+            "len" : 26335,
+            "dns" : 47,
+            "dnsEnd" : 47,
+            "receiveHeadersEnd" : 137,
+            "sslEnd" : -1,
+            "connectEnd" : 91,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "1670.63599964604",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 1533.63599964604,
+            "s_time" : 1530.58399958536,
+            "sendEnd" : 91,
+            "sendStart" : 91,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/collect?v=1&_v=j39&a=1340507972&t=pageview&_s=1&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.linkedin.com%2F&dr=&dp=uno-reg-guest-home&ul=en-us&de=ISO-8859-1&dt=World%C3%A2%E2%82%AC%E2%84%A2s%20Largest%20Professional%20Network%20%7C%20LinkedIn&sd=24-bit&sr=1024x76",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 35,
+            "dns" : 45,
+            "dnsEnd" : 46,
+            "receiveHeadersEnd" : 135,
+            "sslEnd" : -1,
+            "connectEnd" : 90,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "1931.15899991244",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 1796.15899991244,
+            "s_time" : 1794.32299965993,
+            "sendEnd" : 90,
+            "sendStart" : 90,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_19"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 122.50400008634,
+         "id" : "dep6",
+         "a1" : "comp_25"
+      },
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c2"
+      }
+   ]
+}

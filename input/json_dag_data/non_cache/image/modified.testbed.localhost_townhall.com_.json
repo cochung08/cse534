@@ -1,0 +1,3339 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_townhall.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/townhall.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 54.7939999960363,
+               "time" : 5.269999965094,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 60.0639999611303
+            },
+            {
+               "s_time" : 164.683999959379,
+               "time" : -792000572.56,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 362.204000004567,
+               "time" : -792000770.08,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 419.351999997161,
+               "time" : 9.62199992500302,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 428.973999922164
+            },
+            {
+               "s_time" : 429.450999945402,
+               "time" : 14.679000014439,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 444.129999959841
+            },
+            {
+               "s_time" : 543.322999961674,
+               "time" : 570.781999966126,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : 1114.1049999278
+            },
+            {
+               "s_time" : 1193.42099991627,
+               "time" : -792001601.297,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1215.96199995838,
+               "time" : -792001623.838,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1219.19199998956,
+               "time" : -792001627.068,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1220.28699994553,
+               "time" : -792001628.163,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1225.3029999556,
+               "time" : -792001633.179,
+               "id" : "r1_c11",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1226.84099990875,
+               "time" : -792001634.717,
+               "id" : "r1_c12",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1230.0169999944,
+               "time" : -792001637.893,
+               "id" : "r1_c13",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1232.90699999779,
+               "time" : -792001640.783,
+               "id" : "r1_c14",
+               "type" : "evalhtml",
+               "e_time" : -792000407.876
+            },
+            {
+               "s_time" : 1234.59100001492,
+               "time" : 172.99299989827,
+               "type" : "evalhtml",
+               "id" : "r1_c15",
+               "e_time" : 1407.58399991319
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 133071,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "54.217999917455",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 51.217999917455,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 91.8899999232963,
+               "time" : 72.7940000360827,
+               "type" : 1,
+               "id" : "comp_1",
+               "e_time" : 164.683999959379
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 84380,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "91.541999951005",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 82.541999951005,
+            "s_time" : 56.9670000113547,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.optimizely.com/js/2380780627.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 167.49699995853,
+               "time" : 194.707000046037,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 362.204000004567
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 108606,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "167.365000001155",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 156.365000001155,
+            "s_time" : 57.5010000029579,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/css/bootstrap.min.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 386.291999951936,
+               "time" : 35.817999974825,
+               "type" : 4,
+               "id" : "comp_9",
+               "e_time" : 422.109999926761
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 122485,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "386.158999986947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 374.158999986947,
+            "s_time" : 58.1459999084473,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/css/main.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 165.694999974221,
+               "time" : 0.389999942854018,
+               "type" : 4,
+               "id" : "comp_3",
+               "e_time" : 166.084999917075
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 56190,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "165.529999998398",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 152.529999998398,
+            "s_time" : 58.6389999371022,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/css/animate.min.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 166.466999915428,
+               "time" : 0.240000081249008,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 166.706999996677
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 52789,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "166.33199993521",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 151.33199993521,
+            "s_time" : 58.987999917008,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 83.3829999901354,
+               "time" : 0.1619999529794,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 83.5449999431148
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 27442,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "83.0299999797717",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 67.0299999797717,
+            "s_time" : 59.3660000013188,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/c.amazon-adsystem.com/aax2/amzn_ads.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 414.90099998191,
+               "time" : 4.451000015251,
+               "type" : 1,
+               "id" : "comp_14",
+               "e_time" : 419.351999997161
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 11261,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "166.162999928929",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 132.162999928929,
+            "s_time" : 59.6899999072775,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ox-d.townhallmedia.servedbyopenx.com/w/1.0/jstag%3Fnc=6177-Townhall",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 429.598000016995,
+               "time" : 113.724999944679,
+               "type" : 1,
+               "id" : "comp_29",
+               "e_time" : 543.322999961674
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 57633,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "385.91599999927",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 346.91599999927,
+            "s_time" : 60.0639999611303,
+            "sendEnd" : 31,
+            "sendStart" : 31,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/Resources/th_logo.svg",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3729,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "849.40700000152",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 839.40700000152,
+            "s_time" : 427.3979999125,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/th_election_logo.svg",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 843,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "838.822999969125",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 828.822999969125,
+            "s_time" : 427.665999974124,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/ColPics/johnhawkins.gif",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 4466,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "862.29399999138",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 849.29399999138,
+            "s_time" : 427.978999912739,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/ColPics/Sowell.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 5300,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "862.523999996483",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 849.523999996483,
+            "s_time" : 428.287999937311,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/colpics/columnistallenwest.gif",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4595,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "862.720999983139",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 848.720999983139,
+            "s_time" : 428.654999937862,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/colpics/montelwilliams.gif",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4672,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "862.91899997741",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 848.91899997741,
+            "s_time" : 428.973999922164,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/colpics/columnistronpaul.gif",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 4551,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "863.636999973096",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 843.636999973096,
+            "s_time" : 429.540999932215,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/ColPics/Barone.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 5578,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "863.821999984793",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 843.821999984793,
+            "s_time" : 429.698999971151,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/colpics/StephenMoore.gif",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3445,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "864.241999923252",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 841.241999923252,
+            "s_time" : 429.924999945797,
+            "sendEnd" : 19,
+            "sendStart" : 18,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/ColPics/limbaugh.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 5661,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "873.848999966867",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 850.848999966867,
+            "s_time" : 430.206999997608,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/trending-icon.svg",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 549,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "865.059999981895",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 850.059999981895,
+            "s_time" : 438.843999989331,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/131/a0b82b96-31d9-4a24-8697-ccf65bfe5ee5.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 37220,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "874.20399999246",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 859.20399999246,
+            "s_time" : 439.664999954402,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/colpics/leah.gif",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4446,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "874.671999947168",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 862.671999947168,
+            "s_time" : 444.129999959841,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/130/17107e29-0b46-4cde-a998-8efefe3c79d8.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 21692,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "1083.14499992412",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1073.14499992412,
+            "s_time" : 585.586000001058,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/10/19.png",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 35893,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "1085.26099997107",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1073.26099997107,
+            "s_time" : 586.901000002399,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/126/979e62b4-9045-4213-a313-2b0ae1d623b0.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 27720,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "1085.75500000734",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1073.75500000734,
+            "s_time" : 587.597999954596,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2015/50/2015-02-19T170657Z_1_LYNXMPEB1I0NC_RTROPTP_3_KOREA-NORTH.JPG",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 39068,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "1086.91700000782",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1074.91700000782,
+            "s_time" : 588.428999995813,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/10/7.png",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 25203,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "1088.38999993168",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1069.38999993168,
+            "s_time" : 589.380999910645,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/128/aeeb4fcf-504c-407b-8fc4-7ea00943c7d1.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 22041,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "1089.22500000335",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1069.22500000335,
+            "s_time" : 589.99699994456,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/10/3.png",
+         "id" : "r50",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 29207,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "1090.34999995492",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1066.34999995492,
+            "s_time" : 590.780999977142,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/10/4.png",
+         "id" : "r51",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 29683,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "1100.67399998661",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1072.67399998661,
+            "s_time" : 591.699999989942,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/10/9.png",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 26824,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "1101.50099999737",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1072.50099999737,
+            "s_time" : 593.159999931231,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/128/1971ad2a-f4d7-4955-8572-6215ddf6b758.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 38390,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "1102.33899997547",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1074.33899997547,
+            "s_time" : 594.348000013269,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2015/248/4197da1c-efce-402e-8f83-fa22442ff75c.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 51135,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "1103.9940000046",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1078.9940000046,
+            "s_time" : 603.307999903336,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/Townhall/Car/b/sbr051016dAPR20160510124620.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 24925,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "1104.53899996355",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1076.53899996355,
+            "s_time" : 604.900999926031,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/131/2016-05-10T101420Z_1_LYNXNPEC490L5_RTROPTP_3_USA-ELECTION-SANDERS.JPG",
+         "id" : "r56",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 27220,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "1105.64899991732",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1076.64899991732,
+            "s_time" : 607.008999912068,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/10/2.png",
+         "id" : "r57",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 31052,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "1106.4179999521",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1077.4179999521,
+            "s_time" : 610.050999908708,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2015/299/2015-10-26T224932Z_1_LYNXNPEB9P1BD_RTROPTP_3_USA-GUNS-POLICE.JPG",
+         "id" : "r58",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 20489,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "1107.07899997942",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1081.07899997942,
+            "s_time" : 613.422999973409,
+            "sendEnd" : 18,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/131/2016-05-10T100557Z_2_LYNXNPEC49025_RTROPTP_3_USA-ELECTION-TRUMP.JPG",
+         "id" : "r59",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 23450,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "1107.61999990791",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1080.61999990791,
+            "s_time" : 617.308999993838,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/130/2016-05-09T132334Z_1_LYNXNPEC480SR_RTROPTP_3_USA-ELECTION-TRUMP.JPG",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 46252,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "1113.80799999461",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1085.80799999461,
+            "s_time" : 620.63199991826,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/102/2016-04-11T151452Z_1_LYNXNPEC3A0VY_RTROPTP_3_G7-JAPAN.JPG",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 58628,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "1116.09199992381",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1091.09199992381,
+            "s_time" : 624.192999908701,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2014/192/f636b5ff-baeb-4ab8-98f4-8eae693e44bb.jpg",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 35538,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "1114.70999999437",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1090.70999999437,
+            "s_time" : 626.806999905966,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/130/2216e4de-8307-4d41-a5d1-7eeab78d57c2.jpg",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 18582,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "1111.51099996641",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1089.51099996641,
+            "s_time" : 630.429999902844,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/9/2.png",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 21981,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "1115.87599990889",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1095.87599990889,
+            "s_time" : 637.599000008777,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/130/2016-05-10T015241Z_1_LYNXNPEC4901U_RTROPTP_3_USA-ELECTION-TRUMP.JPG",
+         "id" : "r65",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 40909,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "1118.26099990867",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1096.26099990867,
+            "s_time" : 638.218999956734,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/131/2f3eb16c-844e-45fb-a30b-7771bab90bf5.jpg",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 43633,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "1120.12599990703",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1095.12599990703,
+            "s_time" : 641.041999915615,
+            "sendEnd" : 15,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/131/c2690685-7f99-4fca-8e76-051a15e7f073.jpg",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 34402,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "1120.38799992297",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1097.38799992297,
+            "s_time" : 643.183999927714,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/130/e1b0340c-3f71-44f4-93eb-40dbd4f21b99.jpg",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 19196,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "1119.67499996535",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1096.67499996535,
+            "s_time" : 644.961999962106,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/71/2016-03-03T083315Z_1_LYNXNPEC220DK_RTROPTP_3_USA-ELECTION-CLINTON-STAFFER.JPG",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 31489,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "1122.06299998797",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1094.06299998797,
+            "s_time" : 647.804999956861,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/9/7.png",
+         "id" : "r70",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 46608,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "1124.59499994293",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1103.59499994293,
+            "s_time" : 654.944999958389,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/79/2016-03-17T192118Z_1_LYNXNPEC2G1I6_RTROPTP_3_USA-CONGRESS-RUBIO.JPG",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 22985,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "1123.98299993947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1102.98299993947,
+            "s_time" : 656.499999924563,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/130/c61f230a-c35a-4091-ae57-049c84482774.jpg",
+         "id" : "r72",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 44716,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "1125.16299996059",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1102.16299996059,
+            "s_time" : 658.955999999307,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/9/17.png",
+         "id" : "r73",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 43481,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "1125.67199999467",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1104.67199999467,
+            "s_time" : 662.730999989435,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/36/7c703bd8-6748-4f93-a9cc-73db20131a81.jpg",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 24594,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "1125.40199991781",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1102.40199991781,
+            "s_time" : 663.597999955527,
+            "sendEnd" : 11,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/9/5.png",
+         "id" : "r75",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 13115,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "1126.6680000117",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1100.6680000117,
+            "s_time" : 668.035999988206,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/126/2016-05-05T214041Z_1_LYNXNPEC441GU_RTROPTP_3_USA-CONGRESS.JPG",
+         "id" : "r76",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 15080,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "1127.41799990181",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1102.41799990181,
+            "s_time" : 670.650999993086,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/116/d3da9966-ce36-42f3-9d03-a7847f803bc8.jpg",
+         "id" : "r77",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 21474,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "1127.81400000677",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1101.81400000677,
+            "s_time" : 671.926999930292,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/129/1315bb1e-35c2-4df6-9d92-b1c9dd75712a.jpg",
+         "id" : "r78",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 27068,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 30,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "1129.20699990354",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1099.20699990354,
+            "s_time" : 672.588999965228,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/118/80fbc037-20fd-4bac-8c9a-5aa19282365f.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 61572,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "1131.06099993456",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1106.06099993456,
+            "s_time" : 679.079999914393,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/9/18.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 21734,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "1130.07600000128",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1110.07600000128,
+            "s_time" : 685.526999994181,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/9/1.png",
+         "id" : "r81",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 39916,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "1131.66899990756",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1110.66899990756,
+            "s_time" : 688.459999975748,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/88/2016-03-27T224049Z_1_LYNXNPEC2Q0H3_RTROPTP_3_MEXICO-GUZMAN.JPG",
+         "id" : "r82",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 20916,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "1131.97200000286",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1110.97200000286,
+            "s_time" : 690.874999971129,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/84/2016-03-24T032018Z_1_LYNXNPEC2N03D_RTROPTP_3_USA-ELECTION.JPG",
+         "id" : "r83",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 20892,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "1133.15899996087",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1108.15899996087,
+            "s_time" : 691.713999956846,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/127/04192e9c-5ec8-4ada-b804-01a3cd6913b8.jpg",
+         "id" : "r84",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 22048,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "1133.69299995247",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1108.69299995247,
+            "s_time" : 693.016999983229,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/8/2.png",
+         "id" : "r85",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 44336,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "1134.76799998898",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1110.76799998898,
+            "s_time" : 696.935999905691,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/74/2016-03-14T172106Z_1_LYNXNPEC2D15H_RTROPTP_3_USA-ELECTION-ROMNEY.JPG",
+         "id" : "r86",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 20820,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "1135.44899993576",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1111.44899993576,
+            "s_time" : 699.943999992684,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/thm/th_logo1.png",
+         "id" : "r87",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 1113,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "1135.78299991786",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1112.78299991786,
+            "s_time" : 702.582999947481,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/thm/ha_logo1.png",
+         "id" : "r88",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1052,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "1136.37199997902",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1118.37199997902,
+            "s_time" : 708.178999950178,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/thm/ba_logo1.png",
+         "id" : "r89",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1679,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "1137.437999947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1117.437999947,
+            "s_time" : 710.43999993708,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/thm/tw_logo1.png",
+         "id" : "r90",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1720,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "1137.83999998122",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1119.83999998122,
+            "s_time" : 713.182999985293,
+            "sendEnd" : 11,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/thm/rs_logo1.png",
+         "id" : "r91",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1521,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "1139.05299990438",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1120.05299990438,
+            "s_time" : 715.299999923445,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/thm/he_logo1.png",
+         "id" : "r92",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1378,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "1139.72400000785",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1120.72400000785,
+            "s_time" : 716.377999982797,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/_townhall/resources/images/thmplus.png",
+         "id" : "r93",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 3872,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "1140.66099992488",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1126.66099992488,
+            "s_time" : 721.21300001163,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/_townhall/resources/images/TownhallLogo.png",
+         "id" : "r94",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 15360,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "1140.94999991357",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1127.94999991357,
+            "s_time" : 723.120999988168,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/uploads/2016/5/8/7.png",
+         "id" : "r95",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 17464,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "1142.00200000778",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1129.00200000778,
+            "s_time" : 725.735999993049,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/126/d1388247-24bd-4afd-8c3d-35621a53e033.jpg",
+         "id" : "r96",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 18501,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "1142.53899990581",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1130.53899990581,
+            "s_time" : 727.482999907807,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/105/4bc06468-7af6-46ed-91a7-e63f9232979d.jpg",
+         "id" : "r97",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 21852,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "1143.39699991979",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1130.39699991979,
+            "s_time" : 728.288999991491,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/125/772faffc-0b31-4feb-8828-fa99d35d6b6f.jpg",
+         "id" : "r98",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 18578,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_76",
+            "receivedTime" : "1144.2209999077",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1130.2209999077,
+            "s_time" : 729.34299998451,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/128/63c209b3-2082-40cd-a1a2-0153f047535c.jpg",
+         "id" : "r99",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 22293,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_77",
+            "receivedTime" : "1144.99599998817",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1132.99599998817,
+            "s_time" : 732.687999960035,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.townhall.com/townhall/reu/ha/2016/127/29c83fc0-79c7-4810-bd28-c4cec2c843ed.jpg",
+         "id" : "r100",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 38766,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_78",
+            "receivedTime" : "1146.36199991219",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1133.36199991219,
+            "s_time" : 733.764000004157,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/lib/blazy/blazy.min.js",
+         "id" : "r101",
+         "comps" : [
+            {
+               "s_time" : 1188.6349999113,
+               "time" : 4.78600000496999,
+               "type" : 1,
+               "id" : "comp_99",
+               "e_time" : 1193.42099991627
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4544,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_79",
+            "receivedTime" : "1188.47299995832",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1176.47299995832,
+            "s_time" : 879.521999973804,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/js/bootstrap.min.js",
+         "id" : "r102",
+         "comps" : [
+            {
+               "s_time" : 1195.00499998685,
+               "time" : 20.95699997153,
+               "type" : 1,
+               "id" : "comp_102",
+               "e_time" : 1215.96199995838
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 37055,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_80",
+            "receivedTime" : "1194.7869999567",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1182.7869999567,
+            "s_time" : 879.973999923095,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/js/th.js",
+         "id" : "r103",
+         "comps" : [
+            {
+               "s_time" : 1217.63699990697,
+               "time" : 1.55500008258991,
+               "type" : 1,
+               "id" : "comp_105",
+               "e_time" : 1219.19199998956
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 8099,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_81",
+            "receivedTime" : "1217.52099995501",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1201.52099995501,
+            "s_time" : 880.234999931417,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/js/header.js",
+         "id" : "r104",
+         "comps" : [
+            {
+               "s_time" : 1219.31999991648,
+               "time" : 0.967000029050041,
+               "type" : 1,
+               "id" : "comp_108",
+               "e_time" : 1220.28699994553
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 2088,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_82",
+            "receivedTime" : "1216.82199998759",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1200.82199998759,
+            "s_time" : 880.552999908105,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/lib/jquery-waypoints/lib/jquery.waypoints.min.js",
+         "id" : "r105",
+         "comps" : [
+            {
+               "s_time" : 1220.72499990463,
+               "time" : 4.57800005096988,
+               "type" : 1,
+               "id" : "comp_111",
+               "e_time" : 1225.3029999556
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 8839,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_83",
+            "receivedTime" : "1220.53699998651",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1205.53699998651,
+            "s_time" : 881.595999933779,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/lib/jquery-waypoints/lib/shortcuts/inview.min.js",
+         "id" : "r106",
+         "comps" : [
+            {
+               "s_time" : 1225.43699992821,
+               "time" : 1.40399998053999,
+               "type" : 1,
+               "id" : "comp_114",
+               "e_time" : 1226.84099990875
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 1729,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_84",
+            "receivedTime" : "1217.27899997495",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1202.27899997495,
+            "s_time" : 881.902999943122,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/js/screentime.js",
+         "id" : "r107",
+         "comps" : [
+            {
+               "s_time" : 1227.69199998584,
+               "time" : 2.32500000855998,
+               "type" : 1,
+               "id" : "comp_117",
+               "e_time" : 1230.0169999944
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 4896,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_85",
+            "receivedTime" : "1227.53999999259",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1208.53999999259,
+            "s_time" : 883.143999963067,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/js/sc.js",
+         "id" : "r108",
+         "comps" : [
+            {
+               "s_time" : 1231.65400000289,
+               "time" : 1.25299999490016,
+               "type" : 1,
+               "id" : "comp_120",
+               "e_time" : 1232.90699999779
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 3917,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_86",
+            "receivedTime" : "1231.49599996395",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1226.49599996395,
+            "s_time" : 973.078000009991,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/js/jquery.cookie.1.4.1.js",
+         "id" : "r109",
+         "comps" : [
+            {
+               "s_time" : 1233.03000000305,
+               "time" : 1.56100001186996,
+               "type" : 1,
+               "id" : "comp_123",
+               "e_time" : 1234.59100001492
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1816,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_87",
+            "receivedTime" : "1231.2099999981",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1226.2099999981,
+            "s_time" : 973.485999973491,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/fonts/SourceSansPro-Regular-webfont.woff",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 16588,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_88",
+            "receivedTime" : "1240.60999997891",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1232.60999997891,
+            "s_time" : 1112.83200001344,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff%3Fv=4.5.0",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 83588,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_89",
+            "receivedTime" : "1247.49300000258",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1238.49300000258,
+            "s_time" : 1114.01499994099,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/fonts/SourceSansPro-Bold-webfont.woff",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 16104,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_90",
+            "receivedTime" : "1243.43599996064",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1233.43599996064,
+            "s_time" : 1113.47899993416,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/townhall.com/resources/fonts/Heuristica-Bold.woff",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 81892,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_91",
+            "receivedTime" : "1252.29899992701",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1242.29899992701,
+            "s_time" : 1114.1049999278,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.map",
+         "id" : "r112",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 347,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_92",
+            "receivedTime" : "1476.30199999548",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1468.30199999548,
+            "s_time" : 1239.62999996729,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_29"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_99"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_102"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_105"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_108"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_111"
+      },
+      {
+         "a2" : "r1_c12",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_114"
+      },
+      {
+         "a2" : "r1_c13",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_117"
+      },
+      {
+         "a2" : "r1_c14",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_120"
+      },
+      {
+         "a2" : "r1_c15",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_123"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "comp_29",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "comp_102",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_99"
+      },
+      {
+         "a2" : "comp_105",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_102"
+      },
+      {
+         "a2" : "comp_108",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_105"
+      },
+      {
+         "a2" : "comp_111",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_108"
+      },
+      {
+         "a2" : "comp_114",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "comp_111"
+      },
+      {
+         "a2" : "comp_117",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "comp_114"
+      },
+      {
+         "a2" : "comp_120",
+         "time" : -1,
+         "id" : "dep23",
+         "a1" : "comp_117"
+      },
+      {
+         "a2" : "comp_123",
+         "time" : -1,
+         "id" : "dep24",
+         "a1" : "comp_120"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 5.03899995236998,
+         "id" : "dep25",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_91",
+         "time" : -1,
+         "id" : "dep26",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 570.155999972486,
+         "id" : "dep27",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 570.691999979316,
+         "id" : "dep28",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 569.509000051766,
+         "id" : "dep29",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 430.163000011817,
+         "id" : "dep30",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 430.163000011817,
+         "id" : "dep31",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 429.755000048317,
+         "id" : "dep32",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 429.755000048317,
+         "id" : "dep33",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 339.821000001393,
+         "id" : "dep34",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 339.821000001393,
+         "id" : "dep35",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 338.579999981448,
+         "id" : "dep36",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 338.272999972105,
+         "id" : "dep37",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 337.229999946431,
+         "id" : "dep38",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 337.229999946431,
+         "id" : "dep39",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 336.911999969743,
+         "id" : "dep40",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 336.911999969743,
+         "id" : "dep41",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 336.650999961421,
+         "id" : "dep42",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 336.650999961421,
+         "id" : "dep43",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 336.19900001213,
+         "id" : "dep44",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 190.441000042483,
+         "id" : "dep45",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 189.364999998361,
+         "id" : "dep46",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 186.020000022836,
+         "id" : "dep47",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 184.966000029817,
+         "id" : "dep48",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 184.159999946133,
+         "id" : "dep49",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 182.413000031375,
+         "id" : "dep50",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 179.798000026494,
+         "id" : "dep51",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 177.890000049956,
+         "id" : "dep52",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 173.055000021123,
+         "id" : "dep53",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 171.976999961771,
+         "id" : "dep54",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 169.860000023619,
+         "id" : "dep55",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 167.116999975406,
+         "id" : "dep56",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 164.855999988504,
+         "id" : "dep57",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 159.259999985807,
+         "id" : "dep58",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 156.62100003101,
+         "id" : "dep59",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 153.612999944017,
+         "id" : "dep60",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 149.694000021555,
+         "id" : "dep61",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 148.390999995172,
+         "id" : "dep62",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 147.552000009455,
+         "id" : "dep63",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 145.137000014074,
+         "id" : "dep64",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 142.204000032507,
+         "id" : "dep65",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 135.756999952719,
+         "id" : "dep66",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 129.266000003554,
+         "id" : "dep67",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 128.603999968618,
+         "id" : "dep68",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 127.328000031412,
+         "id" : "dep69",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 124.713000026532,
+         "id" : "dep70",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 120.274999993853,
+         "id" : "dep71",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 119.408000027761,
+         "id" : "dep72",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 115.633000037633,
+         "id" : "dep73",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 113.176999962889,
+         "id" : "dep74",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 111.621999996715,
+         "id" : "dep75",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 104.481999995187,
+         "id" : "dep76",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 101.639000000432,
+         "id" : "dep77",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 99.86099996604,
+         "id" : "dep78",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 97.718999953941,
+         "id" : "dep79",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 94.89599999506,
+         "id" : "dep80",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 94.276000047103,
+         "id" : "dep81",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 87.10699994117,
+         "id" : "dep82",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 83.483999944292,
+         "id" : "dep83",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 80.8699999470271,
+         "id" : "dep84",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 77.308999956586,
+         "id" : "dep85",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 73.986000032164,
+         "id" : "dep86",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 70.100000011735,
+         "id" : "dep87",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 66.727999947034,
+         "id" : "dep88",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 63.685999950394,
+         "id" : "dep89",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 61.577999964357,
+         "id" : "dep90",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 59.9849999416621,
+         "id" : "dep91",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 51.025000051595,
+         "id" : "dep92",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 49.836999969557,
+         "id" : "dep93",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 48.377000028268,
+         "id" : "dep94",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 47.458000015468,
+         "id" : "dep95",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 46.673999982886,
+         "id" : "dep96",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 46.057999948971,
+         "id" : "dep97",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 45.106000034139,
+         "id" : "dep98",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 44.2749999929221,
+         "id" : "dep99",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 43.578000040725,
+         "id" : "dep100",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 42.263000039384,
+         "id" : "dep101",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_21",
+         "time" : -1,
+         "id" : "dep102",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 10.214000009,
+         "id" : "dep103",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 9.39300004392902,
+         "id" : "dep104",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 0.756000052206048,
+         "id" : "dep105",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 0.474000000395051,
+         "id" : "dep106",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 0.248000025749036,
+         "id" : "dep107",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 0.0899999868130408,
+         "id" : "dep108",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_14",
+         "time" : -1,
+         "id" : "dep109",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 9.302999940701,
+         "id" : "dep110",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 8.93599994015,
+         "id" : "dep111",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 8.93599994015,
+         "id" : "dep112",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 8.62699991557804,
+         "id" : "dep113",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 8.62699991557804,
+         "id" : "dep114",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 8.31399997696303,
+         "id" : "dep115",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 8.31399997696303,
+         "id" : "dep116",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 8.045999915339,
+         "id" : "dep117",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 8.045999915339,
+         "id" : "dep118",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep119",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.8959999112412,
+         "id" : "dep120",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 4.5720000052825,
+         "id" : "dep121",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 4.1939999209717,
+         "id" : "dep122",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 3.8449999410659,
+         "id" : "dep123",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 3.351999912411,
+         "id" : "dep124",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.7070000069216,
+         "id" : "dep125",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.7070000069216,
+         "id" : "dep126",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 2.1730000153184,
+         "id" : "dep127",
+         "a1" : "r1_c1"
+      }
+   ]
+}

@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.kidsfoni.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.kidsfoni.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 68.1769996881485,
+               "time" : 0.711000058799996,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 68.8879997469485
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "21.5119998902082",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.51199989020824,
+            "s_time" : 0,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

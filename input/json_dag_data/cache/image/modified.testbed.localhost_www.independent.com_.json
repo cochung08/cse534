@@ -1,0 +1,2397 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.independent.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.independent.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 56.6519999410957,
+               "time" : 58.2060000160713,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 114.857999957167
+            },
+            {
+               "s_time" : 151.228999951854,
+               "time" : -790564950.093,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -790564798.864
+            },
+            {
+               "s_time" : 152.372999931686,
+               "time" : -790564951.237,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -790564798.864
+            },
+            {
+               "s_time" : 166.812999988906,
+               "time" : 7.92400003410901,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 174.737000023015
+            },
+            {
+               "s_time" : 174.901999998838,
+               "time" : 6.223000003956,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 181.125000002794
+            },
+            {
+               "s_time" : 252.489999984391,
+               "time" : -790565051.354,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -790564798.864
+            },
+            {
+               "s_time" : 253.434999962337,
+               "time" : 1.67300004977801,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : 255.108000012115
+            },
+            {
+               "s_time" : 256.323999958113,
+               "time" : 201.630000025034,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : 457.953999983147
+            },
+            {
+               "s_time" : 463.965000002645,
+               "time" : 93.021999928169,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : 556.986999930814
+            },
+            {
+               "s_time" : 566.105999983847,
+               "time" : -790565364.97,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : -790564798.864
+            },
+            {
+               "s_time" : 631.76499994006,
+               "time" : 129.336000070907,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 761.101000010967
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 83025,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "56.1140000354499",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 51.1140000354499,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/css/baseflip3.min.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 78.3110000193119,
+               "time" : 5.65900001674889,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 83.9700000360608
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 19659,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "78.1369999749586",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 63.1369999749586,
+            "s_time" : 58.3430000115186,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/yui.yahooapis.com/2.2.0/build/fonts/fonts-min.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 77.5180000346154,
+               "time" : 0.466999947093399,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 77.9849999817088
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 416,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "77.2349999751896",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.2349999751896,
+            "s_time" : 58.9349999791011,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/css/base_01-07-05.min.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 91.4709999924526,
+               "time" : 0.574999954551402,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 92.045999947004
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 860,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "91.1779999732971",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 63.1779999732971,
+            "s_time" : 59.4189999392256,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/css/homepage2.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 92.3470000270754,
+               "time" : 0.744999968446805,
+               "type" : 4,
+               "id" : "comp_3",
+               "e_time" : 93.0919999955222
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 2490,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "92.1760000055656",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 64.1760000055656,
+            "s_time" : 60.4820000007749,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/independent.media.clients.ellingtoncms.com/static/standard/stylesheets/disqus_styles.css",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 93.5060000047088,
+               "time" : 0.562999979592803,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 94.0689999843016
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 1864,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "93.3339999755844",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 66.3339999755844,
+            "s_time" : 61.0490000108257,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/css/newnav.realestate.min.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 95.6409999635071,
+               "time" : 1.7800000496208,
+               "type" : 4,
+               "id" : "comp_5",
+               "e_time" : 97.4210000131279
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 20,
+            "len" : 4098,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "95.3969999682158",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 66.3969999682158,
+            "s_time" : 59.9229999352247,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.googleapis.com/css%3Ffamily=Oswald:400,700,300.css",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 97.7249999996275,
+               "time" : 0.312999938614595,
+               "type" : 4,
+               "id" : "comp_6",
+               "e_time" : 98.0379999382421
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 707,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 30,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "97.5760000292212",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 67.5760000292212,
+            "s_time" : 61.6209999425337,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 98.31699996721,
+               "time" : 0.583000015467405,
+               "type" : 4,
+               "id" : "comp_7",
+               "e_time" : 98.8999999826774
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 1767,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "98.1599999358878",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 67.1599999358878,
+            "s_time" : 61.9779999833554,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 104.541999986395,
+               "time" : 1.01000000722701,
+               "type" : 4,
+               "id" : "comp_9",
+               "e_time" : 105.551999993622
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 3041,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "104.376000002958",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 68.3760000029579,
+            "s_time" : 62.3689999338239,
+            "sendEnd" : 31,
+            "sendStart" : 31,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/css/type.min.css",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 103.632000042126,
+               "time" : 0.641999999060999,
+               "type" : 2,
+               "id" : "comp_8",
+               "e_time" : 104.274000041187
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1331,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "103.31999999471",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 81.3199999947101,
+            "s_time" : 79.0499999420717,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/css/rsscb2.min.css",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 107.399999978952,
+               "time" : 5.241999984719,
+               "type" : 2,
+               "id" : "comp_10",
+               "e_time" : 112.641999963671
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1690,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "107.106999959797",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 83.1069999597967,
+            "s_time" : 80.1950000459328,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/partner.googleadservices.com/gampad/google_service.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 158.226000028662,
+               "time" : 8.58699996024399,
+               "type" : 1,
+               "id" : "comp_19",
+               "e_time" : 166.812999988906
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 5627,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 33,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "112.935999990441",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 72.9359999904409,
+            "s_time" : 63.7339999666438,
+            "sendEnd" : 34,
+            "sendStart" : 33,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/js/test/columndaysnew.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 151.484000030905,
+               "time" : 0.888999900780988,
+               "type" : 1,
+               "id" : "comp_16",
+               "e_time" : 152.372999931686
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 8148,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 41,
+            "sslEnd" : -1,
+            "connectEnd" : 34,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "113.230000017211",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 72.2300000172108,
+            "s_time" : 63.3430000161752,
+            "sendEnd" : 34,
+            "sendStart" : 34,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 185.304000042379,
+               "time" : 67.185999942012,
+               "type" : 1,
+               "id" : "comp_26",
+               "e_time" : 252.489999984391
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 93868,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 43,
+            "sslEnd" : -1,
+            "connectEnd" : 38,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "124.68699994497",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 81.68699994497,
+            "s_time" : 64.3060000147671,
+            "sendEnd" : 38,
+            "sendStart" : 38,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/ddtabmenu/ddtabmenunew.css",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 125.429000006989,
+               "time" : 1.060000038705,
+               "type" : 4,
+               "id" : "comp_14",
+               "e_time" : 126.489000045694
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 2427,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "125.309000024572",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 118.309000024572,
+            "s_time" : 112.548999954015,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/js/meganav/jquery.hoverIntent.minified.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 252.681000041775,
+               "time" : 0.753999920561995,
+               "type" : 1,
+               "id" : "comp_28",
+               "e_time" : 253.434999962337
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1606,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "126.741999993101",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 120.741999993101,
+            "s_time" : 114.857999957167,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/ddtabmenu/ddtabmenu.min.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 146.896000020206,
+               "time" : 4.332999931648,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 151.228999951854
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 35,
+            "len" : 1422,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 66,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "146.732999943197",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 80.7329999431968,
+            "s_time" : 62.9519999492913,
+            "sendEnd" : 31,
+            "sendStart" : 31,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/js/innerfade/js/jquery.innerfade.min.js",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 255.48599998001,
+               "time" : 0.837999978102999,
+               "type" : 1,
+               "id" : "comp_34",
+               "e_time" : 256.323999958113
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1836,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "255.344999954104",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 250.344999954104,
+            "s_time" : 174.33800001163,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/swf/Indy_logoWeb6.png",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4189,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "265.083999955095",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 260.083999955095,
+            "s_time" : 174.737000023015,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/weather-bg-imgs/1x1trnsp.gif",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "265.593999996781",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 260.593999996781,
+            "s_time" : 181.125000002794,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/header_arrow.gif",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 70,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "334.634999977425",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 329.634999977425,
+            "s_time" : 255.108000012115,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/ads/ads-bg.gif",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 44,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "335.977999959141",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 331.977999959141,
+            "s_time" : 266.670999932103,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/independent.media.clients.ellingtoncms.com/img/weather/2015/01/04/overcast.gif",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 2985,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "336.412000004202",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 325.412000004202,
+            "s_time" : 272.40899996832,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/new_nav/nav-bg.gif",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 73,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "337.095999973826",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 326.095999973826,
+            "s_time" : 273.830999969505,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/home.png",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 760,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "337.415999965742",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 326.415999965742,
+            "s_time" : 274.262999999337,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/bluenavdropbggrad.png",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 173,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "337.729000020772",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 326.729000020772,
+            "s_time" : 274.65499995742,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/news.png",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 860,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "337.978999945335",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 326.978999945335,
+            "s_time" : 275.006999960169,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/artent.png",
+         "id" : "r38",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 716,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "338.49100000225",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 323.49100000225,
+            "s_time" : 275.422999984585,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/opinion.png",
+         "id" : "r39",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 956,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "338.883999967948",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 322.883999967948,
+            "s_time" : 275.804999982938,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/events.png",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 923,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "339.647999964654",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 320.647999964654,
+            "s_time" : 276.193000026979,
+            "sendEnd" : 14,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/living.png",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 656,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "339.991000015289",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 320.991000015289,
+            "s_time" : 276.552999974228,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/sports.png",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 876,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "340.327000012621",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 328.327000012621,
+            "s_time" : 283.823000034317,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/food.png",
+         "id" : "r42",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 590,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "340.610999963246",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 321.610999963246,
+            "s_time" : 276.98700001929,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/classifieds.png",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1146,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "341.20999998413",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 328.20999998413,
+            "s_time" : 287.161999964155,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/obits.png",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 779,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "341.674000024796",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 329.674000024796,
+            "s_time" : 287.969999946654,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/insider.png",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 630,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "342.408000025898",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 328.408000025898,
+            "s_time" : 289.721000008285,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/realestate.png",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 921,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "342.703999951482",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 327.703999951482,
+            "s_time" : 288.942000013776,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/fb.png",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 781,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "342.994999955408",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 331.994999955408,
+            "s_time" : 294.109000009485,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/twit.png",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1417,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "343.283999944106",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 333.283999944106,
+            "s_time" : 294.796000001952,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/newnav/instagram.png",
+         "id" : "r50",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1162,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "343.709000037052",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 334.709000037052,
+            "s_time" : 298.186999978498,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/croppedphotos/2016/05/10/05062016_Tiffany_Vague_r315x210.jpg%3F5339bc3727db04d62de7c2d20b7d8f0b97e141be",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 41981,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "456.769999931566",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 450.769999931566,
+            "s_time" : 367.105999961495,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/photos/2016/05/09/Micheltorena_Bikes_r315x210.jpg%3F5339bc3727db04d62de7c2d20b7d8f0b97e141be",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 29705,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "455.870999954641",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 446.870999954641,
+            "s_time" : 366.630999953486,
+            "sendEnd" : 5,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/photos/2016/05/09/4_Congress_ads__r315x210.jpg%3F5339bc3727db04d62de7c2d20b7d8f0b97e141be",
+         "id" : "r51",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 29832,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "456.15700003691",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 446.15700003691,
+            "s_time" : 366.005999967456,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/croppedphotos/2016/05/03/Sean-Watkins-Press-1_horizontal_r315x210.jpg%3F5339bc3727db04d62de7c2d20b7d8f0b97e141be",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 22838,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "457.217999966815",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 446.217999966815,
+            "s_time" : 367.985000018962,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/croppedphotos/2016/05/03/FOUCAULT-Joseph_Navas4_r315x210.jpg%3F5339bc3727db04d62de7c2d20b7d8f0b97e141be",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 30496,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "456.398000009358",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 444.398000009358,
+            "s_time" : 367.55299998913,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/croppedphotos/2016/05/03/Mr.Six_r315x210.jpg%3F5339bc3727db04d62de7c2d20b7d8f0b97e141be",
+         "id" : "r56",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 18715,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "455.20900003612",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 442.20900003612,
+            "s_time" : 368.413000018336,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/533x15_block.gif",
+         "id" : "r59",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 141,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "459.425000008196",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 443.425000008196,
+            "s_time" : 387.476000003517,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/news/tease/2016/05/08/04112016_Ernesto_Paredes_01_r80x80.jpg%3Fba894909ef3484cf9f9f4d351dadea93dcbd47a4",
+         "id" : "r58",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4143,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "459.763000020757",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 443.763000020757,
+            "s_time" : 386.831999989226,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/news/tease/2016/05/03/toomuchwater-8_r80x80.jpg%3Fba894909ef3484cf9f9f4d351dadea93dcbd47a4",
+         "id" : "r57",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2860,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "460.056999931112",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 443.056999931112,
+            "s_time" : 385.922000044957,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/news/tease/2016/05/02/egg-in-a-jar_r80x80.jpg%3Fba894909ef3484cf9f9f4d351dadea93dcbd47a4",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 4450,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "461.119999992661",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 444.119999992661,
+            "s_time" : 387.935000006109,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/news/tease/2016/05/03/04292016-SMHS-v-DPHS-Softball-11_r80x80.jpg%3Fba894909ef3484cf9f9f4d351dadea93dcbd47a4",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 4029,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "461.797000025399",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 444.797000025399,
+            "s_time" : 388.462999952026,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/news/tease/2016/03/31/urchin-diver-still_r80x80.jpg%3Fba894909ef3484cf9f9f4d351dadea93dcbd47a4",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4006,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "462.044000043534",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 445.044000043534,
+            "s_time" : 390.29400004074,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/widgets.spingo.com/list-widget/1801/widget-latest.js",
+         "id" : "r65",
+         "comps" : [
+            {
+               "s_time" : 462.64699997846,
+               "time" : 1.31800002418504,
+               "type" : 1,
+               "id" : "comp_80",
+               "e_time" : 463.965000002645
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1534,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "462.513000005856",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 445.513000005856,
+            "s_time" : 395.159999956377,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/photos/2016/04/22/04032016_Costs_of_Wars_Beach_Display_02_r80x80.jpg%3Fba894909ef3484cf9f9f4d351dadea93dcbd47a4",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3955,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "471.874000038952",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 451.874000038952,
+            "s_time" : 391.431999974884,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/news/tease/2016/05/04/bike_camping200_t48.JPG%3F1748487443c24ae7fd8e8f242422546414e865c0",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 2277,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "472.340999986045",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 450.340999986045,
+            "s_time" : 392.611999996006,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/photos/2016/05/04/CoverSBCC_538_t148.jpg%3F104ddad75170d587a03241d086f55dad8ddb2cf9",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 22634,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "473.369000013918",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 453.369000013918,
+            "s_time" : 395.633999956772,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/in%20print%20tab%20box/images/twi.png",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1861,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "473.676000023261",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 453.676000023261,
+            "s_time" : 396.028999937698,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/vote.gif",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 1226,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "474.190999986604",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 465.190999986604,
+            "s_time" : 407.579999999143,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/img/260x20_block.gif",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 119,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "483.48499997519",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 479.48499997519,
+            "s_time" : 457.953999983147,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/media.independent.com/in%20print%20tab%20box/images/in_print_tabs.png",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 2806,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "490.090999985114",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 486.090999985114,
+            "s_time" : 475.357000017539,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/verify.authorize.net/anetseal/seal.js",
+         "id" : "r73",
+         "comps" : [
+            {
+               "s_time" : 560.450999997556,
+               "time" : 5.65499998629105,
+               "type" : 1,
+               "id" : "comp_129",
+               "e_time" : 566.105999983847
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 3622,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "560.315000009723",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 555.315000009723,
+            "s_time" : 488.437999971211,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.com/logos/Logo_25wht.gif",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1607,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "560.016999952495",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 555.016999952495,
+            "s_time" : 488.758999970742,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js",
+         "id" : "r75",
+         "comps" : [
+            {
+               "s_time" : 620.897999964654,
+               "time" : 10.866999975406,
+               "type" : 1,
+               "id" : "comp_136",
+               "e_time" : 631.76499994006
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 40118,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "620.710000046529",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 615.710000046529,
+            "s_time" : 556.986999930814,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.jsdelivr.net/jquery.slick/1.5.8/ajax-loader.gif",
+         "id" : "r78",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 4178,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "808.231999981217",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 803.231999981217,
+            "s_time" : 713.916999986395,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_19"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_34"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_80"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_129"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_136"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_16",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "comp_28",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 82.152000046335,
+         "id" : "dep14",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_63",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 93.021999928169,
+         "id" : "dep16",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 24.793999968097,
+         "id" : "dep17",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 24.793999968097,
+         "id" : "dep18",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 24.472999968566,
+         "id" : "dep19",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 11.392000014894,
+         "id" : "dep20",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_59",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 201.630000025034,
+         "id" : "dep22",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 151.25600004103,
+         "id" : "dep23",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 139.704999979585,
+         "id" : "dep24",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 139.704999979585,
+         "id" : "dep25",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 139.309999998659,
+         "id" : "dep26",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 139.309999998659,
+         "id" : "dep27",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 136.288000037893,
+         "id" : "dep28",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 135.108000016771,
+         "id" : "dep29",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 138.835999998264,
+         "id" : "dep30",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 133.970000082627,
+         "id" : "dep31",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 132.138999993913,
+         "id" : "dep32",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 131.611000047996,
+         "id" : "dep33",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 129.598000086844,
+         "id" : "dep34",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 130.508000031113,
+         "id" : "dep35",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 131.152000045404,
+         "id" : "dep36",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 112.089000060223,
+         "id" : "dep37",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 111.229000031017,
+         "id" : "dep38",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 111.661000060849,
+         "id" : "dep39",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 109.682000009343,
+         "id" : "dep40",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 110.306999995373,
+         "id" : "dep41",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 110.782000003382,
+         "id" : "dep42",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 41.863000020385,
+         "id" : "dep43",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 38.472000043839,
+         "id" : "dep44",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 37.785000051372,
+         "id" : "dep45",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 32.618000055663,
+         "id" : "dep46",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 33.397000050172,
+         "id" : "dep47",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 31.645999988541,
+         "id" : "dep48",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 30.838000006042,
+         "id" : "dep49",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 20.663000061177,
+         "id" : "dep50",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 27.499000076204,
+         "id" : "dep51",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 20.229000016115,
+         "id" : "dep52",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 19.869000068866,
+         "id" : "dep53",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 19.481000024825,
+         "id" : "dep54",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 19.099000026472,
+         "id" : "dep55",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 18.683000002056,
+         "id" : "dep56",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 18.330999999307,
+         "id" : "dep57",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 17.939000041224,
+         "id" : "dep58",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 17.507000011392,
+         "id" : "dep59",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 16.085000010207,
+         "id" : "dep60",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 10.34699997399,
+         "id" : "dep61",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_21",
+         "time" : -1,
+         "id" : "dep62",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 1.67300004977801,
+         "id" : "dep63",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_20",
+         "time" : -1,
+         "id" : "dep64",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_19",
+         "time" : -1,
+         "id" : "dep65",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 7.92400003410901,
+         "id" : "dep66",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 7.52500002272399,
+         "id" : "dep67",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 7.52500002272399,
+         "id" : "dep68",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : -1,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 58.2060000160713,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 55.8970000129193,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 7.65400007367139,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 6.6910000750795,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 7.0820000255481,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 23.5430001048371,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 22.398000000976,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 5.7169999927282,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 5.3260000422597,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 4.969000001438,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 3.270999994129,
+         "id" : "dep81",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 4.39700006973,
+         "id" : "dep82",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 3.8300000596792,
+         "id" : "dep83",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 2.7669999981299,
+         "id" : "dep84",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 2.2830000380054,
+         "id" : "dep85",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 1.69100007042289,
+         "id" : "dep86",
+         "a1" : "r1_c1"
+      }
+   ]
+}

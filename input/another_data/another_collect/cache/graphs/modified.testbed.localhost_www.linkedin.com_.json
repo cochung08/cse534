@@ -1,0 +1,593 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.linkedin.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.linkedin.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 48.9469999447465,
+               "time" : 17.9600003175437,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 66.9070002622902
+            },
+            {
+               "s_time" : 77.8960003517568,
+               "time" : 117.037999909371,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 194.934000261128
+            },
+            {
+               "s_time" : 208.208000287414,
+               "time" : 3.21100000292,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 211.419000290334
+            },
+            {
+               "s_time" : 264.262000098825,
+               "time" : -3375521829.308,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3375521565.046
+            },
+            {
+               "s_time" : 487.55900003016,
+               "time" : -3375522052.605,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -3375521565.046
+            },
+            {
+               "s_time" : 518.844000063837,
+               "time" : 143.079000059515,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 661.923000123352
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 41327,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "48.4510003589094",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 43.4510003589094,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/scds/common/u/lib/fizzy/fz-1.3.8-min.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 61.1420003697276,
+               "time" : 16.7539999820292,
+               "type" : 1,
+               "id" : "comp_0",
+               "e_time" : 77.8960003517568
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 27534,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "60.9389999881387",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 52.9389999881387,
+            "s_time" : 49.7560002841055,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/7vr91xe571iq355slvpdlh7cs.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 96.8230003491044,
+               "time" : 3.9319996722046,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 100.755000021309
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 22687,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "96.6770001687109",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 85.6770001687109,
+            "s_time" : 50.3010000102222,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/8gbmvikr85yqrdmwxwksm7qh7,2x6eo4umux6g8quojjeb4q7fo.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 102.386000100523,
+               "time" : 105.83999985829,
+               "type" : 4,
+               "id" : "comp_5",
+               "e_time" : 208.225999958813
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 109285,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "102.235000114888",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.235000114888,
+            "s_time" : 50.8320000953972,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/3xoiolbhdk1lt78l7g5oq2ca4",
+         "id" : "r5",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 652,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "101.100000087172",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 88.1000000871718,
+            "s_time" : 51.5050003305078,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/1nrfxdo625eya9v6rsr5synxf",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 195.265000220388,
+               "time" : 12.943000067026,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 208.208000287414
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 24208,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "101.745000109076",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 88.7450001090765,
+            "s_time" : 52.174000069499,
+            "sendEnd" : 3,
+            "sendStart" : 2,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/5koy91fjbrc47yhwyzws65ml7",
+         "id" : "r6",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 653,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "208.646000362933",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 200.646000362933,
+            "s_time" : 66.9070002622902,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/64xk850n3a8uzse6fi11l3vmz",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 141917,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "227.888000197709",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 222.888000197709,
+            "s_time" : 139.97400039807,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/1emvj9bh9is9k20aows5xplkl",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 229.622000362724,
+               "time" : 34.639999736101,
+               "type" : 1,
+               "id" : "comp_13",
+               "e_time" : 264.262000098825
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 70678,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "229.507999960333",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 221.507999960333,
+            "s_time" : 209.839000366628,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/94kvwzb4ca2cqle602qift40f,87au2x2ggv8lwb4m3d9x5nvmr,e5umo76hxkr4p5c07js11cnyx,e1in9dbppjjm9k3hdavykyx76",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 336.274000350386,
+               "time" : 151.284999679774,
+               "type" : 1,
+               "id" : "comp_15",
+               "e_time" : 487.55900003016
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 196991,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "336.097999941558",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 327.097999941558,
+            "s_time" : 210.773000027984,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.licdn.com/sc/h/1t6g6uowzzghwl5q8gzhilrth,b8fzp3fud9k6bxniv9h274mcb,1t6pwskgk3mkf6pnlrtup9gw3",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 487.775000277907,
+               "time" : 31.06899978593,
+               "type" : 1,
+               "id" : "comp_17",
+               "e_time" : 518.844000063837
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 82013,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "334.79500003159",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 325.79500003159,
+            "s_time" : 211.419000290334,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://platform.linkedin.com/js/analytics.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 602.578999940306,
+               "time" : 59.0240000747141,
+               "type" : null,
+               "id" : "comp_26",
+               "e_time" : 661.60300001502
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 179,
+            "len" : 26335,
+            "dns" : 8,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 208,
+            "sslEnd" : -1,
+            "connectEnd" : 29,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "596.767000388354",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 388.767000388354,
+            "s_time" : 194.934000261128,
+            "sendEnd" : 29,
+            "sendStart" : 29,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/mob/tracking",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 302,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "599.331000354141",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 595.331000354141,
+            "s_time" : 533.168000169098,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/collect?v=1&_v=j39&a=1196473320&t=pageview&_s=1&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.linkedin.com%2F&dr=&dp=uno-reg-guest-home&ul=en-us&de=ISO-8859-1&dt=World%C3%A2%E2%82%AC%E2%84%A2s%20Largest%20Professional%20Network%20%7C%20LinkedIn&sd=24-bit&sr=1024x7",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 35,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : 26,
+            "connectEnd" : 26,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "741.005000192672",
+            "sslStart" : 12,
+            "dnsStart" : 0,
+            "receiveLast" : 707.005000192672,
+            "s_time" : 661.923000123352,
+            "sendEnd" : 27,
+            "sendStart" : 26,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 14.324000105261,
+         "id" : "dep9",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 2.56499974057002,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 1.631000079214,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 62.0780000463132,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 3.2270001247525,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.5580003857613,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.8850001506507,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.3540000654757,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1.3540000654757,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.809000339358995,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      }
+   ]
+}

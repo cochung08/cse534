@@ -1,0 +1,3096 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_bostonherald.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/bostonherald.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 43.3169999159873,
+               "time" : 106.08699999284,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 149.403999908827
+            },
+            {
+               "s_time" : 326.757999951951,
+               "time" : -882224603.701,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 332.223000004888,
+               "time" : 143.844999955035,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 476.067999959923
+            },
+            {
+               "s_time" : 489.986000000499,
+               "time" : -882224766.929,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 490.868999972008,
+               "time" : -882224767.812,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 492.632000008598,
+               "time" : -882224769.575,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 499.682000023313,
+               "time" : -882224776.625,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 503.039999981411,
+               "time" : -882224779.983,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 522.620999952778,
+               "time" : -882224799.564,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 524.449999909848,
+               "time" : -882224801.393,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 527.660000021569,
+               "time" : 436.207999940962,
+               "id" : "r1_c11",
+               "type" : "evalhtml",
+               "e_time" : 963.867999962531
+            },
+            {
+               "s_time" : 977.876999997534,
+               "time" : -882225254.82,
+               "id" : "r1_c12",
+               "type" : "evalhtml",
+               "e_time" : -882224276.943
+            },
+            {
+               "s_time" : 1137.36099994276,
+               "time" : 663.48200000357,
+               "type" : "evalhtml",
+               "id" : "r1_c13",
+               "e_time" : 1800.84299994633
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 101358,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "42.6679999800399",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 38.6679999800399,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/launch.newsinc.com/js/embed.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 174.88800000865,
+               "time" : 91.866999980994,
+               "type" : 3,
+               "id" : "comp_14",
+               "e_time" : 266.754999989644
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 197213,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "146.070000017062",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.070000017062,
+            "s_time" : 76.7879999475554,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/apis.google.com/js/platform.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 106.244999915361,
+               "time" : 37.784000043758,
+               "type" : 3,
+               "id" : "comp_6",
+               "e_time" : 144.028999959119
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 39581,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "105.8029999258",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 89.8029999257997,
+            "s_time" : 77.1599999861792,
+            "sendEnd" : 9,
+            "sendStart" : 8,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 99.597999942489,
+               "time" : 1.92299997434,
+               "type" : 4,
+               "id" : "comp_2",
+               "e_time" : 101.520999916829
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7785,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "99.1969999158755",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 81.1969999158755,
+            "s_time" : 79.1239999234676,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/css/css_4dVRpA5Yo3tZqOI7YjecQakHuzkXYb7OCxZUwVMt41Q.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 103.942999965511,
+               "time" : 1.597000053153,
+               "type" : 4,
+               "id" : "comp_4",
+               "e_time" : 105.540000018664
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 9743,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "103.744999971241",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 83.7449999712408,
+            "s_time" : 79.492999939248,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/css/css_-0s8gzrQldw6gbuEN--w4B8lR3TEYY4miIuvaKLW0Oo.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 144.285999936983,
+               "time" : 1.124000060372,
+               "type" : 4,
+               "id" : "comp_10",
+               "e_time" : 145.409999997355
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 5079,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "144.162999931723",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 123.162999931723,
+            "s_time" : 79.9329999135807,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/css/css_QeAvA3P-Q8TPQay_yVunQ6hAlt7ROBvy5fYgsa4LL5M.css",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 148.193000000902,
+               "time" : 19.744999939575,
+               "type" : 4,
+               "id" : "comp_11",
+               "e_time" : 167.937999940477
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 117149,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "148.074999917299",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 127.074999917299,
+            "s_time" : 80.3169999271631,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_SVq9iKRs_zDCxLo1JNNm7Cgvo_36UjooUTG_HwKIgLU.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 271.139999968,
+               "time" : 55.617999983951,
+               "type" : 1,
+               "id" : "comp_17",
+               "e_time" : 326.757999951951
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 96085,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "169.774999958463",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 142.774999958463,
+            "s_time" : 80.5839999811724,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_zQK_ju8qKyFO8LWGrmgHgf3kcHLPTwA7QuT1OohUgK8.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 327.95399997849,
+               "time" : 4.26900002639798,
+               "type" : 1,
+               "id" : "comp_20",
+               "e_time" : 332.223000004888
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 16799,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 24,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "146.813999977894",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 115.813999977894,
+            "s_time" : 80.9509999817237,
+            "sendEnd" : 24,
+            "sendStart" : 24,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 3267,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 25,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "147.401999915019",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 113.401999915019,
+            "s_time" : 81.2789999181405,
+            "sendEnd" : 25,
+            "sendStart" : 25,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_d5m01mqCIMilpifwiYRhy3kq9gEaDR9uQNL2QYXc6Ps.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 475.786000024527,
+               "time" : 14.199999975972,
+               "type" : 1,
+               "id" : "comp_28",
+               "e_time" : 489.986000000499
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 27235,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 25,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "169.10800000187",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 134.10800000187,
+            "s_time" : 81.5449999645352,
+            "sendEnd" : 25,
+            "sendStart" : 25,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_uQdyQ0gn9m_kLvLKL7yFf0jQ9RoHurgxLkaUdZJMyKI.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 490.133999963291,
+               "time" : 0.735000008717009,
+               "type" : 1,
+               "id" : "comp_30",
+               "e_time" : 490.868999972008
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 2914,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "168.579999939539",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 129.579999939539,
+            "s_time" : 81.8589999107644,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_wADqrksbLjpADrEP1u4pHYthtl35__ZprOG3i8_l2SE.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 491.005999967456,
+               "time" : 1.62600004114205,
+               "type" : 1,
+               "id" : "comp_32",
+               "e_time" : 492.632000008598
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 9090,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 40,
+            "sslEnd" : -1,
+            "connectEnd" : 30,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "169.319999986328",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 129.319999986328,
+            "s_time" : 82.6589999487624,
+            "sendEnd" : 30,
+            "sendStart" : 30,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/modules/lightbox2/js/lightbox.js%3F1463010928",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 492.757999920286,
+               "time" : 6.92400010302697,
+               "type" : 1,
+               "id" : "comp_34",
+               "e_time" : 499.682000023313
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 45178,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 43,
+            "sslEnd" : -1,
+            "connectEnd" : 34,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "174.65199995786",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 131.65199995786,
+            "s_time" : 83.0909999785945,
+            "sendEnd" : 34,
+            "sendStart" : 34,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_3gyLkXuU3uQsZb5kLWHwFzcGildO1iCv4yvmqK3jsAo.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 499.824999948032,
+               "time" : 3.215000033379,
+               "type" : 1,
+               "id" : "comp_36",
+               "e_time" : 503.039999981411
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 21255,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 35,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "174.374999944121",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 129.374999944121,
+            "s_time" : 83.686999976635,
+            "sendEnd" : 35,
+            "sendStart" : 35,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.googleapis.com/css%3Ffamily=Open+Sans:300,400,700.css",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 267.359999939799,
+               "time" : 68.452000035905,
+               "type" : 2,
+               "id" : "comp_16",
+               "e_time" : 335.811999975704
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 754,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "267.21700001508",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 263.21700001508,
+            "s_time" : 149.403999908827,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/static.chartbeat.com/js/chartbeat_mab.js",
+         "id" : "r26",
+         "comps" : [
+            {
+               "s_time" : 506.114999996498,
+               "time" : 16.50599995628,
+               "type" : 1,
+               "id" : "comp_41",
+               "e_time" : 522.620999952778
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 14171,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "505.928999977186",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 500.928999977186,
+            "s_time" : 475.319999968633,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_nnSgELXW4gC2SeaVMM93owJ9sqrbTod98TePJCzsoLg.js",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 523.045999929309,
+               "time" : 1.40399998053897,
+               "type" : 1,
+               "id" : "comp_43",
+               "e_time" : 524.449999909848
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 3061,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "522.888000006787",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 516.888000006787,
+            "s_time" : 475.677000009455,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/js_n6NnS5vdpGQlZV_r2WtB8vCt8sBz6IgpcZ-JZL4teIY.js",
+         "id" : "r28",
+         "comps" : [
+            {
+               "s_time" : 525.142999948002,
+               "time" : 2.51700007356703,
+               "type" : 1,
+               "id" : "comp_46",
+               "e_time" : 527.660000021569
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 5951,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "525.049999938346",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 518.049999938346,
+            "s_time" : 476.067999959923,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/clear_143.gif",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1714,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "928.886999958195",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 924.886999958195,
+            "s_time" : 552.286999998614,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/modules/custom/bh_radio/theme/images/radio-bhr-logo.png",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 7361,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "930.634999996983",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 921.634999996983,
+            "s_time" : 555.357999983244,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/blog_posts/051116tauntonsc04.jpg%3Fitok=ZbY4DEvR&c=7c678b9e18fe4ec4487aeaf1187b11bc",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 144893,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "941.472999984398",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 916.472999984398,
+            "s_time" : 557.934999931604,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/media/2016/05/11/b6301a2512004a1eb9d70a60b6710d0d.jpg%3Fitok=qu2_hvHb&c=0e442fc8968f82343936be3e00567fd0",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 23,
+            "len" : 84555,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "942.091999924742",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 913.091999924742,
+            "s_time" : 558.577999938279,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/media/2016/05/11/051116tauntonnl08.jpg%3Fitok=E3pyR0vh&c=5840af3872123f74d924c450144260cf",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 99940,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "940.475999959745",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 911.475999959745,
+            "s_time" : 559.616999933496,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/media/2016/05/11/051116donickar05.jpg%3Fitok=GgDbIA7u&c=c50fedd6d2fd277cbf96cde67d99df9e",
+         "id" : "r38",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 55021,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 29,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "938.701999955811",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 909.701999955811,
+            "s_time" : 560.322999954224,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/media/2016/01/14/011416warren003.jpg%3Fitok=C_elo-ab&c=3eb130f714d626a3ab12cc90423aa9a8",
+         "id" : "r39",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 62870,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "941.122999996878",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 913.122999996878,
+            "s_time" : 561.048000003211,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/media/2016/04/27/042716redsoxce004.jpg%3Fitok=LS2Xdash&c=f2fd4d7823ce38af93218eaf2ea5af14",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 87841,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 39,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "944.266999955289",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 905.266999955289,
+            "s_time" : 561.575999949127,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/api.parsely.com/v2/shares/posts%3Fapikey=bostonherald.com&pub_days=2&limit=4&callback=mostShared",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 1183.71199991088,
+               "time" : 8.34600010421013,
+               "type" : 3,
+               "id" : "comp_123",
+               "e_time" : 1192.05800001509
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 16,
+            "len" : 3307,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 47,
+            "sslEnd" : -1,
+            "connectEnd" : 31,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "945.04199991934",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 898.04199991934,
+            "s_time" : 568.074999959208,
+            "sendEnd" : 31,
+            "sendStart" : 31,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/full/public/media/2008/03/01/022808soxms02.jpg%3Fitok=3fXZhppf&c=575f7ab152c90168640e8f613e289669",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 70940,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 54,
+            "sslEnd" : -1,
+            "connectEnd" : 44,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "946.389999939129",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 892.389999939129,
+            "s_time" : 562.221999978647,
+            "sendEnd" : 44,
+            "sendStart" : 44,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/teaser_alt/public/Joe-Fitzgerald.jpg%3Fitok=d3Hp8kpL",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 7066,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 49,
+            "sslEnd" : -1,
+            "connectEnd" : 38,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "946.134999976493",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 897.134999976493,
+            "s_time" : 571.26499991864,
+            "sendEnd" : 38,
+            "sendStart" : 38,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/teaser_alt/public/Howie-Carr.jpg%3Fitok=I1HKcT53",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 6904,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 41,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "947.79100001324",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 897.79100001324,
+            "s_time" : 572.343999985605,
+            "sendEnd" : 41,
+            "sendStart" : 41,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/teaser_alt/public/Jaclyn-Cashman.jpg%3Fitok=xdu2GTl_",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 7266,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 40,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "948.037999914959",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 898.037999914959,
+            "s_time" : 573.353999992833,
+            "sendEnd" : 41,
+            "sendStart" : 40,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/teaser_alt/public/Jessica-Heslam.jpg%3Fitok=7Tme2w1W",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 8386,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "949.368999921717",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 918.368999921717,
+            "s_time" : 597.084000008181,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/teaser_alt/public/Adriana-Cohen.jpg%3Fitok=9tu4uZe1",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 7688,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "949.647999950685",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 924.647999950685,
+            "s_time" : 603.424999979325,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/teaser_alt/public/Kimberly-Atkins.jpg%3Fitok=Sx7JkVC0",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7731,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "950.370999984443",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 924.370999984443,
+            "s_time" : 606.021999963559,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/prince205_155.jpg%3Fitok=3dLbcdxb",
+         "id" : "r50",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 21814,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "951.170000014827",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 925.170000014827,
+            "s_time" : 608.600999927148,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/Logo_Bulldog_205x115_1.jpg%3Fitok=7W37BISI",
+         "id" : "r51",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 11663,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 18,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "952.66999991145",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 926.66999991145,
+            "s_time" : 610.761999967508,
+            "sendEnd" : 18,
+            "sendStart" : 18,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/Logo_Sox_Insider_205x115_0.jpg%3Fitok=hcjefees",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 10794,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 19,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "952.897000010125",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 933.897000010125,
+            "s_time" : 617.899999953806,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/innovationlogo205x115.jpg%3Fitok=T7tMMoEW",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 10403,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "954.065999947488",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 934.065999947488,
+            "s_time" : 622.560999938287,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/Logo_taxDollars_205x115%20(1).jpg%3Fitok=4XYKZRnM",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 11503,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "954.307999927551",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 936.307999927551,
+            "s_time" : 624.530999921262,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/InsideTrackSlider_273x153.jpg%3Fitok=oFaHGmPk",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 11544,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "955.042999936268",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 937.042999936268,
+            "s_time" : 626.470000017434,
+            "sendEnd" : 12,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/Logo_Cs_Insider_205x115_0.jpg%3Fitok=EyUgU9vg",
+         "id" : "r56",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 8500,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "955.84399998188",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 935.84399998188,
+            "s_time" : 627.517999964766,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/Logo_Blitz_205x115_0.jpg%3Fitok=UyDXsoKn",
+         "id" : "r57",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7528,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "957.057999912649",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 939.057999912649,
+            "s_time" : 631.562000024132,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/geslider.jpg%3Fitok=NQWr12Fj",
+         "id" : "r58",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 35804,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "957.318999920972",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 941.318999920972,
+            "s_time" : 633.451999980025,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/Logo_Bs_Insider_205x115_0.jpg%3Fitok=odshYIPH",
+         "id" : "r59",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 10453,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "958.821999956854",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 940.821999956854,
+            "s_time" : 635.712999966927,
+            "sendEnd" : 13,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/03/16/031616schoolsar01.jpg%3Fitok=-adspHCW",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 20481,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "959.632999962196",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 943.632999962196,
+            "s_time" : 638.71999992989,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/09/050916hoverboard05.jpg%3Fitok=Z7_WuTWT",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 24574,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "960.176000022329",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 945.176000022329,
+            "s_time" : 640.564000001177,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/10/051016clinton005.jpg%3Fitok=UaCLbEE0",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 32799,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "961.133999982849",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 943.133999982849,
+            "s_time" : 642.00799993705,
+            "sendEnd" : 12,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/10/051016Atholfn06.jpg%3Fitok=g2TZY9Iv",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 26765,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "962.201999966055",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 947.201999966055,
+            "s_time" : 645.52299992647,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/11/051116rookiesjw18.jpg%3Fitok=P-56AirL",
+         "id" : "r65",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 38648,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "970.282000023872",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 956.282000023872,
+            "s_time" : 691.561999963596,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/04/27/042716redsoxce004.jpg%3Fitok=L_dzVY1F",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 28792,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "965.503999963403",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 950.503999963403,
+            "s_time" : 692.21899996046,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/10/051016soxjw06.jpg%3Fitok=lIuiH0oX",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 37341,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "970.871999976225",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 954.871999976225,
+            "s_time" : 693.319999962114,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/11/051116rookiesjw10.jpg%3Fitok=6nadHVeU",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 39435,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "971.42099996563",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 953.42099996563,
+            "s_time" : 692.781999940053,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/front_cover_thumb/public/media/2016/05/11/bh_May112016_A001.jpg%3Fitok=WOXL5BYR",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 12,
+            "len" : 47161,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "971.70599992387",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 951.70599992387,
+            "s_time" : 693.918999982998,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/front_cover_thumb/public/media/2016/05/11/bh_May112016_A052.jpg%3Fitok=8JPUFW3d",
+         "id" : "r70",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 48365,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "972.219999996014",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 949.219999996014,
+            "s_time" : 694.383000023663,
+            "sendEnd" : 8,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdn.nmcdn.us/js/connect.js",
+         "id" : "r76",
+         "comps" : [
+            {
+               "s_time" : 972.901999950409,
+               "time" : 4.97500004712492,
+               "type" : 1,
+               "id" : "comp_65",
+               "e_time" : 977.876999997534
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 8624,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 25,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "972.77699992992",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 947.77699992992,
+            "s_time" : 698.287999955937,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2008/03/01/022808soxms02.jpg%3Fitok=1EkO2GX0",
+         "id" : "r71",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 7589,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 27,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "985.387999913655",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 950.387999913655,
+            "s_time" : 695.78199996613,
+            "sendEnd" : 27,
+            "sendStart" : 27,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/ap/62bb1ae2291944df8793d29682f15275.jpg%3Fitok=fHmjCyWE",
+         "id" : "r72",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 8900,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "987.2360000154",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 952.2360000154,
+            "s_time" : 696.357999928296,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/ap/cdd750ed664d4af59907d0ce096c77ec.jpg%3Fitok=1RpQE1YK",
+         "id" : "r73",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 23569,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "987.79599997215",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 952.79599997215,
+            "s_time" : 696.878999937326,
+            "sendEnd" : 28,
+            "sendStart" : 28,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/ap/51ec8d7786c0465ba3ff792fb54d798f.jpg%3Fitok=pQPe3Cp9",
+         "id" : "r74",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 12267,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 35,
+            "sslEnd" : -1,
+            "connectEnd" : 29,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "988.353000022471",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 953.353000022471,
+            "s_time" : 697.430999949574,
+            "sendEnd" : 29,
+            "sendStart" : 29,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/VisitFlorida_300x250_WebAd_April2016.jpg",
+         "id" : "r75",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 137505,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "1073.25799996033",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1045.25799996033,
+            "s_time" : 708.874000003561,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/images/social-icons-seec6f8f523.png",
+         "id" : "r81",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 1268,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "989.958000020124",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 973.958000020124,
+            "s_time" : 722.060999949463,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/logo.png",
+         "id" : "r82",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 7266,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "991.729000001214",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 973.729000001214,
+            "s_time" : 724.191999994218,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2011/05/15/020816wahlbergers.jpg%3Fitok=UxTDCkUZ",
+         "id" : "r77",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 117569,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "1075.23600000422",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1055.23600000422,
+            "s_time" : 724.62400002405,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2014/04/10/051116soci1.jpg%3Fitok=JajTfDx1",
+         "id" : "r78",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 19198,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "993.826999911107",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 971.826999911107,
+            "s_time" : 725.755000021309,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/04/22/051116ciao1.jpg%3Fitok=cV2MXiCR",
+         "id" : "r79",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 40380,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 21,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "995.615000021644",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 974.615000021644,
+            "s_time" : 727.832000004128,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/carousel-nav-prev.png",
+         "id" : "r83",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 19,
+            "len" : 1640,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "1074.78199992329",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1048.78199992329,
+            "s_time" : 733.279999927618,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/carousel-nav-next.png",
+         "id" : "r84",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 1631,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "1076.01199997589",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1050.01199997589,
+            "s_time" : 735.110000008717,
+            "sendEnd" : 13,
+            "sendStart" : 12,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/09/051116fork2.jpg%3Fitok=VoovE7-l",
+         "id" : "r80",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 34646,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 28,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "1077.00399996247",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1049.00399996247,
+            "s_time" : 735.892999917269,
+            "sendEnd" : 21,
+            "sendStart" : 21,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2014/03/06/030614staplesar02.jpg%3Fitok=rk2Lhw3c",
+         "id" : "r85",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 24162,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "1079.33400000911",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1065.33400000911,
+            "s_time" : 765.835999976844,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2007/02/05/033012uckerberg003.jpg%3Fitok=F2QrzN7o",
+         "id" : "r86",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 6565,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "1079.79799993336",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1065.79799993336,
+            "s_time" : 766.340999980457,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/2016/05/10/051016celtsrendering.jpg%3Fitok=EDceH75t",
+         "id" : "r87",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 37116,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 14,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "1080.92199999373",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1066.92199999373,
+            "s_time" : 766.858999966644,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/thumb_medium/public/media/ap/9318ce87541e4d0d944ea1ebd9dad61a.jpg%3Fitok=ovHADH5B",
+         "id" : "r88",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 12783,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "1081.2160000205",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1066.2160000205,
+            "s_time" : 767.210999969393,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/markets.financialcontent.com/bostonherald/widget:snapshot2%3FOutput=JS",
+         "id" : "r89",
+         "comps" : [
+            {
+               "s_time" : 1122.97099991702,
+               "time" : 14.3900000257399,
+               "type" : 1,
+               "id" : "comp_72",
+               "e_time" : 1137.36099994276
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 11,
+            "len" : 15059,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "1122.83699994441",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1107.83699994441,
+            "s_time" : 928.776999935508,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/marketplace_image/public/home-marketplace-homefind.jpg%3Fitok=g_y-fTvu",
+         "id" : "r90",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 8043,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "1139.23400000203",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1123.23400000203,
+            "s_time" : 930.262999958359,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/marketplace_image/public/home-marketplace-jobfind.jpg%3Fitok=V82vxGbB",
+         "id" : "r91",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 13,
+            "len" : 6437,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "1139.43899993319",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1123.43899993319,
+            "s_time" : 930.876999977045,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/styles/marketplace_image/public/home-marketplace-carfind.jpg%3Fitok=ceuaZIqA",
+         "id" : "r92",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 10579,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_76",
+            "receivedTime" : "1139.60799993947",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1123.60799993947,
+            "s_time" : 931.348999962211,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/jquery-1.10.2.min.map",
+         "id" : "r93",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 355,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_77",
+            "receivedTime" : "1140.18400001805",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1133.18400001805,
+            "s_time" : 963.349999976344,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/default/files/js/jquery.cycle2.js.map;",
+         "id" : "r94",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 355,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_78",
+            "receivedTime" : "1140.83599997684",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1132.83599997684,
+            "s_time" : 963.867999962531,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/jobfind/search.jpg",
+         "id" : "r104",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1755,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_79",
+            "receivedTime" : "1930.39300001692",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1926.39300001692,
+            "s_time" : 1261.7189999437,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/footer-logo.png",
+         "id" : "r105",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 7839,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_80",
+            "receivedTime" : "1931.58799991943",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1927.58799991943,
+            "s_time" : 1327.88100000471,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/footer-education-niesmart.png",
+         "id" : "r107",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 7856,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_81",
+            "receivedTime" : "1932.85099999048",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1927.85099999048,
+            "s_time" : 1342.84299996216,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/footer-education-masslit.png",
+         "id" : "r108",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 10174,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_82",
+            "receivedTime" : "1933.38800000492",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1927.38800000492,
+            "s_time" : 1343.52699993178,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bostonherald.com/sites/all/themes/bostonherald/static/images/footer-education-nie.png",
+         "id" : "r106",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7528,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_83",
+            "receivedTime" : "1934.26499993075",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1925.26499993075,
+            "s_time" : 1342.15399995446,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/breaking_news/ajax",
+         "id" : "r110",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 308,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_84",
+            "receivedTime" : "1935.31600001734",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1930.31600001734,
+            "s_time" : 1738.60899999272,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/up_next_alert/ajax",
+         "id" : "r111",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 308,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_85",
+            "receivedTime" : "1940.91100001242",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1936.91100001242,
+            "s_time" : 1742.16000002343,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_30"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_32"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_34"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_41"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_43"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_46"
+      },
+      {
+         "a2" : "r1_c12",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_65"
+      },
+      {
+         "a2" : "r1_c13",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_72"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_30",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "comp_32",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_30"
+      },
+      {
+         "a2" : "comp_34",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_32"
+      },
+      {
+         "a2" : "comp_36",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_34"
+      },
+      {
+         "a2" : "comp_43",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "comp_41"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 604.79900008067,
+         "id" : "dep22",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 601.24800004996,
+         "id" : "dep23",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 204.7930000117,
+         "id" : "dep24",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 206.16599998902,
+         "id" : "dep25",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 205.4820000194,
+         "id" : "dep26",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 190.52000006195,
+         "id" : "dep27",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 124.35800000094,
+         "id" : "dep28",
+         "a1" : "r1_c13"
+      },
+      {
+         "a2" : "download_78",
+         "time" : -1,
+         "id" : "dep29",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 435.689999954775,
+         "id" : "dep30",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 403.688999940642,
+         "id" : "dep31",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 403.216999955476,
+         "id" : "dep32",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 403.216999955476,
+         "id" : "dep33",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 402.60299993679,
+         "id" : "dep34",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 402.60299993679,
+         "id" : "dep35",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 401.116999913939,
+         "id" : "dep36",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 401.116999913939,
+         "id" : "dep37",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 239.550999947824,
+         "id" : "dep38",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 239.198999945075,
+         "id" : "dep39",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 238.680999958888,
+         "id" : "dep40",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 238.680999958888,
+         "id" : "dep41",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 238.175999955275,
+         "id" : "dep42",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 238.175999955275,
+         "id" : "dep43",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 208.2329998957,
+         "id" : "dep44",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 207.449999987148,
+         "id" : "dep45",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 205.619999906049,
+         "id" : "dep46",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 200.171999982559,
+         "id" : "dep47",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 198.09499999974,
+         "id" : "dep48",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 196.964000002481,
+         "id" : "dep49",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 196.531999972649,
+         "id" : "dep50",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 194.400999927894,
+         "id" : "dep51",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 181.213999981992,
+         "id" : "dep52",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 169.770999928005,
+         "id" : "dep53",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 169.218999915757,
+         "id" : "dep54",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 168.697999906727,
+         "id" : "dep55",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 168.121999944561,
+         "id" : "dep56",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 170.627999934368,
+         "id" : "dep57",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 166.723000002094,
+         "id" : "dep58",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 166.258999961429,
+         "id" : "dep59",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 165.121999918484,
+         "id" : "dep60",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 165.659999940545,
+         "id" : "dep61",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 164.558999938891,
+         "id" : "dep62",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 163.901999942027,
+         "id" : "dep63",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 117.862999904901,
+         "id" : "dep64",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 114.347999915481,
+         "id" : "dep65",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 112.903999979608,
+         "id" : "dep66",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 111.059999908321,
+         "id" : "dep67",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 108.052999945358,
+         "id" : "dep68",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 105.791999958456,
+         "id" : "dep69",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 103.902000002563,
+         "id" : "dep70",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 99.857999943197,
+         "id" : "dep71",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 98.809999995865,
+         "id" : "dep72",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 96.8709998996931,
+         "id" : "dep73",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 94.900999916718,
+         "id" : "dep74",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 90.239999932237,
+         "id" : "dep75",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 83.101999945939,
+         "id" : "dep76",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 80.940999905579,
+         "id" : "dep77",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 78.36199994199,
+         "id" : "dep78",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 75.764999957756,
+         "id" : "dep79",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 69.423999986612,
+         "id" : "dep80",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 45.693999971264,
+         "id" : "dep81",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 44.683999964036,
+         "id" : "dep82",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 43.604999897071,
+         "id" : "dep83",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 34.561999957078,
+         "id" : "dep84",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 40.414999937639,
+         "id" : "dep85",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 33.915999927558,
+         "id" : "dep86",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 33.387999981642,
+         "id" : "dep87",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 32.662999932655,
+         "id" : "dep88",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 31.956999911927,
+         "id" : "dep89",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 30.9179999167101,
+         "id" : "dep90",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 30.274999910035,
+         "id" : "dep91",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 27.697999961675,
+         "id" : "dep92",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 24.626999977045,
+         "id" : "dep93",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_18",
+         "time" : -1,
+         "id" : "dep94",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 143.844999955035,
+         "id" : "dep95",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 143.454000004567,
+         "id" : "dep96",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 143.454000004567,
+         "id" : "dep97",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 143.096999963745,
+         "id" : "dep98",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 143.096999963745,
+         "id" : "dep99",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : -1,
+         "id" : "dep100",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 40.3700000606477,
+         "id" : "dep101",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 39.7740000626072,
+         "id" : "dep102",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 39.3420000327751,
+         "id" : "dep103",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 38.5419999947771,
+         "id" : "dep104",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 38.2280000485479,
+         "id" : "dep105",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 37.9620000021532,
+         "id" : "dep106",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 37.6340000657364,
+         "id" : "dep107",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 37.2670000651851,
+         "id" : "dep108",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 37.0000000111758,
+         "id" : "dep109",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 36.6159999975934,
+         "id" : "dep110",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 36.1760000232607,
+         "id" : "dep111",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 35.8070000074803,
+         "id" : "dep112",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 33.8430000701919,
+         "id" : "dep113",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 33.4710000315681,
+         "id" : "dep114",
+         "a1" : "r1_c1"
+      }
+   ]
+}

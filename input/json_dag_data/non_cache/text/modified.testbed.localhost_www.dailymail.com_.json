@@ -1,0 +1,108 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.dailymail.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.dailymail.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 21.9079999951646,
+               "time" : -720802236.762,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -720802214.854
+            },
+            {
+               "s_time" : 30.2199999568984,
+               "time" : -720802245.074,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -720802214.854
+            },
+            {
+               "s_time" : 32.8619999345392,
+               "time" : -720802247.716,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -720802214.854
+            },
+            {
+               "s_time" : 43.889999971725,
+               "time" : -720802258.744,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -720802214.854
+            },
+            {
+               "s_time" : 43.9740000292659,
+               "time" : -720802258.828,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -720802214.854
+            },
+            {
+               "s_time" : 644.610999966972,
+               "time" : 10.898999986238,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 655.50999995321
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 853757,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "103.428000002168",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 101.428000002168,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_23"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_83"
+      }
+   ]
+}

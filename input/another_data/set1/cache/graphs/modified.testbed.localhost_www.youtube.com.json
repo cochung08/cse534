@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.youtube.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.youtube.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 25.954999960959,
+               "time" : 0.223000068217498,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 26.1780000291765
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "10.0239999592304",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1.02399995923042,
+            "s_time" : 0,
+            "sendEnd" : 6,
+            "sendStart" : 5,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

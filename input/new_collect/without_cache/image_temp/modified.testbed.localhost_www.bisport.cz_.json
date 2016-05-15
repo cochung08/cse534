@@ -1,0 +1,699 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.bisport.cz_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 18.3500000275671,
+               "time" : 25.5809999071062,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 43.9309999346733
+            },
+            {
+               "s_time" : 75.5429998971522,
+               "time" : -3290734421.906,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3290734346.363
+            },
+            {
+               "s_time" : 77.056999783963,
+               "time" : -3290734423.42,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -3290734346.363
+            },
+            {
+               "s_time" : 78.2399997115135,
+               "time" : -3290734424.603,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -3290734346.363
+            },
+            {
+               "s_time" : 78.7789998576045,
+               "time" : 116.696000099182,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 195.474999956787
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 6666,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "18.176999874413",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 15.176999874413,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/style12.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 30.9029999189079,
+               "time" : 1.8649999983609,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 32.7679999172688
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 16887,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "30.7279997505248",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 25.7279997505248,
+            "s_time" : 18.8759998418391,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/code.jquery.com/jquery-1.8.0.min.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 44.2369999364018,
+               "time" : 31.3059999607504,
+               "type" : 1,
+               "id" : "comp_2",
+               "e_time" : 75.5429998971522
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 92555,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 6,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "44.1640000790358",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 38.1640000790358,
+            "s_time" : 19.0759999677539,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/js/marquee2.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 75.636999681592,
+               "time" : 1.42000010237099,
+               "type" : 1,
+               "id" : "comp_4",
+               "e_time" : 77.056999783963
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7553,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "32.8599996864796",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 23.8599996864796,
+            "s_time" : 19.2760000936687,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/imgbox/slimbox/slimbox2.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 33.2239996641874,
+               "time" : 0.00300025567419482,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 33.2269999198616
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 1277,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "33.1919998861849",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 22.1919998861849,
+            "s_time" : 19.6349998004735,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/imgbox/slimbox/slimbox2.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 77.1189997904003,
+               "time" : 1.12099992111321,
+               "type" : 1,
+               "id" : "comp_6",
+               "e_time" : 78.2399997115135
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 4123,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "33.2499998621643",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 22.2499998621643,
+            "s_time" : 19.4529998116195,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/js/nwin.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 78.6749999970198,
+               "time" : 0.103999860584707,
+               "type" : 1,
+               "id" : "comp_8",
+               "e_time" : 78.7789998576045
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 1298,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "33.3289997652173",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 22.3289997652173,
+            "s_time" : 19.764999859035,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/bisport-logo.png",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 13358,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "35.1479998789728",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 22.1479998789728,
+            "s_time" : 19.8999997228384,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/kat/kat1-2.png",
+         "id" : "r9",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 8321,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "38.7639999389648",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 35.7639999389648,
+            "s_time" : 34.6109997481108,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/kat/kat2-2.png",
+         "id" : "r10",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 11545,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "114.629999734461",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 101.629999734461,
+            "s_time" : 38.1879997439682,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/kat/kat4-2.png",
+         "id" : "r11",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 17324,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "117.207000032067",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 107.207000032067,
+            "s_time" : 43.5839998535812,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/kat/kat5-2.png",
+         "id" : "r12",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 11814,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "116.552999708802",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 105.552999708802,
+            "s_time" : 43.705000076443,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/kat/kat6-1.png",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 14249,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "117.284999694675",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 105.284999694675,
+            "s_time" : 43.8290000893176,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/kat/kat7-2.png",
+         "id" : "r14",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 11094,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "117.13399970904",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 104.13399970904,
+            "s_time" : 43.9309999346733,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.bisport.cz/dopl/modra.png",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 968,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "131.257999688387",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 128.257999688387,
+            "s_time" : 81.5820000134408,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/ga.js",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 43082,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "131.929999683052",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 124.929999683052,
+            "s_time" : 117.827999871224,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=23197030&utmhn=modified.testbed.localhost&utmcs=UTF-8&utmsr=1024x768&utmvp=989x746&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=-&utmdt=P%C5%AFj%C4%8Dovna%20lod%C3%AD%20a%20kol%2C%20ubytov%C3%A1n%C3%AD%20na%20s%C3%A1zav%C4%9B%20%7C%20Bis",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 21,
+            "len" : 35,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : 16,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "234.931999817491",
+            "sslStart" : 6,
+            "dnsStart" : 0,
+            "receiveLast" : 196.931999817491,
+            "s_time" : 195.474999956787,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/gif"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_2",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_0"
+      },
+      {
+         "a2" : "comp_4",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 39.0490000136195,
+         "id" : "dep11",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 2.8030001558363,
+         "id" : "dep12",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 25.4790000617505,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 25.3550000488759,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 25.2339998260141,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 19.8379997164011,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 16.2609997205437,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 1.5499996952713,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 1.5499996952713,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1.4149998314679,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1.4149998314679,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.1029997840524,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.1029997840524,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.2849997729064,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.2849997729064,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 0.926000066101601,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 0.926000066101601,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 0.725999940186803,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.525999814272001,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      }
+   ]
+}

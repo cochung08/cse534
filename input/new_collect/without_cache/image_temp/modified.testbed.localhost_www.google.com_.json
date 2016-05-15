@@ -1,0 +1,136 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.google.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.google.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 47.6150000467896,
+               "time" : 32.6020000502468,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 80.2170000970364
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 10629,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "46.9430000521243",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 42.9430000521243,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 5482,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "83.4189997985959",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 70.4189997985959,
+            "s_time" : 60.5589998885989,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/client_204?&atyp=i&biw=1004&bih=686&ei=FjQhV-q5DMuwe9m5Cg",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 300,
+            "dns" : 1,
+            "dnsEnd" : 6,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "84.0079998597503",
+            "sslStart" : -1,
+            "dnsStart" : 5,
+            "receiveLast" : 72.0079998597503,
+            "s_time" : 64.9270000867546,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.com/images/nav_logo229.png",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 17284,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "87.5669997185469",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 83.5669997185469,
+            "s_time" : 80.2170000970364,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 17.312000039965,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 12.9439998418093,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      }
+   ]
+}

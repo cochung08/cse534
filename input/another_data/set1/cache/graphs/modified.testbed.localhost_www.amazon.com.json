@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.amazon.com",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.amazon.com",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 63.3319998160005,
+               "time" : 0.496999826282206,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 63.8289996422827
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 381,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 23,
+            "sslEnd" : -1,
+            "connectEnd" : 19,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "25.779000017792",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.77900001779199,
+            "s_time" : 0,
+            "sendEnd" : 19,
+            "sendStart" : 19,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

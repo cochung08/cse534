@@ -1,0 +1,5083 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.csmonitor.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 21.619999781251,
+               "time" : 1.0890001431107,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 22.7089999243617
+            },
+            {
+               "s_time" : 119.699999690056,
+               "time" : 4.88100014627,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 124.580999836326
+            },
+            {
+               "s_time" : 128.931999672204,
+               "time" : 52.31499997899,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 181.246999651194
+            },
+            {
+               "s_time" : 360.367999877781,
+               "time" : 1055.35299982876,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 1415.72099970654
+            },
+            {
+               "s_time" : 1685.71499967948,
+               "time" : 2.74399993941006,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 1688.45899961889
+            },
+            {
+               "s_time" : 1753.63599974662,
+               "time" : 734.42099988461,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : 2488.05699963123
+            },
+            {
+               "s_time" : 2492.72899981588,
+               "time" : 3.54800000787009,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : 2496.27699982375
+            },
+            {
+               "s_time" : 2505.12199988589,
+               "time" : 1204.29100003093,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 3709.41299991682
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 151569,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "23.2979999855161",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 20.2979999855161,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.googleapis.com/css%3Ffamily=Open+Sans:400,700,600,300%7COpen+Sans+Condensed:300,700.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 27.7689998038113,
+               "time" : 0.196000095456899,
+               "type" : 4,
+               "id" : "comp_0",
+               "e_time" : 27.9649998992682
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 1573,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "27.702999766916",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 23.702999766916,
+            "s_time" : 22.3639998584986,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/var/ezflow_site/cache/public/stylesheets/db7b4f84cb5dff36939769730c4ef6d6_1461746591_all.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 53.9509998634458,
+               "time" : 67.7769999019802,
+               "type" : 4,
+               "id" : "comp_1",
+               "e_time" : 121.727999765426
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 189604,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "53.8249998353422",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 48.8249998353422,
+            "s_time" : 22.5289999507368,
+            "sendEnd" : 2,
+            "sendStart" : 1,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/var/ezflow_site/cache/public/javascript/2ba05c73429bbd50473f284c2cf00ebe_1441017010.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 69.9129998683929,
+               "time" : 49.7869998216631,
+               "type" : 1,
+               "id" : "comp_5",
+               "e_time" : 119.699999690056
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 104348,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "45.2149999327958",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 40.2149999327958,
+            "s_time" : 22.7089999243617,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 128.448999952525,
+               "time" : 0.482999719678986,
+               "type" : 1,
+               "id" : "comp_16",
+               "e_time" : 128.931999672204
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 1495,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "128.385999705642",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 124.385999705642,
+            "s_time" : 121.891999617219,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/assets.adobedtm.com/ce1c8decc004d96de218cd33a2ac01ff97515146/satelliteLib-caf3a860ae528d271e77860336dcd194f8ce6b4d.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 327.666999772191,
+               "time" : 32.70100010559,
+               "type" : 1,
+               "id" : "comp_36",
+               "e_time" : 360.367999877781
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 71364,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_5",
+            "receivedTime" : "150.964999571443",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 142.964999571443,
+            "s_time" : 122.497999574989,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://edge.quantserve.com/quant.js",
+         "id" : "r39",
+         "comps" : [
+            {
+               "s_time" : 135.158999823034,
+               "time" : 0.605000182986004,
+               "type" : 2,
+               "id" : "comp_21",
+               "e_time" : 135.76400000602
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 7874,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_6",
+            "receivedTime" : "135.057999752462",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 133.057999752462,
+            "s_time" : 132.015999872237,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/standard/javascript/adobe/mbox.js",
+         "id" : "r13",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 27300,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_7",
+            "receivedTime" : "139.796999748796",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 127.796999748796,
+            "s_time" : 122.272999957204,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/return-mobile_btn.png",
+         "id" : "r15",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 1109,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_8",
+            "receivedTime" : "135.991999879479",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 123.991999879479,
+            "s_time" : 122.727999929339,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/logo_white_250x63.png",
+         "id" : "r16",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 8454,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_9",
+            "receivedTime" : "136.789999902248",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 124.789999902248,
+            "s_time" : 122.932999860495,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/gear.png",
+         "id" : "r18",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 1268,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_10",
+            "receivedTime" : "138.104999903589",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 125.104999903589,
+            "s_time" : 123.219999950379,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2015/03/subscribe_R14_header-image-UPDATE_94x84.png%3Falias=original",
+         "id" : "r17",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 17735,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_11",
+            "receivedTime" : "150.189999956638",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 137.189999956638,
+            "s_time" : 123.087999876589,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 160.234999842942,
+               "time" : 1.236000098288,
+               "type" : 2,
+               "id" : "comp_27",
+               "e_time" : 161.47099994123
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 10,
+            "len" : 3152,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_12",
+            "receivedTime" : "150.311999954283",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 132.311999954283,
+            "s_time" : 120.342999696732,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/about-these-ads.png",
+         "id" : "r19",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 237,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_13",
+            "receivedTime" : "150.550999678671",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 133.550999678671,
+            "s_time" : 123.92899999395,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/0425-HOUSING-cover-LIFESTYLE.jpg%3Falias=standard_342x228",
+         "id" : "r20",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 25811,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 17,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_14",
+            "receivedTime" : "151.505999732763",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 134.505999732763,
+            "s_time" : 124.079999979585,
+            "sendEnd" : 14,
+            "sendStart" : 14,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/978045_1_cartoon160427-01_standard.png%3Falias=standard_218x145",
+         "id" : "r21",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 38632,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_15",
+            "receivedTime" : "162.023999728262",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 144.023999728262,
+            "s_time" : 124.20399999246,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/888737_58_csm-cover_standard.jpg%3Falias=original_180",
+         "id" : "r22",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 25703,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 20,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_16",
+            "receivedTime" : "161.646999884397",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 141.646999884397,
+            "s_time" : 124.322999734432,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977843_1_0427-Bernie-Sanders-endgame_standard.jpg%3Falias=cinema_428x228",
+         "id" : "r23",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 36597,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_17",
+            "receivedTime" : "162.258999887854",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 140.258999887854,
+            "s_time" : 124.457999598235,
+            "sendEnd" : 16,
+            "sendStart" : 16,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.tt.omtrdc.net/cdn/target.js",
+         "id" : "r56",
+         "comps" : [
+            {
+               "s_time" : 151.698999572545,
+               "time" : 7.963000331074,
+               "type" : 2,
+               "id" : "comp_25",
+               "e_time" : 159.661999903619
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 42836,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_18",
+            "receivedTime" : "151.655999943614",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 151.655999943614,
+            "s_time" : 147.695999592543,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/975304_1_0411-cooking-matters_standard.jpg%3Falias=standard_100x67",
+         "id" : "r24",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 4089,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 24,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_19",
+            "receivedTime" : "161.549999844283",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 137.549999844283,
+            "s_time" : 124.580999836326,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977861_1_0427-ocommies_standard.jpg%3Falias=standard_100x67",
+         "id" : "r25",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 14218,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 8,
+            "connectStart" : 0,
+            "id" : "download_20",
+            "receivedTime" : "161.917999852449",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 146.917999852449,
+            "s_time" : 136.310999747366,
+            "sendEnd" : 8,
+            "sendStart" : 8,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977829_1_0427-oburundi-pic1_standard.jpg%3Falias=standard_100x67",
+         "id" : "r26",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 13811,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "connectStart" : 0,
+            "id" : "download_21",
+            "receivedTime" : "162.354999687523",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 146.354999687523,
+            "s_time" : 137.549999635667,
+            "sendEnd" : 11,
+            "sendStart" : 11,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977568_1_0425-Obama-trip-Hanover_standard.jpg%3Falias=standard_100x67",
+         "id" : "r27",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3913,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 12,
+            "connectStart" : 0,
+            "id" : "download_22",
+            "receivedTime" : "162.645000033081",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 146.645000033081,
+            "s_time" : 139.621999580413,
+            "sendEnd" : 12,
+            "sendStart" : 12,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977742_1_0426-Loretta-Lynch-prisoners_standard.jpg%3Falias=standard_100x67",
+         "id" : "r28",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 10766,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 16,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_23",
+            "receivedTime" : "162.83299960196",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 146.83299960196,
+            "s_time" : 141.143999993801,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977729_1_students_standard.jpg%3Falias=standard_100x67",
+         "id" : "r29",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 16733,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_24",
+            "receivedTime" : "163.040999788791",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 154.040999788791,
+            "s_time" : 148.268999997526,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977654_1_0426-Trump-Social-Security_standard.jpg%3Falias=standard_100x67",
+         "id" : "r30",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 6476,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_25",
+            "receivedTime" : "163.380999583751",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 154.380999583751,
+            "s_time" : 150.427999906242,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977561_1_0426-oexecute_standard.jpg%3Falias=standard_100x67",
+         "id" : "r31",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 9026,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_26",
+            "receivedTime" : "163.652999792248",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 154.652999792248,
+            "s_time" : 150.959999766201,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977539_1_sirin-secure-phone_standard.jpg%3Falias=standard_100x67",
+         "id" : "r32",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 14219,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_27",
+            "receivedTime" : "164.080000016838",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 156.080000016838,
+            "s_time" : 152.843999676406,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gpt/pubads_impl_85.js",
+         "id" : "r58",
+         "comps" : [
+            {
+               "s_time" : 169.24999980256,
+               "time" : 136.566000059247,
+               "type" : 2,
+               "id" : "comp_29",
+               "e_time" : 305.815999861807
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 151342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_28",
+            "receivedTime" : "169.116999953985",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 168.116999953985,
+            "s_time" : 161.655999720097,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/men-chinatown.jpg%3Falias=standard_100x67",
+         "id" : "r33",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 10438,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_29",
+            "receivedTime" : "166.673999745399",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 156.673999745399,
+            "s_time" : 153.64299993962,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977554_1_0425-Edwards-Maryland-election_standard.png%3Falias=standard_100x67",
+         "id" : "r34",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 18762,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_30",
+            "receivedTime" : "167.622999753803",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 158.622999753803,
+            "s_time" : 155.344999860972,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977515_1_0425-onongos_standard.jpg%3Falias=standard_100x67",
+         "id" : "r35",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 11164,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_31",
+            "receivedTime" : "305.940999649465",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 294.940999649465,
+            "s_time" : 155.709999613464,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2015/10/882396_2_question-rich-getting-richer-quiz-q3-wide_standard_1.jpg%3Falias=cinema_428x228",
+         "id" : "r36",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 147837,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_32",
+            "receivedTime" : "319.51899966225",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 309.51899966225,
+            "s_time" : 157.416999805719,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977882_2_02_wide.jpg%3Falias=cinema_288x154",
+         "id" : "r37",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 17529,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_33",
+            "receivedTime" : "306.987999938428",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 296.987999938428,
+            "s_time" : 158.433999866247,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977861_1_0427-ocommies_standard.jpg%3Falias=standard_75x50",
+         "id" : "r40",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8679,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_34",
+            "receivedTime" : "307.576999999583",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 296.576999999583,
+            "s_time" : 159.879999700934,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977843_1_0427-Bernie-Sanders-endgame_standard.jpg%3Falias=standard_75x50",
+         "id" : "r41",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3691,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_35",
+            "receivedTime" : "308.720999862999",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 297.720999862999,
+            "s_time" : 161.334999836981,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977654_1_0426-Trump-Social-Security_standard.jpg%3Falias=standard_75x50",
+         "id" : "r42",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 4150,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_36",
+            "receivedTime" : "313.977999612689",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 304.977999612689,
+            "s_time" : 162.907999940217,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977878_1_0427-Trump-primary-elections_standard.png%3Falias=standard_75x50",
+         "id" : "r43",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 8454,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_37",
+            "receivedTime" : "315.119999926537",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 303.119999926537,
+            "s_time" : 163.989999797195,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/men-chinatown.jpg%3Falias=standard_75x50",
+         "id" : "r44",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 6479,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_38",
+            "receivedTime" : "315.288999583572",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 305.288999583572,
+            "s_time" : 166.584999766201,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977823_1_0427-dinosaur-skull_standard.jpg%3Falias=standard_75x50",
+         "id" : "r45",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 2354,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_39",
+            "receivedTime" : "315.749999601394",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 304.749999601394,
+            "s_time" : 167.539999820292,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977856_1_0427-Asian-carp-Great-Lakes_standard.jpg%3Falias=standard_75x50",
+         "id" : "r46",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 2737,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_40",
+            "receivedTime" : "316.375999711454",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 306.375999711454,
+            "s_time" : 169.315999839455,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977637_1_0425-millennial-hiring_standard.jpg%3Falias=standard_75x50",
+         "id" : "r47",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 3343,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_41",
+            "receivedTime" : "316.818999592215",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 307.818999592215,
+            "s_time" : 170.963999815285,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977757_1_0426-gender-bathroom_standard.jpg%3Falias=standard_75x50",
+         "id" : "r48",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1997,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 7,
+            "connectStart" : 0,
+            "id" : "download_42",
+            "receivedTime" : "317.647999618202",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 307.647999618202,
+            "s_time" : 172.276000026613,
+            "sendEnd" : 7,
+            "sendStart" : 7,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2014/04/15-8-climatechange.png%3Falias=cinema_288x154",
+         "id" : "r49",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 84030,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_43",
+            "receivedTime" : "323.104999959469",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 314.104999959469,
+            "s_time" : 173.410999588668,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2015/03/csm-subscribe_ipad_600x320_1.png%3Falias=original",
+         "id" : "r50",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 249704,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_44",
+            "receivedTime" : "325.193000026047",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 316.193000026047,
+            "s_time" : 175.295999739319,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2015/03/logo_monitor-breakfast_70x70.png%3Falias=original",
+         "id" : "r51",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 7500,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_45",
+            "receivedTime" : "318.887999746948",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 307.887999746948,
+            "s_time" : 175.824999809265,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2014/09/icon_70_Passcode.png%3Falias=original",
+         "id" : "r52",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 7396,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_46",
+            "receivedTime" : "319.834999740124",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 308.834999740124,
+            "s_time" : 177.900000009686,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2014/03/icon_pmad_70x70.png%3Falias=original",
+         "id" : "r53",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 4246,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_47",
+            "receivedTime" : "320.55399985984",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 307.55399985984,
+            "s_time" : 178.362999577075,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2016/04/977882_2_02_wide.jpg%3Falias=cinema_600x320",
+         "id" : "r54",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 54496,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 13,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "connectStart" : 0,
+            "id" : "download_48",
+            "receivedTime" : "322.743999771774",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 309.743999771774,
+            "s_time" : 179.229999892414,
+            "sendEnd" : 9,
+            "sendStart" : 9,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2015/02/r14-subscribe-ad_homepage_600x250_update-02-2015.png%3Falias=original",
+         "id" : "r55",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 130084,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_49",
+            "receivedTime" : "324.340999592096",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 309.340999592096,
+            "s_time" : 181.246999651194,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://christianscience.tt.omtrdc.net/m2/christianscience/mbox/standard?mboxHost=modified.testbed.localhost&mboxSession=1461797885059-345449&mboxPage=1461797885059-345449&screenHeight=768&screenWidth=1024&browserWidth=1004&browserHeight=746&browserTimeOffset=-240&colorDepth=24&mboxCount=1&csm_conten",
+         "id" : "r57",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 111,
+            "len" : 176,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 128,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "connectStart" : 0,
+            "id" : "download_50",
+            "receivedTime" : "325.662999879569",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 197.662999879569,
+            "s_time" : 150.334999896586,
+            "sendEnd" : 17,
+            "sendStart" : 16,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html",
+         "id" : "r59",
+         "comps" : [
+            {
+               "s_time" : 1023.07799970731,
+               "time" : 18.3419999666501,
+               "type" : "evalhtml",
+               "id" : "r59_c1",
+               "e_time" : 1041.41999967396
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_51",
+            "receivedTime" : "869.798999745399",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 869.798999745399,
+            "s_time" : 458.032999653369,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/search_magnifier_17.png",
+         "id" : "r60",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 905,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 77,
+            "sslEnd" : -1,
+            "connectEnd" : 74,
+            "connectStart" : 0,
+            "id" : "download_52",
+            "receivedTime" : "884.199999738485",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 807.199999738485,
+            "s_time" : 385.355999693274,
+            "sendEnd" : 74,
+            "sendStart" : 74,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2014/03/envelop-black.png%3Falias=original",
+         "id" : "r62",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 629,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_53",
+            "receivedTime" : "922.846999950707",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 918.846999950707,
+            "s_time" : 754.999999888241,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2014/03/btn-alt.png%3Falias=original",
+         "id" : "r63",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 742,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_54",
+            "receivedTime" : "923.408999573439",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 918.408999573439,
+            "s_time" : 758.585999719799,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSonF5uFdDttMLvmWuJdhhgs.ttf",
+         "id" : "r7",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 35240,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_55",
+            "receivedTime" : "932.337999809533",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 924.337999809533,
+            "s_time" : 840.435999911278,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf",
+         "id" : "r6",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 34156,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_56",
+            "receivedTime" : "930.783999618143",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 921.783999618143,
+            "s_time" : 840.045999735594,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdhhgs.ttf",
+         "id" : "r8",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 35924,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_57",
+            "receivedTime" : "933.255999814719",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 922.255999814719,
+            "s_time" : 840.723000001162,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/octet-stream"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2014/03/take-action_600x320.jpg%3Falias=cinema_600x320",
+         "id" : "r64",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 9,
+            "len" : 82436,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "connectStart" : 0,
+            "id" : "download_58",
+            "receivedTime" : "1020.95499960706",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1009.95499960706,
+            "s_time" : 841.41799993813,
+            "sendEnd" : 2,
+            "sendStart" : 2,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=1906516612349952&output=json_html&callback=callbackProxy&impl=fifs&json_a=1&eid=108809080&sc=0&sfv=1-0-2&iu_parts=1010203%2C728x90A_General%2C300x250-600-1050%2C300x250B_General%2C300x250C_General%2C728x90B_General%2C1x1A&enc_pr",
+         "id" : "r61",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 321,
+            "len" : 536165,
+            "dns" : 0,
+            "dnsEnd" : 1,
+            "receiveHeadersEnd" : 351,
+            "sslEnd" : 28,
+            "connectEnd" : 28,
+            "connectStart" : 0,
+            "id" : "download_59",
+            "receivedTime" : "1251.8469998613",
+            "sslStart" : 7,
+            "dnsStart" : 1,
+            "receiveLast" : 900.8469998613,
+            "s_time" : 516.665999777615,
+            "sendEnd" : 30,
+            "sendStart" : 28,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/images.csmonitor.com/csm/2015/02/1599F_cover-footer-article-tout_interior_FINAL-04.png%3Falias=original",
+         "id" : "r65",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 158597,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_60",
+            "receivedTime" : "1043.07199968025",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1035.07199968025,
+            "s_time" : 866.859999950975,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/carousel_circle_80.png",
+         "id" : "r66",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 1189,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "connectStart" : 0,
+            "id" : "download_61",
+            "receivedTime" : "1044.64899981394",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1032.64899981394,
+            "s_time" : 890.704999677837,
+            "sendEnd" : 6,
+            "sendStart" : 6,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/carousel_arrow_left_16x27.png",
+         "id" : "r67",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 3103,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "connectStart" : 0,
+            "id" : "download_62",
+            "receivedTime" : "1045.58499995619",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1034.58499995619,
+            "s_time" : 891.662999987602,
+            "sendEnd" : 5,
+            "sendStart" : 5,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/carousel_arrow_right_16x27.png",
+         "id" : "r68",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 6,
+            "len" : 429,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_63",
+            "receivedTime" : "1045.17399985343",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1035.17399985343,
+            "s_time" : 892.206999938935,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/logo_white_304x80.png",
+         "id" : "r69",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 10724,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_64",
+            "receivedTime" : "1049.2179999128",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1045.2179999128,
+            "s_time" : 920.846999622881,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.googleadservices.com/pagead/conversion.js",
+         "id" : "r71",
+         "comps" : [
+            {
+               "s_time" : 1672.42299998179,
+               "time" : 13.2919996976898,
+               "type" : 1,
+               "id" : "comp_255",
+               "e_time" : 1685.71499967948
+            },
+            {
+               "s_time" : 2496.10599968582,
+               "time" : 9.01600020007027,
+               "type" : 1,
+               "id" : "comp_342",
+               "e_time" : 2505.12199988589
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 11782,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_65",
+            "receivedTime" : "1050.16799969599",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1046.16799969599,
+            "s_time" : 922.909999731928,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/csm_design/images/share_icons_14.png",
+         "id" : "r72",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 1090,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_66",
+            "receivedTime" : "1050.57199997827",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1046.57199997827,
+            "s_time" : 927.967999596149,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/standard/javascript/adobe/s_code.js",
+         "id" : "r73",
+         "comps" : [
+            {
+               "s_time" : 1688.69500001892,
+               "time" : 64.9409997277,
+               "type" : 1,
+               "id" : "comp_262",
+               "e_time" : 1753.63599974662
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 62342,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_67",
+            "receivedTime" : "1051.45899998024",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1047.45899998024,
+            "s_time" : 934.92199992761,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/var/ezflow_site/cache/public/javascript/44552b24f0162e36930982971e8099c0_1461746591.js",
+         "id" : "r70",
+         "comps" : [
+            {
+               "s_time" : 1445.73599984869,
+               "time" : 180.06999976933,
+               "type" : null,
+               "id" : "comp_237",
+               "e_time" : 1625.80599961802
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 208,
+            "len" : 375365,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 209,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_68",
+            "receivedTime" : "1445.33799961209",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1236.33799961209,
+            "s_time" : 922.34899988398,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/expansion_embed.js?source=safeframe",
+         "id" : "r74",
+         "comps" : [
+            {
+               "s_time" : 1888.33299977705,
+               "time" : 92.56999986246,
+               "type" : 2,
+               "id" : "comp_270",
+               "e_time" : 1980.90299963951
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 157034,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_69",
+            "receivedTime" : "1794.63499970734",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1793.63499970734,
+            "s_time" : 1305.69299962372,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//modified.testbed.localhost",
+         "id" : "r75",
+         "comps" : [
+            {
+               "s_time" : 2032.37099992111,
+               "time" : 757.05099990592,
+               "id" : "r75_c1",
+               "type" : "evalhtml",
+               "e_time" : 2789.42199982703
+            },
+            {
+               "s_time" : 2800.92299962416,
+               "time" : 19.1140002571096,
+               "type" : "evalhtml",
+               "id" : "r75_c2",
+               "e_time" : 2820.03699988127
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_70",
+            "receivedTime" : "1795.40900001302",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1794.40900001302,
+            "s_time" : 1311.92199978977,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/osd.js",
+         "id" : "r76",
+         "comps" : [
+            {
+               "s_time" : 1980.95999984071,
+               "time" : 45.8390000276199,
+               "type" : 2,
+               "id" : "comp_272",
+               "e_time" : 2026.79899986833
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 62045,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_71",
+            "receivedTime" : "1809.52499993145",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1808.52499993145,
+            "s_time" : 1329.45499988273,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-2&p=http%3A//modified.testbed.localhost",
+         "id" : "r77",
+         "comps" : [
+            {
+               "s_time" : 2082.66599988565,
+               "time" : 706.75599994138,
+               "id" : "r77_c1",
+               "type" : "evalhtml",
+               "e_time" : 2789.42199982703
+            },
+            {
+               "s_time" : 2838.11199991032,
+               "time" : 302.18399967999,
+               "type" : "evalhtml",
+               "id" : "r77_c2",
+               "e_time" : 3140.29599959031
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_72",
+            "receivedTime" : "1810.24899985641",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1810.24899985641,
+            "s_time" : 1346.34699998423,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-3&p=http%3A//modified.testbed.localhost",
+         "id" : "r78",
+         "comps" : [
+            {
+               "s_time" : 2131.89399987459,
+               "time" : 620.89599994943,
+               "id" : "r78_c1",
+               "type" : "evalhtml",
+               "e_time" : 2752.78999982402
+            },
+            {
+               "s_time" : 2764.12499975413,
+               "time" : 20.43000003323,
+               "type" : "evalhtml",
+               "id" : "r78_c2",
+               "e_time" : 2784.55499978736
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_73",
+            "receivedTime" : "1829.27899993956",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1829.27899993956,
+            "s_time" : 1369.61099971086,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-4&p=http%3A//modified.testbed.localhost",
+         "id" : "r79",
+         "comps" : [
+            {
+               "s_time" : 2180.99599983543,
+               "time" : 666.34899983183,
+               "id" : "r79_c1",
+               "type" : "evalhtml",
+               "e_time" : 2847.34499966726
+            },
+            {
+               "s_time" : 2877.49399989843,
+               "time" : 285.39100009948,
+               "type" : "evalhtml",
+               "id" : "r79_c2",
+               "e_time" : 3162.88499999791
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_74",
+            "receivedTime" : "1845.22099979222",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1845.22099979222,
+            "s_time" : 1392.64899957925,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-5&p=http%3A//modified.testbed.localhost",
+         "id" : "r80",
+         "comps" : [
+            {
+               "s_time" : 2231.40399996191,
+               "time" : 655.20899975673,
+               "id" : "r80_c1",
+               "type" : "evalhtml",
+               "e_time" : 2886.61299971864
+            },
+            {
+               "s_time" : 2931.35199975222,
+               "time" : 253.14499996603,
+               "type" : "evalhtml",
+               "id" : "r80_c2",
+               "e_time" : 3184.49699971825
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 4049,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_75",
+            "receivedTime" : "1864.55799965188",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1864.55799965188,
+            "s_time" : 1415.72099970654,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.cxense.com/cx.js",
+         "id" : "r82",
+         "comps" : [
+            {
+               "s_time" : 2284.37399957329,
+               "time" : 11.8640000000601,
+               "type" : 2,
+               "id" : "comp_322",
+               "e_time" : 2296.23799957335
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 77291,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_76",
+            "receivedTime" : "2030.43799987063",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2029.43799987063,
+            "s_time" : 1688.45899961889,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "id" : "r84",
+         "comps" : [
+            {
+               "s_time" : 2296.27799987793,
+               "time" : 50.6250001490098,
+               "type" : 2,
+               "id" : "comp_324",
+               "e_time" : 2346.90300002694
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 43082,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_77",
+            "receivedTime" : "2031.98699979112",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2030.98699979112,
+            "s_time" : 1793.24000002816,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/cdns.gigya.com/js/gigya.js%3FapiKey=3_fhHH6dtFIegOwZRJdL1W_kKIoT9M_C_eZK7et4CUjf-WbGPH6zvaQJ2FtFm3qfV4",
+         "id" : "r85",
+         "comps" : [
+            {
+               "s_time" : 2351.07399988919,
+               "time" : 124.84999978915,
+               "type" : 2,
+               "id" : "comp_326",
+               "e_time" : 2475.92399967834
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 164453,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_78",
+            "receivedTime" : "2350.9139996022",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2342.9139996022,
+            "s_time" : 2029.39999988303,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/index.html",
+         "id" : "r86",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 5,
+            "len" : 151569,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 9,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_79",
+            "receivedTime" : "2505.28699997813",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2496.28699997813,
+            "s_time" : 2029.93599977344,
+            "sendEnd" : 4,
+            "sendStart" : 3,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/ads.pubmatic.com/AdServer/js/universalpixel.js.html",
+         "id" : "r87",
+         "comps" : [
+            {
+               "s_time" : 2488.62600000575,
+               "time" : 4.10299981012986,
+               "type" : 1,
+               "id" : "comp_334",
+               "e_time" : 2492.72899981588
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 3390,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_80",
+            "receivedTime" : "2348.83899986744",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2338.83899986744,
+            "s_time" : 2030.38799995556,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/simgad/11211497366547267147",
+         "id" : "r88",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 44290,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_81",
+            "receivedTime" : "2506.19699992239",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2502.19699992239,
+            "s_time" : 2071.53799990192,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/pagead/js/r20160421/r20110914/abg.js",
+         "id" : "r89",
+         "comps" : [
+            {
+               "s_time" : 2555.77799957246,
+               "time" : 42.3290003091101,
+               "type" : 2,
+               "id" : "comp_348",
+               "e_time" : 2598.10699988157
+            },
+            {
+               "s_time" : 2598.48799975589,
+               "time" : 22.4740002304297,
+               "type" : 2,
+               "id" : "comp_350",
+               "e_time" : 2620.96199998632
+            },
+            {
+               "s_time" : 2826.43799996004,
+               "time" : 11.6739999502797,
+               "type" : 1,
+               "id" : "comp_414",
+               "e_time" : 2838.11199991032
+            },
+            {
+               "s_time" : 2866.36299965903,
+               "time" : 11.1310002394002,
+               "type" : 1,
+               "id" : "comp_431",
+               "e_time" : 2877.49399989843
+            },
+            {
+               "s_time" : 2903.52399973199,
+               "time" : 27.8280000202299,
+               "type" : 1,
+               "id" : "comp_480",
+               "e_time" : 2931.35199975222
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 65907,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_82",
+            "receivedTime" : "2555.61499996111",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2551.61499996111,
+            "s_time" : 2076.09199965373,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/pagead/js/r20160421/r20110914/client/ext/m_js_controller.js",
+         "id" : "r90",
+         "comps" : [
+            {
+               "s_time" : 2621.85999983922,
+               "time" : 30.1759997382701,
+               "type" : 2,
+               "id" : "comp_352",
+               "e_time" : 2652.03599957749
+            },
+            {
+               "s_time" : 2652.45599998161,
+               "time" : 26.9659999758001,
+               "type" : 2,
+               "id" : "comp_354",
+               "e_time" : 2679.42199995741
+            },
+            {
+               "s_time" : 2702.28999992833,
+               "time" : 12.10299972444,
+               "type" : 2,
+               "id" : "comp_357",
+               "e_time" : 2714.39299965277
+            },
+            {
+               "s_time" : 2789.05799984932,
+               "time" : 11.8649997748403,
+               "type" : 1,
+               "id" : "comp_393",
+               "e_time" : 2800.92299962416
+            },
+            {
+               "s_time" : 2751.82499969378,
+               "time" : 12.3000000603502,
+               "type" : 1,
+               "id" : "comp_374",
+               "e_time" : 2764.12499975413
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 66614,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_83",
+            "receivedTime" : "2621.64499983191",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2617.64499983191,
+            "s_time" : 2077.29799998924,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_112x36dp.png",
+         "id" : "r91",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 2449,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_84",
+            "receivedTime" : "2507.74599984288",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2503.74599984288,
+            "s_time" : 2077.79699983075,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.google.com/ads/user-lists/1031872562/?label=ei29CPSQ8AMQssCE7AM&fmt=1&num=1&cv=8&frm=0&url=http%3A//modified.testbed.localhost/www.csmonitor.com/&random=3811963638",
+         "id" : "r81",
+         "comps" : [
+            {
+               "s_time" : 2896.62299957126,
+               "time" : 0.10100007057963,
+               "type" : "evalhtml",
+               "id" : "r81_c1",
+               "e_time" : 2896.72399964184
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 24,
+            "len" : 63,
+            "dns" : 1,
+            "dnsEnd" : 2,
+            "receiveHeadersEnd" : 68,
+            "sslEnd" : 35,
+            "connectEnd" : 39,
+            "connectStart" : 0,
+            "id" : "download_85",
+            "receivedTime" : "2680.55699998513",
+            "sslStart" : 10,
+            "dnsStart" : 1,
+            "receiveLast" : 2612.55699998513,
+            "s_time" : 2034.71399983391,
+            "sendEnd" : 44,
+            "sendStart" : 39,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://metrics.csmonitor.com/b/ss/fcocscsm/1/H.25/s12371615625452?AQB=1&pccr=true&vidn=2B90A23005078D3B-40000110E04D22BD&&ndh=1&t=27%2F3%2F2016%2018%3A58%3A6%203%20240&ns=christscientist&pageName=the%20christian%20science%20monitor&g=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&cc=",
+         "id" : "r83",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 17,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 18,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_86",
+            "receivedTime" : "2700.24199970067",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2682.24199970067,
+            "s_time" : 2131.97999959812,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/simgad/14726870345468298980",
+         "id" : "r92",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 68513,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_87",
+            "receivedTime" : "2700.73099993169",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2699.73099993169,
+            "s_time" : 2169.81999995187,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fonts.googleapis.com/css?family=Slabo+27px:400&lang=en",
+         "id" : "r93",
+         "comps" : [
+            {
+               "s_time" : 2701.27899991348,
+               "time" : 13.2979997433799,
+               "type" : 2,
+               "id" : "comp_356",
+               "e_time" : 2714.57699965686
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 253,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_88",
+            "receivedTime" : "2701.21299987659",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2700.21299987659,
+            "s_time" : 2261.79099967703,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=970507695&utmhn=modified.testbed.localhost&utmcs=UTF-8&utmsr=1024x768&utmvp=989x599&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=-&utmdt=The%20Christian%20Science%20Monitor%20-%20CSMonitor.com&utmhid=1131407716&utmr=-&utmp=%2Fwww.csmonito",
+         "id" : "r94",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 21,
+            "len" : 35,
+            "dns" : 7,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 36,
+            "sslEnd" : -1,
+            "connectEnd" : 15,
+            "connectStart" : 0,
+            "id" : "download_89",
+            "receivedTime" : "2728.51799987257",
+            "sslStart" : -1,
+            "dnsStart" : 1,
+            "receiveLast" : 2692.51799987257,
+            "s_time" : 2342.46399998665,
+            "sendEnd" : 15,
+            "sendStart" : 15,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ak.sail-horizon.com/horizon/v1.js",
+         "id" : "r98",
+         "comps" : [
+            {
+               "s_time" : 2957.46799977496,
+               "time" : 1.83300022036019,
+               "type" : 2,
+               "id" : "comp_491",
+               "e_time" : 2959.30099999532
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 10923,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_90",
+            "receivedTime" : "2729.52599963173",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2728.52599963173,
+            "s_time" : 2494.29899966344,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ads.pubmatic.com/AdServer/js/universalpixel.js#UPIX&pubId=27343&pixId=37&ran=0.4036839618347585&pageURL=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&refURL=",
+         "id" : "r97",
+         "comps" : [
+            {
+               "s_time" : 3070.96599973738,
+               "time" : 824.11900022999,
+               "type" : "evalhtml",
+               "id" : "r97_c1",
+               "e_time" : 3895.08499996737
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 3390,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_91",
+            "receivedTime" : "2729.93399994448",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2727.93399994448,
+            "s_time" : 2495.60199957341,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://connect.facebook.net/en_US/fbevents.js",
+         "id" : "r99",
+         "comps" : [
+            {
+               "s_time" : 2959.32199992239,
+               "time" : 3.67899984121959,
+               "type" : 2,
+               "id" : "comp_493",
+               "e_time" : 2963.00099976361
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 8401,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_92",
+            "receivedTime" : "2739.48299977928",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2738.48299977928,
+            "s_time" : 2496.27699982375,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pixel.quantserve.com/pixel;r=1647607193;a=p-44NYiIzL-i6wg;fpan=1;fpa=P0-1522716983-1461797887398;ns=0;ce=1;cm=;je=1;sr=1024x768x24;enc=n;dst=1;et=1461797887395;tzo=240;ref=;url=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F;ogl=site_name.The%20Christian%20Science%20Monitor%2Ct",
+         "id" : "r96",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 35,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 22,
+            "sslEnd" : -1,
+            "connectEnd" : 14,
+            "connectStart" : 0,
+            "id" : "download_93",
+            "receivedTime" : "2739.88199979067",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 2717.88199979067,
+            "s_time" : 2488.05699963123,
+            "sendEnd" : 15,
+            "sendStart" : 14,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/pixel.quantserve.com/api/segments.json%3Fa=p-44NYiIzL-i6wg&callback=qc_results&ttl=86400",
+         "id" : "r104",
+         "comps" : [
+            {
+               "s_time" : 2970.95299977809,
+               "time" : 1.50500005111007,
+               "type" : 2,
+               "id" : "comp_501",
+               "e_time" : 2972.4579998292
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 39,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_94",
+            "receivedTime" : "2970.8069995977",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2967.8069995977,
+            "s_time" : 2729.48599979281,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/plain"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.cxense.com/cx.js.map",
+         "id" : "r102",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 18,
+            "len" : 68828,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 31,
+            "sslEnd" : -1,
+            "connectEnd" : 13,
+            "connectStart" : 0,
+            "id" : "download_95",
+            "receivedTime" : "3079.70099989325",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3048.70099989325,
+            "s_time" : 2717.48599968851,
+            "sendEnd" : 13,
+            "sendStart" : 13,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "id" : "r105",
+         "comps" : [
+            {
+               "s_time" : 3246.38399994001,
+               "time" : 40.8600000664596,
+               "type" : "evalhtml",
+               "id" : "r105_c1",
+               "e_time" : 3287.24400000647
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 143,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_96",
+            "receivedTime" : "3080.87999979034",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3080.87999979034,
+            "s_time" : 2751.40099972486,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://comcluster.cxense.com/Repo/rep.gif?ver=1&typ=pgv&rnd=injgpwitfh8444ev&acc=9222306264244820912&sid=9222306264244820913&loc=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&ref=&gol=&pgn=&ltm=1461797887206&new=0&arf=0&tzo=240&res=1024x768&dpr=1&col=24&jav=1&bln=en-US&cks=injgpwurk",
+         "id" : "r103",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 14,
+            "len" : 43,
+            "dns" : 7,
+            "dnsEnd" : 7,
+            "receiveHeadersEnd" : 34,
+            "sslEnd" : -1,
+            "connectEnd" : 20,
+            "connectStart" : 0,
+            "id" : "download_97",
+            "receivedTime" : "3090.01799998805",
+            "sslStart" : -1,
+            "dnsStart" : 0,
+            "receiveLast" : 3056.01799998805,
+            "s_time" : 2725.14199977741,
+            "sendEnd" : 20,
+            "sendStart" : 20,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.google.com/ads/user-lists/1031872562/?label=ei29CPSQ8AMQssCE7AM&fmt=1&num=2&cv=8&frm=0&url=http%3A//modified.testbed.localhost/www.csmonitor.com/&random=351369977",
+         "id" : "r100",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 26,
+            "len" : 63,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_98",
+            "receivedTime" : "3090.43799992651",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3063.43799992651,
+            "s_time" : 2741.76399968565,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/pagead/images/x_button_blue2.svg",
+         "id" : "r107",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 249,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_99",
+            "receivedTime" : "3090.74999997392",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3090.74999997392,
+            "s_time" : 2774.28599959239,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/svg+xml"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-103834h&cg=0&cc=1&si=http%3A//modified.testbed.localhost/www.csmonitor.com/&rp=&ts=compact&rnd=1461797887393&ja=1",
+         "id" : "r95",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 38,
+            "len" : 44,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 38,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_100",
+            "receivedTime" : "3094.78199994192",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3056.78199994192,
+            "s_time" : 2742.00699990615,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "id" : "r108",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 143,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_101",
+            "receivedTime" : "3095.05199966952",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3095.05199966952,
+            "s_time" : 2789.42199982703,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://p4-bpnggkfn32yqg-aw2lrnp4kmjxsybr-if-v6exp3-v4.metric.gstatic.com/v6exp3/redir.html",
+         "id" : "r106",
+         "comps" : [
+            {
+               "s_time" : 3264.8479999043,
+               "time" : 0.246999785309981,
+               "type" : "evalhtml",
+               "id" : "r106_c1",
+               "e_time" : 3265.09499968961
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 23,
+            "len" : 216,
+            "dns" : 24,
+            "dnsEnd" : 24,
+            "receiveHeadersEnd" : 68,
+            "sslEnd" : 44,
+            "connectEnd" : 44,
+            "connectStart" : 0,
+            "id" : "download_102",
+            "receivedTime" : "3114.16699970141",
+            "sslStart" : 31,
+            "dnsStart" : 0,
+            "receiveLast" : 3046.16699970141,
+            "s_time" : 2752.78999982402,
+            "sendEnd" : 45,
+            "sendStart" : 44,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "id" : "r109",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 143,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_103",
+            "receivedTime" : "3142.51499995589",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3142.51499995589,
+            "s_time" : 2847.34499966726,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "id" : "r110",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 143,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_104",
+            "receivedTime" : "3164.6579997614",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3164.6579997614,
+            "s_time" : 2886.61299971864,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "id" : "r111",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 143,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_105",
+            "receivedTime" : "3186.23599968851",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3186.23599968851,
+            "s_time" : 2939.37199981883,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fonts.gstatic.com/s/slabo27px/v3/PuwvqkdbcqU-fCZ9Ed-b7RsxEYwM7FgeyaSgU71cLG0.woff",
+         "id" : "r101",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 20124,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_106",
+            "receivedTime" : "3234.14199985564",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3234.14199985564,
+            "s_time" : 2970.60999972746,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "font/woff"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://connect.facebook.net/en_US/sdk.js",
+         "id" : "r113",
+         "comps" : [
+            {
+               "s_time" : 3304.51799975708,
+               "time" : 129.96899988502,
+               "type" : null,
+               "id" : "comp_617",
+               "e_time" : 3434.4869996421
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 186137,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_107",
+            "receivedTime" : "3237.11299989372",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3237.11299989372,
+            "s_time" : 2973.27899979427,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "application/x-javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.csmonitor.com/extension/csm_base/design/standard/stylesheets/images-1.10.3/ui-bg_flat_75_ffffff_40x100.png",
+         "id" : "r114",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 3,
+            "len" : 208,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_108",
+            "receivedTime" : "3237.91099991649",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3234.91099991649,
+            "s_time" : 3026.69700002298,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/png"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.csmonitor.com/csm/2016/04/02_15.jpg?alias=standard_300x200",
+         "id" : "r115",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 21299,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_109",
+            "receivedTime" : "3238.55899972841",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3238.55899972841,
+            "s_time" : 3039.42499961704,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.csmonitor.com/csm/2016/04/977992_1_0427-Cruz-Fiorina.jpg_standard.jpg?alias=standard_300x200",
+         "id" : "r116",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 23740,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_110",
+            "receivedTime" : "3239.38099993393",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3239.38099993393,
+            "s_time" : 3040.14199972153,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.csmonitor.com/csm/2016/04/975304_1_0411-cooking-matters_standard.jpg?alias=standard_300x200",
+         "id" : "r117",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 0,
+            "len" : 18290,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_111",
+            "receivedTime" : "3240.04799965769",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3240.04799965769,
+            "s_time" : 3040.60599999502,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/tr/?id=805082492890209&ev=PageView&dl=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&rl=&if=false&ts=1461797887876&v=2.5.0",
+         "id" : "r112",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 27,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveHeadersEnd" : 87,
+            "sslEnd" : 59,
+            "connectEnd" : 60,
+            "connectStart" : 0,
+            "id" : "download_112",
+            "receivedTime" : "3240.93399988487",
+            "sslStart" : 27,
+            "dnsStart" : 0,
+            "receiveLast" : 3153.93399988487,
+            "s_time" : 2962.93299971148,
+            "sendEnd" : 60,
+            "sendStart" : 60,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://metrics.csmonitor.com/b/ss/fcocscsm/1/H.25/s19926200730260?AQB=1&ndh=1&t=27%2F3%2F2016%2018%3A58%3A7%203%20240&ns=christscientist&pageName=the%20christian%20science%20monitor&g=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&cc=USD&c4=87&c5=frontpage&c38=0&pe=lnk_o&pev2=adblock",
+         "id" : "r118",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 15,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_113",
+            "receivedTime" : "3242.20199976116",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3227.20199976116,
+            "s_time" : 3061.82899978012,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://p4-bpnggkfn32yqg-aw2lrnp4kmjxsybr-if-v6exp3-v4.metric.gstatic.com/v6exp3/iframe.html",
+         "id" : "r121",
+         "comps" : [
+            {
+               "s_time" : 3699.10199986771,
+               "time" : 3.74000007285986,
+               "type" : "evalhtml",
+               "id" : "r121_c1",
+               "e_time" : 3702.84199994057
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 25,
+            "len" : 4047,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 26,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_114",
+            "receivedTime" : "3571.2689999491",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3545.2689999491,
+            "s_time" : 3439.5530000329,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ads.pubmatic.com/AdServer/js/universalpixel.js#UPIX&pubId=27343&pixId=37&ran=0.4036839618347585&pageURL=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&refURL=",
+         "id" : "r120",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 26,
+            "len" : 3390,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 27,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_115",
+            "receivedTime" : "3604.08299975097",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3577.08299975097,
+            "s_time" : 3438.70099959895,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.facebook.com/impression.php/f33bcd8f74/?api_key=179793002061452&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+         "id" : "r122",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 49,
+            "len" : 43,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 50,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_116",
+            "receivedTime" : "3655.59099987149",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3605.59099987149,
+            "s_time" : 3456.86899963766,
+            "sendEnd" : 1,
+            "sendStart" : 0,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f13b06bc44&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r123",
+         "comps" : [
+            {
+               "s_time" : 3832.3149997741,
+               "time" : 24.71899986267,
+               "type" : "evalhtml",
+               "id" : "r123_c1",
+               "e_time" : 3857.03399963677
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 34898,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_117",
+            "receivedTime" : "3744.73499972373",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3743.73499972373,
+            "s_time" : 3680.23599963635,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f13b06bc44&origin=http%3A%2F%2Fmodified.testbed.localhost",
+         "id" : "r124",
+         "comps" : [
+            {
+               "s_time" : 3857.9299999401,
+               "time" : 24.3469998240398,
+               "type" : "evalhtml",
+               "id" : "r124_c1",
+               "e_time" : 3882.27699976414
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 1,
+            "len" : 34898,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 1,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_118",
+            "receivedTime" : "3805.20099960268",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3804.20099960268,
+            "s_time" : 3680.42599968612,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://image3.pubmatic.com/AdServer/UPug?operId=2&pubId=27343&pixId=37&ran=0.4036839618347585&pageURL=http%3A%2F%2Fmodified.testbed.localhost%2Fwww.csmonitor.com%2F&refURL=",
+         "id" : "r125",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 123,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_119",
+            "receivedTime" : "3830.23600000888",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 3822.23600000888,
+            "s_time" : 3709.41299991682,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_255"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_262"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_334"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_342"
+      },
+      {
+         "a2" : "r75_c2",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_393"
+      },
+      {
+         "a2" : "r77_c2",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_414"
+      },
+      {
+         "a2" : "r78_c2",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_374"
+      },
+      {
+         "a2" : "r79_c2",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_431"
+      },
+      {
+         "a2" : "r80_c2",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_480"
+      },
+      {
+         "a2" : "download_119",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_119",
+         "time" : 638.44700017944,
+         "id" : "dep14",
+         "a1" : "r97_c1"
+      },
+      {
+         "a2" : "download_118",
+         "time" : 609.45999994874,
+         "id" : "dep15",
+         "a1" : "r97_c1"
+      },
+      {
+         "a2" : "download_117",
+         "time" : 609.26999989897,
+         "id" : "dep16",
+         "a1" : "r97_c1"
+      },
+      {
+         "a2" : "download_116",
+         "time" : 385.90299990028,
+         "id" : "dep17",
+         "a1" : "r97_c1"
+      },
+      {
+         "a2" : "download_115",
+         "time" : 367.73499986157,
+         "id" : "dep18",
+         "a1" : "r97_c1"
+      },
+      {
+         "a2" : "download_114",
+         "time" : 368.58700029552,
+         "id" : "dep19",
+         "a1" : "r97_c1"
+      },
+      {
+         "a2" : "download_113",
+         "time" : 130.4770000279,
+         "id" : "dep20",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_113",
+         "time" : 184.33499988169,
+         "id" : "dep21",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_113",
+         "time" : 223.7169998698,
+         "id" : "dep22",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_112",
+         "time" : 31.5809999592602,
+         "id" : "dep23",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_112",
+         "time" : 85.43899981305,
+         "id" : "dep24",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_112",
+         "time" : 124.82099980116,
+         "id" : "dep25",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_112",
+         "time" : 457.81099982559,
+         "id" : "dep26",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_111",
+         "time" : 109.2540002428,
+         "id" : "dep27",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_111",
+         "time" : 163.11200009659,
+         "id" : "dep28",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_111",
+         "time" : 202.4940000847,
+         "id" : "dep29",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_110",
+         "time" : 108.78999996931,
+         "id" : "dep30",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_110",
+         "time" : 162.6479998231,
+         "id" : "dep31",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_110",
+         "time" : 202.02999981121,
+         "id" : "dep32",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_109",
+         "time" : 108.07299986482,
+         "id" : "dep33",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_109",
+         "time" : 161.93099971861,
+         "id" : "dep34",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_109",
+         "time" : 201.31299970672,
+         "id" : "dep35",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_108",
+         "time" : 95.34500027076,
+         "id" : "dep36",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_108",
+         "time" : 149.20300012455,
+         "id" : "dep37",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_108",
+         "time" : 188.58500011266,
+         "id" : "dep38",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 41.9270000420502,
+         "id" : "dep39",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 95.78499989584,
+         "id" : "dep40",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 135.16699988395,
+         "id" : "dep41",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 468.15699990838,
+         "id" : "dep42",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 39.2579999752402,
+         "id" : "dep43",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 93.11599982903,
+         "id" : "dep44",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 132.49799981714,
+         "id" : "dep45",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 465.48799984157,
+         "id" : "dep46",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 8.02000006661001,
+         "id" : "dep47",
+         "a1" : "r80_c2"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 61.8779999203998,
+         "id" : "dep48",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 101.25999990851,
+         "id" : "dep49",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 434.24999993294,
+         "id" : "dep50",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_104",
+         "time" : -1,
+         "id" : "dep51",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 9.11899982020986,
+         "id" : "dep52",
+         "a1" : "r79_c2"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 48.5009998083201,
+         "id" : "dep53",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 381.49099983275,
+         "id" : "dep54",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 615.94099970535,
+         "id" : "dep55",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_103",
+         "time" : -1,
+         "id" : "dep56",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 9.23299975693999,
+         "id" : "dep57",
+         "a1" : "r77_c2"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 342.22299978137,
+         "id" : "dep58",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 521.38599986211,
+         "id" : "dep59",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 571.79399998859,
+         "id" : "dep60",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : -1,
+         "id" : "dep61",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : -1,
+         "id" : "dep62",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : -1,
+         "id" : "dep63",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 247.66799993813,
+         "id" : "dep64",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 558.01799986512,
+         "id" : "dep65",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 608.4259999916,
+         "id" : "dep66",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : -1,
+         "id" : "dep67",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : -1,
+         "id" : "dep68",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 284.29999994114,
+         "id" : "dep69",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 510.60299994424,
+         "id" : "dep70",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 561.01100007072,
+         "id" : "dep71",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 610.11300003156,
+         "id" : "dep72",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 659.3410000205,
+         "id" : "dep73",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 709.63599998504,
+         "id" : "dep74",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 236.88500002026,
+         "id" : "dep75",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 542.88199963048,
+         "id" : "dep76",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 593.28999975696,
+         "id" : "dep77",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 10.1609998382601,
+         "id" : "dep78",
+         "a1" : "r78_c2"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 691.61999970674,
+         "id" : "dep79",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 741.91499967128,
+         "id" : "dep80",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 269.1639997065,
+         "id" : "dep81",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 510.35999972374,
+         "id" : "dep82",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 560.76799985022,
+         "id" : "dep83",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 609.86999981106,
+         "id" : "dep84",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 659.0979998,
+         "id" : "dep85",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 709.39299976454,
+         "id" : "dep86",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 236.64199979976,
+         "id" : "dep87",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 493.7379998155,
+         "id" : "dep88",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 544.14599994198,
+         "id" : "dep89",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 593.24799990282,
+         "id" : "dep90",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 642.47599989176,
+         "id" : "dep91",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 692.7709998563,
+         "id" : "dep92",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 220.01999989152,
+         "id" : "dep93",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 519.99699976295,
+         "id" : "dep94",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 570.40499988943,
+         "id" : "dep95",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 619.50699985027,
+         "id" : "dep96",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 668.73499983921,
+         "id" : "dep97",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 719.02999980375,
+         "id" : "dep98",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 246.27899983897,
+         "id" : "dep99",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 486.0819997266,
+         "id" : "dep100",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 536.48999985308,
+         "id" : "dep101",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 585.59199981392,
+         "id" : "dep102",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 634.81999980286,
+         "id" : "dep103",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 685.1149997674,
+         "id" : "dep104",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 212.36399980262,
+         "id" : "dep105",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 498.0819998309,
+         "id" : "dep106",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 548.48999995738,
+         "id" : "dep107",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 597.59199991822,
+         "id" : "dep108",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 646.81999990716,
+         "id" : "dep109",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 697.1149998717,
+         "id" : "dep110",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 224.36399990692,
+         "id" : "dep111",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 256.65299966932,
+         "id" : "dep112",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 307.0609997958,
+         "id" : "dep113",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 356.16299975664,
+         "id" : "dep114",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 405.39099974558,
+         "id" : "dep115",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 455.68599971012,
+         "id" : "dep116",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_93",
+         "time" : -1,
+         "id" : "dep117",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 264.87299986184,
+         "id" : "dep118",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 315.28099998832,
+         "id" : "dep119",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 364.38299994916,
+         "id" : "dep120",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 413.6109999381,
+         "id" : "dep121",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 463.90599990264,
+         "id" : "dep122",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_92",
+         "time" : -1,
+         "id" : "dep123",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 264.1979996115,
+         "id" : "dep124",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 314.60599973798,
+         "id" : "dep125",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 363.70799969882,
+         "id" : "dep126",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 412.93599968776,
+         "id" : "dep127",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 463.2309996523,
+         "id" : "dep128",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 2.87299975753012,
+         "id" : "dep129",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 262.89499970153,
+         "id" : "dep130",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 313.30299982801,
+         "id" : "dep131",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 362.40499978885,
+         "id" : "dep132",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 411.63299977779,
+         "id" : "dep133",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 461.92799974233,
+         "id" : "dep134",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 1.56999984756021,
+         "id" : "dep135",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 111.06000002474,
+         "id" : "dep136",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 161.46800015122,
+         "id" : "dep137",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 210.57000011206,
+         "id" : "dep138",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 259.798000101,
+         "id" : "dep139",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 310.09300006554,
+         "id" : "dep140",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 588.82800024003,
+         "id" : "dep141",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 30.3869997151201,
+         "id" : "dep142",
+         "a1" : "r80_c1"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 80.7949998415997,
+         "id" : "dep143",
+         "a1" : "r79_c1"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 129.89699980244,
+         "id" : "dep144",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 179.12499979138,
+         "id" : "dep145",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 229.41999975592,
+         "id" : "dep146",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 508.15499993041,
+         "id" : "dep147",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 37.9260000772802,
+         "id" : "dep148",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 87.1540000662203,
+         "id" : "dep149",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 137.44900003076,
+         "id" : "dep150",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 416.18400020525,
+         "id" : "dep151",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 0.0859997235297669,
+         "id" : "dep152",
+         "a1" : "r78_c1"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 49.3139997124699,
+         "id" : "dep153",
+         "a1" : "r77_c1"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 99.6089996770097,
+         "id" : "dep154",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 378.3439998515,
+         "id" : "dep155",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 2.3429999128,
+         "id" : "dep156",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 281.07800008729,
+         "id" : "dep157",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 324.16100008413,
+         "id" : "dep158",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 45.4259999096398,
+         "id" : "dep159",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 324.16100008413,
+         "id" : "dep160",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 323.66200024262,
+         "id" : "dep161",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 44.9270000681299,
+         "id" : "dep162",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 323.66200024262,
+         "id" : "dep163",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 43.7209997326199,
+         "id" : "dep164",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 322.45599990711,
+         "id" : "dep165",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 39.16699998081,
+         "id" : "dep166",
+         "a1" : "r75_c1"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 317.9020001553,
+         "id" : "dep167",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 276.75200020894,
+         "id" : "dep168",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 276.75200020894,
+         "id" : "dep169",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 276.30000002682,
+         "id" : "dep170",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 276.30000002682,
+         "id" : "dep171",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 275.76400013641,
+         "id" : "dep172",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 39.60400028154,
+         "id" : "dep173",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_76",
+         "time" : -1,
+         "id" : "dep174",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_75",
+         "time" : -1,
+         "id" : "dep175",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 1032.28099970147,
+         "id" : "dep176",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 1009.24299983308,
+         "id" : "dep177",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 985.979000106449,
+         "id" : "dep178",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 969.087000004949,
+         "id" : "dep179",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 951.553999911989,
+         "id" : "dep180",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 945.324999745939,
+         "id" : "dep181",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 561.981000006199,
+         "id" : "dep182",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 574.554000049829,
+         "id" : "dep183",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 574.554000049829,
+         "id" : "dep184",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 567.599999718368,
+         "id" : "dep185",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 562.541999854147,
+         "id" : "dep186",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 562.541999854147,
+         "id" : "dep187",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 560.4789997451,
+         "id" : "dep188",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 531.839000061154,
+         "id" : "dep189",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 531.295000109821,
+         "id" : "dep190",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 530.336999800056,
+         "id" : "dep191",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 506.492000073194,
+         "id" : "dep192",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 156.297999899834,
+         "id" : "dep193",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 156.297999899834,
+         "id" : "dep194",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 481.050000060349,
+         "id" : "dep195",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 480.355000123381,
+         "id" : "dep196",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 479.677999857813,
+         "id" : "dep197",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 480.068000033497,
+         "id" : "dep198",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 398.217999842018,
+         "id" : "dep199",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 394.63200001046,
+         "id" : "dep200",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 24.987999815493,
+         "id" : "dep201",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 97.664999775588,
+         "id" : "dep202",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_50",
+         "time" : -1,
+         "id" : "dep203",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 21.403000224382,
+         "id" : "dep204",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_49",
+         "time" : -1,
+         "id" : "dep205",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 50.29800022021,
+         "id" : "dep206",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 49.430999904871,
+         "id" : "dep207",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 48.968000337482,
+         "id" : "dep208",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 46.893000137061,
+         "id" : "dep209",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 46.364000067115,
+         "id" : "dep210",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 44.478999916464,
+         "id" : "dep211",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 43.344000354409,
+         "id" : "dep212",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 42.032000143081,
+         "id" : "dep213",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 40.384000167251,
+         "id" : "dep214",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 38.608000148088,
+         "id" : "dep215",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 37.653000093997,
+         "id" : "dep216",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 35.058000124991,
+         "id" : "dep217",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 35.058000124991,
+         "id" : "dep218",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 33.976000268013,
+         "id" : "dep219",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 32.403000164777,
+         "id" : "dep220",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 30.94800002873,
+         "id" : "dep221",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 29.502000194043,
+         "id" : "dep222",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 28.485000133515,
+         "id" : "dep223",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 26.77799994126,
+         "id" : "dep224",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 26.413000188768,
+         "id" : "dep225",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 24.711000267416,
+         "id" : "dep226",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 32.724000047893,
+         "id" : "dep227",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 23.912000004202,
+         "id" : "dep228",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 22.028000093997,
+         "id" : "dep229",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 21.496000234038,
+         "id" : "dep230",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 19.337000325322,
+         "id" : "dep231",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 12.212000321597,
+         "id" : "dep232",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 10.689999908209,
+         "id" : "dep233",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 8.61799996346301,
+         "id" : "dep234",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 7.379000075162,
+         "id" : "dep235",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : -1,
+         "id" : "dep236",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 4.88100014627,
+         "id" : "dep237",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 18.763999920339,
+         "id" : "dep238",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 18.763999920339,
+         "id" : "dep239",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 4.757999908179,
+         "id" : "dep240",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 4.757999908179,
+         "id" : "dep241",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 4.623000044376,
+         "id" : "dep242",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 4.623000044376,
+         "id" : "dep243",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 4.50400030240399,
+         "id" : "dep244",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 4.50400030240399,
+         "id" : "dep245",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 4.38000028952899,
+         "id" : "dep246",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 4.38000028952899,
+         "id" : "dep247",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 4.229000303894,
+         "id" : "dep248",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 4.229000303894,
+         "id" : "dep249",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 0.64300000667599,
+         "id" : "dep250",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 3.38800018653299,
+         "id" : "dep251",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 3.38800018653299,
+         "id" : "dep252",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 3.520000260323,
+         "id" : "dep253",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 3.520000260323,
+         "id" : "dep254",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 3.233000170439,
+         "id" : "dep255",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 3.233000170439,
+         "id" : "dep256",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 3.028000239283,
+         "id" : "dep257",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 3.028000239283,
+         "id" : "dep258",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 2.57300026714799,
+         "id" : "dep259",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 2.57300026714799,
+         "id" : "dep260",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 3.08400020003299,
+         "id" : "dep261",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 2.79799988493299,
+         "id" : "dep262",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 2.79799988493299,
+         "id" : "dep263",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.191999927163,
+         "id" : "dep264",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 2.191999927163,
+         "id" : "dep265",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep266",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.0890001431107,
+         "id" : "dep267",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 0.9090001694858,
+         "id" : "dep268",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.744000077247602,
+         "id" : "dep269",
+         "a1" : "r1_c1"
+      }
+   ]
+}

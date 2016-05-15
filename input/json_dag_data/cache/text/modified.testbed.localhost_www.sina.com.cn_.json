@@ -1,0 +1,173 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.sina.com.cn_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.sina.com.cn/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 20.9599999943748,
+               "time" : -955743528.097,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 25.3560000564903,
+               "time" : -955743532.493,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 132.146000047214,
+               "time" : -955743639.283,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 481.511000078171,
+               "time" : -955743988.648,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 481.778000015765,
+               "time" : -955743988.915,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 590.60400002636,
+               "time" : -955744097.741,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 683.245999971405,
+               "time" : -955744190.383,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 708.180000074208,
+               "time" : -955744215.317,
+               "id" : "r1_c8",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 962.789000011981,
+               "time" : -955744469.926,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 1166.48800007533,
+               "time" : -955744673.625,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : -955743507.137
+            },
+            {
+               "s_time" : 1481.48000007495,
+               "time" : 18.4409999055799,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 1499.92099998053
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 555397,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 2,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "92.8250000579283",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 90.8250000579283,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_1"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_54"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_59"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_60"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_74"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_76"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_83"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_90"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_105"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_147"
+      }
+   ]
+}

@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.khobornarayangonj.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.khobornarayangonj.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 32.6919998042285,
+               "time" : 0.200000125914897,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 32.8919999301434
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 300,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 4,
+            "sslEnd" : -1,
+            "connectEnd" : 0,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "6.6410000436008",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.6410000436008,
+            "s_time" : 0,
+            "sendEnd" : 0,
+            "sendStart" : 0,
+            "type" : "text/html"
+         }
+      }
+   ],
+   "deps" : []
+}

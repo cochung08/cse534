@@ -1,0 +1,262 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.live.com_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.live.com/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 56.1589999124408,
+               "time" : 3.628000151366,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 59.7870000638068
+            },
+            {
+               "s_time" : 106.046999804676,
+               "time" : -3434172831.531,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : -3434172725.484
+            },
+            {
+               "s_time" : 194.352999795228,
+               "time" : 1.39799993485201,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 195.75099973008
+            },
+            {
+               "s_time" : 513.425999786705,
+               "time" : 2.45700031518902,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 515.883000101894
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 9977,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 5,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "50.6369997747242",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 45.6369997747242,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/auth.gfx.ms/16.000.26252.00/Default1033.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 77.49899988994,
+               "time" : 28.731999918818,
+               "type" : 4,
+               "id" : "comp_5",
+               "e_time" : 106.230999808758
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 4,
+            "len" : 73727,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 8,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "77.163000125438",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 69.163000125438,
+            "s_time" : 58.4019999951124,
+            "sendEnd" : 4,
+            "sendStart" : 4,
+            "type" : "text/css"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/auth.gfx.ms/16.000.26252.00/DefaultLoginStrings1033.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 99.9529999680817,
+               "time" : 6.09399983659431,
+               "type" : 1,
+               "id" : "comp_9",
+               "e_time" : 106.046999804676
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 7,
+            "len" : 9898,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 10,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "72.6209999993443",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 62.6209999993443,
+            "s_time" : 59.2760001309216,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/auth.gfx.ms/16.000.26252.00/DefaultLogin_Core.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 110.342999920249,
+               "time" : 84.009999874979,
+               "type" : 1,
+               "id" : "comp_11",
+               "e_time" : 194.352999795228
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 8,
+            "len" : 124932,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "109.114000108093",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 98.114000108093,
+            "s_time" : 59.7870000638068,
+            "sendEnd" : 3,
+            "sendStart" : 3,
+            "type" : "application/javascript"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://auth.gfx.ms/16.000.26252.00/DefaultLogin_Core.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 441.753000020981,
+               "time" : 71.672999765724,
+               "type" : 1,
+               "id" : "comp_13",
+               "e_time" : 513.425999786705
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 15,
+            "len" : 124932,
+            "dns" : 7,
+            "dnsEnd" : 8,
+            "receiveHeadersEnd" : 176,
+            "sslEnd" : 161,
+            "connectEnd" : 161,
+            "connectStart" : 0,
+            "id" : "download_4",
+            "receivedTime" : "441.401000134647",
+            "sslStart" : 21,
+            "dnsStart" : 1,
+            "receiveLast" : 265.401000134647,
+            "s_time" : 195.75099973008,
+            "sendEnd" : 161,
+            "sendStart" : 161,
+            "type" : "application/javascript"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.39799993485201,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 3.628000151366,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 3.1170002184808,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 3.1170002184808,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 2.2430000826716,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      }
+   ]
+}

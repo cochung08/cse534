@@ -1,0 +1,136 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "modified.testbed.localhost_www.google.fr_",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/www.google.fr/",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 83.9999997988343,
+               "time" : 44.7350000031297,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 128.734999801964
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 44,
+            "len" : 11409,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 45,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "83.4949999116361",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 38.4949999116361,
+            "s_time" : 0,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.fr/logos/doodles/2016/48th-anniversary-of-first-tv-broadcasting-of-les-shadoks-6231897669632000-5669283816275968-ror.gif",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 45,
+            "len" : 152022,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 68,
+            "sslEnd" : -1,
+            "connectEnd" : 23,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "373.179999645799",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 305.179999645799,
+            "s_time" : 102.944999933243,
+            "sendEnd" : 23,
+            "sendStart" : 23,
+            "type" : "image/gif"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://modified.testbed.localhost/client_204?&atyp=i&biw=1004&bih=614&ei=pI8iV7OrLMqr-AGGyo2gAQ",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 51,
+            "len" : 300,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 68,
+            "sslEnd" : -1,
+            "connectEnd" : 17,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "178.694000001997",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 110.694000001997,
+            "s_time" : 109.470999799669,
+            "sendEnd" : 17,
+            "sendStart" : 17,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://modified.testbed.localhost/www.google.fr/images/nav_logo229.png",
+         "id" : "r4",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 48,
+            "len" : 17284,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 49,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_3",
+            "receivedTime" : "223.452999722213",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 174.452999722213,
+            "s_time" : 128.734999801964,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/png"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 25.4710000008347,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 18.9450001344087,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      }
+   ]
+}
